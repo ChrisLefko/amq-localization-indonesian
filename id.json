@@ -1,0 +1,386 @@
+{
+	"meta": {
+		"language_name": "Indonesian",
+		"language_name_native": "bahasa Indonesia",
+		"language_code": "id",
+		"creators": "ChrisLefko"
+	},
+	"common": {
+		"ui": {
+			"translation_coverage": "Translation Coverage",
+			"translation_by": "Translation By",
+			"username": "Username",
+			"password": "Password",
+			"email": "Email",
+			"repeat_password": "Ulangi Password",
+			"back_button": "Kembali",
+			"resend_button": "Kirim Ulang",
+			"register_button": "Daftar",
+			"change_button": "Ganti",
+			"logout_button": "Logout",
+			"confirm_button": "Konfirmasi",
+			"continue_button": "Lanjut",
+			"ok_button": "OK",
+			"cancel_button": "Batal",
+			"load_button": "Unggah",
+			"new_password": "Password Baru",
+			"repeat_new_password": "Ulangi Password Baru",
+			"contact": "Kontak",
+			"socials": "Media Sosial",
+			"legal": "Legal",
+			"community_translations": "Terjemahan Komunitas",
+			"loading": "Loading",
+			"play": "Main",
+			"use_button": "Gunakan",
+			"claim_button": "Klaim"
+		},
+		"popout_messages": {
+			"unexpected_error": "Error tak Terduga",
+			"please_try_again": "Coba Lagi",
+			"error_contacting_server": "Error dalam Menghubungi Server",
+			"internal_server_error": "Internal server error",
+			"down_for_maintenance": "Server Down dan sedang dalam perbaikan",
+			"guest_account": "Tidak tersedia untuk akun Guest",
+			"guest_account_text": "Fitur ini tidak tersedia untuk akun Guest."
+		},
+		"registration": {
+			"terms_of_service": "Anda harus setuju dengan Ketentuan Layanan untuk dapat mendaftar",
+			"no_username": "Username kosong",
+			"username_length": "Username tidak boleh lebih dari 16 karakter",
+			"invalid_username": "Username hanya dapat mengandung huruf, angka dan underscore",
+			"amq_username": "Username \"AMQ\" tidak dapat digunakan",
+			"password_too_short": "Password harus lebih mengandung lebih dari 5 karakter",
+			"password_too_long": "Password tidak boleh mengandung lebih dari 9999 karakter",
+			"passwords_not_matching": "Passwords tidak sama",
+			"no_email": "Email kosong",
+			"invalid_email": "Email tidak valid",
+			"no_country": "Negara domisili kosong",
+			"disabled": "Pendaftaran dinon-aktifkan",
+			"unknown_country": "Negara domisili tidak diketahui",
+			"username_taken": "Username sudah terdaftar",
+			"email_taken": "Email sudah terdaftar",
+			"email_sent": "Email verifikasi telah terkirim ke _EMAIL_",
+			"email_length": "Email tidak boleh lebih dari 255 karakter",
+			"account_created": "Akun _NAME_ telah berhasil dibuat"
+		},	
+		"guest_account": {
+			"title": "Akun Guest",
+			"click_to_register": "Klik disini untuk melanjutkan pendaftaran",
+			"complete_registration": "Lanjutkan Pendaftaran",
+			"complete_registration_message": "Untuk melanjutkan pendaftaran, silakan verifikasi email Anda dengan klik link yang telah dikirim ke _BOLD_ _EMAIL_ _BOLD_"
+		}
+	},
+	"login_page": {
+		"ui": {
+			"play_now": "Main Sekarang",
+			"login": "Login",
+			"send_button": "Kirim",
+			"return_to_login": "Kembali ke login",
+			"stay_signed_in": "Ingat saya",
+			"forgot_password": "Lupa password?",
+			"forgot_username": "Lupa username?",
+			"country_of_residence": "Negara Domisili",
+			"agree_terms_of_service": "Saya setuju dengan _LINK_ Ketentuan Layanan _LINK_",
+			"start_playing_now": "Mulai Main Sekarang"
+		},
+		"popout_messages": {
+			"create_guest_account": {
+				"title": "Buat Akun Guest",
+				"text": "Dengan membuat akun Guest, anda setuju dengan _LINK_ Ketentuan Layanan _LINK_ dan _LINK_ Kebijakan Privasi _LINK_.",
+				"error_title": "Error dalam membuat akun Guest",
+				"error_disabled": "Akun Guest sedang dinon-aktifkan"
+			},
+			"select_country": "Silahkan pilih Negara Domisili Anda",
+			"country_error": "Error dalam mendaftarkan negara",
+			"already_online": {
+				"title": "Akun sudah Online",
+				"text": "Lanjut login, dan keluar dari sesi lainnya?"
+			},
+			"guest_timeout": "Sesi akun Guest telah berakhir. Silakan buat akun Guest yang baru"
+		},
+		"text": {
+			"create_account": "Buat Akun",
+			"recover_username_title": "Pulihkan Username",
+			"recover_username_text": "Masukkan email yang digunakan untuk mendaftarkan akun Anda. Username Anda akan dikirimkan melalui email tersebut.",
+			"forgot_password_title": "Lupa Password",
+			"forgot_password_text": "Masukkan email yang digunakan untuk mendaftarkan akun Anda. Link untuk me-reset password Anda akan dikirimkan melalui email tersebut.",
+			"reset_password_title": "Reset Password",
+			"missing_information": "Informasi Akun tidak lengkap",
+			"missing_country": "Anda harus memilih Negara Domisili. Anda dapat memilihnya dari dropdown.",
+			"promo_title": "Game Tebak Lagu Anime Terbaik Di Dunia!",
+			"promo_one": {
+				"title": "Kuis tebak lagu yang tak berkesudahan",
+				"line_one": "35,000+ Lagu dari 8,000+ Anime",
+				"line_two": "Setiap Quiz dibuat Spesial hanya untuk Anda!",
+				"line_three": "Buat Kuis anda sendiri dari MyAnimeList, AniList & Kitsu Anda!",
+				"line_four": "Free to Play"
+			},
+			"promo_two": {
+				"title": "Mainkan dengan caramu sendiri",
+				"line_one": "Bersama Kawan",
+				"line_two": "Tantang Diri Anda",
+				"line_three": "Panjat puncak klasemen Ranked",
+				"line_four": "Jelajahi Dungeon"
+			},
+			"login_queue": {
+				"title": "Antrian Login",
+				"text": "Server sedang mengalami kepenuhan muat, Anda akan masuk secara otomatis",
+				"position": "Antrian Nomor: _SPAN_ 0 _SPAN_"
+			}
+		},
+		"messages": {
+			"account_verified": "Akun berhasil diverifikasi, Anda bisa login sekarang",
+			"account_verified_guest": "Akun berhasil diverifikasi, Silakan tutup tab ini",
+			"verification_error": "Error dalam Verifikasi Akun: Terjadi Error tak terduga",
+			"unknown_reset_code": "Kode Reset Salah",
+			"wrong_username_password": "Username atau Password salah",
+			"email_sent": "Email terkirim",
+			"password_updated": "Password berhasil diganti"
+		},
+		"account_verification": {
+			"title": "Verifikasi Akun",
+			"text_one": "_SPAN_ Akun Belum Terverifikasi _SPAN_, Silakan verifikasi email anda dengan klik link yang dikirim ke _BOLD_ _EMAIL_ _BOLD_.",
+			"text_two": "Belum menerima email? Silakan tunggu kira-kira 1 menit dan cek folder Spam anda. Jika email masih belum terkirim, silakan Kirim Ulang atau ganti email menggunakan field dibawah."
+		},
+		"banned_messages": {
+			"title_temp": "Akun Anda di-Ban Sementara",
+			"title_ban": "Akun Anda di-Ban",
+			"text_one": "Terdapat indikasi Cheating pada Akun Anda. Penggunaan plugin, script, mengganti layout website atau cara lainnya untuk mendapatkan Keunggulan yang Tidak Adil melanggar ketentuan layanan AMQ.",
+			"text_two": "Moderator telah menandai akun Anda karena adanya pelanggaran ketentuan layanan, sehingga akun Anda akan dikenakan Ban. Anda akan menerima email untuk informasi lebih lanjut, termasuk alasan mengapa akun Anda terkena Ban.",
+			"text_three": "Akun Anda ditandai atas dasar dugaan Cheating. Perlu diingat, penggunaan plugin, script, pengubahan layout website dan cara lainnya untuk mendapatkan Keuntungan yang Tidak Adil melanggar ketentuan layanan dari game ini.",
+			"text_temp": "Mengingat ini adalah Pelanggaan Pertama Anda, Akun Anda telah dikenakan Ban untuk sementara waktu. Perlu diingat, apabila Anda kembali melakukan Cheating seusai Ban diangkat, kali ini akun Anda akan dikenakan Ban secara permanen.",
+			"text_perm": "Mengingat ini adalah Pelanggaran Kedua Anda, Akun Anda telah dikenakan Ban secara permanen.",
+			"text_end": "Apabila Anda meyakini bahwa Ban ini merupakan sebuah kesalahan, silakan buat tiket di _LINK_ Server Discord AMQ _LINK_ pada channel #open-a-ticket.",
+			"suspended_until": "Dikenakan Ban Hingga"
+		}
+	},
+	"main_menu": {
+		"ui": {
+			"news": "Berita",
+			"stay_connected": "Stay Connected",
+			"merch_store": "Toko Merch",
+			"song_library": "Pustaka Lagu",
+			"leaderboard": "Leaderboard"
+		},
+		"carousel": {
+			"social_promo": "Dapatkan Tiket Gratis dengan Follow Discord dan Patreon AMQ!",
+			"patreon_promo": "Dukung AMQ di Patreon dan dapatkan Hadiah Eksklusif",
+			"sale_names": {
+				"fall": "Fall Sale!",
+				"summer": "Summer Sale!",
+				"winter": "Winter Sale!",
+				"spring": "Spring Sale!",
+				"halloween": "Halloween Sale!",
+				"christmas": "Christmas Sale!",
+				"lunar": "Lunar Sale!",
+				"valentine": "Valentine's Sale!",
+				"summer_games": "Summer Games Sale!"
+			},
+			"sale_text": "Dapatkan Value Tiket terbaik!",
+			"skin_header": "Eksklusif",
+			"skin_seasons": {
+				"spring": "Spring Skins",
+				"summer": "Summer Skins",
+				"fall": "Fall Skins",
+				"winter": "Winter Skins",
+				"halloween": "Halloween Skins",
+				"christmas": "Christmas Skins",
+				"lunar": "Lunar Skins",
+				"valentine": "Valentine Skins",
+				"summer_games": "Summer Games Skins"
+			},
+			"skin_text": "Get exclusive skins for supporting AMQ!",
+			"skin_footer": "Tersedia Sekarang Juga"
+		},
+		"quiz_of_the_day": {
+			"title": "Quiz of the Day",
+			"time_slots": "Quiz Time Slots",
+			"weekly_schedule": "Jadwal Mingguan",
+			"current_week": "Minggu Ini",
+			"what_is": "Apa itu Quiz of the Day?",
+			"what_is_description": "Quiz of the Day adalah kuis dengan jumlah pemain Unlimited, dimana Player bisa mengadu skill mereka melawan player lainnya di komunitas AMQ. Saat ini, Quiz of the Day terbagi menjadi Ranked Quiz, mode yang sangat kompetitif, dan Themed Quiz yang menghadirkan community quiz yang dirancang untuk memberikan pengalaman yang unik dan menarik.",
+			"ranked_description": "Deskripsi Ranked",
+			"week": "Minggu ke- _NUMBER_",
+			"week_year": "Minggu ke- _NUMBER_ of _NUMBER_",
+			"championship": "Championship",
+			"championship_description": "Top 150 Player Ranked bulan ini akan diadu untuk melahirkan Champion bulanan!",
+			"rest_day": "Rest Day",
+			"rest_day_description": "Tidak ada ranked quiz pada satu hari setelah Championship",
+			"ranked": "Ranked",
+			"ranked_finished": "Selesai",
+			"ranked_types": {
+				"novice": {
+					"title": "Novice",
+					"description": "45 lagu, Ranked Quiz ini dirancang untuk Player baru dan menengah"
+				},
+				"expert": {
+					"title": "Expert",
+					"description": "85 lagu yang dimasak untuk Player yang lebih berpengalaman. Expert Ranked menyediakan ranked point yang lebih besar."
+				}
+			},
+			"states": {
+				"ranked": {
+					"offline": "Ranked - Offline",
+					"lobby": "Ranked - Lobby Tersedia",
+					"playing": "Ranked - Sedang Berlangsung",
+					"completed": "Ranked - Selesai",
+					"rest_day": "Ranked - Rest Day"
+				},
+				"themed": {
+					"offline": "Themed - Offline",
+					"lobby_up": "Themed - Lobby Tersedia",
+					"playing": "Themed - Sedang Berlangsung",
+					"completed": "Themed - Selesai"
+				},
+				"championship": {
+					"offline": "Championship - Offline",
+					"lobby_up": "Championship - Lobby Tersedia",
+					"playing": "Championship - Sedang Berlangsung",
+					"completed": "Championship - Selesai"
+				}
+			},
+			"week_days": {
+				"monday": "Senin",
+				"tuesday": "Selasa",
+				"wednesday": "Rabu",
+				"thursday": "Kamis",
+				"friday": "Jumat",
+				"saturday": "Sabtu",
+				"sunday": "Minggu"
+			},
+			"popout_messages": {
+				"weekly_quiz": {
+					"title": "Jadwal Ranked Mingguan",
+					"text": "Intip Jadwal Ranked Mingguan dan info lebih lanjut"
+				},
+				"region_time": {
+					"text": "Region dan Waktu yang tersisa untuk sesi Ranked selanjutnya"
+				}
+			},
+			"alerts": {
+				"ranked_rules": {
+					"title": "Aturan Ranked",
+					"text": "Dengan berpartisipasi di mode Ranked, Anda setuju untuk tidak membagikan bantuan dan/atau jawaban ke player lain, atau menggunakan tool, software atau cara lainnya yang dapat memberikan Keunggulan yang Tidak Adil."
+				}
+			}
+		},
+		"ranked_description": {
+			"title": "Mode Ranked",
+			"description": "Tantang diri Anda melawan teman Anda dan komunitas AMQ dengan berpartisipasi dalam mode Ranked. Dalam setiap sesi Ranked yang Anda mainkan, Anda akan mendapatkan Ranked Points, Hadiah eksklusif baru dan menjadi lebih dekat untuk bergabung bersama yang terbaik dari yang paling baik di Region anda pada Championship yang diadakan setiap akhir bulan. _BREAK_ Akun anda setidaknya harus berada di level 10 atau lebih untuk dapat berpartisipasi dalam sesi Ranked.",
+			"how_it_works": "Apa Itu:",
+			"regions": "Region",
+			"region_description": "Setiap sesi Ranked dibagi menjadi tiga Region yang berbeda (West, Central, East), masing-masing dengan leaderboard, waktu mulai dan Championship yang terpisah. Anda dapat berpartisipasi dalam Ranked disetiap Region. Namun, Anda hanya akan mendapatkan Ranked Points dari Region dimana poin tersebut didapatkan.",
+			"ranked_game": "Sesi Ranked",
+			"ranked_game_description_one": "Anda dapat masuk ke lobby ranked 30 menit sebelum ranked dimulai, baik Novice maupun Expert. _BREAK_ Room Novice dirancang untuk player baru dan menengah, dimana sebuah sesi Novice terdiri dari 45 lagu dengan level kesulitan mudah hingga medium dengan waktu tebak 20 detik. _BREAK_ Room Expert dimasak untuk player hardcore dan kompetitif, dimana disana terdapat 85 lagu yang full random dengan waktu tebak 15 detik.",
+			"ranked_game_description_two": "Di akhir setiap sesi Ranked, Anda akan memperoleh Ranked Points berdasarkan jumlah lagu yang Anda tebak. _BREAK_ Pada sesi Novice, Anda akan mendapatkan 3 poin untuk setiap tebakan benar. _BREAK_ Pada sesi Expert, poin yang Anda dapat akan bertambah seiring dengan jumlah lagu yang Anda tebak. Lima tebakan benar pertama masing-masing bernilai 4 poin, lima lagu selanjutnya masing-masing bernilai 5 poin, lalu masing-masing 6 poin untuk 5 lagu berikutnya, dan seterusnya.",
+			"end_of_season": "Akhir dari Season",
+			"end_of_season_description": "Pada setiap Sabtu terakhir disetiap bulannya, sesi Ranked digantikan dengan sesi Championship. Sesi Championship pada dasarnya sama seperti sesi Ranked biasa, hanya top 150 player dari setiap region yang dapat berpartisipasi. Player yang memenangkan sesi ini akan dinobatkan sebagai Region Champion. _BREAK_ Pada hari Senin setelah sesi Championship, semua Ranked Points akan di-reset dan Season baru akan dimulai.",
+			"rules": "Aturan",
+			"rules_description": "Sesi Ranked adalah tempat dimana setiap Player mengasah dan mengadu skill mereka terhadap satu sama lain. Penting untuk diingat bahwa Player dilarang untuk membagikan hint/jawaban ke Player lain, menggunakan tool, software atau cara lainnya untuk mendapatkan Keunggulan yang Tidak Adil. _BREAK_ Melanggar aturan diatas akan menyebabkan akun Anda terkena Ban dan hadiah yang Anda peroleh dari ranked akan dihapus."
+		},
+		"avatar_drive": {
+			"standings": "Klasemen",
+			"recent": "Terkini",
+			"weekly": "Mingguan",
+			"weekly_short": "M",
+			"monthly": "Bulanan",
+			"monthly_short": "B",
+			"all_time": "All Time",
+			"all_time_short": "AT",
+			"donate": "Donasi",
+			"faq": "FAQ",
+			"amount": "Jumlah",
+			"description": "Tentukan avatar selanjutnya dengan donasi! Ketika Avatar Drive berakhir, nominasi avatar dengan jumlah donasi paling banyak akan diangkat kedalam game! Avatar Drive akan tetap berlangsung selama beberapa hari meskipun goal donasi sudah tercapai.",
+			"faq_what_is": {
+				"title": "Apa itu Avatar Drive?",
+				"text": "Avatar Drive merupakan salah satu cara bagi Player untuk mendukung game ini, dan juga ikut menjadi sosok yang mempengaruhi avatar-avatar yang akan datang. Sistem Avatar Drive cukup simpel, dimana Anda dapat memilih nominasi Avatar yang tersedia atau membuat nominasi baru. Jumlah nilai yang Anda donasikan akan ditambahkan ke skor dari avatar yang bersangkutan. Ketika goal donasi sudah terwujud, avatar dengan skor paling tinggi akan ditambahkan kedalam game sebagai avatar selanjutnya."
+			},
+			"faq_nomination_type": {
+				"title": "Avatar Seperti Apa yang Bisa Saya Nominasikan?",
+				"text": "Anda dapat menominasikan segala jenis avatar yang anda inginkan, selama tidak menyinggung suatu pihak, dapat ditambahkan secara legal kedalam game, dan cocok dengan desain game. Semua nominasi akan di-review, dan bisa ditolak jika guideline diatas tidak diikuti."
+			},
+			"faq_existing_avatar": {
+				"title": "Apa Saya Bisa Nominasi Karakter yang Sudah Ada?",
+				"text": "Anda sangat boleh untuk menominasikan karakter yang sudah ada didalam game ke Avatar Drive. Ketika nominasi avatar yang sudah ada memenangkan klasemen Avatar Drive, skin baru akan ditambahkan untuk avatar tersebut. Anda juga boleh menentukan secara spesifik skin yang kalian inginkan. Misalnya, Anda ingin memberikan Hibiki sebuah outfit a la Ninja, maka Anda dapat menominasikan \"Ninja Hibiki\"."
+			},
+			"donate_towards": "Donasi Untuk",
+			"nominated_avatar": "Nominasi yang Tersedia",
+			"new_avatar": "Nominasi Baru",
+			"none": "Non-Nominasi",
+			"avatar_description": "Deskripsi Avatar",
+			"avatar_description_placeholder": "Deskripsi Singkat tentang Nominasi Anda",
+			"nomination": "Nominasi",
+			"anonymous_donation": "Donasi Anonim",
+			"free_donation": "Gunakan Free Donation",
+			"free_donation_amount": "Nilai: _NUMBER_€",
+			"approx_dollars": "Kira-kira $",
+			"checkout": "Bayar",
+			"popover": {
+				"no_free_donation": "Free donation bulan ini sudah terpakai"
+			},
+			"alerts": {
+				"invalid_amount": {
+					"title": "Nilai Donasi Invalid",
+					"text": "Masukkan jumlah donasi yang valid."
+				},
+				"donation_error": {
+					"title": "Donation Error"
+				},
+				"donation_received": {
+					"title": "Donasi Diterima",
+					"text": "Terima Kasih telah mendukung Anime Music Quiz!"
+				},
+				"use_free_donation": {
+					"title": "Gunakan Free Donation",
+					"text": "Anda hanya mendapatkan 1 Free Donation setiap bulannya"
+				}
+			}
+		},
+		"social_rewards": {
+			"title": "Hadiah Sosial",
+			"description": "Sebagai tanda terima kasih untuk mengikuti Discord dan Pateron AMQ, Anda dapat mengklaim 8 Tiket setelah mengikuti masing-masing platform. _BREAK_ Jangan lupa untuk join _LINK_ Server Discord _LINK_ sebelum klaim hadiah Discord. _BREAK_ Jangan lupa juga untuk join (Gratis) atau dukung via _LINK_ Patreon _LINK_ sebelum klaim hadiah Patreon."
+		},
+		"game_mode": {
+			"title": "Mode Game",
+			"solo": {
+				"title": "Solo",
+				"description": "Tantang diri Anda dengan jutaan kuis yang dibuat hanya untuk Anda seorang"
+			},
+			"multiplayer": {
+				"title": "Multiplayer",
+				"description": "Mainkan kuis-kuis berbeda dengan teman dan Anime Fans lainnya"
+			},
+			"community": {
+				"title": "Community",
+				"description": "Mainkan Custom Quiz yang dibuat oleh Komunitas atau Rancang milik Anda sendiri"
+			},
+			"jam": {
+				"title": "Jam Quiz",
+				"description": "Kuis yang tak berkesudahan dimana Player dapat bergabung dan keluar kapan saja"
+			},
+			"nexus": {
+				"title": "Nexus",
+				"description": "Tantang Dungeon Nexus, mode roguelike unik yang bisa dimainkan Solo atau bersama teman"
+			}
+		}
+	},
+	"menu_bar": {
+		"settings": {
+			"language": {
+				"custom": "Custom",
+				"custom_description": "Sediakan translation file untuk dicoba didalam game.",
+				"custom_title": "File Custom Bahasa",
+				"custom_placeholder": "URL untuk translation file",
+				"custom_alert_description": "Sediakan alamat URL ke Translation File Anda",
+				"custom_failed_to_load": {
+					"title": "Custom Bahasa Gagal Dimuat",
+					"text": "Custom Bahasa tidak dapat dimuat dari URL File Custom bahasa yang diberikan."
+				},
+				"custom_wrong_format": {
+					"title": "Localization File Format Error",
+					"text": "File bahasa yang disediakan menggunakan format yang salah. Silakan lihat browser console anda untuk detail lebih lanjut."
+				}
+			}
+		}
+	}
+}
