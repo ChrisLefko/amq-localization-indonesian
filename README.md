@@ -10,7 +10,7 @@ Of course, there are some terms that we're not translating such as "Novice Ranke
 Currently, the localization feature itself covers limited aspect of the game and I expect it to cover more in the future. However, you are very welcome to experience the result of our initial work.<br>
 To do so, you may go to Anime Music Quiz → Go to the in-game setting → Language → Custom → and paste this link onto the field ```https://files.catbox.moe/eudt1h.json``` or this link ```https://raw.githubusercontent.com/ChrisLefko/amq-localization-indonesian/refs/heads/main/id.json```→ Load.
 
-If you're interested in contributing to this project, you may visit us in [AMQ Official Discord Channel for Indonesian Localization](https://discord.com/channels/386089398975856641/1431027276648153098){:target="_blank"}.
+If you're interested in contributing to this project, you may visit us in [AMQ Official Discord Channel for Indonesian Localization](https://discord.com/channels/386089398975856641/1431027276648153098{:target="_blank"}).
 Any advices, recommendations, critiques are welcome here. Especially in the area of linguistics where words of similar meaning may carry different nuances.<br>
 
 ## 🇮🇩 Bahasa Indonesia
@@ -22,7 +22,7 @@ Tugas utama kita nantinya mengedit value dari variabel dari File translation tem
 Saat ini, terjemahan yang dicakup fitur localization itu sendiri masih terbatas dan gw yakin akan bertambah kedepannya. Buat kalian yang mau coba experience main AMQ pakai Bahasa Indonesia bisa cobain tutorial dibawah:<br>
 Pertama, tentunya kita ke website Anime Music Quiz itu sendiri, setelah itu kita pergi ke Setting → Language → Custom → dan paste link ini ```https://files.catbox.moe/eudt1h.json``` atau link ini ```https://raw.githubusercontent.com/ChrisLefko/amq-localization-indonesian/refs/heads/main/id.json``` kedalam fieldnya → lalu klik tombol Load.<br>
 
-Kalau kalian tertarik untuk kontribusi ke project ini, kalian bisa banget untuk join kita di [Discord Channel AMQ Resmi Seputar Localization Bahasa Indonesia](https://discord.com/channels/386089398975856641/1431027276648153098){:target="_blank"}. Kita disini juga sangat terbuka dengan saran, rekomendasi, kritik, masukan, dll. Terutama buat hal-hal kebahasaan kayak gini dimana beberapa kata yang artinya mirip terkadang mengandung vibe/nuansa yang berbeda.<br>
+Kalau kalian tertarik untuk kontribusi ke project ini, kalian bisa banget untuk join kita di [Discord Channel AMQ Resmi Seputar Localization Bahasa Indonesia](https://discord.com/channels/386089398975856641/1431027276648153098{:target="_blank"}). Kita disini juga sangat terbuka dengan saran, rekomendasi, kritik, masukan, dll. Terutama buat hal-hal kebahasaan kayak gini dimana beberapa kata yang artinya mirip terkadang mengandung vibe/nuansa yang berbeda.<br>
 
 Here are some examples of how in-game menus and texts are currently translated:<br>
 Disini kalian bisa lihat contoh dari beberapa hasil translasi dari project ini:<br>
