@@ -33,14 +33,14 @@
 			"play": "Main",
 			"use_button": "Gunakan",
 			"claim_button": "Klaim",
-			"MISSING-update_button": "Update",
-			"MISSING-chat": "Chat",
-			"MISSING-block": "Block",
-			"MISSING-send_friend_request": "Send Friend Request",
-			"MISSING-invite_to_game": "Invite to Game",
-			"MISSING-none": "None",
-			"MISSING-default": "Default",
-			"MISSING-delete": "Delete"
+			"update_button": "Update",
+			"chat": "Chat",
+			"block": "Blokir",
+			"send_friend_request": "Tambahkan Teman",
+			"invite_to_game": "Undang ke Lobby",
+			"none": "None",
+			"default": "Default",
+			"delete": "Delete"
 		},
 		"popout_messages": {
 			"unexpected_error": "Error tak Terduga",
@@ -51,10 +51,10 @@
 			"guest_account": "Tidak tersedia untuk akun Guest",
 			"guest_account_text": "Fitur ini tidak tersedia untuk akun Guest.",
 			"block_player": {
-				"MISSING-title": "Block _NAME_",
-				"MISSING-text": "You won't see messages or get friend/game invites from blocked players",
-				"MISSING-confirm": "Block",
-				"MISSING-cancel": "Cancel"
+				"title": "Blokir _NAME_",
+				"text": "Anda tidak akan lagi melihat chat dan mendapat undangan lobby dari player terblokir",
+				"confirm": "Blokir",
+				"cancel": "Batal"
 			}
 		},
 		"registration": {
@@ -201,7 +201,7 @@
 				"summer_games": "Summer Games Skins"
 			},
 			"skin_footer": "Tersedia Sekarang Juga",
-			"DELETED-skin_text": "Get exclusive skins for supporting AMQ!"
+			"DELETED-skin_text": "Dapatkan Skin Eksklusif dari mendukung AMQ!"
 		},
 		"quiz_of_the_day": {
 			"title": "Quiz of the Day",
@@ -397,395 +397,395 @@
 			}
 		},
 		"friend_list": {
-			"MISSING-friends": "Friends",
-			"MISSING-total": "Total",
-			"MISSING-all": "All",
+			"friends": "Teman",
+			"total": "Total",
+			"all": "All",
 			"statuses": {
-				"MISSING-online": "Online",
-				"MISSING-offline": "Offline",
-				"MISSING-away": "Away",
-				"MISSING-do_not_disturb": "Do Not Disturb",
-				"MISSING-invisible": "Invisible",
-				"MISSING-playing_nexus": "Playing _NAME_ Nexus",
-				"MISSING-in_nexus_lobby": "In _NAME_ Nexus Lobby",
-				"MISSING-in_lobby": "In _NAME_ Lobby",
-				"MISSING-spectating_quiz": "Spectating _NAME_ Quiz",
-				"MISSING-in_quiz": "In _NAME_ Quiz",
+				"online": "Online",
+				"offline": "Offline",
+				"away": "Away",
+				"do_not_disturb": "Do Not Disturb",
+				"invisible": "Invisible",
+				"playing_nexus": "Bermain Nexus _NAME_ ",
+				"in_nexus_lobby": "Sedang main lobby Nexus _NAME_ ",
+				"in_lobby": "Sedang main lobby _NAME_ ",
+				"spectating_quiz": "Sedang menonton lobby _NAME_ ",
+				"in_quiz": "In _NAME_ Quiz",
 				"mode_names": {
-					"MISSING-co-op": "Co-Op",
-					"MISSING-private": "Private",
-					"MISSING-jam": "Jam",
-					"MISSING-event": "Event",
-					"MISSING-solo": "Solo"
+					"co-op": "Co-Op",
+					"private": "Private",
+					"jam": "Jam",
+					"event": "Event",
+					"solo": "Solo"
 				}
 			},
 			"options": {
-				"MISSING-report": "Report",
-				"MISSING-remove_friend": "Remove Friend",
-				"MISSING-join_game": "Join Game"
+				"report": "Lapor",
+				"remove_friend": "Hapus Teman",
+				"join_game": "Gabung ke Game"
 			},
 			"popout_messages": {
-				"MISSING-not_in_game": "You are not in a game",
-				"MISSING-solo_game_invite": "Can't invite players to solo games"
+				"not_in_game": "Anda sedang tidak berada dalam sebuah lobby",
+				"solo_game_invite": "Anda tidak bisa mengundang player ke lobby Private"
 			}
 		},
 		"menu": {
-			"MISSING-patreon": "Patreon",
-			"MISSING-donate": "Donate",
-			"MISSING-song_history": "Song History",
-			"MISSING-settings": "Settings",
-			"MISSING-blocked_players": "Blocked Players",
-			"MISSING-change_password": "Change Password",
-			"MISSING-leaderboard": "Leaderboard",
-			"MISSING-tutorial": "Tutorial",
-			"MISSING-guidelines": "Guidelines",
-			"MISSING-about": "About",
-			"MISSING-logout": "Logout"
+			"patreon": "Patreon",
+			"donate": "Donasi",
+			"song_history": "History Lagu",
+			"settings": "Pengaturan",
+			"blocked_players": "Daftar Blokir",
+			"change_password": "Ganti Password",
+			"leaderboard": "Leaderboard",
+			"tutorial": "Tutorial",
+			"guidelines": "Guideline",
+			"about": "Tentang",
+			"logout": "Logout"
 		},
 		"video_host": {
-			"MISSING-title": "Video Host Connections",
-			"MISSING-description": "Connection status to the different video servers",
-			"MISSING-click_to_retest": "Click to retest connection",
-			"MISSING-speed": "Speed: _SPANC_ _NUMBER_  _SPANC_",
+			"title": "Koneksi ke Video Host",
+			"description": "Status koneksi ke berbagai video server",
+			"click_to_retest": "Klik untuk tes ulang koneksi",
+			"speed": "Speed: _SPANC_ _NUMBER_  _SPANC_",
 			"connection_status": {
-				"MISSING-good": "Good",
-				"MISSING-okay": "Okay",
-				"MISSING-poor": "Poor",
-				"MISSING-bad": "Bad"
+				"good": "Gacor",
+				"okay": "Baik",
+				"poor": "Kurang",
+				"bad": "Buruk"
 			}
 		}
 	},
 	"player_profile": {
-		"MISSING-profile_image": "Profile Image",
-		"MISSING-avatar": "Avatar",
-		"MISSING-no_badges": "No Badges",
-		"MISSING-profile": "Profile",
-		"MISSING-special_badges": "Special Badges",
-		"MISSING-standard_badges": "Standard Badges",
-		"MISSING-name_effects": "Name Effects",
-		"MISSING-name_color": "Name Color",
-		"MISSING-name_glow": "Name Glow",
-		"MISSING-hidden": "Hidden",
-		"MISSING-account_creation": "Account Creation",
-		"MISSING-songs_played": "Songs Played",
-		"MISSING-guess_rate": "Guess Rate",
-		"MISSING-options": "Options",
-		"MISSING-edit": "Edit",
-		"MISSING-change_nickname": "Change Nickname",
+		"profile_image": "Gambar Profil",
+		"avatar": "Avatar",
+		"no_badges": "Tiada Badge",
+		"profile": "Profil",
+		"special_badges": "Badge Spesial",
+		"standard_badges": "Badge Standar",
+		"name_effects": "Efek Nama",
+		"name_color": "Warna Nama",
+		"name_glow": "Glow Nama",
+		"hidden": "Tersembunyi",
+		"account_creation": "Akun Dibuat Pada",
+		"songs_played": "Lagu Terputar",
+		"guess_rate": "Guess Rate",
+		"options": "Opsi",
+		"edit": "Edit",
+		"change_nickname": "Ubah Nickname",
 		"change_nickname_modal": {
-			"MISSING-description": "You can change your nickname (the name you appear as in-game) by spending one name change token. Your account gets one name change token each year and an additional token each month if you’re a level 4 or higher Patreon backer. _BREAK_ If you change your nickname, your old nickname will become available for anyone to use (even if it's your original name). _BREAK_ Your original name will still be viewable on your profile.",
-			"MISSING-current_tokens": "Current Name Change Tokens: _SPAN_ _NUMBER_ _SPAN_",
-			"MISSING-check_availability": "Check Availability"
+			"description": "Anda bisa mengganti Nickname (nama yang muncul didalam game) dengan menghabiskan 1 Name Change Token. Setiap tahun dari akun anda dibuat, anda akan mendapat 1 Name Change Token gratis dan Anda juga akan mendapatkan lebih jika Anda merupakan Backer Patreon Level 4 atau lebih tinggi. Jika Anda mengubah Nickname anda, maka Nickname lama Anda bisa dipakai oleh player lainnya meskipun itu merupakan Nama Original Anda. _BREAK_ Nama Original Anda bisa dilihat dengan mengarahkan kursor mouse (hover) ke nama Anda dibagian Profil.",
+			"current_tokens": "Name Change Token Dimiliki: _SPAN_ _NUMBER_ _SPAN_",
+			"check_availability": "Cek Ketersediaan"
 		},
 		"alerts": {
-			"MISSING-error_getting_profile": "Error Getting Player Profile",
-			"MISSING-unknown_player": "Unknown Player"
+			"error_getting_profile": "Error dalam Mendapatkan Profil Player",
+			"unknown_player": "Player tidak diketahui"
 		},
 		"name_effects_entries": {
 			"challenger_color": {
-				"MISSING-name": "Challenger",
-				"MISSING-description": "Unlocked for players who qualified for last month ranked championship"
+				"name": "Challenger",
+				"description": "Terbuka untuk Player yang ter-kualifikasi untuk Ranked Championship bulan lalu"
 			},
 			"challenger_glow": {
-				"MISSING-name": "Challenger",
-				"MISSING-description": "Unlocked for players who got top 50 in last month ranked championship"
+				"name": "Challenger",
+				"description": "Terbuka untuk player yang mencapai Top 50 pada Ranked Championship bulan lalu"
 			},
 			"patreon_color": {
-				"MISSING-name": "Patreon",
-				"MISSING-description": "Unlocked for level 3 or higher Patreon backers"
+				"name": "Patreon",
+				"description": "Terbuka untuk Backer Patreon Level 3 atau lebih tinggi"
 			},
 			"patreon_glow": {
-				"MISSING-name": "Patreon",
-				"MISSING-description": "Unlocked for level 4 or higher Patreon backers"
+				"name": "Patreon",
+				"description": "Terbuka untuk Backer Patreon Level 4 atau lebih tinggi"
 			},
-			"MISSING-month_patreon_current": "Unlocked for level 5 Patreon backers who back this month, and level 6 backers",
-			"MISSING-month_patreon_previous": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers",
-			"MISSING-month_patreon_previous_unlocked": "Unlocked for level 5 Patreons who backed during the release month, and level 6 backers. You backed during the release month."
+			"month_patreon_current": "Terbuka untuk Backer Patreon Level 5 yang mendukung bulan ini, dan Backer Level 6",
+			"month_patreon_previous": "Terbuka untuk Backer Patreon Level 5 yang mendukung waktu rilis, dan Backer Level 6",
+			"month_patreon_previous_unlocked": "Terbuka untuk Backer Patreon Level 5 yang mendukung waktu rilis, dan Backer Level 6. Anda telah mendukung AMQ pada waktu Style ini dirilis."
 		}
 	},
 	"badges": {
 		"ranked": {
-			"MISSING-name": "Ranked _TIER_ _YEAR_ _NUMBER_",
-			"MISSING-name_result": "Ranked _TIER_ _YEAR_",
-			"MISSING-description": "Got _TIER_ tier in the _YEAR_ ranked season _NUMBER_",
-			"MISSING-description_result": "Got _TIER_ tier for the _YEAR_ ranked seasons",
+			"name": "_TIER_ Ranked _YEAR_ _NUMBER_",
+			"name_result": "_TIER_ Ranked  _YEAR_",
+			"description": "Mendapat tier _TIER_ pada ranked tahun _YEAR_ season _NUMBER_",
+			"description_result": "Mendapat tier _TIER_ pada keseluruhan season ranked tahun _YEAR_",
 			"tiers": {
-				"MISSING-bronze": "Bronze",
-				"MISSING-silver": "Silver",
-				"MISSING-gold": "Gold",
-				"MISSING-platinum": "Platinum",
-				"MISSING-diamond": "Diamond"
+				"bronze": "Bronze",
+				"silver": "Silver",
+				"gold": "Gold",
+				"platinum": "Platinum",
+				"diamond": "Diamond"
 			}
 		},
 		"champion": {
 			"name": {
-				"MISSING-first": "Ranked Champion _YEAR_ _NUMBER_",
-				"MISSING-second": "Ranked Second Place _YEAR_ _NUMBER_",
-				"MISSING-third": "Ranked Third Place _YEAR_ _NUMBER_"
+				"first": "Champion Ranked _YEAR_ _NUMBER_",
+				"second": "Juara Kedua Ranked _YEAR_ _NUMBER_",
+				"third": "Juara Ketiga Ranked _YEAR_ _NUMBER_"
 			},
 			"description": {
-				"MISSING-first": "Won the _YEAR_ season _NUMBER_ championship",
-				"MISSING-second": "Ranked Second Place in the _YEAR_ season _NUMBER_ championship",
-				"MISSING-third": "Ranked Third Place in the _YEAR_ season _NUMBER_ championship"
+				"first": "Memenangkan Ranked Championship tahun _YEAR_ season _NUMBER_",
+				"second": "Meraih Juara Kedua Ranked Championship tahun _YEAR_ season _NUMBER_",
+				"third": "Meraih Juara Ketiga Ranked Championship tahun _YEAR_ season _NUMBER_"
 			}
 		},
 		"challenger": {
 			"name": {
-				"MISSING-top": "Ranked Expert _YEAR_ _NUMBER_",
-				"MISSING-mid": "Ranked Up-and-Coming _YEAR_ _NUMBER_",
-				"MISSING-qualified": "Ranked Challenger _YEAR_ _NUMBER_"
+				"top": "Sesepuh Ranked _YEAR_ _NUMBER_",
+				"mid": "Bintang Ranked yang Sedang Naik Daun _YEAR_ _NUMBER_",
+				"qualified": "Challenger Ranked _YEAR_ _NUMBER_"
 			},
 			"description": {
-				"MISSING-qualified": "Qualified for the _YEAR_ season _NUMBER_ championship",
-				"MISSING-top": "Got top _TOP_ in the _YEAR_ season _NUMBER_ ranked championship"
+				"qualified": "Terkualifikasi untuk Ranked Championship tahun _YEAR_ season _NUMBER_",
+				"top": "Meraih Top _TOP_ pada Ranked Championship tahun _YEAR_ season _NUMBER_"
 			}
 		},
 		"patreon": {
 			"name": {
-				"MISSING-start": "Patreon Backer",
-				"MISSING-month": "_NUMBER_ Months Patreon Backer",
-				"MISSING-one_year": "1 Year Patreon Backer",
-				"MISSING-multiple_years": "_NUMBER_ Years Patreon Backer"
+				"start": "Backer Patreon",
+				"month": "Backer Patreon selama _NUMBER_ Bulan",
+				"one_year": "Backer Patreon selama Setahun Penuh",
+				"multiple_years": "Backer Patreon selama _NUMBER_ Tahun"
 			},
-			"MISSING-description": "AMQ Patreon Backer"
+			"description": "Backer Patreon AMQ"
 		},
-		"avatar": { "MISSING-name": "_NAME_ Badge", "MISSING-description": "Unlock 10 skins/recolors for _NAME_" },
+		"avatar": { "name": "Badge _NAME_", "description": "Buka 10 skin/recolor avatar _NAME_" },
 		"mod": {
-			"name": { "MISSING-game": "AMQ Moderator", "MISSING-jam": "AMQ Jam Mode Moderator" },
+			"name": { "game": "Moderator AMQ", "jam": "Moderator Mode Jam AMQ" },
 			"description": {
-				"MISSING-game": "Part of the AMQ Moderator team",
-				"MISSING-jam": "Part of the AMQ Jam Mode Moderator team"
+				"game": "Bagian dari Tim Moderator AMQ",
+				"jam": "Bagian dari Tim Moderator Mode Jam AMQ"
 			}
 		},
 		"aragaimu": {
 			"name": {
-				"MISSING-participant": "Aragaimu _YEAR_ Participant",
-				"MISSING-top32": "Aragaimu _YEAR_ Top 32",
-				"MISSING-top4": "Aragaimu _YEAR_ Top 4"
+				"participant": "Partisipan Turnamen Aragaimu tahun _YEAR_",
+				"top32": "Top 32 Turnamen Aragaimu tahun _YEAR_",
+				"top4": "Top 4 Turnamen Aragaimu tahun _YEAR_"
 			},
 			"description": {
-				"MISSING-participant": "Participated in the Aragaimu _YEAR_ tournament",
-				"MISSING-top32": "Got Top 32 in the Aragaimu _YEAR_ tournament",
-				"MISSING-top4": "Got Top 4 in the Aragaimu _YEAR_ tournament"
+				"participant": "Berpartisipasi dalam Turnamen Aragaimu pada tahun _YEAR_",
+				"top32": "Meraih Top 32 pada Turnamen Aragaimu tahun _YEAR_",
+				"top4": "Meraih Top 4 pada Turnamen Aragaimu tahun _YEAR_"
 			}
 		}
 	},
 	"patreon_window": {
-		"MISSING-title": "Patreon",
-		"MISSING-description": "Help support the operation and development of AMQ by backing the game on Patreon. Working on and sharing AMQ with you all has been and is an amazing experience, and I have so much more I want to do with the game. By backing the Patreon you'll help me not only cover the costs of running the game, but also continue its development! As a special thanks, you'll get several exclusive rewards!",
+		"title": "Patreon",
+		"description": "Bantu dukung pengembangan dan operasi AMQ dengan menjadi Backer Patreon Anime Music Quiz. Bekerja dan membagikan AMQ dengan kalian semua merupakan pengalaman yang luar biasa. Dan saya pribadi, punya lebih banyak hal yang ingin saya lakukan di game ini. Dengan menjadi Backer Patreon, tidak hanya Anda akan membantu saya dalam menutupi biaya untuk menjalankan game ini, tapi Anda secara langsung juga mendukung keberlangsungan pengembangan dari game ini! Tentunya, Anda juga akan mendapat beberapa hadiah eksklusif sebagai gantinya!",
 		"reward_examples": {
-			"MISSING-title": "Some of the Patreon Rewards",
-			"MISSING-sneak_peeks": "Sneak Peeks",
-			"MISSING-patreon_badge": "Patreon Badges",
-			"MISSING-custom_emotes": "Custom Emotes",
-			"MISSING-monthly_tickets": "Monthly Tickets"
+			"title": "Beberapa Hadiah untuk Pelanggan Patreon",
+			"sneak_peeks": "Sneak Peek",
+			"patreon_badge": "Badge Patreon",
+			"custom_emotes": "Custom Emote",
+			"monthly_tickets": "Ticket Bulanan"
 		},
-		"MISSING-already_a_backer": "Already a Backer?",
-		"MISSING-link_account": "Link Patreon Account",
-		"MISSING-become_a_backer": "Become a Backer",
-		"MISSING-patreon_linked": "Patreon Linked!",
+		"already_a_backer": "Sudah menjadi Backer?",
+		"link_account": "Hubungkan Akun Patreon",
+		"become_a_backer": "Jadilah seorang Backer!",
+		"patreon_linked": "Patreon Terhubung!",
 		"backer_level": {
-			"MISSING-title": "Backer Level",
-			"MISSING-tier": "Level _NUMBER_",
-			"rewards": { "MISSING-emotes": "_NUMBER_ Emotes", "MISSING-tickets": "_NUMBER_ Tickets" }
+			"title": " Level Backer",
+			"tier": "Level _NUMBER_",
+			"rewards": { "emotes": "_NUMBER_ Emotes", "tickets": "_NUMBER_ Tickets" }
 		},
-		"MISSING-badge_level": "Badge Level",
-		"MISSING-badge_level_info": "Your badge level is equal to the concurrent months you've been a level 2 or higher backer of the Patreon",
-		"MISSING-patreon_page": "Patreon Page",
-		"MISSING-relink": "Relink",
-		"MISSING-update_info": "Update Info",
-		"MISSING-unlink_account": "Unlink Account",
-		"MISSING-linked_account": "Linked Account",
+		"badge_level": "Level Badge",
+		"badge_level_info": "Level badge anda setara dengan berapa bulan berturut-turut Anda telah menjadi Backer Patreon Level 2 atau lebih tinggi",
+		"patreon_page": "Halaman Patreon",
+		"relink": "Hubungkan Ulang",
+		"update_info": "Update Info",
+		"unlink_account": "Putuskan Akun",
+		"linked_account": "Akun Terhubung",
 		"emotes": {
-			"MISSING-title": "Emotes",
-			"MISSING-upload": "Upload",
-			"MISSING-close": "Close",
-			"MISSING-manage": "Manage",
-			"MISSING-empty": "Empty",
+			"title": "Emote",
+			"upload": "Upload",
+			"close": "Tutup",
+			"manage": "Atur",
+			"empty": "Kosong",
 			"states": {
-				"waiting_approval": { "MISSING-name": "Waiting Approval", "MISSING-shorthand": "W" },
-				"active": { "MISSING-name": "Active", "MISSING-shorthand": "A" },
-				"disabled": { "MISSING-name": "Disabled", "MISSING-shorthand": "D" }
+				"waiting_approval": { "name": "Menunggu Approval", "shorthand": "W" },
+				"active": { "name": "Aktif", "shorthand": "A" },
+				"disabled": { "name": "Nonaktif", "shorthand": "N" }
 			},
-			"MISSING-error_deleting": "Error Deleting Emote",
+			"error_deleting": "Error dalam Menghapus Emote",
 			"upload_emote": {
-				"MISSING-title": "Upload Emote",
+				" title": "Upload Emote",
 				"description": {
-					"MISSING-line_one": "_BOLD_ Slots Left _BOLD_",
-					"MISSING-line_two": "Standard: _NUMBER_",
-					"MISSING-line_three": "Animated: _NUMBER_"
+					"line_one": "_BOLD_ Slot Tersedia _BOLD_",
+					"line_two": "Standar: _NUMBER_",
+					"line_three": "Animated: _NUMBER_"
 				},
-				"MISSING-confirm_button": "Select File",
-				"MISSING-footer": "Accepted File Formats: png (Standard), gif (Animated). Max Filesize: 256kb",
+				"confirm_button": "Pilih File",
+				"footer": "Format file yang diterima: png (Standar), gif (Animated). Ukuran File Maks: 256kb",
 				"file_too_large": {
-					"MISSING-title": "File Too Big",
-					"MISSING-description": "Max filesize is 256kb. Provided file is _NUMBER_kb"
+					"title": "Ukuran File Terlalu Besar",
+					"description": "Ukuran File Maksimum adalah 256kb. File Anda berukuran _NUMBER_kb"
 				},
 				"no_standard_slot": {
-					"MISSING-title": "No Standard Slot Available",
-					"MISSING-description": "You don't have any empty standard emote slots available"
+					"title": "Tiada Slot Standar Tersedia",
+					"description": "Anda tidak memiliki slot emote standar kosong tersisa"
 				},
 				"no_animated_slot": {
-					"MISSING-title": "No Animated Slot Available",
-					"MISSING-description": "You don't have any empty animated emote slots available"
+					"title": "Tiada Slot Animated Tersedia",
+					"description": "Anda tidak memiliki slot emote animated kosong tersisa"
 				},
 				"selected_image": {
-					"MISSING-title": "Selected Image",
-					"MISSING-image": "Image",
-					"MISSING-resulting_emote": "Resulting Emote",
-					"MISSING-placeholder": "Emote Name",
+					"title": "Gambar Terpilih",
+					"image": "Gambar",
+					"resulting_emote": "Hasil Emote",
+					"placeholder": "Nama Emote",
 					"errors": {
-						"MISSING-no_name": "You must provide an emote name",
-						"MISSING-name_format": "Emote names can only contain letters and numbers",
-						"MISSING-name_length": "Emote names must be at most _NUMBER_ characters"
+						"no_name": "Anda harus menyediakan Nama Emote",
+						"name_format": "Nama Emote hanya boleh mengandung huruf dan angka",
+						"name_length": "Nama Emote hanya boleh memiliki maksimal _NUMBER_ karakter"
 					}
 				},
 				"server_rejected": {
-					"MISSING-title": "Error Uploading Emote",
-					"MISSING-description": "The server rejected the emote upload."
+					"title": "Error dalam meng-Upload Emote",
+					"description": "Server menolak pengunggahan Emote."
 				},
 				"emote_uploaded": {
-					"MISSING-title": "Emote Uploaded",
-					"MISSING-description": "Your emote has been successfully uploaded and is pending approval"
+					"title": "Emote ter-Upload",
+					"description": "Emote anda telah berhasil diunggah dan sedang menunggu approval"
 				}
 			}
 		}
 	},
 	"setting_window": {
-		"MISSING-title": "Settings",
+		"title": "Pengaturan",
 		"tabs": {
-			"MISSING-game": "Game",
-			"MISSING-anime_list": "Anime List",
-			"MISSING-graphics": "Graphics",
-			"MISSING-audio": "Audio"
+			"game": "Game",
+			"anime_list": "List Anime",
+			"graphics": "Grafik",
+			"audio": "Audio"
 		},
-		"MISSING-language": "Language",
+		"language": "Bahasa",
 		"auto_submit": {
-			"MISSING-title": "Auto Submit",
-			"MISSING-description": "Automatically submit your answer when the guess time runs out"
+			"title": "Auto Submit",
+			"description": "Submit (Enter) jawaban otomatis ketika waktu tebak sudah habis"
 		},
 		"list_numbering": {
-			"MISSING-title": "List Numbering",
-			"MISSING-description": "Show number of songs played from each players anime list on the scoreboard"
+			"title": "Pelacak List",
+			"description": "Tampilkan jumlah lagu yang diputar dari list anime masing-masing player pada scoreboard"
 		},
 		"disable_emotes": {
-			"MISSING-title": "Disable Emotes",
-			"MISSING-description": "Disable emotes from being shown in chats"
+			"title": "Nonaktifkan Emote",
+			"description": "Nonaktifkan emote pada chat"
 		},
 		"answer_time": {
-			"MISSING-title": "Answer Time",
-			"MISSING-description": "Display players answer time on their avatars"
+			"title": "Waktu Jawab",
+			"description": "Tampilkan seberapa cepat player menjawab pada avatar mereka"
 		},
-		"anime_link": { "MISSING-title": "Anime Link", "MISSING-description": "The anime site that's linked in song info" },
+		"anime_link": { " title": "Link Anime", " description": "Website anime yang terhubung pada Info Lagu" },
 		"auto_skip_vote": {
-			"MISSING-title": "Auto Skip Vote",
-			"MISSING-description": "Automatically vote to skip after answering and/or after 2 seconds in the replay phase",
-			"MISSING-guessing_phase": "Guessing Phase",
-			"MISSING-replay_phase": "Replay Phase"
+			"title": "Auto Skip Vote",
+			"description": "Vote Skip secara otomatis setelah menjawab dan/atau setelah 2 detik pada Fase Replay",
+			"guessing_phase": "Fase Tebak",
+			"replay_phase": "Fase Replay"
 		},
 		"block_non_friend_actions": {
-			"MISSING-title": "Block Non-Friend Actions",
-			"MISSING-description": "Block social actions from players not on your friends list",
-			"MISSING-direct_messages": "Direct Messages",
-			"MISSING-friend_requests": "Friend Requests",
-			"MISSING-game_invites": "Game Invites"
+			"title": "Blokir Aksi Non-Teman",
+			"description": "Blokir aksi sosial dari player yang tidak ada didalam Daftar Teman Anda",
+			"direct_messages": "Chat Pribadi (DM)",
+			"friend_requests": "Permintaan Pertemanan",
+			"game_invites": "Undangan Lobby"
 		},
 		"anime_names": {
-			"MISSING-title": "Anime Names",
-			"MISSING-description": "Default anime name shown in quizzes",
-			"MISSING-english": "English",
-			"MISSING-romaji": "Romaji"
+			"title": "Judul Anime",
+			"description": "Judul Anime yang ditampilkan secara default dalam quiz",
+			"english": "Inggris",
+			"romaji": "Romaji"
 		},
 		"team_answer": {
-			"MISSING-title": "Team Answers in Chat",
-			"MISSING-description": "Show your team answers in the chat during team games",
-			"MISSING-never": "Never",
-			"MISSING-out_of_focus": "Out of Focus",
-			"MISSING-always": "Always"
+			"title": "Jawaban Tim dalam Chat",
+			"description": "Tampilkan jawaban tim pada chat, ketika sedang bermain mode Tim",
+			"never": "Jangan",
+			"out_of_focus": "Out of Focus",
+			"always": "Selalu"
 		},
 		"sound_equalizing": {
-			"MISSING-title": "Sound Equalizing",
-			"MISSING-description": "Equalize volume levels between different songs"
+			"title": "Equalizing Suara",
+			"description": "Setarakan (equalize) level volume untuk berbagai lagu"
 		},
 		"max_volume": {
-			"MISSING-title": "Max Volume",
-			"MISSING-description": "The maximum volume for sound equalizing, increasing this will increase the overall volume, but may cause quieter songs to not be fully equalized"
+			"title": "Volume Maks",
+			"description": "Volume Maksimal untuk Equalizing Suara. Menaikkan opsi ini dapat meningkatkan volume keseluruhan, namun lagu-lagu dengan volume lebih kecil mungkin tidak dapat ter-equalize dengan baik"
 		},
 		"auto_hide_video": {
-			"MISSING-title": "Auto Hide Video",
-			"MISSING-description": "Automatically hide the video for the selected categories, it can still be unhidden by clicking the video during the replay phase",
-			"MISSING-openings": "Openings",
-			"MISSING-endings": "Endings",
-			"MISSING-inserts": "Inserts",
-			"unwatched": { "MISSING-title": "Unwatched", "MISSING-description": "Videos from anime you haven't watched" },
+			"title": "Auto Sembunyikan Video",
+			"description": "Sembunyikan video secara otomatis untuk kategori terpilih, video masih bisa ditampilkan dengan meng-klik video yg tersembunyikan pada Fase Replay",
+			"openings": "Opening",
+			"endings": "Ending",
+			"inserts": "Insert",
+			"unwatched": { "title": "Belum Ditonton", "description": "Video dari anime yang belum Anda tonton" },
 			"high_risk": {
-				"MISSING-title": "High Risk",
-				"MISSING-description": "Videos that are likely to cause spoilers or are nsfw. Based on player statistics"
+				"title": "High Risk",
+				"description": "Video yang mungkin mengandung spoiler atau adegan NSFW berdasarkan statistik player"
 			}
 		},
 		"anime_list": {
-			"MISSING-description": "Connect your AniList, MyAnimeList or Kitsu list, and the game will use your anime list when picking songs with the “watched” setting. _BREAK_ Lists are updated weekly or when clicking update. To remove a list, update it without a username.",
+			"description": "Hubungkan AniList, MyAnimeList atau Kitsu Anda, dan AMQ akan menggunakan List Anime Anda dalam memilih lagu yang akan diputar dalam quiz pada settingan “watched”. _BREAK_ List akan diupdate tiap minggu atau ketika tombol Update ditekan. _BREAK_ Untuk menghapus list, kosongkan username lalu klik Update",
 			"share_entries": {
-				"MISSING-title": "Share Entries",
-				"MISSING-description": "Show when a show is from your list"
+				"title": "Bagikan Entri",
+				"description": "Tampilkan ketika lagu yang sedang diputar berasal dari list Anda"
 			},
 			"show_scores": {
-				"MISSING-title": "Show Scores",
-				"MISSING-description": "Show your anime score for shows on your list"
+				"title": "Tampilkan Skor",
+				"description": "Tampilkan Skor Anime yang tertera pada list Anda"
 			},
-			"MISSING-anilist_username": "AniList Username",
-			"MISSING-mal_username": "MyAnimeList Username",
-			"MISSING-mal_username_short": "MAL Username",
-			"MISSING-kitsu_username": "Kitsu Username",
-			"MISSING-last_updated": "_BOLD_ Last Updated: _BOLD_ _SPAN_ _DATE_ _SPAN_",
+			"anilist_username": "Username AniList",
+			"mal_username": "Username MyAnimeList",
+			"mal_username_short": "Username MAL",
+			"kitsu_username": "Username Kitsu",
+			"last_updated": "_BOLD_ Terakhir Di-Update: _BOLD_ _SPAN_ _DATE_ _SPAN_",
 			"update_messages": {
-				"MISSING-update_successful": "Update Successful",
-				"MISSING-update_failed": "Update Failed",
-				"MISSING-list_updated": "List Updated",
-				"MISSING-list_removed": "List Removed",
-				"MISSING-unknown_username": "Unknown Username",
-				"MISSING-mal_private": "MAL List set to private, only public lists can be synced to the game",
-				"MISSING-mal_error": "Error from MAL, please try again later",
-				"MISSING-anilist_error": "Unable to Retrieve List from AniList"
+				"update_successful": "Update Berhasil",
+				"update_failed": "Update Gagal",
+				"list_updated": "List ter-Update",
+				"list_removed": "List Dihapus",
+				"unknown_username": "Username Tidak Diketahui",
+				"mal_private": "List MAL Anda diatur ke Private, Hanya List Public yang dapat dihubungkan kedalam AMQ",
+				"mal_error": "Error dari MAL, Silakan Coba Lagi Nanti",
+				"anilist_error": "Tidak dapat mengambil List dari AniList"
 			},
 			"included_entries": {
-				"MISSING-title": "Included Entries",
+				"title": "Entri Terpakai",
 				"types": {
-					"MISSING-watching": "Watching",
-					"MISSING-completed": "Completed",
-					"MISSING-on_hold": "On Hold",
-					"MISSING-dropped": "Dropped",
-					"MISSING-planning": "Planning"
+					"watching": "Watching",
+					"completed": "Completed",
+					"on_hold": "On Hold",
+					"dropped": "Dropped",
+					"planning": "Plan to Watch"
 				}
 			}
 		},
 		"graphics": {
 			"particle_effects": {
-				"MISSING-title": "Particle Effects",
-				"MISSING-description": "Controls the number of particles used in effects, such as the XP animation.",
-				"levels": { "MISSING-off": "Off", "MISSING-low": "Low", "MISSING-high": "High" }
+				"title": "Efek Partikel",
+				"description": "Atur jumlah partikel yang dipakai di efek, seperti animasi XP bertambah.",
+				"levels": { "off": "Off", "low": "Rendah", "high": "tinggi" }
 			},
 			"disable_floating_text": {
-				"MISSING-title": "Disable Floating Text",
-				"MISSING-description": "Floating text won't appear when gaining xp and notes"
+				"title": "Nonaktifkan Floating Text",
+				"description": "Floating Text tidak akan tampil ketika mendapat XP atau Note"
 			},
-			"MISSING-name_effects_friend_list": "Name Effects in Friend List"
+			"name_effects_friend_list": "Efek Nama pada Daftar Teman"
 		},
 		"audio": {
-			"MISSING-nexus": "Nexus",
-			"MISSING-master": "Master",
-			"MISSING-music": "Music",
-			"MISSING-effects": "Effects"
+			"nexus": "Nexus",
+			"master": "Master",
+			"music": "Music",
+			"effects": "Efek"
 		}
 	},
-	"blocked_player_window": { "MISSING-title": "Blocked Player List", "MISSING-remove_button": "Remove" },
+	"blocked_player_window": { "title": "Daftar Blokir", "remove_button": "Hapus" },
 	"change_password_window": {
-		"MISSING-title": "Change Password",
-		"MISSING-current_password": "Current Password",
-		"MISSING-no_current_password": "You must provide your current password",
-		"MISSING-unexpected_error": "Unexpected error, please try again",
-		"MISSING-error_contacting_server": "Error contacting server, please try again later",
-		"MISSING-password_updated": "Password updated successfully",
-		"MISSING-wrong_password": "Current password is incorrect"
+		"title": "Ganti Password",
+		"current_password": "Password yang Digunakan Saat Ini",
+		"no_current_password": "Anda harus menyertakan Password yang digunakan saat ini",
+		"unexpected_error": "Error tak Terduga, coba lagi nanti",
+		"error_contacting_server": "Error dalam Menghubungi Server, coba lagi nanti",
+		"password_updated": "Password Berhasil Diganti",
+		"wrong_password": "Password saat ini yang Anda masukkan salah"
 	}
 }
