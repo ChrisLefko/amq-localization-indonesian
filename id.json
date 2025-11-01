@@ -3,7 +3,7 @@
 		"language_name": "Indonesian",
 		"language_name_native": "bahasa Indonesia",
 		"language_code": "id",
-		"creators": "Chris Lefkó"
+		"creators": "ChrisLefko"
 	},
 	"common": {
 		"ui": {
@@ -241,14 +241,14 @@
 					"offline": "Themed - Offline",
 					"playing": "Themed - Sedang Berlangsung",
 					"completed": "Themed - Selesai",
-					"MISSING-lobby": "Themed - Lobby Up",
+					"lobby": "Themed - Lobby Tersedia",
 					"DELETED-lobby_up": "Themed - Lobby Tersedia"
 				},
 				"championship": {
 					"offline": "Championship - Offline",
 					"playing": "Championship - Sedang Berlangsung",
 					"completed": "Championship - Selesai",
-					"MISSING-lobby": "Championship - Lobby Up",
+					"lobby": "Championship - Lobby Tersedia",
 					"DELETED-lobby_up": "Championship - Lobby Tersedia"
 				}
 			},
@@ -275,9 +275,9 @@
 				}
 			},
 			"regions": {
-				"west": { "MISSING-name": "West", "MISSING-shorthand": "W" },
-				"east": { "MISSING-name": "East", "MISSING-shorthand": "E" },
-				"central": { "MISSING-name": "Central", "MISSING-shorthand": "C" }
+				"west": { "name": "West", "shorthand": "W" },
+				"east": { "name": "East", "shorthand": "E" },
+				"central": { "name": "Central", "shorthand": "C" }
 			}
 		},
 		"ranked_description": {
@@ -334,8 +334,8 @@
 				"invalid_amount": {
 					"title": "Nilai Donasi Invalid",
 					"text": {
-						"MISSING-illegal": "You must enter a donation amount",
-						"MISSING-minimum": "The minimum donation amount is 1€"
+						"illegal": "Anda harus memasukkan jumlah donasi",
+						"minimum": "Jumlah minimum donasi adalah 1€"
 					}
 				},
 				"donation_error": { "title": "Donation Error" },
@@ -345,8 +345,8 @@
 					"text": "Anda hanya mendapatkan 1 Free Donation setiap bulannya"
 				}
 			},
-			"MISSING-faq_button": "FAQ",
-			"MISSING-faq_header": "FAQ",
+			"faq_button": "FAQ",
+			"faq_header": "FAQ",
 			"DELETED-faq": "FAQ",
 			"DELETED-none": "Non-Nominasi"
 		},
