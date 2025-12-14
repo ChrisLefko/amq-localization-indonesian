@@ -18,7 +18,7 @@ Untuk memudahkan proses kolaborasi, silakan ikuti langkah berikut:<br>
 11. Setelah selesai mengedit, jangan lupa untuk menyimpan perubahan menggunakan ``Ctrl + S`` atau ``⌘ + S``
 12. Buka kembali Terminal pada VSCode
 13. Gunakan command ```git status``` untuk mengecek perubahan lokal apa saja yang perlu di-push ke server
-14. Gunakan command ```git checkout review``` untuk memastikan Anda berada dalam branch ``review``
+14. Gunakan command ```git checkout -b review``` untuk memastikan Anda berada dalam branch ``review``
 15. Gunakan command ```git add id.json``` untuk menambahkan file ``id.json`` sebagai bagian dari perubahan yang akan di-push ke Github nantinya
 16. Lalu gunakan command ```git commit -m "Revised the most recent translation file from Chris"``` dan ceritakan perubahan apa yang telah Anda lakukan didalam tanda kutip seperti contoh
 17. Terakhir, kita bisa menggunakan command ```git push origin review``` untuk meng-push update yang kita lakukan ke Github untuk di-review oleh kawan-kawan tim translasi yang lain
