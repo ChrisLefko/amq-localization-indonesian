@@ -43,7 +43,8 @@
 			"delete": "Hapus",
 			"close_button": "Tutup",
 			"report": "Laporkan",
-			"not_applicable": "Tidak Berlaku"
+			"not_applicable": "Tidak Berlaku",
+			"claimed_button": "Diklaim"
 		},
 		"popout_messages": {
 			"unexpected_error": "Kesalahan tak Terduga",
@@ -115,9 +116,9 @@
 		"text": {
 			"create_account": "Buat Akun",
 			"recover_username_title": "Pulihkan Nama Pengguna",
-			"recover_username_text": "Masukkan email yang digunakan untuk mendaftarkan akun Anda. Username Anda akan dikirimkan melalui email tersebut.",
+			"recover_username_text": "Masukkan email yang digunakan untuk mendaftarkan akun Anda. Nama Pengguna Anda akan dikirimkan melalui email tersebut.",
 			"forgot_password_title": "Lupa Kata Sandi",
-			"forgot_password_text": "Masukkan email yang digunakan untuk mendaftarkan akun Anda. Link untuk me-reset kata sandi Anda akan dikirimkan melalui email tersebut.",
+			"forgot_password_text": "Masukkan email yang digunakan untuk mendaftarkan akun Anda. Tautan untuk me-reset kata sandi Anda akan dikirimkan melalui email tersebut.",
 			"reset_password_title": "Reset Kata Sandi",
 			"missing_information": "Informasi Akun tidak lengkap",
 			"missing_country": "Akun Anda belum memiliki negara domisili, silakan pilih di bawah ini..",
@@ -188,7 +189,8 @@
 				"christmas": "Promo Natal!",
 				"lunar": "Promo Imlek!",
 				"valentine": "Promo Valentine!",
-				"summer_games": "Promo Summer Games!"
+				"summer_games": "Promo Summer Games!",
+				"anniversary": "Promo Ulang Tahun!"
 			},
 			"sale_text": "Dapatkan nilai tiket terbaik!",
 			"skin_header": "Eksklusif",
@@ -331,7 +333,6 @@
 			"anonymous_donation": "Donasi Anonim",
 			"free_donation": "Gunakan Donasi Gratis",
 			"free_donation_amount": "Nilai: _NUMBER_€",
-			"approx_dollars": "Kira-kira $",
 			"checkout": "Bayar",
 			"popover": { "no_free_donation": "Donasi Gratis bulan ini sudah terpakai" },
 			"alerts": {
@@ -350,7 +351,10 @@
 			"faq_header": "FAQ",
 			"DELETED-faq": "FAQ",
 			"DELETED-none": "Non-Nominasi",
-			"title": "Avatar Drive"
+			"title": "Avatar Drive",
+			"approx_dollars_2": "Kira-kira. $_SPAN_ _NUMBER_ _SPAN_",
+			"donation_choice_text": { "nomination": "Nominasi", "secondary_choice": "Pilihan Kedua" },
+			"DELETED-approx_dollars": "Kira-kira $"
 		},
 		"social_rewards": {
 			"title": "Hadiah Sosial",
@@ -470,7 +474,23 @@
 		"change_nickname_modal": {
 			"description": "Anda bisa mengganti Nama Pengguna (nama yang muncul didalam game) dengan menghabiskan 1 Token Ganti Nama. Setiap tahun dari waktu akun anda dibuat, anda akan mendapat 1 Token Ganti Nama gratis dan Anda juga akan mendapatkan lebih jika Anda merupakan Pendukung Patreon Level 4 atau lebih tinggi. Jika Anda mengubah Nama Pengguna anda, maka Nama Pengguna lama Anda bisa dipakai oleh pemain lainnya meskipun itu merupakan Nama Original Anda. _BREAK_ Nama Original Anda bisa dilihat dengan mengarahkan kursor mouse (hover) ke nama Anda dibagian Profil.",
 			"current_tokens": "Token Yang Dimiliki: _SPAN_ _NUMBER_ _SPAN_",
-			"check_availability": "Cek Ketersediaan"
+			"check_availability": "Cek Ketersediaan",
+			"new_nickname": "Ganti Nama Pengguna",
+			"change_message": {
+				"title": "Menganti Nama Pengguna ke _NAME_",
+				"text": "Setelah diubah, kamu tidak bisa kembali ke nama saat ini tanpa menggunakan token ganti nama"
+			},
+			"nickname_available": "Nama Pengguna Tersedia",
+			"nickname_not_available": {
+				"title": "Nama Pengguna Tersedia",
+				"already_in_use": "Nama pengguna ini sudah dipakai",
+				"banned": "Nama Pengguna ini telah di-ban"
+			},
+			"change_nickname_messages": {
+				"banned": "Akun Anda telah di Ban dari Fitur Mengganti Nama Pengguna",
+				"success": "Nama Pengguna Diganti",
+				"no_token": "Tidak Ada Token Ganti Nama Tersedia"
+			}
 		},
 		"alerts": {
 			"error_getting_profile": "Error dalam Mendapatkan Profil Pemain",
@@ -485,7 +505,10 @@
 				"name": "Penantang",
 				"description": "Terbuka untuk Pemain yang mencapai 50 Besar pada Ranked Championship bulan lalu"
 			},
-			"patreon_color": { "name": "Patreon", "description": "Terbuka untuk Pendukung Patreon Level 3 atau lebih tinggi" },
+			"patreon_color": {
+				"name": "Patreon",
+				"description": "Terbuka untuk Pendukung Patreon Level 3 atau lebih tinggi"
+			},
 			"patreon_glow": { "name": "Patreon", "description": "Terbuka untuk Pendukung Patreon Level 4 atau lebih tinggi" },
 			"month_patreon_current": "Terbuka untuk Pendukung Patreon Level 5 yang mendukung bulan ini, dan Pendukung Level 6",
 			"month_patreon_previous": "Terbuka untuk Pendukung Patreon Level 5 yang mendukung waktu rilis, dan Pendukung Level 6",
@@ -650,9 +673,9 @@
 			"description": "Tampilkan seberapa cepat pemain menjawab pada avatar mereka"
 		},
 		"anime_link": {
-			"title": "Link Anime",
+			"title": "Tautan Anime",
 			"description": "Website anime yang terhubung pada Info Lagu",
-			"DELETED- title": "Link Anime",
+			"DELETED- title": "Tautan Anime",
 			"DELETED- description": "Website anime yang terhubung pada Info Lagu"
 		},
 		"auto_skip_vote": {
@@ -766,7 +789,8 @@
 		"top": "Teratas",
 		"ranked": "Ranked",
 		"all": "Semua",
-		"champs": "Juara"
+		"champs": "Juara",
+		"regions": { "west": "Wilayah West", "central": "Wilayah Central", "east": "Wilayah East" }
 	},
 	"tutorial_window": {
 		"title": "Panduan",
@@ -879,27 +903,16 @@
 		"filters": {
 			"locked": { "title": "Terkunci", "description": "Tunjukan konten yang belum anda buka" },
 			"unlocked": { "title": "Terbuka", "description": "Tunjukan konten yang sudah anda buka" },
-			"available": {
-				"title": "Tersedia",
-				"description": "Tunjukan Konten yang tersedia untuk dibuka ditoko"
-			},
+			"available": { "title": "Tersedia", "description": "Tunjukan Konten yang tersedia untuk dibuka ditoko" },
 			"unavailable": {
 				"title": "Tidak Tersedia",
 				"description": "Tunjukan Konten yang saat ini tidak tersedia untuk dibuka ditoko"
 			},
-			"limited": {
-				"title": "Terbatas",
-				"description": "Tunjukan Konten yang hanya tersedia untuk waktu terbatas"
-			},
-			"unlimited": {
-				"title": "Tidak Terbatas",
-				"description": "Tunjukan Konten yang selalu tersedia untuk dibuka"
-			},
-			"exclusive": {
-				"title": "Eksklusif",
-				"description": "Tunjukan Konten yang bisa dibuka melalui Sistem Tiket"
-			},
-			"standard": { "title": "Standar", "description": "Tunjukan konten yang bisa dibuka menggunakan notes" }
+			"limited": { "title": "Terbatas", "description": "Tunjukan Konten yang hanya tersedia untuk waktu terbatas" },
+			"unlimited": { "title": "Tidak Terbatas", "description": "Tunjukan Konten yang selalu tersedia untuk dibuka" },
+			"exclusive": { "title": "Eksklusif", "description": "Tunjukan Konten yang bisa dibuka melalui Sistem Tiket" },
+			"standard": { "title": "Standar", "description": "Tunjukan konten yang bisa dibuka menggunakan notes" },
+			"title": "Filter"
 		},
 		"background": "Background",
 		"toggle": { "on": "Aktifkan", "off": "Nonaktifkan" },
@@ -940,11 +953,7 @@
 			"avatar_tokens": "Token Avatar",
 			"menu": { "use": "Gunakan", "history": "Riwayat", "buy": "Beli", "gift": "Hadiah" },
 			"redeem_code": "Tukarkan Kode Tiket",
-			"ticket_code_input": {
-				"title": "Masukan Kode Tiket",
-				"placeholder": "Kode Tiket",
-				"redeem": "Tukarkan"
-			},
+			"ticket_code_input": { "title": "Masukan Kode Tiket", "placeholder": "Kode Tiket", "redeem": "Tukarkan" },
 			"invalid_ticket_code": "Kode Tiket Tidak Valid",
 			"ticket_code_redeemed_message": {
 				"title": "Kode Tiket Berhasil Ditukarkan!",
@@ -960,10 +969,7 @@
 			"gift_target": "Target Hadiah",
 			"gift_no_target_message": "Pilih Teman untuk Dihadiahkan",
 			"gift_clear": "Bersihkan",
-			"gift_message": {
-				"title": "Membeli Hadiah Tiket untuk _NAME_",
-				"placeholder": "Pesan Hadiah: _MESSAGE_"
-			},
+			"gift_message": { "title": "Membeli Hadiah Tiket untuk _NAME_", "placeholder": "Pesan Hadiah: _MESSAGE_" },
 			"no_gift_target_message": {
 				"title": "Tidak ada Target Hadiah yang Dipilih",
 				"description": "Pilih satu dibawah"
@@ -1012,11 +1018,13 @@
 			"sale_text": {
 				"unlocks_remaining": "_SPANC_ _NUMBER_ _SPANC_ Tersisa Untuk Dibuka",
 				"days_remaining": "_SPANC_ _NUMBER_ _SPANC_ Hari Tersisa",
-				"getting_started_pack": "Paket Pemula"
+				"getting_started_pack": "Paket Pemula",
+				"promo": "Promo"
 			},
 			"subtotal": "Subtotal",
 			"sales_tax": "Pajak Penjualan",
-			"total": "Total"
+			"total": "Total",
+			"gift_message_placeholder": "Tinggalkan pesan (opsional)"
 		},
 		"avatar_tokens": {
 			"title": "Token Avatar",
@@ -1056,12 +1064,7 @@
 			"unique": "Unik"
 		},
 		"decoration_buttons": { "front": "Depan", "back": "Belakang" },
-		"item_types": {
-			"emote": "Emote",
-			"background": "Background",
-			"decoration": "Dekorasi",
-			"skin": "Skin"
-		},
+		"item_types": { "emote": "Emote", "background": "Background", "decoration": "Dekorasi", "skin": "Skin" },
 		"ticket_reward_tier": "Tier Hadiah Tiket _TIER_",
 		"rhythm_price": "Harga Rhythm",
 		"silver_hibike_description": "Recolor unik saat peluncuran, bisa dibuka dengan cara bergabung dalam minggu peluncuran atau membuka semua recolor non-unik untuk semua avatar.",
@@ -1348,11 +1351,8 @@
 				"instrumental": "Instrumental",
 				"character": "Karakter"
 			},
-			"upload_status": {
-				"title": "Status Unggah",
-				"uploaded": "Terunggah",
-				"missing": "Hilang"
-			}
+			"upload_status": { "title": "Status Unggah", "uploaded": "Terunggah", "missing": "Hilang" },
+			"more_filters": "Filter Tambahan"
 		},
 		"search_targets": {
 			"all": "Semua",
@@ -1376,7 +1376,8 @@
 			"genre": "Genre",
 			"names": "Nama",
 			"tags": "Tag",
-			"songs": "Lagu"
+			"songs": "Lagu",
+			"more_info": "Info Tambahan"
 		},
 		"song_entry": {
 			"type": { "op": "OP_NUMBER_", "ed": "ED_NUMBER_", "in": "IN" },
@@ -1404,8 +1405,9 @@
 			"upload_state_messages": {
 				"missing": "Hilang",
 				"pending": "Menunggu Persetujuan",
-				"uploaded": "Klik untuk Lihat"
-			}
+				"uploaded": { "title": "Terunggah", "description": "Klik untuk Lihat" }
+			},
+			"anime_header": "Anime:"
 		},
 		"faq": {
 			"shorthand": "FAQ",
@@ -1540,7 +1542,8 @@
 			"no_plays": "Tidak Ada Pemain",
 			"score": "Skor",
 			"name": "Nama",
-			"multiple_choice_toggle": "Alihkan Tampilan Entri Pilihan Ganda"
+			"multiple_choice_toggle": "Alihkan Tampilan Entri Pilihan Ganda",
+			"multiple_choice": "Pilihan Ganda"
 		},
 		"quiz_buttons": {
 			"delete": "Hapus",
@@ -1558,18 +1561,12 @@
 				"title": "Kesalahan Ketika Duplikasi Kuis",
 				"description": "Terjadi kesalahan saat mencoba mengduplikat kuis. Silakan coba lagi nanti."
 			},
-			"quiz_cloned": {
-				"title": "Kuis Diduplikat",
-				"description": "Kuis telah berhasil diduplikat."
-			},
+			"quiz_cloned": { "title": "Kuis Diduplikat", "description": "Kuis telah berhasil diduplikat." },
 			"quiz_reported": {
 				"title": "Kuis Dilaporkan",
 				"description": "Kuis telah dilaporkan ke moderator untuk ditinjau."
 			},
-			"quiz_deleted": {
-				"title": "Kuis Dihapus",
-				"description": "Kuis Telah Berhasil Dihapus"
-			},
+			"quiz_deleted": { "title": "Kuis Dihapus", "description": "Kuis Telah Berhasil Dihapus" },
 			"slot_unlocked": "Slot Kuis Terbuka",
 			"unlimited_slots_unlocked": "Slot Kuis Tak Terbatas Terbuka",
 			"no_slots_available": {
@@ -1580,11 +1577,7 @@
 				"title": "Hapus Kuis",
 				"description": "Apakah anda yakin ingin menghapus kuis ini secara permanen?"
 			},
-			"clone_quiz": {
-				"title": "Duplikat Kuis",
-				"input_text": "Nama Baru",
-				"confirm_button": "Duplikat"
-			},
+			"clone_quiz": { "title": "Duplikat Kuis", "input_text": "Nama Baru", "confirm_button": "Duplikat" },
 			"publish_quiz_confirmation": {
 				"title": "Publikasi Kuis",
 				"description": "Kuis publik bisa dimainkan oleh siapa saja. Setelah kuis dibuat publik, kamu tidak bisa lagi mengedit atau menghapusnya.",
@@ -1615,10 +1608,7 @@
 				"title": "Batas Publikasi Tercapai",
 				"description": "Kamu telah mencapai jumlah maksimum 10 kuis yang dipublikasikan dalam 24 jam. Silakan coba lagi nanti."
 			},
-			"quiz_published": {
-				"title": "Kuis Terpublikasi",
-				"description": "Kuis telah berhasil dipublikasikan."
-			}
+			"quiz_published": { "title": "Kuis Terpublikasi", "description": "Kuis telah berhasil dipublikasikan." }
 		},
 		"popovers": {
 			"share": "Bagikan kuis ini dengan teman",
@@ -1626,17 +1616,36 @@
 			"creation_date": "Tanggal Pembuatan",
 			"quiz_id": "ID Kuis"
 		},
-		"checkout": {
-			"unlock": "Buka Slot Kuis Komunitas",
-			"one_slot": "1 Slot",
-			"unlimited": "Slot Tidak Terbatas"
-		},
+		"checkout": { "unlock": "Buka Slot Kuis Komunitas", "one_slot": "1 Slot", "unlimited": "Slot Tidak Terbatas" },
 		"host_community_quiz": {
 			"title": "Host Kuis Komunitas",
 			"room_type": "Tipe Ruangan",
 			"room_info": "Info Ruangan",
 			"optional_password": "Kata Sandi Opsional"
-		}
+		},
+		"browse": "Telusuri",
+		"medal_descriptions": {
+			"unearned": {
+				"title": "Medali Kuis",
+				"description": "Kuis publik memberikan medali berdasarkan hasil terbaikmu, mulai dari perunggu hingga berlian. Mode pilihan ganda dibatasi maksimal medali perak."
+			},
+			"bronze": {
+				"title": "Medali Perunggu",
+				"description": "Berhasil menjawab benar 40% (80% untuk pilihan ganda) di kuis ini! Target berikutnya medali perak di 60% (100% untuk pilihan ganda)"
+			},
+			"silver": {
+				"title": "Medali Perak",
+				"description": "Berhasil menjawab benar 60% (100% untuk pilihan ganda) di kuis ini! Target berikutnya medali emas di 80%"
+			},
+			"gold": {
+				"title": "Medali Emas",
+				"description": "Berhasil menjawab benar 80% di kuis ini! Target berikutnya medali berlian di 100%"
+			},
+			"diamond": { "title": "Medali Berlian", "description": "Berhasil menjawab benar 100% di kuis ini!" }
+		},
+		"create_new_quiz_tile": { "message": "Buat Kuis Baru", "title": "Kuis Baru" },
+		"unlock_at_tile": { "message": "Terbuka di Level _NUMBER_", "title": "Terkunci" },
+		"shared_states": { "friends": "Kuis Dibagikan pada Teman", "public": "Kuis Publik" }
 	},
 	"community_quiz_tags": {
 		"training": "Latihan",
@@ -1647,20 +1656,10 @@
 	},
 	"game_settings": {
 		"setup_game": "Atur Game",
-		"select_settings_to_load": "Pilih Pengaturan untuk Dimuat",
+		"select_settings_to_load": "Pilih Pengaturan",
 		"load_from_code": "Muat dari Kode",
-		"tabs": {
-			"quick": "Langsung",
-			"advanced": "Lanjutan",
-			"save": "Simpan",
-			"load": "Muat"
-		},
-		"categories": {
-			"mode": "Mode",
-			"general": "Umum",
-			"quiz": "Kuis",
-			"anime": "Anime"
-		},
+		"tabs": { "quick": "Langsung", "advanced": "Lanjutan", "save": "Simpan", "load": "Muat" },
+		"categories": { "mode": "Mode", "general": "Umum", "quiz": "Kuis", "anime": "Anime" },
 		"quiz_mode": { "standard_quiz": "Kuis Standar", "community_quiz": "Kuis Komunitas" },
 		"buttons": {
 			"exit": "Keluar",
@@ -1682,7 +1681,8 @@
 			"jam": "Jam",
 			"themed": "Themed",
 			"solo": "Solo",
-			"multiplayer": "Multi-pemain"
+			"multiplayer": "Multi-Pemain",
+			"community": "Komunitas"
 		},
 		"game_mode_display": "Mode _NAME_",
 		"game_mode_settings_display": "Pengaturan Game _NAME_",
@@ -1783,10 +1783,13 @@
 			"title": "Kategori Lagu",
 			"description": "Filter kategori lagu yang dipilih untuk setiap tipe lagu. Arahkan kursor ke kategori di bawah untuk melihat deskripsinya",
 			"standard": { "title": "Standar", "description": "Lagu yang tidak termasuk dalam kategori lain" },
-			"chanting": { "title": "Chanting", "description": "Lagu dengan nyanyian serempak sebagai satu-satunya vokal utama" },
+			"chanting": {
+				"title": "Chanting",
+				"description": "Lagu dengan nyanyian serempak sebagai satu-satunya vokal utama"
+			},
 			"instrumental": { "title": "Instrumental", "description": "Lagu tanpa vokal" },
 			"character": {
-				"title": "Character",
+				"title": "Karakter",
 				"description": "Lagu yang dinyanyikan oleh karakter tanpa menjadi bagian dari pertunjukan musikal"
 			},
 			"inserts": "Insert",
@@ -1820,7 +1823,10 @@
 		"show_selection": {
 			"title": "Pemilihan Acara",
 			"description": "Bagaimana lagu dari anime dipilih untuk kuis",
-			"auto": { "title": "Otomatis", "description": "Permainan memilih lagu/anime secara acak berdasarkan pengaturan yang ada" },
+			"auto": {
+				"title": "Otomatis",
+				"description": "Permainan memilih lagu/anime secara acak berdasarkan pengaturan yang ada"
+			},
 			"looting": {
 				"title": "Pengumpulan",
 				"description": "Mainkan fase pengumpulan sebelum kuis, di mana pemain bergerak mengumpulkan anime-anime yang akan digunakan dalam kuis"
@@ -1843,10 +1849,7 @@
 			}
 		},
 		"lives": { "title": "Nyawa", "description": "Jumlah nyawa yang dimiliki pemain saat memulai." },
-		"boss_lives": {
-			"title": "Nyawa Bos",
-			"description": "Jumlah nyawa yang dimiliki pemain bos saat memulai."
-		},
+		"boss_lives": { "title": "Nyawa Bos", "description": "Jumlah nyawa yang dimiliki pemain bos saat memulai." },
 		"boss_power_ups": {
 			"title": "Power-Up Bos",
 			"description": "Jumlah power-up berbeda yang bisa digunakan oleh pemain bos."
@@ -1982,30 +1985,16 @@
 			"max_saved_settings": "Jumlah maksimum _NUMBER_ pengaturan tersimpan telah tercapai"
 		},
 		"delete_saved_setting": { "title": "Hapus Pengaturan Tersimpan", "confirm_button": "Hapus" },
-		"get_code": { "title": "Dapatkan Kode untuk Pengaturan", "setting_code": "Kode Pengaturan" }
+		"get_code": { "title": "Dapatkan Kode untuk Pengaturan", "setting_code": "Kode Pengaturan" },
+		"loading_disabled": "Memuat Dinonaktifkan"
 	},
 	"room_browser": {
 		"filters": {
-			"only": {
-				"title": "Hanya:",
-				"public": "Publik",
-				"in_lobby": "Di Lobi",
-				"open": "Terbuka",
-				"friends": "Teman"
-			},
+			"only": { "title": "Hanya:", "public": "Publik", "in_lobby": "Di Lobi", "open": "Terbuka", "friends": "Teman" },
 			"search_placeholder": "Cari",
 			"show_selection": { "title": "Pemilihan Acara", "auto": "Otomatis", "looting": "Pengumpulan" },
-			"answering_mode": {
-				"title": "Mode Cara Menjawab",
-				"typing": "Mengetik",
-				"multiple_choice": "Pilihan Ganda"
-			},
-			"song_type": {
-				"title": "Tipe Lagu",
-				"openings": "Opening",
-				"endings": "Ending",
-				"inserts": "Insert"
-			},
+			"answering_mode": { "title": "Mode Menjawab", "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
+			"song_type": { "title": "Tipe Lagu", "openings": "Opening", "endings": "Ending", "inserts": "Insert" },
 			"song_selection": {
 				"title": "Pemilihan Lagu",
 				"watched": "Ditonton",
@@ -2072,18 +2061,1163 @@
 				"amq_awards": "Penghargaan AMQ",
 				"standard": "Standar"
 			},
-			"song_selection": {
-				"random": "Acak",
-				"mix": "Campur",
-				"watched": "Ditonton",
-				"custom": "Kustom"
-			},
+			"song_selection": { "random": "Acak", "mix": "Campur", "watched": "Ditonton", "custom": "Kustom" },
 			"room_closed": "Ruangan Ditutup",
 			"password": {
 				"title": "Kata Sandi Dibutuhkan",
 				"placeholder": "Masukan Kata Sandi",
-				"confirm_button": "Gabung"
+				"confirm_button": "Gabung",
+				"wrong_password": "Kata Sandi Salah",
+				"game_closed": "Game Tidak Tersedia Lagi"
 			}
 		}
+	},
+	"song_history": {
+		"title": "Riwayat Lagu",
+		"no_songs": "Tidak Ada Lagu",
+		"load_songs": "Muat Lagu",
+		"tabs": {
+			"current_game": "Game Saat Ini",
+			"last_game": "Game Sebelumnya",
+			"games": "Game Lampau",
+			"options": "Opsi"
+		},
+		"columns": {
+			"title": "Kolom",
+			"anime": "Anime",
+			"ann_id": "ID ANN",
+			"type": "Tipe",
+			"season": "Musim",
+			"name": "Nama",
+			"artist": "Artis",
+			"answer": "Jawaban",
+			"guesses": "Tebakan",
+			"difficulty": "Kesulitan",
+			"sample": "Sampel"
+		},
+		"options": {
+			"info": "Info",
+			"show_names": {
+				"title": "Tunjukan Nama",
+				"ticks": { "english": "Inggris", "default": "Bawahan", "romaji": "Romaji" }
+			},
+			"anime_link": {
+				"title": "Tautan Anime",
+				"ticks": {
+					"anilist": "Anilist",
+					"kitsu": "Kitsu",
+					"default": "Bawahan",
+					"mal": "MAL",
+					"ann": "ANN"
+				}
+			}
+		},
+		"song_window": {
+			"title": "Info Lagu",
+			"anime_english": "Inggris Anime",
+			"anime_romaji": "Romaji Anime",
+			"columns": {
+				"composer": "Komposer",
+				"arranger": "Penata Musik",
+				"all_working_titles": "Semua Judul Berfungsi",
+				"sample_point": "Titik Sampel",
+				"anime_type": "Tipe Anime",
+				"season_info": "Info Musim",
+				"vintage": "Vintage",
+				"anime_rating": "Rating Anime",
+				"genres": "Genre",
+				"tags": "Tag",
+				"video": "Video",
+				"list_sites": "List Situs",
+				"player_lists": "List Pemain"
+			},
+			"anime_type": {
+				"tv": "TV",
+				"movie": "Movie",
+				"ova": "OVA",
+				"ona": "ONA",
+				"special": "Spesial"
+			},
+			"list_status": {
+				"watching": "Watching",
+				"completed": "Completed",
+				"on_hold": "On Hold",
+				"dropped": "Dropped",
+				"planning": "Planning",
+				"looted": "Dikumpulkan"
+			}
+		},
+		"popovers": {
+			"download_json": "Unduh sebagai JSON",
+			"copy_setting_code": "Salin kode pengaturan untuk game ini",
+			"copied": "Tersalin!"
+		}
+	},
+	"quiz_builder": {
+		"title": "Pembuat Kuis",
+		"save": "Simpan",
+		"name": "Nama",
+		"quiz_name": "Nama Kuis",
+		"rule_button": {
+			"title": "Blok Aturan",
+			"description": "Blok aturan digunakan sebagai wadah untuk blok lain dan memungkinkan kamu mengatur pengaturan kuis khusus untuk lagu-lagu di dalamnya"
+		},
+		"algorithm_button": {
+			"title": "Blok Algoritma",
+			"description": "Blok algoritma digunakan untuk memakai algoritma pemilihan lagu milik game dalam memilih lagu untuk kuis ini."
+		},
+		"message_button": {
+			"title": "Blok Pesan",
+			"description": "Blok pesan menambahkan pesan yang ditampilkan kepada pemain di antara lagu-lagu dalam kuis"
+		},
+		"title_button": {
+			"title": "Blok Judul",
+			"description": "Blok judul mengatur judul yang ditampilkan selama kuis."
+		},
+		"sample_selector": { "start": "Mulai", "end": "Akhir" },
+		"save_window": {
+			"title": "Simpan Kuis",
+			"description": { "title": "Deskripsi", "placeholder": "Berikan deskripsi untuk kuis anda" },
+			"tags": "Tag",
+			"tags_max_warning": "Maks 2 Tag Diperbolehkan",
+			"save_button": "Simpan",
+			"saving": "Menyimpan"
+		},
+		"algorithm_block": {
+			"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
+			"genres": "_SPANC_ _NUMBER_ _SPANC_ Genre",
+			"tags": "_SPANC_ _NUMBER_ _SPANC_ Tag",
+			"popovers": {
+				"number_of_songs_selected": "Jumlah lagu yang dipilih oleh blok ini",
+				"number_of_songs_matched": "Jumlah lagu yang sesuai dengan pengaturan",
+				"watched_matching": "Jumlah tergantung pada list pemain yang sedang bermain",
+				"song_selection": "Pemilihan Lagu",
+				"song_difficulty": "Kesulitan Lagu",
+				"vintage": "Vintage",
+				"genre_count": "Jumlah genre dipilih",
+				"tag_count": "Jumlah tag dipilih",
+				"song_types": "Tipe Lagu"
+			},
+			"song_selection": {
+				"watched": "Ditonton",
+				"unwatched": "Belum Ditonton",
+				"random": "Acak",
+				"mixed": "Campuran"
+			}
+		},
+		"anime_block": {
+			"song_type": {
+				"opening": "OP _NUMBER_",
+				"ending": "ED _NUMBER_",
+				"insert": "IN _NUMBER_"
+			},
+			"number_of_songs_selected": {
+				"description": "Jumlah Lagu yang Dipilih dari Blok Anime Ini",
+				"label": "Jumlah Lagu"
+			}
+		},
+		"rule_block": {
+			"title": "Blok Aturan",
+			"tutorial_text": "Klik dua kali atau seret Anime/Lagu/Algoritma untuk menambahkannya ke Blok Aturan",
+			"popovers": {
+				"block_info": "Info Blok",
+				"block_info_content": "Jumlah Lagu: _NUMBER_ _BREAK_ Anime Unik: _NUMBER2_ _BREAK_ Lagu Unik: _NUMBER3_",
+				"allow_duplicates": "Izinkan acara duplikat untuk dipilih dari blok ini",
+				"guess_time_description": "Waktu Menebak bawahan untuk lagu di blok ini",
+				"sample_point_description": "Titik sampel bawahan untuk lagu di blok ini",
+				"playback_speed_description": "Kecepatan pemutaran bawahan untuk lagu di blok ini"
+			},
+			"delete_message": {
+				"title": "Hapus Blok Aturan",
+				"description": "Apa anda yakin ingin menghapus blok aturan ini?",
+				"confirm": "Hapus"
+			},
+			"cannot_delete_message": {
+				"title": "Tidak Bisa Menghapus Blok Aturan",
+				"description": "Setidaknya harus ada satu blok aturan berada di kuis ini"
+			},
+			"order_rule": {
+				"description": "Urutan lagu yang dipilih dari blok ini",
+				"random": "Acak",
+				"sequential": "Berurutan"
+			},
+			"song_count": {
+				"description": "Jumlah lagu yang akan dipilih dari blok ini",
+				"label": "Jumlah Lagu"
+			}
+		},
+		"song_block": {
+			"song_by_artist": "_SPANC_ _NAME_ _SPANC_ oleh _SPANC2_ _NAME2_ _SPANC2_",
+			"song_types": { "opening": "OP_NUMBER_", "ending": "ED_NUMBER_", "insert": "IN" }
+		},
+		"no_songs_warning": { "title": "Tidak Ada Lagu di Blok", "description": "Tidak ada lagu yang ditemukan di blok ini" },
+		"rule_labels": {
+			"guess_time": "Waktu Menebak",
+			"extra_guess_time": "Waktu Menebak Tambahan",
+			"playback_speed": "Kecepatan Pemutaran",
+			"sample_point": "Titik Sampel",
+			"override_guess_time": "Paksa ganti waktu menebak bawahan untuk blok ini",
+			"override_sample_point": "Paksa ganti titik sampel bawahan untuk blok ini",
+			"override_playback_speed": "Paksa ganti kecepatan pemutaran bawahan untuk blok ini"
+		},
+		"alerts": {
+			"max_rule_block_count": {
+				"title": "Jumlah Maks Blok Aturan Tercapai",
+				"description": "Anda Telah Mencapai jumlah maksimum _NUMBER_ blok aturan"
+			},
+			"max_rule_block_song_count": {
+				"title": "Maks Jumlah Lagu Blok Aturan Tercapai",
+				"description": "Semua _NUMBER_ lagu sudah ditetapkan ke blok aturan. Kurangi jumlah lagu yang diatur pada blok aturan sebelum membuat yang baru."
+			},
+			"max_algorithm_block_count": {
+				"title": "Jumlah Maks Blok Algoritma Tercapai",
+				"description": "Anda Telah Mencapai jumlah maksimum _NUMBER_ blok aturan"
+			},
+			"max_message_block_count": {
+				"title": "Jumlah Maks Blok Pesan Tercapai",
+				"description": "Anda Telah Mencapai jumlah maksimum _NUMBER_ blok pesan"
+			},
+			"max_title_block_count": {
+				"title": "Jumlah Maks Blok Judul Tercapai",
+				"description": "Anda Telah Mencapai jumlah maksimum _NUMBER_ blok judul"
+			},
+			"leave_warning": {
+				"title": "Tinggalkan Pembuat Kuis",
+				"description": "Apakah anda yakin ingin keluar dari pembuat kuis? Perubahan yang belum disimpan akan hilang",
+				"confirm": "Tinggalkan"
+			},
+			"no_quiz_name": {
+				"title": "Tidak Ada Nama Kuis",
+				"description": "Anda harus memberikan nama pada kuis anda sebelum menyimpan"
+			},
+			"quiz_saved": "Kuis Disimpan",
+			"save_failed": {
+				"title": "Gagal Menyimpan",
+				"description": "Sebuah Kesalahan terjadi ketika mencoba menyimpan kuis anda, Mohon coba lagi nanti."
+			},
+			"error_loading": {
+				"title": "Kesalahan Memuat Kuis",
+				"description": "Sebuah Kesalahan terjadi ketika mencoba memuat kuis anda, Mohon coba lagi nanti."
+			},
+			"block_limit_reached": {
+				"title": "Batas Blok Tercapai",
+				"description": "Anda telah mencapai jumlah maksimum jumlah _NUMBER_ blok yang diizinkan disebuah kuis"
+			}
+		},
+		"page_close_warning": "Meninggalkan halaman akan menyebabkan anda akan kehilangan kemajuan yang belum disimpan."
+	},
+	"game_chat": {
+		"game_chat": "Obrolan Game",
+		"spectators": "Penonton",
+		"spectate_button": "Tonton",
+		"queue": "Antrian",
+		"join_queue_button": "Gabung Antrian",
+		"leave_queue_button": "Tinggalkan Antrian",
+		"team_switch": "Tim",
+		"player_only_mode": "Obrolan Hanya Pemain",
+		"message": "Pesan",
+		"slowmode": "Obrolan Dalam mode lambat",
+		"repeat_message_warning": "Mengulangi pesan terlalu cepat",
+		"ranked_chat_level_warning": "Level _NUMBER_ diperlukan untuk menggunakan obrolan ranked",
+		"new_spectator_message": "_NAME_ Mulai menonton.",
+		"emotes_disabled_warning": "Emote dinonaktifkan ketik fase menebak di ranked",
+		"emote_only_mode_warning": "Obrolan hanya dalam mode emote",
+		"event_chat_level_warning": "Level _NUMBER_ diperlukan untuk menggunakan obrolan di ruangan event",
+		"emote_locked_in": "Emote Terkunci",
+		"kicked_message": "_NAME_ dikeluarkan dari ruangan",
+		"new_host_message": "_NAME_ sekarang adalah host ruangan.",
+		"stopped_spectating_message": "_NAME_ Berhenti menonton.",
+		"disconnected_message": "_NAME_ terputus.",
+		"reconnect_message": "_NAME_ tersambung kembali.",
+		"left_room_message": "_NAME_ meninggalkan ruangan.",
+		"joined_room_message": "_NAME_ bergabung di ruangan.",
+		"changed_to_player_message": "_NAME_ berubah ke pemain.",
+		"changed_to_spectator_message": "_NAME_ berubah ke penonton.",
+		"all_players_disconnect_message": "Semua pemain terputus, Dijeda sambil menunggu koneksi kembali",
+		"paused_game_message": "_NAME_ menjeda game.",
+		"unpaused_game_message": "_NAME_ melanjutkan game.",
+		"chat_normal_mode_message": "Moderator bergabung, Obrolan di mode normal",
+		"chat_in_emote_only_mode_message": "Tidak ada moderator, Obrolan hanya di mode emote",
+		"promoted_host_message": "_NAME_ dipromosikan menjadi host ruangan",
+		"kicked_from_room_alert": "Anda dikeluarkan dari ruangan",
+		"kicked_from_jam_game_alert": {
+			"title": "Dikeluarkan dari Kuis Jam",
+			"description": "Anda telah dikeluarkan dari Kuis Jam oleh moderator dan tidak bisa bergabung kembali untuk sejam"
+		},
+		"jam_quiz_ban_alert": {
+			"title": "Di-ban dari Kuis Jam",
+			"description": "Ban Jam Kuis anda habis dalam _NUMBER_ menit"
+		},
+		"emotes": {
+			"locked_in_emote_description": "Emote terkunci akan ditampilkan setelah fase menebak selesai",
+			"recent": "Sebelumnya",
+			"all": "Semua"
+		},
+		"kick_player": {
+			"title": "Keluarkan _NAME_?",
+			"description": "Pemain dikeluarkan tidak akan bisa bergabung di game kembali",
+			"kick_button": "Keluarkan"
+		},
+		"page_close_warning": "Meniggalkan halaman akan meninggalkan game. Yakin ingin melanjutkan?",
+		"error_leaving_queue": "Kesalahan Tak Terduga Saat Tinggalkan Antrian",
+		"error_joining_queue": {
+			"title": "Kesalahan Saat Gabung Antrian ",
+			"not_a_spectator": "Anda harus menjadi penonton untuk gabung antrian",
+			"already_in_queue": "Anda sudah berada dalam antrian",
+			"disabled": "Mengantri dinonaktifkan di ruangan ini"
+		}
+	},
+	"lobby": {
+		"leave_button": "Keluar",
+		"room": "Ruang",
+		"quiz_rules": "Aturan Kuis",
+		"stats_in": "Dimulai dalam",
+		"room_settings": "Pengaturan Ruangan",
+		"shuffle_teams": "Acak Tim",
+		"team_shuffled_message": "Tim Diacak",
+		"team": "Tim",
+		"host": "Host",
+		"team_unset": "Tidak Diatur",
+		"team_members": "Anggota Tim",
+		"join_themed_team": {
+			"title": "Gabung Tim",
+			"placeholder": "Masukan kode Tim",
+			"join_button": "Gabung"
+		},
+		"main_button": {
+			"start": "Mulai",
+			"join": "Gabung",
+			"ready": "Siap",
+			"unready": "Tidak Siap",
+			"room_is_full": "Ruangan Penuh",
+			"closing_in": "Ditutup Dalam",
+			"starts_in": "Mulai Dalam",
+			"starting_soon": "Mulai Sebentar lagi"
+		},
+		"blocked_join_messages": { "ranked_championship": "Hanya 150 Teratas di Wilayah bisa bergabung" },
+		"community_quiz": {
+			"click_to_select": "Klik disini untuk memilih kuis",
+			"click_to_change": "Kuis Komunitas Dipilih _BREAK_ Klik untuk Mengganti",
+			"no_quiz_selected": "No Community Quiz Selected , Tidak Ada Kuis Komunitas Dipilih",
+			"selected_quiz": "Kuis Komunitas Dipilih:",
+			"enabled": "Mode Kuis Komunitas Diaktifkan",
+			"disabled": "Mode Kuis Komunitas Dinonaktifkan"
+		},
+		"ranked_team": {
+			"no_team": "Tidak dalam Tim",
+			"team_code": "Kode Tim",
+			"create": "Buat",
+			"join": "Gabung",
+			"leave": "Keluar"
+		},
+		"rule_window": {
+			"title": "Ringkasan Mode Permainan",
+			"previous_button": "Sebelumnya",
+			"next_button": "Selanjutnya",
+			"categories": {
+				"team_mode": {
+					"title": "Mode Tim",
+					"team_selection": "Pemilihan",
+					"answering": "Menjawab",
+					"scoring": "Cara Skor",
+					"chat": "Obrolan"
+				},
+				"speed_scoring": {
+					"title": "Skor Cepat",
+					"answer_ranking": "Peringkat Jawaban",
+					"scoring": "Cara Skor",
+					"correct_answers": "Jawaban Benar"
+				},
+				"lives": {
+					"title": "Nyawa",
+					"losing_lives_1": "Hilang Nyawa 1",
+					"losing_lives_2": "Hilang Nyawa 2",
+					"winning": "Menang",
+					"reviving": "Menghidupkan Ulang"
+				},
+				"looting": {
+					"title": "Pengumpulan",
+					"dropping": "Dropping",
+					"looting": "Pengumpulan",
+					"containers": "Kontainer",
+					"changing_zones": "Mengganti Zona",
+					"inventory": "Inventaris"
+				},
+				"boss_mode": {
+					"title": "Mode Bos",
+					"bosses": "Bos",
+					"scoring": "Cara Skor",
+					"power_ups": "Power-Up",
+					"victory": "Kemenangan",
+					"defeat": "Kekalahan"
+				}
+			}
+		},
+		"room_closed": {
+			"title": "Ruangan Ditutup",
+			"lobby_closed": "Lobi Ditutup",
+			"mod_left": "Mod Keluar",
+			"host_left": "Host Keluar",
+			"all_players_left": "Semua Pemain Keluar",
+			"host_afk": "Host AFK",
+			"no_players": "Tidak Ada Pemain"
+		},
+		"mode_ids": { "ranked": "#Ranked", "themed": "#Themed", "event": "#Event" },
+		"too_many_custom_settings": {
+			"title": "Terlalu Banyak Pengaturan Kustom",
+			"description": "Terlalu banyak pengaturan kustom, coba hapus beberapa tag dan/atau vintage kustom."
+		},
+		"answering_mode": {
+			"title": "Mode Menjawab",
+			"typing": "Mengetik",
+			"multiple_choice": "Pilihan Ganda",
+			"selection": {
+				"title": "Pilih Mode Menjawab",
+				"description": "Pilih mode menjawab yang ingin kamu gunakan. Kamu bisa mengubahnya nanti di pojok kanan atas lobi."
+			}
+		},
+		"player_options": {
+			"profile": "Profil",
+			"promote_host": "Promosikan sebagai Host",
+			"change_to_spectator": "Ubah ke Penonton",
+			"kick": "Keluarkan dari Ruangan"
+		},
+		"errors": {
+			"error_changing_to_player": "Kesalahan Saat Mengubah ke Pemain",
+			"no_players_ready": {
+				"title": "Tidak Ada Pemain Siap",
+				"description": "Setidaknya harus ada satu pemain yang siap untuk memulai game"
+			},
+			"no_community_quiz": {
+				"title": "Tidak Ada Kuis Komunitas Dipilih",
+				"description": "Anda harus memilih sebuah kuis komunitas untuk memulai game"
+			}
+		},
+		"all_players_not_ready_warning": {
+			"title": "Tidak Semua Pemain Siap",
+			"description": "Tidak semua pemain siap. Pemain yang tidak siap akan dipindahkan ke penonton",
+			"start_button": "Mulai"
+		},
+		"game_settings": {
+			"changed_header": "Pengaturan game diubah",
+			"more": "+ _NUMBER_ lebih...",
+			"none": "Tidak ada",
+			"on": "Aktif",
+			"off": "Nonaktif",
+			"song_selection": {
+				"watched": "Ditonton",
+				"unwatched": "Belum Ditonton",
+				"random": "Acak",
+				"mainly_watched": "Mayoritas Ditonton",
+				"only_watched": "Hanya Ditonton"
+			},
+			"show_selection": { "auto": "Otomatis", "looting": "Pengumpulan" },
+			"answering_mode": {
+				"typing": "Mengetik",
+				"multiple_choice": "Pilihan Ganda",
+				"mix": "Campur"
+			},
+			"watched_distribution": { "random": "Acak", "weighted": "Berbobot", "equal": "Setara" },
+			"sample_point": {
+				"start": "Mulai",
+				"middle": "Pertengahan",
+				"end": "Akhir",
+				"random": "Acak"
+			},
+			"score_type": {
+				"count": "Menghitung",
+				"speed": "Kecepatan",
+				"hint": "Petunjuk",
+				"lives": "Nyawa",
+				"boss": "Bos"
+			},
+			"song_type": {
+				"openings": "Opening",
+				"endings": "Ending",
+				"inserts": "Insert",
+				"random": "Acak"
+			},
+			"vintage_seasons": {
+				"winter": "Winter",
+				"spring": "Spring",
+				"summer": "Summer",
+				"fall": "Fall"
+			},
+			"titles": {
+				"vintage": "Vintage",
+				"anime_score": "Skor Anime",
+				"player_score": "Skor Pemain",
+				"sample_point": "Titik Sampel",
+				"guess_time": "Waktu Menebak",
+				"inventory_size": "Ukuran Inventaris",
+				"looting_time": "Waktu Pengumpulan",
+				"song_selection": "Pemilihan Lagu",
+				"show_selection": "Pemilihan Acara",
+				"number_of_songs": "Jumlah Lagu",
+				"number_of_players": "Jumlah Pemain",
+				"song_popularity": "Popularitas Lagu",
+				"song_difficulty": "Kesulitan Lagu",
+				"song_types": "Tipe Lagu",
+				"opening_categories": " Kategori Opening",
+				"ending_categories": "Kategori Ending",
+				"insert_categories": "Kategori Insert",
+				"room_name": "Nama Ruangan",
+				"room_private": "Ruangan Pribadi",
+				"password": "Kata Sandi",
+				"playback_speed": "Kecepatan Pemutaran",
+				"game_mode": "Mode Game",
+				"modifiers": "Modifikator",
+				"type": "Tipe",
+				"genre": "Genre",
+				"tags": "Tag",
+				"lives": "Nyawa",
+				"boss_lives": "Nyawa Bos",
+				"boss_power_ups": "Power Up Bos",
+				"boss_max_songs": "Maks Lagu Bos",
+				"scoring": "Cara Skor",
+				"team_size": "Ukuran Tim",
+				"watched_distribution": "Distribusi Ditonton",
+				"answering": "Menjawab",
+				"extra_guess_time": "Waktu Menebak Tambahan",
+				"skip_guessing": "Lewati Menebak",
+				"skip_replay": "Lewati Putar Ulang",
+				"duplicates": "Duplikat",
+				"loot_dropping": "Menjatuhkan Kumpulan",
+				"rebroadcast_songs": "Lagu Siaran Ulang",
+				"dub_songs": "Lagu Dub",
+				"full_song_range": "Rentang Lagu Penuh",
+				"queueing": "Mengantri",
+				"ova": "OVA",
+				"ona": "ONA",
+				"tv": "TV",
+				"movie": "Movie",
+				"special": "Spesial"
+			}
+		},
+		"ranked_rules": {
+			"title": "Aturan Ranked",
+			"description": "Pertandingan ranked adalah tempat di mana pemain dapat menguji kemampuan individu mereka melawan pemain lain di komunitas. _BREAK_ Dalam pertandingan ranked, kamu bersaing dengan semua pemain lain untuk menebak lagu terbanyak, dengan tingkat kesulitan mulai dari yang paling mudah hingga paling sulit di dalam game. _BREAK_ Di akhir pertandingan, kamu akan mendapatkan poin berdasarkan performamu. Kumpulkan poin sepanjang musim untuk membuka lencana unik dan mendapatkan tempat di pertandingan championship di akhir musim! _BREAK_ Untuk menjaga integritas pertandingan peringkat, penting bagi anda untuk mematuhi aturan di bawah ini, karena melanggar aturan dapat menyebabkan akun anda di-ban dan/atau dikeluarkan dari mode ranked.",
+			"themed_title": "Aturan Kuis Themed",
+			"themed_description": "Kuis Themed adalah tempat di mana pemain dapat menguji kemampuan mereka pada tema tertentu yang dipilih untuk hari itu melawan pemain lain di komunitas! _BREAK_ Setiap kuis bertema akan menghadirkan kumpulan lagu unik sesuai tema, dan dirancang sebagai cara yang seru dan segar untuk menantang diri sendiri melawan komunitas dalam suasana yang kurang kompetitif dan lebih berfokus pada kesenangan. _BREAK_ Meskipun tidak sekompetitif pertandingan ranked, tetap penting bagi anda untuk mematuhi aturan agar tidak merusak pengalaman pemain lain. Melanggar aturan dapat menyebabkan akun anda diblokir dan/atau dikeluarkan dari Kuis Harian.",
+			"play_solo": {
+				"title": "Bermain Solo",
+				"description": "Mode ranked adalah ujian kemampuan individu, jadi memberikan petunjuk dan/atau jawaban kepada pemain lain, maupun menerimanya, melanggar aturan."
+			},
+			"themed_team_play": {
+				"title": "Bermain Tim",
+				"description": "Bermain kuis themed secara tim itu memungkinkan. Untuk melakukannya, buat atau gabung ke tim melalui opsi di pojok kanan atas lobi. Saat berada dalam tim, anda boleh bekerja sama untuk menebak jawaban dan akan berbagi skor yang sama. _BREAK_ Tidak diperbolehkan membagikan jawaban atau petunjuk apa pun kepada orang di luar tim anda."
+			},
+			"no_cheating": {
+				"title": "Jangan Curang",
+				"description": "Menggunakan alat apa pun yang memberikan keuntungan tidak adil dibanding pemain lain sangat dilarang. Ini termasuk menggunakan alat eksternal untuk mendapatkan informasi tambahan tentang lagu, mencari lirik di Google, dan secara umum metode atau alat eksternal apa pun yang memberi keuntungan tidak adil atas pemain lain."
+			},
+			"mod_instructions": {
+				"title": "Ikuti Instruksi dari Moderator",
+				"description": "Moderator game bekerja keras untuk menjaga mode ranked tetap adil bagi semua pemain, jadi penting bagi anda untuk mengikuti setiap instruksi yang mereka berikan agar hal tersebut dapat terjaga."
+			},
+			"english_chat": {
+				"title": "Gunakan Bahasa Inggris di Obrolan",
+				"description": "Tidak memungkinkan untuk memoderasi semua bahasa, jadi gunakan bahasa Inggris dan emote saja di obrolan mode ranked."
+			}
+		}
+	},
+	"quiz": {
+		"leave_button": "Keluar",
+		"leave_quiz_option": { "title": "Keluar Kuis?", "stay": "Tinggal" },
+		"return_to_lobby": {
+			"popover": "Mulai Vote Untuk Kembali ke Lobi?",
+			"vote_message": "Kembali Ke Lobi?",
+			"yes": "Ya",
+			"no": "TIdak",
+			"start_vote": "Mulai Vote Kembali ke Lobi?",
+			"start_button": "Mulai"
+		},
+		"join_button": "Gabung",
+		"video_quality": { "720p": "720p", "480p": "480p", "sound": "Suara" },
+		"settings_popover": "Pengaturan",
+		"song_history_popover": "Riwayat Lagu",
+		"vote_skip": "Vote Lewati",
+		"vote_states": {
+			"voted_skip": " Telah Vote _BREAK_ Lewati",
+			"no_votes": "Tidak Ada _BREAK_ Vote",
+			"waiting_answers": "Menunggu _BREAK_ Jawaban",
+			"waiting_buffering": "Menunggu _BREAK_ Buffering",
+			"ending_soon": "Segera _BREAK_ Berakhir",
+			"votes_needed": "_NUMBER_/_NUMBER2_ _BREAK_ Vote"
+		},
+		"no_songs_matching_settings": "Tidak ada lagu cocok di pengaturan ini, kembali ke lobi",
+		"team_answer": "_NAME_ menjawab: _MESSAGE_",
+		"current_answer": "Jawaban Saat ini",
+		"pause_button_popovers": {
+			"pause": "Jeda game setelah akhir lagu ini. Semua Pemain bisa akhiri jeda.",
+			"unpause": "Akhiri jeda game"
+		},
+		"anime_names": {
+			"alternative_names": "Nama Alternatif",
+			"alternative_answers": "Jawaban Alternatif"
+		},
+		"avatar": {
+			"loot": "Kumpul",
+			"host": "Host",
+			"hidden": "Tersembunyi",
+			"hidden_description": "Tersembunyi dari pemain lain",
+			"answer_time": "Waktu Jawab",
+			"answer_time_number": "_NUMBER_s",
+			"answering_mode": "Mode Menjawab",
+			"multiple_choice": "Pilihan Ganda",
+			"answer_status": {
+				"watching": "W",
+				"completed": "C",
+				"on_hold": "H",
+				"dropped": "D",
+				"plan_to_watch": "P"
+			},
+			"hint_used": {
+				"name": "Petunjuk Nama Digunakan",
+				"info": "Petunjuk Info Digunakan",
+				"multiple_choice": "Petunjuk Pilihan Ganda Digunakan"
+			}
+		},
+		"song_info": {
+			"title": "Info Lagu",
+			"song_name": "Judul Lagu",
+			"arranger": "Penata Lagu",
+			"artist": "Artis",
+			"composer": "Komposer",
+			"type": "Tipe",
+			"video": "Video",
+			"anime": "Anime",
+			"report": "Laporkan",
+			"report_reason": "Alasan Lapor",
+			"report_reasons": {
+				"wrong_song": "Lagu Salah",
+				"bad_quality": "Kualitas Jelek",
+				"background_noise": "Suara Background",
+				"broken_video": "Video Rusak"
+			},
+			"extra_info": {
+				"title": "Info Tambahan",
+				"type": "Tipe",
+				"vintage": "Vintage",
+				"anime_rating": "Rating Anime",
+				"difficulty": "Kesulitan",
+				"genre": "Genre",
+				"tags": "Tag"
+			},
+			"song_type": {
+				"opening": "Opening _NUMBER_",
+				"ending": "Ending _NUMBER_",
+				"insert": "Lagu Insert",
+				"rebroadcast": "(Siaran Ulang)",
+				"dub": "(Dub)",
+				"type_text": "_NAME_ _DESCRIPTION_"
+			}
+		},
+		"standings": {
+			"title": "Klasemen",
+			"number_of_correct_guesses_popover": "Jumlah Jawaban Benar",
+			"correct_guesses": "Jawaban Benar",
+			"list_number": "Jumlah List",
+			"hide_team_messages": {
+				"mod": "Mod tidak bisa menyembunyikan tim",
+				"in_team": "tidak bisa menyembunyikan tim ketika dalam tim",
+				"hide_teams": "Tunjukan/Sembunyikan tim dalam kuis"
+			},
+			"points": "Poin",
+			"lives": "Nyawa"
+		},
+		"video_player": {
+			"sound_only": "Hanya Suara",
+			"video_hidden": { "title": "Video Disembunyikan", "click_to_reveal": "Klik Untuk Perlihat" },
+			"click_to_hide_video": "Klik Untuk Menyembunyikan",
+			"loading": "Memuat",
+			"answers": "Jawaban",
+			"waiting_buffering": "Menunggu Buffering",
+			"returning_to_lobby": "Sedang Kembali ke Lobi",
+			"pausing_after_this_song": "Menjeda Setalah Lagu Ini",
+			"continuing_in": "Melanjutkan dalam: _SPAN_ _NUMBER_ _SPAN_",
+			"hints": {
+				"title": "Petunjuk",
+				"point_value": "Nilai poin dari lagu saat ini",
+				"name": {
+					"title": "Nama",
+					"description": "Menampilkan panjang jawaban dan 4 karakter dari jawaban tersebut"
+				},
+				"info": { "title": "Info", "description": "Menampilkan sebagian informasi lagu untuk lagu ini" },
+				"multiple_choice": {
+					"title": "Pilgan",
+					"description": "Dapatkan opsi pilihan ganda untuk lagu ini"
+				},
+				"hint_popover": "_DESCRIPTION_ - Harga poin: _NUMBER_"
+			},
+			"skip_messages": {
+				"answers": "Melewati ke Jawaban",
+				"lobby": "Melewati ke Lobi",
+				"next_song": "Melewati ke Lagu Selanjutnya",
+				"final_standings": "Melewati ke Hasil Akhir",
+				"rewards": "Melewati ke Hadiah",
+				"end": "Melewati ke Akhir"
+			}
+		},
+		"jam_mode": {
+			"next_round_vote": "Vote Ronde Selanjutnya",
+			"theme": "Tema",
+			"active_theme": "Tema Aktif",
+			"select_one": "Pilih Satu",
+			"none": "Tidak Ada",
+			"song_types": "Tipe Lagu",
+			"select_one_or_more": "Pilih satu atau lebih",
+			"openings": "Opening",
+			"endings": "Ending",
+			"inserts": "Insert"
+		},
+		"looting": {
+			"players": "Pemain",
+			"time_left": "Waktu Tersisa",
+			"map_button": "Peta",
+			"collected_shows": "Acara Dikumpulkan",
+			"select_drop_zone": "Pilih Lokasi Mendarat",
+			"full_inventory": {
+				"title": "Inventaris Penuh",
+				"description": "Jatuhkan acara yang ada di inventaris (kiri atas) untuk lanjut mengumpulkan"
+			},
+			"players_in_tile": "Pemain Dalam Ubin",
+			"data_store": "Penyimpanan Data",
+			"active_spectators": "Penonton Aktif",
+			"no_active_spectators": "Tidak ada Penonton Aktif"
+		},
+		"boss_mode": {
+			"boss": "Bos",
+			"defeat": "Kekalahan",
+			"victory": "Kemenangan",
+			"correct": "_SPAN_ _NUMBER_ _SPAN_ Benar",
+			"lives": "_SPAN_ _NUMBER_ _SPAN_ / _SPAN2_ _NUMBER2_ _SPAN2_ Nyawa",
+			"points": "_SPAN_ _NUMBER_ _SPAN_ Poin",
+			"players_left": "Pemain Bos Tersisa",
+			"powers_left": "_SPAN_ _NUMBER_ _SPAN_ Power Tersisa",
+			"powers": {
+				"name_hint": {
+					"title": "Petunjuk Nama",
+					"description": "Menampilkan panjang jawaban dan 4 karakter dari jawaban tersebut"
+				},
+				"song_hint": {
+					"title": "Petunjuk Lagu",
+					"description": "Menampilkan sebagian informasi lagu untuk lagu ini"
+				},
+				"peek_answers": {
+					"title": "Intip Jawaban",
+					"description": "Tunjukan jawaban yang sudah dikirim pemain lain"
+				},
+				"more_time": { "title": "Waktu Lebih", "description": "Tambah waktu menebak sebanyak 10 detik" },
+				"end_guessing": {
+					"title": "Akhiri Menebak",
+					"description": "Langsung akhiri sesi menebak"
+				},
+				"multiple_choice": {
+					"title": "Pilihan Ganda",
+					"description": "Dapatkan jawaban pilihan ganda untuk lagu ini"
+				}
+			}
+		},
+		"alerts": {
+			"fatal_error": { "title": "Kesalahan Fatal Server Ketika Sedang Kuis", "description": "Sedang Kembali ke Lobi" },
+			"joining_game": {
+				"title": "Sedang Bergabung ke Game",
+				"description": "Anda akan ditambahkan ke game setelah fase hasil selanjutnya"
+			},
+			"join_team": {
+				"title": "Gabung Tim?",
+				"description": "Masukan kode tim untuk join ke sebuah tim, biarkan kosong untuk solo",
+				"join_button": "Gabung"
+			}
+		},
+		"nexus": {
+			"target_attack": "Target Serangan",
+			"target_swap": "Ubah Target",
+			"fuwagi_shop": "Toko Fuwagi",
+			"fuwagi_item_popover": "_DESCRIPTION_ _BREAK_ Cooldown: _NUMBER_",
+			"genre_icon": {
+				"damage_done": "Tingkatkan kerusakan yang diberi untuk acara _NAME_",
+				"damage_taken": "Kurangi kerusakan yang diterima untuk acara _NAME_"
+			}
+		}
+	},
+	"anime_tags": {
+		"4-koma": "4-koma",
+		"4k": "4k",
+		"achromatic": "Achromatic",
+		"achronological_order": "Tak Kronologis",
+		"acrobatics": "Akrobatik",
+		"acting": "Akting",
+		"adoption": "Adopsi",
+		"advertisement": "Iklan",
+		"afterlife": "Alam Baka",
+		"age_gap": "Perbedaan Usia",
+		"age_regression": "Regresi Usia",
+		"agriculture": "Pertanian",
+		"airsoft": "Airsoft",
+		"alchemy": "Alkimia",
+		"aliens": "Alien",
+		"alternate_universe": "Alam Semesta Alternatif",
+		"american_football": "Sepak Bola Amerika",
+		"amnesia": "Amnesia",
+		"anachronism": "Anakronisme",
+		"angels": "Malaikat",
+		"animals": "Hewan",
+		"anthology": "Antologi",
+		"anthropomorphism": "Antropomorfisme",
+		"anti-hero": "Anti-Hero",
+		"archery": "Panahan",
+		"aromantic": "Aromantik",
+		"arranged_marriage": "Perjodohan",
+		"artificial_intelligence": "Kecerdasan Buatan",
+		"asexual": "Aseksual",
+		"assassins": "Pembunuh Bayaran",
+		"astronomy": "Astronomi",
+		"athletics": "Atletik",
+		"augmented_reality": "Augmented Reality",
+		"autobiographical": "Otobiografi",
+		"aviation": "Penerbangan",
+		"badminton": "Bulu Tangkis",
+		"band": "Band",
+		"bar": "Bar",
+		"baseball": "Bisbol",
+		"basketball": "Bola Basket",
+		"battle_royale": "Battle Royale",
+		"biographical": "Biografis",
+		"bisexual": "Biseksual",
+		"blackmail": "Pemerasan",
+		"board_game": "Permainan Papan",
+		"boarding_school": "Sekolah Asrama",
+		"body_horror": "Horor Tubuh",
+		"body_image": "Citra Tubuh",
+		"body_swapping": "Tukar Tubuh",
+		"bowling": "Bowling",
+		"boxing": "Tinju",
+		"bullying": "Perundungan",
+		"butler": "Pelayan Pria",
+		"calligraphy": "Kaligrafi",
+		"camping": "Berkemah",
+		"cannibalism": "Kanibalisme",
+		"card_battle": "Duel Kartu",
+		"cars": "Mobil",
+		"centaur": "Centaur",
+		"cgi": "CGI",
+		"cheerleading": "Pemandu Sorak",
+		"chibi": "Chibi",
+		"chimera": "Chimera",
+		"chuunibyou": "Chuunibyou",
+		"circus": "Sirkus",
+		"class_struggle": "Perjuangan Kelas",
+		"classic_literature": "Sastra Klasik",
+		"classical_music": "Musik Klasik",
+		"clone": "Kloning",
+		"coastal": "Pesisir",
+		"cohabitation": "Tinggal Bersama",
+		"college": "Kampus",
+		"coming_of_age": "Pendewasaan",
+		"conspiracy": "Konspirasi",
+		"cosmic_horror": "Horor Kosmik",
+		"cosplay": "Cosplay",
+		"cowboys": "Koboi",
+		"creature_taming": "Menjinakkan Makhluk",
+		"crime": "Kriminal",
+		"criminal_organization": "Organisasi Kriminal",
+		"crossdressing": "Crossdressing",
+		"crossover": "Crossover",
+		"cult": "Sekte",
+		"cultivation": "Kultivasi",
+		"curses": "Kutukan",
+		"cute_boys_doing_cute_things": "Cowok Imut Melakukan Hal Imut",
+		"cute_girls_doing_cute_things": "Cewek Imut Melakukan Hal Imut",
+		"cyberpunk": "Cyberpunk",
+		"cyborg": "Cyborg",
+		"cycling": "Bersepeda",
+		"dancing": "Menari",
+		"death_game": "Permainan Maut",
+		"delinquents": "Berandalan",
+		"demons": "Iblis",
+		"denpa": "Denpa",
+		"desert": "Desert",
+		"detective": "Detektif",
+		"dinosaurs": "Dinosaurus",
+		"disability": "Disabilitas",
+		"dragons": "Naga",
+		"drawing": "Menggambar",
+		"drugs": "Obat-obatan",
+		"dullahan": "Dullahan",
+		"dungeon": "Dungeon",
+		"dystopian": "Distopia",
+		"e-sports": "E-Sports",
+		"eco-horror": "Horor Lingkungan",
+		"economics": "Ekonomi",
+		"educational": "Edukasi",
+		"elderly_protagonist": "Protagonis Lansia",
+		"elf": "Elf",
+		"ensemble_cast": "Banyak Karakter Utama",
+		"environmental": "Lingkungan",
+		"episodic": "Episodik",
+		"ero_guro": "Ero Guro",
+		"espionage": "Mata-mata",
+		"estranged_family": "Keluarga Renggang",
+		"exorcism": "Pengusiran Setan",
+		"fairy": "Peri",
+		"fairy_tale": "Dongeng",
+		"fake_relationship": "Hubungan Palsu",
+		"family_life": "Kehidupan Keluarga",
+		"fashion": "Fashion",
+		"female_protagonist": "Protagonis Wanita",
+		"femboy": "Femboy",
+		"fencing": "Anggar",
+		"filmmaking": "Pembuatan Film",
+		"firefighters": "Pemadam Kebakaran",
+		"fishing": "Memancing",
+		"fitness": "Kebugaran",
+		"flash": "Flash",
+		"food": "Makanan",
+		"football": "Sepak Bola",
+		"foreign": "Asing",
+		"found_family": "Keluarga Temuan",
+		"fugitive": "Buronan",
+		"full_cgi": "Full CGI",
+		"gambling": "Perjudian",
+		"gangs": "Gangs",
+		"gender_bending": "Gender Bender",
+		"ghost": "Hantu",
+		"go": "Go",
+		"goblin": "Goblin",
+		"gods": "Dewa",
+		"golf": "Golf",
+		"gore": "Gore",
+		"guns": "Senjata Api",
+		"gyaru": "Gyaru",
+		"handball": "Bola Tangan",
+		"henshin": "Henshin",
+		"heterosexual": "Heteroseksual",
+		"hikikomori": "Hikikomori",
+		"hip-hop_music": "Musik Hip-hop",
+		"historical": "Sejarah",
+		"homeless": "Tunawisma",
+		"horticulture": "Hortikultura",
+		"ice_skating": "Seluncur Indah",
+		"idol": "Idol",
+		"impersonation": "Penyamaran",
+		"indigenous_cultures": "Budaya Adat",
+		"inn": "Penginapan",
+		"isekai": "Isekai",
+		"iyashikei": "Iyashikei",
+		"jazz_music": "Musik Jazz",
+		"josei": "Josei",
+		"judo": "Judo",
+		"kaiju": "Kaiju",
+		"karuta": "Karuta",
+		"kemonomimi": "Kemonomimi",
+		"kids": "Anak-anak",
+		"kingdom_management": "Manajemen Kerajaan",
+		"konbini": "Konbini",
+		"kuudere": "Kuudere",
+		"lacrosse": "Lacrosse",
+		"language_barrier": "Kendala Bahasa",
+		"long_strip": "Komik Strip Panjang",
+		"love_triangle": "Cinta Segitiga",
+		"mafia": "Mafia",
+		"magic": "Sihir",
+		"mahjong": "Mahjong",
+		"maids": "Maid",
+		"male_protagonist": "Protagonis Pria",
+		"martial_arts": "Bela Diri",
+		"masturbating": "Masturbasi",
+		"matchmaking": "Pencarian Jodoh",
+		"matriarchy": "Matriarki",
+		"medicine": "Medis",
+		"medieval": "Abad Pertengahan",
+		"memory_manipulation": "Manipulasi Memori",
+		"mermaid": "Putri Duyung",
+		"metal_music": "Musik Metal",
+		"military": "Militer",
+		"mixed_gender_harem": "Harem Campuran",
+		"mixed_media": "Multimedia",
+		"monster_boy": "Cowok Monster",
+		"monster_girl": "Cewek Monster",
+		"mopeds": "Moped",
+		"motorcycles": "Sepeda Motor",
+		"mountaineering": "Mendaki Gunung",
+		"mythology": "Mitologi",
+		"natural_disaster": "Bencana Alam",
+		"necromancy": "Necromancy",
+		"nekomimi": "Nekomimi",
+		"ninja": "Ninja",
+		"no_dialogue": "Tanpa Dialog",
+		"noir": "Noir",
+		"non-fiction": "Non-fiksi",
+		"none": "Tidak Ada",
+		"nudity": "Ketelanjangan",
+		"nun": "Biarawati",
+		"office": "Kantor",
+		"office_lady": "Wanita Kantoran",
+		"oiran": "Oiran",
+		"ojou-sama": "Ojou-sama",
+		"open_to_interpretation": "Terbuka untuk Interpretasi",
+		"orphan": "Yatim Piatu",
+		"otaku_culture": "Budaya Otaku",
+		"pandemic": "Pandemi",
+		"parenthood": "Mengasuh Anak",
+		"parkour": "Parkur",
+		"parody": "Parodi",
+		"philosophy": "Filosofi",
+		"photography": "Fotografi",
+		"pirates": "Bajak Laut",
+		"poker": "Poker",
+		"police": "Polisi",
+		"politics": "Politik",
+		"polyamorous": "Poliamori",
+		"post-apocalyptic": "Pasca-Apokaliptik",
+		"pov": "Sudut Pandang",
+		"pregnancy": "Kehamilan",
+		"primarily_adult_cast": "Pemeran Utama Dewasa",
+		"primarily_animal_cast": "Pemeran Utama Hewan",
+		"primarily_child_cast": "Pemeran Utama Anak-anak",
+		"primarily_female_cast": "Pemeran Utama Wanita",
+		"primarily_male_cast": "Pemeran Utama Pria",
+		"primarily_teen_cast": "Pemeran Utama Remaja",
+		"prison": "Penjara",
+		"proxy_battle": "Pertarungan Wakil",
+		"psychosexual": "Psikoseksual",
+		"puppetry": "Wayang",
+		"rakugo": "Rakugo",
+		"real_robot": "Robot Asli",
+		"rehabilitation": "Rehabilitasi",
+		"reincarnation": "Reinkarnasi",
+		"religion": "Agama",
+		"rescue": "Penyelamatan",
+		"restaurant": "Restoran",
+		"revenge": "Balas Dendam",
+		"robots": "Robot",
+		"rock_music": "Musik Rock",
+		"royal_affairs": "Urusan Kerajaan",
+		"rugby": "Rugbi",
+		"rural": "Pedesaan",
+		"samurai": "Samurai",
+		"satire": "Satir",
+		"school": "Sekolah",
+		"school_club": "Klub Sekolah",
+		"scuba_diving": "Menyelam",
+		"seinen": "Seinen",
+		"shapeshifting": "Berubah Bentuk",
+		"ships": "Kapal",
+		"shogi": "Shogi",
+		"shoujo": "Shoujo",
+		"shoujo_ai": "Shoujo Ai",
+		"shounen": "Shounen",
+		"shounen_ai": "Shounen Ai",
+		"skateboarding": "Skateboard",
+		"skeleton": "Tengkorak",
+		"slapstick": "Komedi Slapstick",
+		"slavery": "Perbudakan",
+		"snowscape": "Latar Salju",
+		"space": "Luar Angkasa",
+		"space_opera": "Space Opera",
+		"spearplay": "Tombak",
+		"steampunk": "Steampunk",
+		"stop_motion": "Stop Motion",
+		"succubus": "Succubus",
+		"suicide": "Bunuh Diri",
+		"sumo": "Sumo",
+		"super_power": "Kekuatan Super",
+		"super_robot": "Super Robot",
+		"superhero": "Superhero",
+		"surfing": "Selancar",
+		"surreal_comedy": "Komedi Surealis",
+		"survival": "Bertahan Hidup",
+		"swimming": "Renang",
+		"swordplay": "Pedang",
+		"table_tennis": "Tenis Meja",
+		"tada_banri": "Tada Banri",
+		"tanks": "Tank",
+		"tanned_skin": "Kulit Tan",
+		"teacher": "Guru",
+		"tennis": "Tenis",
+		"terrorism": "Terorisme",
+		"time_loop": "Pengulangan Waktu",
+		"time_manipulation": "Manipulasi Waktu",
+		"time_skip": "Lompatan Waktu",
+		"tokusatsu": "Tokusatsu",
+		"tomboy": "Tomboy",
+		"torture": "Penyiksaan",
+		"tragedy": "Tragedi",
+		"trains": "Kereta",
+		"transgender": "Transgender",
+		"travel": "Perjalanan",
+		"triads": "Triad",
+		"tsundere": "Tsundere",
+		"twins": "Kembar",
+		"unrequited_love": "Cinta Tak Berbalas",
+		"urban": "Perkotaan",
+		"urban_fantasy": "Fantasi Perkotaan",
+		"vampire": "Vampir",
+		"vertical_video": "Video Vertikal",
+		"veterinarian": "Dokter Hewan",
+		"video_games": "Video Game",
+		"vikings": "Viking",
+		"villainess": "Penjahat Wanita",
+		"virtual_world": "Dunia Virtual",
+		"vocal_synth": "Sintesis Vokal",
+		"volleyball": "Bola Voli",
+		"vtuber": "VTuber",
+		"war": "Perang",
+		"werewolf": "Manusia Serigala",
+		"wilderness": "Alam Liar",
+		"witch": "Penyihir",
+		"work": "Pekerjaan",
+		"wrestling": "Gulat",
+		"writing": "Menulis",
+		"wuxia": "Wuxia",
+		"yakuza": "Yakuza",
+		"yandere": "Yandere",
+		"youkai": "Siluman",
+		"yuri": "Yuri",
+		"zombie": "Zombie",
+		"agender": "Agender",
+		"ancient_china": "Tiongkok Kuno",
+		"ballet": "Balet",
+		"boys_love": "Boys' Love",
+		"dissociative_identities": "Kepribadian Ganda",
+		"female_harem": "Harem Wanita",
+		"full_color": "Berwarna",
+		"kabuki": "Kabuki",
+		"lgbtq_themes": "Tema LGBTQ+",
+		"lost_civilization": "Peradaban Hilang",
+		"makeup": "Makeup",
+		"male_harem": "Harem Pria",
+		"manzai": "Manzai",
+		"marriage": "Pernikahan",
+		"modeling": "Modeling",
+		"musical_theater": "Teater Musikal",
+		"outdoor_activities": "Aktivitas Luar Ruangan",
+		"reverse_isekai": "Reverse Isekai",
+		"rotoscoping": "Rotoscoping",
+		"shrine_maiden": "Gadis Kuil",
+		"software_development": "Pengembangan Software",
+		"teens_love": "Cinta Remaja"
+	},
+	"genre_tags": {
+		"action": "Aksi",
+		"adventure": "Petualangan",
+		"comedy": "Komedi",
+		"drama": "Drama",
+		"ecchi": "Ecchi",
+		"fantasy": "Fantasi",
+		"horror": "Horor",
+		"mahou_shoujo": "Gadis Penyihir",
+		"mecha": "Mecha",
+		"music": "Musik",
+		"mystery": "Misteri",
+		"psychological": "Psikologi",
+		"romance": "Romansa",
+		"sci-fi": "Sains Fiksi",
+		"slice_of_life": "Potongan Kehidupan",
+		"sports": "Olahraga",
+		"supernatural": "Supernatural",
+		"thriller": "Thriller"
 	}
 }
