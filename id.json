@@ -1144,7 +1144,7 @@
 			"standard": "Sebagai seorang jenius yang mengaku diri dan ilmuwan ulung, Chika tidak membiarkan apa pun menghalangi dirinya dan eksperimen berikutnya. Hal ini membuatnya cukup terkenal di sekolahnya, tempat ia menjabat sebagai ketua klub sains."
 		},
 		"yumemi": {
-			"standard": "Yumemi is usually found sleeping at any chance she gets. Most people are therefore surprised when they hear she’s the vice president of the science club, though she only joined to help her childhood friend Chika get enough members."
+			"standard": "Yumemi biasanya tertidur setiap kali ada kesempatan. Karena itu, kebanyakan orang terkejut saat mengetahui bahwa dia adalah wakil ketua klub sains, meskipun sebenarnya dia bergabung hanya untuk membantu sahabat masa kecilnya, Chika, agar klub tersebut punya cukup anggota"
 		},
 		"katsu": {
 			"standard": "Sebagai pemain terkemuka dalam permainan kartu Zetto, Katsu berusaha mengumpulkan kartu-kartu purba dari para pendahulu, yang konon memiliki kekuatan untuk mengubah dunia. Usahanya ini sering membawanya dalam pertarungan melawan organisasi bayangan yang juga memburu kartu-kartu tersebut."
@@ -2734,7 +2734,7 @@
 			"answers": "Jawaban",
 			"waiting_buffering": "Menunggu Buffering",
 			"returning_to_lobby": "Sedang Kembali ke Lobi",
-			"pausing_after_this_song": "Menjeda Setalah Lagu Ini",
+			"pausing_after_this_song": "Menjeda Setelah Lagu Ini",
 			"continuing_in": "Melanjutkan dalam: _SPAN_ _NUMBER_ _SPAN_",
 			"hints": {
 				"title": "Petunjuk",
@@ -2827,7 +2827,7 @@
 			},
 			"join_team": {
 				"title": "Gabung Tim?",
-				"description": "Masukan kode tim untuk join ke sebuah tim, biarkan kosong untuk solo",
+				"description": "Masukan kode tim untuk gabung ke sebuah tim, biarkan kosong untuk solo",
 				"join_button": "Gabung"
 			}
 		},
