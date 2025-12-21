@@ -4268,9 +4268,9 @@
 					"text": "Sebuah _HIGHLIGHT_ lingkaran misterius dengan simbol dan bentuk aneh _HIGHLIGHT_ tergambar di dalamnya terletak di tengah ruangan. _BREAK_ Saat tim mendekati lingkaran tersebut _HIGHLIGHT_ sebuah suara bergema di seluruh ruangan _HIGHLIGHT_: _BREAK_ “Untuk mendapatkan sesuatu, _HIGHLIGHT_ sesuatu dengan nilai yang setara harus dikorbankan _HIGHLIGHT_.”",
 					"no_artifact": "sebuah artefak",
 					"options": {
-						"fragments": "Letakan _NUMBER_ fragmen didalam lingkaran",
-						"artifact": "Letakan _NAME_ fragmen didalam lingkaran",
-						"step_inside": "Melangkah masuk kedalam lingkaran",
+						"fragments": "Letakan _NUMBER_ fragmen didalam Lingkaran",
+						"artifact": "Letakan artefak _NAME_ kedalam Lingkaran",
+						"step_inside": "Melangkah masuk kedalam Lingkaran",
 						"ignore": "Abaikan Lingkaran"
 					}
 				},
