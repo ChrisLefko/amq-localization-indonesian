@@ -376,7 +376,7 @@
 			"promo_one": {
 				"title": "Kuis tebak lagu yang tak berkesudahan",
 				"line_one": "35,000+ Lagu dari 8,000+ Anime",
-				"line_two": "Setiap Quiz dibuat Spesial hanya untuk Anda!",
+				"line_two": "Setiap Kuis dibuat Spesial hanya untuk Anda!",
 				"line_three": "Buat Kuis anda sendiri dari MyAnimeList, AniList & Kitsu Anda!",
 				"line_four": "Gratis untuk Dimainkan"
 			},
@@ -471,7 +471,7 @@
 			"championship": "Championship",
 			"championship_description": "150 pemain peringkat teratas bulan ini akan saling bertarung untuk memperebutkan gelar juara bulanan!",
 			"rest_day": "Hari Istirahat",
-			"rest_day_description": "Tidak ada quiz pada satu hari setelah Championship",
+			"rest_day_description": "Tidak ada kuis pada satu hari setelah Championship",
 			"ranked": "Ranked",
 			"ranked_finished": "Selesai",
 			"ranked_types": {
@@ -2640,7 +2640,7 @@
 		},
 		"jam_quiz_ban_alert": {
 			"title": "Di-ban dari Kuis Jam",
-			"description": "Ban Jam Kuis anda habis dalam _NUMBER_ menit"
+			"description": "Ban Kuis Jam anda habis dalam _NUMBER_ menit"
 		},
 		"emotes": {
 			"locked_in_emote_description": "Emote terkunci akan ditampilkan setelah fase menebak selesai",
@@ -2688,7 +2688,7 @@
 		"community_quiz": {
 			"click_to_select": "Klik disini untuk memilih kuis",
 			"click_to_change": "Kuis Komunitas Dipilih _BREAK_ Klik untuk Mengganti",
-			"no_quiz_selected": "No Community Quiz Selected , Tidak Ada Kuis Komunitas Dipilih",
+			"no_quiz_selected": "Tidak Ada Kuis Komunitas Dipilih",
 			"selected_quiz": "Kuis Komunitas Dipilih:",
 			"enabled": "Mode Kuis Komunitas Diaktifkan",
 			"disabled": "Mode Kuis Komunitas Dinonaktifkan"
