@@ -558,8 +558,8 @@
 			"weekly_short": "M",
 			"monthly": "Bulanan",
 			"monthly_short": "B",
-			"all_time": "Sepanjang Masa.",
-			"all_time_short": "SW",
+			"all_time": "Seluruh",
+			"all_time_short": "S",
 			"donate": "Donasi",
 			"amount": "Jumlah",
 			"description": "Tentukan avatar selanjutnya dengan donasi! Ketika Avatar Drive berakhir, nominasi avatar dengan jumlah donasi paling banyak akan diangkat kedalam game! Avatar Drive akan tetap berlangsung selama beberapa hari meskipun tujuan donasi sudah tercapai.",
@@ -660,7 +660,7 @@
 			"language": {
 				"custom": "Kustom",
 				"custom_description": "Sediakan file terjemahan untuk dicoba didalam game.",
-				"custom_title": "File Custom Bahasa",
+				"custom_title": "File Kustom Bahasa",
 				"custom_placeholder": "URL untuk file terjemahan",
 				"custom_alert_description": "Sediakan alamat URL ke File Terjemahan Anda",
 				"custom_failed_to_load": {
@@ -2077,7 +2077,7 @@
 		"scoring": {
 			"title": "Cara Skor",
 			"count": {
-				"title": "Menghitung",
+				"title": "Hitung",
 				"description": "Pemain mendapatkan 1 poin untuk setiap lagu yang berhasil ditebak dengan benar"
 			},
 			"hint": {
@@ -2085,7 +2085,7 @@
 				"description": "Pemain bisa mendapatkan petunjuk untuk lagu, tapi memperoleh poin lebih sedikit saat petunjuk digunakan."
 			},
 			"speed": {
-				"title": "Kecepatan",
+				"title": "Cepat",
 				"description": "Pemain mendapatkan lebih banyak poin semakin cepat mereka menebak lagu."
 			},
 			"lives": {
@@ -2279,7 +2279,7 @@
 			},
 			"scoring": {
 				"title": "Cara Skor",
-				"count": "Menghitung",
+				"count": "Hitung",
 				"hint": "Petunjuk",
 				"speed": "Kecepatan",
 				"lives": "Nyawa",
@@ -2300,7 +2300,7 @@
 			"only_non_default": {
 				"title": "Hanya Bukan Settingan Bawahan",
 				"sample_point": "Titik Sampel",
-				"playback_speed": "Kecepatan Pemutaran",
+				"playback_speed": "Kecepatan Putar",
 				"anime_score": "Skor Anime",
 				"vintage": "Vintage",
 				"genre": "Genre",
@@ -2548,7 +2548,7 @@
 		"rule_labels": {
 			"guess_time": "Waktu Menebak",
 			"extra_guess_time": "Waktu Menebak Tambahan",
-			"playback_speed": "Kecepatan Pemutaran",
+			"playback_speed": "Kecepatan Putar",
 			"sample_point": "Titik Sampel",
 			"override_guess_time": "Paksa ganti waktu menebak bawahan untuk blok ini",
 			"override_sample_point": "Paksa ganti titik sampel bawahan untuk blok ini",
@@ -2806,8 +2806,8 @@
 			"watched_distribution": { "random": "Acak", "weighted": "Berbobot", "equal": "Setara" },
 			"sample_point": { "start": "Mulai", "middle": "Pertengahan", "end": "Akhir", "random": "Acak" },
 			"score_type": {
-				"count": "Menghitung",
-				"speed": "Kecepatan",
+				"count": "Hitung",
+				"speed": "Cepat",
 				"hint": "Petunjuk",
 				"lives": "Nyawa",
 				"boss": "Bos"
@@ -2835,7 +2835,7 @@
 				"room_name": "Nama Ruangan",
 				"room_private": "Ruangan Pribadi",
 				"password": "Kata Sandi",
-				"playback_speed": "Kecepatan Pemutaran",
+				"playback_speed": "Kecepatan Putar",
 				"game_mode": "Mode Game",
 				"modifiers": "Modifikator",
 				"type": "Tipe",
