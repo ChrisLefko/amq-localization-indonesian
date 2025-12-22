@@ -334,7 +334,8 @@
 			"complete_registration": "Lanjutkan Pendaftaran",
 			"complete_registration_message": "Untuk melanjutkan pendaftaran, silakan verifikasi email Anda dengan mengklik tautan yang telah dikirim ke _BOLD_ _EMAIL_ _BOLD_"
 		},
-		"cookie_disclaimer": "Situs web ini menggunakan cookie untuk menyimpan pengaturan lokal, seperti volume musik dan nama login terakhir yang digunakan. Layanan pihak ketiga yang digunakan oleh situs ini juga dapat mengatur cookie. Untuk detail lebih lanjut, lihat Bagian Cookie pada Kebijakan Privasi. Dengan terus menggunakan situs ini, anda menyetujui bahwa situs ini dapat mengatur cookie tersebut."
+		"cookie_disclaimer": "Situs web ini menggunakan cookie untuk menyimpan pengaturan lokal, seperti volume musik dan nama login terakhir yang digunakan. Layanan pihak ketiga yang digunakan oleh situs ini juga dapat mengatur cookie. Untuk detail lebih lanjut, lihat Bagian Cookie pada Kebijakan Privasi. Dengan terus menggunakan situs ini, anda menyetujui bahwa situs ini dapat mengatur cookie tersebut.",
+		"cookie_learn_more": "Pelajari Selengkapnya"
 	},
 	"login_page": {
 		"ui": {
@@ -354,7 +355,7 @@
 				"title": "Buat Akun Tamu",
 				"error_title": "Terjadi Kesalahan dalam membuat akun Guest",
 				"error_disabled": "Akun Tamu sedang dinon-aktifkan",
-				"text2": "Dengan membuat akun Tamu, anda setuju dengan _LINK_ Ketentuan Layanan _LINK_ and _LINK2_ Kebijakan Privasi _LINK2_.",
+				"text2": "Dengan membuat akun Tamu, anda setuju dengan _LINK_ Ketentuan Layanan _LINK_ dan _LINK2_ Kebijakan Privasi _LINK2_.",
 				"DELETED-text": "Dengan membuat akun Tamu, anda setuju dengan _LINK_ Ketentuan Layanan _LINK_ dan _LINK_ Kebijakan Privasi _LINK_."
 			},
 			"select_country": "Silahkan pilih Negara Domisili Anda",
@@ -422,9 +423,10 @@
 		"ui": {
 			"news": "Berita",
 			"stay_connected": "Tetap Terhubung",
-			"merch_store": "Toko Merch",
 			"song_library": "Pustaka Lagu",
-			"leaderboard": "Papan Peringkat"
+			"leaderboard": "Papan Peringkat",
+			"merch": "Merch",
+			"DELETED-merch_store": "Toko Merch"
 		},
 		"carousel": {
 			"social_promo": "Dapatkan Tiket Gratis dengan Mengikuti Discord dan Patreon AMQ!",
@@ -632,12 +634,31 @@
 				"title": "Nexus",
 				"description": "Tantang Dungeon Nexus, mode roguelike unik yang bisa dimainkan Solo atau bersama teman"
 			}
+		},
+		"amq_funding": {
+			"title": "Pendanaan AMQ",
+			"month": {
+				"january": "Hasil Januari",
+				"february": "Hasil Februari",
+				"march": "Hasil Maret",
+				"april": "Hasil April",
+				"may": "Hasil Mei",
+				"june": "Hasil Juni",
+				"july": "Hasil Juli",
+				"august": "Hasil Agustus",
+				"september": "Hasil September",
+				"october": "Hasil Oktober",
+				"november": "Hasil November",
+				"december": "Hasil Desember"
+			},
+			"yearly": "Hasil Tahunan",
+			"description": "Hasil pendanaan dari bulan lalu dan total sepanjang tahun. AMQ sepenuhnya didanai oleh komunitas untuk membiayai server dan biaya pengembangan. Semua dana yang terkumpul digunakan untuk terus meningkatkan dan mengembangkan permainan. Terima kasih atas semua dukungannya!"
 		}
 	},
 	"menu_bar": {
 		"settings": {
 			"language": {
-				"custom": "Custom",
+				"custom": "Kustom",
 				"custom_description": "Sediakan file terjemahan untuk dicoba didalam game.",
 				"custom_title": "File Custom Bahasa",
 				"custom_placeholder": "URL untuk file terjemahan",
@@ -1268,7 +1289,8 @@
 				"unlocks_remaining": "_SPANC_ _NUMBER_ _SPANC_ Tersisa Untuk Dibuka",
 				"days_remaining": "_SPANC_ _NUMBER_ _SPANC_ Hari Tersisa",
 				"getting_started_pack": "Paket Pemula",
-				"promo": "Promo"
+				"promo": "Promo",
+				"sale": "Obral"
 			},
 			"subtotal": "Subtotal",
 			"sales_tax": "Pajak Penjualan",
@@ -1750,7 +1772,7 @@
 			"most_liked": "Paling Disuka",
 			"most_played": "Paling Dimainkan"
 		},
-		"search_for_quizzes": "Search for Quizzes",
+		"search_for_quizzes": "Cari Kuis",
 		"song_types": { "op": "OP", "ed": "ED", "in": "IN" },
 		"difficulties": { "easy": "Mudah", "medium": "Sedang", "hard": "Sulit" },
 		"upload_time": {
@@ -1865,10 +1887,7 @@
 			"unshare": "Batal bagikan kuis ini dengan teman",
 			"creation_date": "Tanggal Pembuatan",
 			"quiz_id": "ID Kuis",
-			"recently_published": {
-				"title": "Baru Dipublikasikan",
-				"description": "Slot terkunci hingga: _DATE_"
-			},
+			"recently_published": { "title": "Baru Dipublikasikan", "description": "Slot terkunci hingga: _DATE_" },
 			"locked_slot": {
 				"title": "Slot Terkunci",
 				"description": "Slot yang terkunci tidak menggunakan slot yang tersedia, tetapi hanya bisa disalin atau dihapus. Untuk membukanya, aktifkan kembali slot tidak terbatas."
@@ -2288,7 +2307,8 @@
 				"tag": "Tag",
 				"popularity": "Popularitas"
 			},
-			"DELETED-search_placeholder": "Cari"
+			"DELETED-search_placeholder": "Cari",
+			"search_placeholder": "Cari Ruangan"
 		},
 		"host_room": "Buat Ruangan",
 		"games": " Game",
@@ -2327,6 +2347,27 @@
 				"confirm_button": "Gabung",
 				"wrong_password": "Kata Sandi Salah",
 				"game_closed": "Game Tidak Tersedia Lagi"
+			}
+		},
+		"nexus_lobbies": {
+			"title": "Lobi Nexus",
+			"open": "_NUMBER_ Terbuka",
+			"no_lobbies": "Tidak Ada Lobi Terbuka",
+			"slot_name": "Slot _NUMBER_",
+			"players_popover_header": "Pemain di Lobi",
+			"click_to_join": "Klik Untuk Gabung",
+			"lobby_full_message": "Lobi Penuh",
+			"unknown_lobby": {
+				"title": "Tidak Bisa Menemukan Lobi Nexua",
+				"description": "Lobi Nexus yang ingin anda gabung tidak tersedia atau telah ditutup."
+			},
+			"room_settings": {
+				"type": { "endless": "Tanpa Batas", "standard": "Standar" },
+				"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
+				"difficulty": { "easy": "Mudah", "medium": "Sedang", "hard": "Sulit" },
+				"song_selection": { "watched": "Ditonton", "random": "Acak" },
+				"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
+				"floor": "Lantai _NUMBER_"
 			}
 		}
 	},
@@ -2821,7 +2862,17 @@
 				"ona": "ONA",
 				"tv": "TV",
 				"movie": "Movie",
-				"special": "Spesial"
+				"special": "Spesial",
+				"easy": "Mudah",
+				"medium": "Sedang",
+				"hard": "Sulit",
+				"openings": "Opening",
+				"endings": "Ending",
+				"inserts": "Insert",
+				"standard": "Standar",
+				"character": "Karakter",
+				"chanting": "Chanting",
+				"instrumental": "Instrumental"
 			}
 		},
 		"ranked_rules": {
@@ -3051,7 +3102,12 @@
 				"DELETED-damage_taken": "Kurangi kerusakan yang diterima untuk acara _NAME_"
 			}
 		},
-		"anime_name_placeholder": "Nama Anime"
+		"anime_name_placeholder": "Nama Anime",
+		"rejoin_prompt": {
+			"title": "Gabung Kembali Game",
+			"description": "Anda terputus dari game terakhir, Ingin bergabung kembali?",
+			"rejoin_button": "Gabung Kembali"
+		}
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -3450,12 +3506,7 @@
 			"dungeon": {
 				"title": "Dungeon",
 				"co_op_save_created": "Dibuat",
-				"tabs": {
-					"mode": "Mode",
-					"co_op_saves": "Simpanan Co-Op",
-					"lobby": "Lobi",
-					"avatars": "Avatar"
-				},
+				"tabs": { "mode": "Mode", "co_op_saves": "Simpanan Co-Op", "lobby": "Lobi", "avatars": "Avatar" },
 				"mode": {
 					"standard": "Standar",
 					"standard_description": "Bersihkan satu lantai dungeon, perkuat tim anda seiring progres sebelum menantang bos di akhir.",
@@ -3473,7 +3524,12 @@
 						"join_button": "Gabung",
 						"description": "Masukkan id lobi yang ingin anda gabung.",
 						"missing_id": "Anda harus memasukan sebuah ID lobi",
-						"invalid_id": "ID Lobi Tidak Valid"
+						"invalid_id": "ID Lobi Tidak Valid",
+						"full": "Lobi Penuh",
+						"unavailable_guest": {
+							"title": "Tidak Tersedia Untuk Akun Tamu",
+							"description": "Mode Co-op tidak tersedia untuk akun tamu. Silakan buat akun untuk mengakses fitur ini."
+						}
 					},
 					"dungeon_mode": "Mode Dungeon",
 					"description_start": "Tentukan cara menantang dungeon.",
@@ -3551,6 +3607,10 @@
 					"breakthrough_popover": {
 						"title": "Terobosan",
 						"description": "Terobos batas lantai dengan menaklukkan 5 lantai berikutnya di mode tanpa batas!"
+					},
+					"public_description": {
+						"make_public": "Buat lobi jadi publik, Supaya siapa saja bisa bergabung",
+						"make_private": "Buat lobi jadi pribadi, supaya hanya orang dengan ID yang bisa bergabung"
 					}
 				},
 				"co_op_saves": {
@@ -3574,11 +3634,12 @@
 					"change_skin": "Ganti Skin",
 					"change_decorations": "Ganti Dekorasi",
 					"change_background": "Ganti Background",
-					"toggle": "Aktifkan _NAME_",
+					"toggle": "Aktifkan _NAME_ ",
 					"set_default": "Atur Sebagai Bawahan",
 					"add_to_team": "Tambahkan ke Tim",
 					"locked": "Terkunci",
-					"background_locked": "Buka 10 versi dari skin ini _BREAK_ untuk membuka background"
+					"background_locked": "Buka 10 versi dari skin ini _BREAK_ untuk membuka background",
+					"no_toggle": "Tidak Ada Aktifkan"
 				},
 				"team_setup": {
 					"rename": "Ubah Nama Tim",
@@ -3595,11 +3656,7 @@
 				"title": "Workshop",
 				"empty_slots_filter": "Slot Kosong",
 				"avatar": "Avatar",
-				"tabs": {
-					"select_avatar": "Pilih Avatar",
-					"rune_setup": "Pengaturan Rune",
-					"reformat_rune": "Reformat Rune"
-				},
+				"tabs": { "select_avatar": "Pilih Avatar", "rune_setup": "Pengaturan Rune", "reformat_rune": "Reformat Rune" },
 				"rune_selector": {
 					"filter": {
 						"title": "Filter",
@@ -3670,14 +3727,10 @@
 				"select_badge_popover": "Pilih lencana avatar untuk memperkuat avatar",
 				"early_access": "Dalam akses awal untuk Patreon level 4+ hingga _DATE_",
 				"character_locked_popover": "Belum Terbuka",
-				"character_already_in_party": "Karakter sudah ada di tim"
+				"character_already_in_party": "Karakter sudah ada di tim",
+				"clear": "Bersihkan"
 			},
-			"building_names": {
-				"dungeon": "Dungeon",
-				"inn": "Penginapan",
-				"workshop": "Workshop",
-				"locked": "Terkunci"
-			}
+			"building_names": { "dungeon": "Dungeon", "inn": "Penginapan", "workshop": "Workshop", "locked": "Terkunci" }
 		},
 		"dungeon": {
 			"exit_button": "Keluar",
@@ -3713,7 +3766,8 @@
 				"select_one_artifact": "Pilih 1 Artefak",
 				"runes": "Rune",
 				"no_drops": "Tidak Ada Barang",
-				"select_avatar": "Pilih Avatar"
+				"select_avatar": "Pilih Avatar",
+				"skip_artifact": { "text": "Lewati Artefak?", "skip_button": "Lewati" }
 			},
 			"event_window": { "title": "Event", "volume": "Volume" },
 			"store_window": {
@@ -3734,7 +3788,15 @@
 				"continue_button": "Lanjutkan",
 				"level_number": "Level _SPANC_ _NUMBER_ _SPANC_",
 				"party_wipe": "Tim Kalah",
-				"floor_cleared": "Lantai Selesai"
+				"floor_cleared": "Lantai Selesai",
+				"xp_reward_types": { "combat": "Pertempuran", "clear": "Lantai Selesai" },
+				"unlocks": {
+					"ability_level": "Kemampuan Naik",
+					"badge": "Lencana",
+					"badge_level": "Lencana Naik",
+					"genre_power": "Kekuatan Genre",
+					"rune_slot": "Slot Rune"
+				}
 			},
 			"next_floor_window": {
 				"title": "Lantai Selanjutnya: _SPAN_ _NUMBER_ _SPAN_",
@@ -3743,10 +3805,7 @@
 				"heal_option": "Sembuhkan 20%",
 				"lock_artifact_option": "Kunci Artefak",
 				"no_artifacts": "Tidak Ada Artefak",
-				"no_locking_warning": {
-					"title": "Lanjutkan Tanpa Mengunci Artefak?",
-					"continue_button": "Lanjutkan"
-				},
+				"no_locking_warning": { "title": "Lanjutkan Tanpa Mengunci Artefak?", "continue_button": "Lanjutkan" },
 				"heal_this_avatar": "Sembuhkan avatar ini",
 				"lock_artifact_description": "Kunci artefak untuk membawanya ke lantai berikutnya. Setiap avatar hanya dapat mengunci satu artefak."
 			}
@@ -3841,7 +3900,9 @@
 				"message_five": "Sekarang dia punya banyak buff! anda bisa mengarahkan kursor ke ikon-ikon tersebut untuk melihat apa fungsinya!",
 				"message_six": "Sekarang kita harus menjawab kuis ini! Petunjuk: Ini adalah jawaban yang benar.!"
 			},
-			"post_attack": { "message_one": "Hebat! Sekarang, mari kita lihat apa yang terjadi jika anda menjawab dengan salah!" },
+			"post_attack": {
+				"message_one": "Hebat! Sekarang, mari kita lihat apa yang terjadi jika anda menjawab dengan salah!"
+			},
 			"post_damage": {
 				"message_one": "Ketika anda menebak salah, hitungan serangan musuh akan berkurang. Satu jawaban salah lagi, dan mereka akan menyerang!",
 				"message_two": "Noel memiliki pertahanan yang rendah, jadi kita harus melindunginya! Beruntungnya, Yumemi adalah karakter giliran, jadi kita bisa menggantikannya dengan melakukan pertukaran target dengan Noel!",
@@ -3977,10 +4038,7 @@
 				"title": "Pipe of the Golden Fairy",
 				"description": "Memberikan 50% kerusakan lebih besar saat menyerang musuh yang terkena Debuff"
 			},
-			"ruler_piece": {
-				"title": "Ruler Piece",
-				"description": "Mendapatkan Buff acak saat kemampuan digunakan"
-			},
+			"ruler_piece": { "title": "Ruler Piece", "description": "Mendapatkan Buff acak saat kemampuan digunakan" },
 			"sealed_watch": {
 				"title": "Sealed Watch",
 				"description": "Kurangi Cooldown kemampuan Avatar sebanyak 2 giliran"
@@ -4013,10 +4071,7 @@
 				"title": "Swords of Truth and Light",
 				"description": "Menyerang 3 kali berturut-turut akan membuat serangan ketiga menghasilkan kerusakan ganda"
 			},
-			"time_disk": {
-				"title": "Time Disk",
-				"description": "Dapatkan tambahan 5 detik selama fase menebak"
-			},
+			"time_disk": { "title": "Time Disk", "description": "Dapatkan tambahan 5 detik selama fase menebak" },
 			"unexpected_supporter": {
 				"title": "Unexpected Supporter",
 				"description": "Hadiah pertarungan memiliki satu pilihan Artefak tambahan"
@@ -4075,11 +4130,7 @@
 					},
 					"question": {
 						"text": "Tipe Lagu apakah ini?",
-						"options": {
-							"opening": "Opening",
-							"ending": "Ending",
-							"insert_song": "Lagu Insert"
-						}
+						"options": { "opening": "Opening", "ending": "Ending", "insert_song": "Lagu Insert" }
 					},
 					"correct": {
 						"text": "“Kalian _HIGHLIGHT_ benar! _HIGHLIGHT_ Lagu itu adalah _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ dari _HIGHLIGHT_ _NAME2_ _HIGHLIGHT_. Dan dengan itu, _HIGHLIGHT_ kemenangan kalian saat ini adalah _NUMBER_ _HIGHLIGHT2_ fragmen _HIGHLIGHT2_ _HIGHLIGHT_. _BREAK_ Apakah kalian ingin melanjutkan ke pertanyaan berikutnya, atau mengambil hadiah?”",
@@ -4151,11 +4202,7 @@
 				"title": "Item Glitch",
 				"base": {
 					"text": "Sebuah bentuk aneh melayang di tengah ruangan. Semakin lama tim menatapnya, semakin sulit bentuknya untuk dikenali. _BREAK_ Saat tim mendekat, benda itu berkedip dan berubah menjadi segenggam _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, lalu berkedip lagi dan berubah menjadi sebuah _HIGHLIGHT2_ artefak _HIGHLIGHT2_. Tanpa sempat mengidentifikasi artefak tersebut, ia kembali berkedip dan kini sebuah _HIGHLIGHT2_ rune _HIGHLIGHT2_ melayang di tempatnya. _BREAK_ Objek itu terus berubah-ubah, namun dengan timing yang tepat seharusnya mungkin untuk _HIGHLIGHT_ mengambil salah satu itemnya _HIGHLIGHT_.",
-					"option": {
-						"grab_fragments": "Ambil Fragmen",
-						"grab_artifact": "Ambil Artefak",
-						"grab_rune": "Ambil Rune"
-					}
+					"option": { "grab_fragments": "Ambil Fragmen", "grab_artifact": "Ambil Artefak", "grab_rune": "Ambil Rune" }
 				},
 				"result": {
 					"text": "Dengan gerakan yang tegas, _NAME_ berhasil meraih _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_, tepat saat benda itu hendak berubah lagi. Untungnya, benda tersebut tampaknya tidak berubah lagi setelah itu",
@@ -4242,12 +4289,11 @@
 				"title": "Pedestal",
 				"base": {
 					"text": "Sebuah _HIGHLIGHT_ pedestal tunggal _HIGHLIGHT_ berdiri di tengah ruangan. Saat tim mendekat beberapa _HIGHLIGHT2_ artefak mereka _HIGHLIGHT2_ _HIGHLIGHT_ mulai bersinar _HIGHLIGHT_, seolah-olah tertarik ke arah pedestal itu.",
-					"options": {
-						"place_artifact": "Letakan _NAME_ di pedestal",
-						"ignore": "Abaikan Pedestal"
-					}
+					"options": { "place_artifact": "Letakan _NAME_ di pedestal", "ignore": "Abaikan Pedestal" }
 				},
-				"ignore": { "text": "Hadiah yang mungkin didapat tidak sepadan dengan artefaknya, jadi tim memutuskan untuk melanjutkan perjalanan." },
+				"ignore": {
+					"text": "Hadiah yang mungkin didapat tidak sepadan dengan artefaknya, jadi tim memutuskan untuk melanjutkan perjalanan."
+				},
 				"transform": {
 					"text": "The _ARTIFACT_ _HIGHLIGHT_ meledak menjadi fragmen _HIGHLIGHT_ yang melayang di atas pedestal, lalu tiba-tiba berhamburan kembali ke pusatnya, _HIGHLIGHT_ berubah menjadi artefak _ARTIFACT2_. _HIGHLIGHT_"
 				}
@@ -4293,7 +4339,9 @@
 					"text": "Seorang gadis _HIGHLIGHT_ berambut merah muda _HIGHLIGHT_ dengan sepasang kacamata besar berwarna merah duduk di sebuah meja kerja yang berdiri sendiri. Matanya sempat berbinar sesaat ketika menyadari kehadiran tim, lalu ia segera bergegas menghampiri. _BREAK_ “Aku baru saja kehabisan data _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, tapi biarkan aku _HIGHLIGHT_ menguraikan _HIGHLIGHT_ beberapa _HIGHLIGHT2_ artefak _HIGHLIGHT2_ milikmu, dan aku akan membuatkan kalian beberapa _HIGHLIGHT2_ rune _HIGHLIGHT2_!”",
 					"options": { "artifact": "Berikan dia _NAME_", "decline": "Abaikan penawarannya" }
 				},
-				"base_decline": { "text": "“Kerugian kalian sendiri, kalau begitu. Aku akan menyimpan bayi-bayi luar biasaku ini untuk tim berikutnya.”" },
+				"base_decline": {
+					"text": "“Kerugian kalian sendiri, kalau begitu. Aku akan menyimpan bayi-bayi luar biasaku ini untuk tim berikutnya.”"
+				},
 				"late_decline": {
 					"text": "“Tidak mau ambil satu set penuh? Kalian akan menyesal begitu melihat seberapa hebat bayi-bayiku ini bekerja.”"
 				},
@@ -4628,7 +4676,10 @@
 				"title": "Quick Bomb",
 				"description": "Melempar bom sumbu pendek ke musuh yang di target, memberikan damage di akhir giliran."
 			},
-			"healing_potion": { "title": "Healing Potion", "description": "Menyembuhkan avatar yang di target sebanyak 75 HP." },
+			"healing_potion": {
+				"title": "Healing Potion",
+				"description": "Menyembuhkan avatar yang di target sebanyak 75 HP."
+			},
 			"shield_potion": {
 				"title": "Shield Potion",
 				"description": "Memberikan perisai sebesar 100 pada avatar yang dituju."
@@ -4676,19 +4727,16 @@
 					"name": "Crash Routine",
 					"description": "Memiliki _TIER_ peluang untuk memberikan debuff Crash saat menyerang"
 				},
-				"tortoise": { "name": "Tortoise", "description": "Menerima Kerusakan Berkurang, Tapi Kerusakan Yang Diberi Berkurang Juga" },
-				"mobile_defence": {
-					"name": "Mobile Defence",
-					"description": "Mendapatkan Perisaia ketika Bertukar Posisi"
+				"tortoise": {
+					"name": "Tortoise",
+					"description": "Menerima Kerusakan Berkurang, Tapi Kerusakan Yang Diberi Berkurang Juga"
 				},
+				"mobile_defence": { "name": "Mobile Defence", "description": "Mendapatkan Perisaia ketika Bertukar Posisi" },
 				"emergency_shield": {
 					"name": "Emergency Shield",
 					"description": "Dapatkan Perisai Sekali Per Pertarungan Ketika Terkena Serangan"
 				},
-				"defender": {
-					"name": "Defender",
-					"description": "Memberikan Perisai ke Target Selama Bertukar Posisi"
-				},
+				"defender": { "name": "Defender", "description": "Memberikan Perisai ke Target Selama Bertukar Posisi" },
 				"threat_aura": {
 					"name": "Threat Aura",
 					"description": "Meningkatkan Peluang untuk Di Target oleh Serangan Musuh"
@@ -4697,51 +4745,36 @@
 					"name": "Bypass Routine",
 					"description": "Memiliki _TIER_ Peluang Memberikan Debuff Bypass Saat Menyerang"
 				},
-				"rampage": { "name": "Rampage", "description": "Menerima Kerusakan Meningkat, Tapi Kerusakan Yang Diberi Meningkat Juga" },
-				"time_booster": {
-					"name": "Time Booster",
-					"description": "Mendapatkan Waktu Tambahan Hening dalam Lagu"
+				"rampage": {
+					"name": "Rampage",
+					"description": "Menerima Kerusakan Meningkat, Tapi Kerusakan Yang Diberi Meningkat Juga"
 				},
+				"time_booster": { "name": "Time Booster", "description": "Mendapatkan Waktu Tambahan Hening dalam Lagu" },
 				"defensive_counter": {
 					"name": "Defensive Counter",
 					"description": "Menigkatkan Pertahanan untuk Tiap Debuff Aktif"
 				},
-				"defensive_rush": {
-					"name": "Defensive Rush",
-					"description": "Menigkatkan Pertahanan untuk Tiap Buff Aktif"
-				},
+				"defensive_rush": { "name": "Defensive Rush", "description": "Menigkatkan Pertahanan untuk Tiap Buff Aktif" },
 				"offensive_counter": {
 					"name": "Offensive Counter",
 					"description": "Menigkatkan Kerusakan untuk Tiap Debuff Aktif"
 				},
-				"offensive_rush": {
-					"name": "Offensive Rush",
-					"description": "Menigkatkan Kerusakan untuk Tiap Buff Aktif"
-				}
+				"offensive_rush": { "name": "Offensive Rush", "description": "Menigkatkan Kerusakan untuk Tiap Buff Aktif" }
 			}
 		},
 		"buffs": {
-			"crisis_management_form": {
-				"name": "Crisis Management Form",
-				"description": "Meningkatkan semua stats dasar"
-			},
+			"crisis_management_form": { "name": "Crisis Management Form", "description": "Meningkatkan semua stats dasar" },
 			"berserker_star": {
 				"name": "Berserker Star",
 				"description": "Meningkatkan kerusakan sebesar 20% sampai tidak mengenai serangan"
 			},
-			"charge_staff": {
-				"name": "Charge Staff",
-				"description": "Mengenai Serangan berikutnya akan memberikan perisai"
-			},
+			"charge_staff": { "name": "Charge Staff", "description": "Mengenai Serangan berikutnya akan memberikan perisai" },
 			"comfy_scarf": { "name": "Comfy Scarf", "description": "Counter debuff standar berikutnya" },
 			"computation_orb": {
 				"name": "Computation Orb",
 				"description": "Meningkatkan kerusakan sebanyak 20% ketika HP Berada di bawah 50%"
 			},
-			"hornet_stringer": {
-				"name": "Hornet Stringer",
-				"description": "Serangan Selanjutnya dijamin critical hit"
-			},
+			"hornet_stringer": { "name": "Hornet Stringer", "description": "Serangan Selanjutnya dijamin critical hit" },
 			"legends_shield": {
 				"name": "Legends Shield",
 				"description": "Dapatkan perisai ketika terkena serangan oleh serangan musuh selanjutnya"
@@ -4751,10 +4784,7 @@
 				"description_one": "Dua serangan selanjutnya memberikan kerusakan ganda",
 				"description_two": "Serangan selanjutnya memberikan kerusakan ganda"
 			},
-			"adventurers_sword": {
-				"name": "Adventurer's Sword",
-				"description": "Kerusakan serangan bertambah"
-			},
+			"adventurers_sword": { "name": "Adventurer's Sword", "description": "Kerusakan serangan bertambah" },
 			"adventurers_shield": { "name": "Adventurer's Shield", "description": "Mengurangi Kerusakan Diterima" },
 			"angels_grace": { "name": "Angel's Grace", "description": "Memberikan perisai dari serangan" },
 			"buster": {
@@ -4765,10 +4795,7 @@
 				"name": "Cat's Luck",
 				"description": "Serangan berikutnya yang diterima memberikan 0 kerusakan, tetapi memberikan debuff acak sebagai gantinya"
 			},
-			"cheered": {
-				"name": "Cheered",
-				"description": "Jika terkena cheered semua stats mendapatkan buff besar"
-			},
+			"cheered": { "name": "Cheered", "description": "Jika terkena cheered semua stats mendapatkan buff besar" },
 			"cheering": {
 				"name": "Cheering",
 				"description": "Memperkuat avatar lain setiap tebakan benar, alih-alih menyerang"
@@ -4801,10 +4828,7 @@
 				"name": "In the Rhythm",
 				"description": "Meningkatkan kerusakan dan menghindar, bertahan hingga gagal menghindar atau menyerang"
 			},
-			"knights_challenge": {
-				"name": "Knight's Challenge",
-				"description": "Menjadi target semua serangan musuh baru"
-			},
+			"knights_challenge": { "name": "Knight's Challenge", "description": "Menjadi target semua serangan musuh baru" },
 			"magical_bombardment": {
 				"name": "Magical Bombardment",
 				"description": "Serangan berikutnya memberikan kerusakan berkurang, tetapi mengenai semua musuh"
@@ -4859,10 +4883,7 @@
 				"name": "Vampire's Kiss",
 				"description": "Menyembuhkan diri jika serangan berikutnya membunuh musuh"
 			},
-			"weapon_master": {
-				"name": "Weapon Master",
-				"description": "Memperkuat efek artefak ofensif"
-			},
+			"weapon_master": { "name": "Weapon Master", "description": "Memperkuat efek artefak ofensif" },
 			"witches_trickery": {
 				"name": "Witches Trickery",
 				"description": "Serangan berikutnya memberikan debuff Bewitched"
@@ -4875,33 +4896,22 @@
 			},
 			"encore_debuff": {
 				"name": "Encore Debuff",
-				"description": "Serangan berikutnya dari _NAME_ dijamin menjadi critical hit"
+				"description": "Serangan berikutnya dari _NAME_ dijamin menjadi critical hit",
+				"the_caster": "the caster"
 			},
 			"ice_prison": {
 				"name": "Ice Prison",
 				"description": "Melewatkan semua aksi, tetapi menerima kerusakan serangan yang sangat berkurang"
 			},
-			"energized": {
-				"name": "Energized",
-				"description": "Meningkatkan kerusakan saat Energizer masih hidup"
-			},
+			"energized": { "name": "Energized", "description": "Meningkatkan kerusakan saat Energizer masih hidup" },
 			"enhanced": { "name": "Enhanced", "description": "Meningkatkan kerusakan sebesar _NUMBER_% untuk tumpukan" },
-			"protected": {
-				"name": "Protected",
-				"description": "Peningkatan pertahanan berdasarkan pertahanan Protector"
-			},
+			"protected": { "name": "Protected", "description": "Peningkatan pertahanan berdasarkan pertahanan Protector" },
 			"protector": {
 				"name": "Protector",
 				"description": "Karakter di belakang karakter yang mendapat buff menjadi terlindungi"
 			},
-			"trojan_protocol": {
-				"name": "Trojan Protocol",
-				"description": "Serangan memberikan debuff acak"
-			},
-			"untargetable": {
-				"name": "Untargetable",
-				"description": "Tidak bisa menjadi target serangan atau kemampuan"
-			},
+			"trojan_protocol": { "name": "Trojan Protocol", "description": "Serangan memberikan debuff acak" },
+			"untargetable": { "name": "Untargetable", "description": "Tidak bisa menjadi target serangan atau kemampuan" },
 			"charmed": {
 				"name": "Charmed",
 				"description": "Terpaksa menargetkan serangan pada _NAME_, tetapi memberikan kerusakan 30% lebih sedikit"
@@ -4927,10 +4937,7 @@
 				"description": "Menjadi tidak bisa ditarget oleh musuh dan meningkatkan kerusakan pada serangan berikutnya. Berakhir setelah menyerang atau bergerak"
 			},
 			"exposed": { "name": "Exposed", "description": "Mendapatkan debuff acak dari semua serangan" },
-			"focused": {
-				"name": "Focused",
-				"description": "Meningkatkan peluang untuk menjadi target serangan musuh"
-			},
+			"focused": { "name": "Focused", "description": "Meningkatkan peluang untuk menjadi target serangan musuh" },
 			"snared": { "name": "Snared", "description": "Tidak Bisa Bertukar Posisi" },
 			"genre_protection": {
 				"name": "Protection _NAME_",
@@ -4948,249 +4955,295 @@
 			"orb": "Orb",
 			"singularity": "Singularity",
 			"the_creator": "The Creator"
+		},
+		"rejoin_prompt": {
+			"title": "Gabung Kembali Ke Game Nexus",
+			"description": "Anda terputus dari game Nexus terakhir, ingin bergabung kembali?",
+			"rejoin_button": "Gabung Kembali"
 		}
 	},
 	"tutorial": {
-		"MISSING-continue_button": "Lanjutkan",
-		"MISSING-exit_button": "Keluar",
+		"continue_button": "Lanjutkan",
+		"exit_button": "Keluar",
 		"welcome": {
-			"MISSING-title": "Selamat Datang di AMQ",
+			"title": "Selamat Datang di AMQ",
 			"step_one": {
-				"MISSING-text": "Hai dan selamat datang di Anime Music Quiz! _BREAK_Saya sarankan untuk mengikuti tutorial singkatku agar mempelajari dasar-dasar game. _BREAK_ Bahkan mungkin ada hadiah di akhir tutorial!",
-				"options": { "MISSING-play_tutorial": "Mainkan Tutorial", "MISSING-skip_tutorial": "Lewati Tutorial" }
+				"text": "Hai dan selamat datang di Anime Music Quiz! _BREAK_Saya sarankan untuk mengikuti tutorial singkatku agar mempelajari dasar-dasar game. _BREAK_ Bahkan mungkin ada hadiah di akhir tutorial!",
+				"options": { "play_tutorial": "Mainkan Tutorial", "skip_tutorial": "Lewati Tutorial" }
 			},
-			"step_two": { "MISSING-text": "Keren, ayo kita mulai!" },
-			"step_dismiss": { "MISSING-text": "Anda selalu bisa menemukan tutorial di menu kanan bawah." }
+			"step_two": { "text": "Keren, ayo kita mulai!" },
+			"step_dismiss": { "text": "Anda selalu bisa menemukan tutorial di menu kanan bawah." }
 		},
 		"welcome_no_list": {
-			"MISSING-title": "Menambahkan List Anime",
+			"title": "Menambahkan List Anime",
 			"step_one": {
-				"MISSING-text": "Untuk memulai, saya lihat anda belum menghubungkan akun AniList, MyAnimeList, atau Kitsu ke akun anda. _BREAK_ Saya sangat menyarankan menambahkannya, karena ini akan memungkinkan game memilih lagu dari anime yang sudah anda tonton.",
+				"text": "Untuk memulai, saya lihat anda belum menghubungkan akun AniList, MyAnimeList, atau Kitsu ke akun anda. _BREAK_ Saya sangat menyarankan menambahkannya, karena ini akan memungkinkan game memilih lagu dari anime yang sudah anda tonton.",
 				"options": {
-					"MISSING-no_list": "Tidak Punya",
-					"MISSING-add_one": "Baiklah, Ayo Hubungkan",
-					"MISSING-skip": "Lanjut Tanpa Menghubungkan"
+					"no_list": "Tidak Punya",
+					"add_one": "Baiklah, Ayo Hubungkan",
+					"skip": "Lanjut Tanpa Menghubungkan"
 				}
 			},
 			"step_two": {
-				"MISSING-text": "Anda bisa membuat akun secara gratis di salah satu situs ini: _LINK_ AniList _LINK_, _LINK2_ MyAnimeList _LINK2_ or _LINK3_ Kitsu _LINK3_. _BREAK_ Saya tunggu kalau anda mau membuatnya sekarang.",
-				"options": { "MISSING-created_one": "Baiklah, Saya Telah Membuatnya", "MISSING-skip": "Mungkin Lain Kali" }
+				"text": "Anda bisa membuat akun secara gratis di salah satu situs ini: _LINK_ AniList _LINK_, _LINK2_ MyAnimeList _LINK2_ or _LINK3_ Kitsu _LINK3_. _BREAK_ Saya tunggu kalau anda mau membuatnya sekarang.",
+				"options": { "created_one": "Baiklah, Saya Telah Membuatnya", "skip": "Mungkin Lain Kali" }
 			},
 			"step_three": {
-				"MISSING-text": "Sempurna, mari hubungkan ke akun AMQ anda! _BREAK_ Situs mana yang anda punya list anime-nya?",
+				"text": "Sempurna, mari hubungkan ke akun AMQ anda! _BREAK_ Situs mana yang anda punya list anime-nya?",
 				"options": {
-					"MISSING-anilist": "AniList",
-					"MISSING-myanimelist": "MyAnimeList",
-					"MISSING-kitsu": "Kitsu",
-					"MISSING-cancel": "Batal"
+					"anilist": "AniList",
+					"myanimelist": "MyAnimeList",
+					"kitsu": "Kitsu",
+					"cancel": "Batal"
 				}
 			},
 			"step_anilist": {
-				"MISSING-text": "Silakan ketik nama pengguna AniList anda atau biarkan kosong jika anda berubah pikiran."
+				"text": "Silakan ketik nama pengguna AniList anda atau biarkan kosong jika anda berubah pikiran."
 			},
-			"step_kitsu": { "MISSING-text": "Silakan ketik nama pengguna Kitsu anda atau biarkan kosong jika anda berubah pikiran." },
+			"step_kitsu": {
+				"text": "Silakan ketik nama pengguna Kitsu anda atau biarkan kosong jika anda berubah pikiran."
+			},
 			"step_myanimelist": {
-				"MISSING-text": "Silakan ketik nama pengguna MyAnimeList anda atau biarkan kosong jika anda berubah pikiran."
+				"text": "Silakan ketik nama pengguna MyAnimeList anda atau biarkan kosong jika anda berubah pikiran."
 			},
-			"step_four": { "MISSING-text": "Sekarang game akan bisa memilih lagu dari anime yang sudah anda tonton!" },
+			"step_four": { "text": "Sekarang game akan bisa memilih lagu dari anime yang sudah anda tonton!" },
 			"step_dismiss": {
-				"MISSING-text": "Tidak masalah, anda tetap bisa bermain tanpa akun! _BREAK_ Anda bisa menambahkan list anime di menu kanan bawah, di \"Pengaturan\"."
+				"text": "Tidak masalah, anda tetap bisa bermain tanpa akun! _BREAK_ Anda bisa menambahkan list anime di menu kanan bawah, di \"Pengaturan\"."
 			}
 		},
 		"first_game": {
-			"MISSING-title": "Gameplay",
+			"title": "Gameplay",
 			"step_one": {
-				"MISSING-text": "Ayo masuk ke game supaya anda bisa menebak beberapa anime! _BREAK_ Pilih \"Main\" ntuk memulai."
+				"text": "Ayo masuk ke game supaya anda bisa menebak beberapa anime! _BREAK_ Pilih \"Main\" ntuk memulai."
 			},
 			"step_two": {
-				"MISSING-text": "Pilih “Multi-Pemain”. Tenang, saya tidak akan menempatkan anda melawan pemain lain."
+				"text": "Pilih “Multi-Pemain”. Tenang, saya tidak akan menempatkan anda melawan pemain lain."
 			},
 			"step_three": {
-				"MISSING-text": "Ini adalah browser ruangan, tempat anda bisa melihat game yang sedang di-host dan membuat game sendiri. _BREAK_ Di bagian atas ada beberapa filter yang bisa anda gunakan untuk meng filter ruangan."
+				"text": "Ini adalah browser ruangan, tempat anda bisa melihat game yang sedang di-host dan membuat game sendiri. _BREAK_ Di bagian atas ada beberapa filter yang bisa anda gunakan untuk meng filter ruangan."
 			},
 			"step_four": {
-				"MISSING-text": "Aku sudah menyiapkan game untuk anda, ubin ini menampilkan pengaturan terpenting. Anda bisa mengarahkan kursor ke sebagian besar ikon di game untuk mendapatkan info lebih lanjut. _BREAK_ Sekarang klik \"Gabung\"."
+				"text": "Aku sudah menyiapkan game untuk anda, ubin ini menampilkan pengaturan terpenting. Anda bisa mengarahkan kursor ke sebagian besar ikon di game untuk mendapatkan info lebih lanjut. _BREAK_ Sekarang klik \"Gabung\"."
 			},
 			"step_five": {
-				"MISSING-text": "Ini adalah lobi, tempat anda bisa melihat dan mengobrol dengan pemain lain. Saat ini aku hanya sebagai penonton. _BREAK_ Tekan \"Siap\" di bagian atas agar saya bisa memulai game."
+				"text": "Ini adalah lobi, tempat anda bisa melihat dan mengobrol dengan pemain lain. Saat ini aku hanya sebagai penonton. _BREAK_ Tekan \"Siap\" di bagian atas agar saya bisa memulai game."
 			},
 			"step_six": {
-				"MISSING-text": "Ini adalah layar kuis. Saat lagu dimulai, anda punya 20 detik untuk menebak anime-nya. _BREAK_ Saya akan memulai ronde sekarang. Setelah mengetik tebakan anda, pilih dari daftar saran dan kirim dengan menekan Enter."
+				"text": "Ini adalah layar kuis. Saat lagu dimulai, anda punya 20 detik untuk menebak anime-nya. _BREAK_ Saya akan memulai ronde sekarang. Setelah mengetik tebakan anda, pilih dari daftar saran dan kirim dengan menekan Enter."
 			},
 			"step_seven": {
-				"MISSING-text": "Setelah fase menebak berakhir, semua jawaban pemain akan ditampilkan, lalu jawaban yang benar akan diperlihatkan."
+				"text": "Setelah fase menebak berakhir, semua jawaban pemain akan ditampilkan, lalu jawaban yang benar akan diperlihatkan."
 			},
 			"step_eight": {
-				"MISSING-text": "Tebakan yang benar akan memberi anda XP dan notes. _BREAK_ Di akhir kuis, pemain dengan tebakan benar terbanyak akan memenangkan kuis."
+				"text": "Tebakan yang benar akan memberi anda XP dan notes. _BREAK_ Di akhir kuis, pemain dengan tebakan benar terbanyak akan memenangkan kuis."
 			},
 			"step_nine": {
-				"MISSING-text": "Itu saja untuk dasar-dasar kuis, sekarang aku biarkan anda menyelesaikan 4 lagu yang tersisa!"
+				"text": "Itu saja untuk dasar-dasar kuis, sekarang aku biarkan anda menyelesaikan 4 lagu yang tersisa!"
 			},
 			"step_ten": {
-				"MISSING-text": "Anda bisa langsung ke akhir fase menjawab dengan mengklik tombol lewati di sebelah kiri jawabanmu. Anda juga bisa melewati fase putar dengan cara yang sama."
+				"text": "Anda bisa langsung ke akhir fase menjawab dengan mengklik tombol lewati di sebelah kiri jawabanmu. Anda juga bisa melewati fase putar dengan cara yang sama."
 			},
 			"step_eleven": {
-				"MISSING-text": "Itulah semua lagu untuk kuis ini! Anda akan menerima XP dan notes tambahan berdasarkan performa saat menyelesaikan kuis."
+				"text": "Itulah semua lagu untuk kuis ini! Anda akan menerima XP dan notes tambahan berdasarkan performa saat menyelesaikan kuis."
 			},
 			"step_twelve": {
-				"MISSING-text": "Sekarang anda siap bermain AMQ! Mari kembali ke menu utama dengan mengklik \"Keluar\" di kiri atas."
+				"text": "Sekarang anda siap bermain AMQ! Mari kembali ke menu utama dengan mengklik \"Keluar\" di kiri atas."
 			},
-			"step_thirteen": { "MISSING-text": "Itu saja untuk tutorial cara bermain!" },
+			"step_thirteen": { "text": "Itu saja untuk tutorial cara bermain!" },
 			"step_thirteen_first_time": {
-				"MISSING-text": "Itu saja untuk tutorial gameplay, berikut hadiah satu kali sebesar 3000 notes untuk membantu anda mulai membuka beberapa avatar!"
+				"text": "Itu saja untuk tutorial gameplay, berikut hadiah satu kali sebesar 3000 notes untuk membantu anda mulai membuka beberapa avatar!"
 			},
 			"step_fourteen": {
-				"MISSING-text": "Selanjutnya adalah tutorial avatar, yang akan menjelaskan cara membuka dan menggunakan berbagai avatar dalam game. Siap untuk memulainya?",
-				"options": { "MISSING-yes": "Baik, Ayo!", "MISSING-no": "Tidak, Cukup Dulu Saat Ini" }
+				"text": "Selanjutnya adalah tutorial avatar, yang akan menjelaskan cara membuka dan menggunakan berbagai avatar dalam game. Siap untuk memulainya?",
+				"options": { "yes": "Baik, Ayo!", "no": "Tidak, Cukup Dulu Saat Ini" }
 			}
 		},
 		"avatar": {
-			"MISSING-title": "Avatar",
+			"title": "Avatar",
 			"step_one": {
-				"MISSING-text": "Mari kita mulai Avatar 101! _BREAK_ Game ini memiliki berbagai avatar dan skin yang bisa anda buka dan gunakan untuk mewakili diri anda dalam game."
+				"text": "Mari kita mulai Avatar 101! _BREAK_ Game ini memiliki berbagai avatar dan skin yang bisa anda buka dan gunakan untuk mewakili diri anda dalam game."
 			},
-			"step_two": {
-				"MISSING-text": "Anda bisa melihat semua avatar dengan mengklik tombol avatar di kanan bawah."
-			},
+			"step_two": { "text": "Anda bisa melihat semua avatar dengan mengklik tombol avatar di kanan bawah." },
 			"step_three": {
-				"MISSING-text": "Di sini kita punya jendela toko, di bagian atas anda bisa menemukan bar yang menampilkan semua avatar yang tersedia."
+				"text": "Di sini kita punya jendela toko, di bagian atas anda bisa menemukan bar yang menampilkan semua avatar yang tersedia."
 			},
 			"step_four": {
-				"MISSING-text": "Di sebelah kanan, di bagian atas ada filter avatar, dan di bawahnya terdapat pratinjau serta informasi tambahan dari avatar yang dipilih. Sama seperti ubin di ruangan kuis, anda bisa mengarahkan kursor ke berbagai ikon dan teks untuk melihat deskripsinya."
+				"text": "Di sebelah kanan, di bagian atas ada filter avatar, dan di bawahnya terdapat pratinjau serta informasi tambahan dari avatar yang dipilih. Sama seperti ubin di ruangan kuis, anda bisa mengarahkan kursor ke berbagai ikon dan teks untuk melihat deskripsinya."
 			},
 			"step_five": {
-				"MISSING-text": "Silakan lihat pratinjau dan informasinya, setelah selesai pilih Komugi di daftar avatar dan saya akan menunjukkan berbagai jenis avatar dan skin."
+				"text": "Silakan lihat pratinjau dan informasinya, setelah selesai pilih Komugi di daftar avatar dan saya akan menunjukkan berbagai jenis avatar dan skin."
 			},
 			"step_six": {
-				"MISSING-text": "Avatar bisa memiliki beberapa skin yang dibagi menjadi 3 kategori: Standar, Eksklusif, dan Terbatas/Tidak Tersedia."
+				"text": "Avatar bisa memiliki beberapa skin yang dibagi menjadi 3 kategori: Standar, Eksklusif, dan Terbatas/Tidak Tersedia."
 			},
 			"step_seven": {
-				"MISSING-text": "Skin Standar bisa dibuka menggunakan notes, yang diperoleh dengan bermain kuis dan menebak jawaban dengan benar."
+				"text": "Skin Standar bisa dibuka menggunakan notes, yang diperoleh dengan bermain kuis dan menebak jawaban dengan benar."
 			},
 			"step_eight": {
-				"MISSING-text": "Skin Eksklusif bisa dibuka dengan roll menggunakan tiket di sistem tiket. Tiket diperoleh dengan naik level, mendukung game di Patreon, atau dibeli langsung."
+				"text": "Skin Eksklusif bisa dibuka dengan roll menggunakan tiket di sistem tiket. Tiket diperoleh dengan naik level, mendukung game di Patreon, atau dibeli langsung."
 			},
 			"step_nine": {
-				"MISSING-text": "Skin Terbatas bekerja seperti Eksklusif, tetapi hanya tersedia pada waktu-waktu tertentu dalam setahun, seperti hari libur atau musim tertentu. Di luar waktu tersebut, skin tidak tersedia dan tidak bisa dibuka."
+				"text": "Skin Terbatas bekerja seperti Eksklusif, tetapi hanya tersedia pada waktu-waktu tertentu dalam setahun, seperti hari libur atau musim tertentu. Di luar waktu tersebut, skin tidak tersedia dan tidak bisa dibuka."
 			},
-			"step_ten": { "MISSING-text": "Setelah mengetahui jenis-jenisnya, coba pilih skin Standar Komugi." },
+			"step_ten": { "text": "Setelah mengetahui jenis-jenisnya, coba pilih skin Standar Komugi." },
 			"step_eleven": {
-				"MISSING-text": "Di sini kita punya versi yang sebenarnya akan anda buka. _BREAK_ Setiap skin memiliki beberapa recolor yang bisa dibuka, dan bahkan beberapa versi alternatif yang lebih tingkat lanjut dari skin tersebut. Silakan lihat-lihat dulu sebelum kita melanjutkan."
+				"text": "Di sini kita punya versi yang sebenarnya akan anda buka. _BREAK_ Setiap skin memiliki beberapa recolor yang bisa dibuka, dan bahkan beberapa versi alternatif yang lebih tingkat lanjut dari skin tersebut. Silakan lihat-lihat dulu sebelum kita melanjutkan."
 			},
 			"step_twelve": {
-				"MISSING-text": "Setiap skin dan setiap warna memiliki biaya tersendiri. Jadi setelah anda membuka sebuah skin, semua recolor akan menjadi lebih murah!"
+				"text": "Setiap skin dan setiap warna memiliki biaya tersendiri. Jadi setelah anda membuka sebuah skin, semua recolor akan menjadi lebih murah!"
 			},
 			"step_thirteen": {
-				"MISSING-text": "Recolor dan versi alternatif ditandai dengan ikon tiket dan dapat dibuka melalui sistem tiket. Warna tiket menunjukkan kelangkaannya dalam sistem tiket."
+				"text": "Recolor dan versi alternatif ditandai dengan ikon tiket dan dapat dibuka melalui sistem tiket. Warna tiket menunjukkan kelangkaannya dalam sistem tiket."
 			},
 			"step_fourteen": {
-				"MISSING-text": "Selain didapatkan melalui sistem tiket, mereka juga bisa dibuka dengan menggunakan rhythm, mata uang terpisah yang diperoleh melalui sistem tiket."
+				"text": "Selain didapatkan melalui sistem tiket, mereka juga bisa dibuka dengan menggunakan rhythm, mata uang terpisah yang diperoleh melalui sistem tiket."
 			},
 			"step_fifteen": {
-				"MISSING-text": "Itu saja untuk dasar-dasar avatar. Jika anda ingin tahu lebih banyak tentang sistem tiket, lihat tab Tiket. Ada juga beberapa emote yang bisa dibuka untuk digunakan di obrolan atau profil anda, yang bisa ditemukan di tab Emote."
+				"text": "Itu saja untuk dasar-dasar avatar. Jika anda ingin tahu lebih banyak tentang sistem tiket, lihat tab Tiket. Ada juga beberapa emote yang bisa dibuka untuk digunakan di obrolan atau profil anda, yang bisa ditemukan di tab Emote."
 			},
 			"step_sixteen": {
-				"MISSING-text": "Bicara soal profil, itu dibahas di tutorial terakhir. Beri tahu saya kalau anda mau mempelajarinya sekarang!",
-				"options": { "MISSING-yes": "Yes, let's go!", "MISSING-no": "No, I'm good for now" }
+				"text": "Bicara soal profil, itu dibahas di tutorial terakhir. Beri tahu saya kalau anda mau mempelajarinya sekarang!",
+				"options": { "yes": "Baik, Ayo!", "no": "Tidak, Cukup Dulu Saat Ini" }
 			},
 			"step_sixteen_first_time": {
-				"MISSING-text": "Bicara soal profil, itu dibahas di tutorial terakhir. Beri tahu saya kalau anda mau mempelajarinya sekarang! _BREAK_ Selain itu, karena ini pertama kalinya anda menyelesaikan tutorial avatar, berikut beberapa notes untuk membantu anda membuka skin berikutnya!",
-				"options": { "MISSING-yes": "Yes, let's go!", "MISSING-no": "No, I'm good for now" }
+				"text": "Bicara soal profil, itu dibahas di tutorial terakhir. Beri tahu saya kalau anda mau mempelajarinya sekarang! _BREAK_ Selain itu, karena ini pertama kalinya anda menyelesaikan tutorial avatar, berikut beberapa notes untuk membantu anda membuka skin berikutnya!",
+				"options": { "yes": "Baik, Ayo!", "no": "Tidak, Cukup Dulu Saat Ini" }
 			}
 		},
 		"social": {
-			"MISSING-title": "Sosial",
+			"title": "Sosial",
 			"step_one": {
-				"MISSING-text": "Di sinilah kita, tutorial terakhir! _BREAK_ Tutorial ini akan menjelaskan cara kerja profil dan sistem teman dalam game. Untuk memulai, buka menu sosial di kiri bawah."
+				"text": "Di sinilah kita, tutorial terakhir! _BREAK_ Tutorial ini akan menjelaskan cara kerja profil dan sistem teman dalam game. Untuk memulai, buka menu sosial di kiri bawah."
 			},
 			"step_two": {
-				"MISSING-text": "Pertama, kita punya daftar teman, semua teman yang anda tambahkan saat bermain akan muncul di sini. _BREAK_ Ini memungkinkan anda melihat kapan mereka online, melihat profil mereka, dan bahkan mengundang mereka ke game."
+				"text": "Pertama, kita punya daftar teman, semua teman yang anda tambahkan saat bermain akan muncul di sini. _BREAK_ Ini memungkinkan anda melihat kapan mereka online, melihat profil mereka, dan bahkan mengundang mereka ke game."
 			},
 			"step_three": {
-				"MISSING-text": "Anda juga bisa mengakses daftar semua pengguna yang sedang online dengan mengganti ke tab Online di bagian bawah menu."
+				"text": "Anda juga bisa mengakses daftar semua pengguna yang sedang online dengan mengganti ke tab Online di bagian bawah menu."
 			},
 			"step_four": {
-				"MISSING-text": "Tapi itu kita simpan untuk lain waktu, sekarang kita lihat profil anda! _BREAK_ Klik profil di sebelah kanan tab Online dan profil akan muncul."
+				"text": "Tapi itu kita simpan untuk lain waktu, sekarang kita lihat profil anda! _BREAK_ Klik profil di sebelah kanan tab Online dan profil akan muncul."
 			},
 			"step_five": {
-				"MISSING-text": "Di sini kita punya profil anda! Profil menampilkan stats seperti list anime, usia akun, serta seberapa banyak dan seberapa baik anda bermain. Profil juga bisa digunakan untuk menampilkan lencana yang sudah anda peroleh!"
+				"text": "Di sini kita punya profil anda! Profil menampilkan stats seperti list anime, usia akun, serta seberapa banyak dan seberapa baik anda bermain. Profil juga bisa digunakan untuk menampilkan lencana yang sudah anda peroleh!"
 			},
 			"step_six": {
-				"MISSING-text": "Di bagian bawah ada opsi yang bisa anda gunakan di profil, seperti mengirim pesan, permintaan teman, atau undangan bermain. Anda juga bisa memblokir atau melaporkan pemain jika diperlukan."
+				"text": "Di bagian bawah ada opsi yang bisa anda gunakan di profil, seperti mengirim pesan, permintaan teman, atau undangan bermain. Anda juga bisa memblokir atau melaporkan pemain jika diperlukan."
 			},
 			"step_seven": {
-				"MISSING-text": "Sebagian besar opsi ini berwarna abu-abu untuk anda, karena anda tidak bisa melakukannya pada diri anda sendiri. Tapi jika anda klik opsi bertitik di sebelah kanan, anda akan melihat satu opsi yang bisa dilakukan di profil, yaitu mengeditnya. _BREAK_ Coba klik, dan anda akan melihat tampilan untuk mengedit profil."
+				"text": "Sebagian besar opsi ini berwarna abu-abu untuk anda, karena anda tidak bisa melakukannya pada diri anda sendiri. Tapi jika anda klik opsi bertitik di sebelah kanan, anda akan melihat satu opsi yang bisa dilakukan di profil, yaitu mengeditnya. _BREAK_ Coba klik, dan anda akan melihat tampilan untuk mengedit profil."
 			},
 			"step_eight": {
-				"MISSING-text": "Mengedit profil memungkinkan anda memperbarui hampir semua hal tentangnya. Anda bisa menampilkan/menyembunyikan stats dengan mengklik ikon mata di sebelah kiri. Anda juga bisa mengubah situs list anime yang ditampilkan, dan bahkan mengganti gambar profil dengan emote apa pun yang sudah dibuka melalui sistem tiket!"
+				"text": "Mengedit profil memungkinkan anda memperbarui hampir semua hal tentangnya. Anda bisa menampilkan/menyembunyikan stats dengan mengklik ikon mata di sebelah kiri. Anda juga bisa mengubah situs list anime yang ditampilkan, dan bahkan mengganti gambar profil dengan emote apa pun yang sudah dibuka melalui sistem tiket!"
 			},
 			"step_nine": {
-				"MISSING-text": "Setiap lencana yang anda buka, misalnya dengan membuka skin atau bermain di mode ranked, juga bisa ditampilkan di profil anda."
+				"text": "Setiap lencana yang anda buka, misalnya dengan membuka skin atau bermain di mode ranked, juga bisa ditampilkan di profil anda."
 			},
 			"step_ten": {
-				"MISSING-text": "Dengan beralih ke tampilan obrolan untuk lencana, anda juga bisa mengatur lencana agar muncul di samping nama anda di obrolan dalam game. _BREAK_ Mengarahkan kursor ke lencana di menu juga akan menampilkan cara membukanya."
+				"text": "Dengan beralih ke tampilan obrolan untuk lencana, anda juga bisa mengatur lencana agar muncul di samping nama anda di obrolan dalam game. _BREAK_ Mengarahkan kursor ke lencana di menu juga akan menampilkan cara membukanya."
 			},
 			"step_eleven": {
-				"MISSING-text": "Terakhir, anda juga bisa mengubah nama pengguna, nama yang muncul saat bermain, dengan mengklik tombol edit di sebelah kanan nama pengguna anda. Ini dibatasi satu kali perubahan per tahun, dan nama asli akan tetap terlihat di profil saat mengarahkan kursor ke nama pengguna"
+				"text": "Terakhir, anda juga bisa mengubah nama pengguna, nama yang muncul saat bermain, dengan mengklik tombol edit di sebelah kanan nama pengguna anda. Ini dibatasi satu kali perubahan per tahun, dan nama asli akan tetap terlihat di profil saat mengarahkan kursor ke nama pengguna"
 			},
 			"step_twelve": {
-				"MISSING-text": "Dan itu saja untuk tutorial terakhir. Setelah menyelesaikan semuanya, semoga anda bersenang-senang bermain Anime Music Quiz!"
+				"text": "Dan itu saja untuk tutorial terakhir. Setelah menyelesaikan semuanya, semoga anda bersenang-senang bermain Anime Music Quiz!"
 			},
 			"step_twelve_first_time": {
-				"MISSING-text": "Dan itu saja untuk tutorial terakhir. Setelah menyelesaikan semuanya, semoga anda bersenang-senang bermain Anime Music Quiz! Sebagai hadiah terakhir karena telah menyelesaikan semua tutorial untuk pertama kalinya, berikut hadiah notes terakhir!"
+				"text": "Dan itu saja untuk tutorial terakhir. Setelah menyelesaikan semuanya, semoga anda bersenang-senang bermain Anime Music Quiz! Sebagai hadiah terakhir karena telah menyelesaikan semua tutorial untuk pertama kalinya, berikut hadiah notes terakhir!"
 			}
 		},
 		"dismiss": {
-			"MISSING-title": "Tutup Tutorial",
+			"title": "Tutup Tutorial",
 			"type_one": {
-				"MISSING-text": "Selesai untuk sekarang? _BREAK_ Kalau anda mau melanjutkan tutorial lain waktu, anda bisa menemukannya di menu kanan bawah. Semoga anda bersenang-senang bermain Anime Music Quiz!"
+				"text": "Selesai untuk sekarang? _BREAK_ Kalau anda mau melanjutkan tutorial lain waktu, anda bisa menemukannya di menu kanan bawah. Semoga anda bersenang-senang bermain Anime Music Quiz!"
 			},
 			"type_two": {
-				"MISSING-text": "Tidak Apa apa. _BREAK_ Kalau anda mau melanjutkan tutorial lain waktu, anda bisa menemukannya di menu kanan bawah. Semoga anda bersenang-senang bermain Anime Music Quiz!"
+				"text": "Tidak Apa apa. _BREAK_ Kalau anda mau melanjutkan tutorial lain waktu, anda bisa menemukannya di menu kanan bawah. Semoga anda bersenang-senang bermain Anime Music Quiz!"
 			}
 		},
 		"start_warning": {
-			"MISSING-title": "Kembali ke Menu Utama?",
-			"MISSING-text": "Tutorial hanya bisa diambil dari menu utama. Jika anda kembali ke menu utama, semua aktivitas yang sedang dilakukan akan berhenti.",
-			"MISSING-return_button": "Kembali",
-			"MISSING-stay_button": "Tinggal"
+			"title": "Kembali ke Menu Utama?",
+			"text": "Tutorial hanya bisa diambil dari menu utama. Jika anda kembali ke menu utama, semua aktivitas yang sedang dilakukan akan berhenti.",
+			"return_button": "Kembali",
+			"stay_button": "Tinggal"
 		},
-		"exit_tutorial_warning": { "MISSING-title": "Keluar Tutorial?", "MISSING-exit_button": "Keluar" }
+		"exit_tutorial_warning": { "title": "Keluar Tutorial?", "exit_button": "Keluar" }
 	},
 	"popout_windows": {
-		"MISSING-close_window_button": "Tutup Jendela",
-		"MISSING-close_window_message": "Anda bisa menutup jendela ini",
+		"close_window_button": "Tutup Jendela",
+		"close_window_message": "Anda bisa menutup jendela ini",
 		"patreon": {
-			"MISSING-link_successful": "Patreon Terhubung!",
-			"MISSING-unable_to_link": "Gagal Terhubung ke Patreon",
-			"MISSING-please_try_again": "Silahkan Coba lagi nanti",
-			"MISSING-verified_account_required": "Hanya bisa dihubungkan ke akun AMQ yang sudah diverifikasi.",
-			"MISSING-linking_aborted": "Penghubungan Patreon Dibatalkan",
+			"link_successful": "Patreon Terhubung!",
+			"unable_to_link": "Gagal Terhubung ke Patreon",
+			"please_try_again": "Silahkan Coba lagi nanti",
+			"verified_account_required": "Hanya bisa dihubungkan ke akun AMQ yang sudah diverifikasi.",
+			"linking_aborted": "Penghubungan Patreon Dibatalkan",
 			"already_linked": {
-				"MISSING-title": "Akun Patreon Sudah Terhubung",
-				"MISSING-message": "Akun Patreon yang diberikan sudah terhubung ke akun AMQ lain. Silakan putuskan tautannya sebelum menggunakannya"
+				"title": "Akun Patreon Sudah Terhubung",
+				"message": "Akun Patreon yang diberikan sudah terhubung ke akun AMQ lain. Silakan putuskan tautannya sebelum menggunakannya"
 			},
-			"MISSING-not_logged_in": "Belum Log in Kedalam AMQ"
+			"not_logged_in": "Belum Log in Kedalam AMQ"
 		},
 		"social_claims": {
 			"unable_to_claim": {
-				"MISSING-title": "Tidak bisa Klaim Hadiah",
-				"MISSING-message": "Hanya bisa diklaim oleh akun AMQ Terverifikasi"
+				"title": "Tidak bisa Klaim Hadiah",
+				"message": "Hanya bisa diklaim oleh akun AMQ Terverifikasi"
 			},
-			"MISSING-reward_claimed": "Hadiah Diklaim!",
-			"MISSING-error_claiming_rewards": "Kesalahan saat Mengklaim Hadiah",
-			"MISSING-unexpected_error": "Kesalahan tak terduga, Silahkan Tutup Jendela Ini dan Coba Lagi",
-			"MISSING-already_claimed": "Hadiah telah diklaim",
-			"MISSING-platform_already_claimed": "Hadiah telah diklaim oleh akun _NAME_",
-			"MISSING-discord_not_linked": "Belum berada di server Discord. Untuk mengklaim hadiah, pastikan anda bergabung dengan _LINK_ Discord Anime Music Quiz _LINK_ lalu coba lagi",
-			"MISSING-patreon_not_linked": "Bukan anggota Patreon, Untuk mengklaim hadiah, pastikan anda bergabung dengan _LINK_ Patreon Anime Music Quiz _LINK_ lalu coba lagi",
-			"MISSING-claim_aborted": "Klaim Dibatalkan",
-			"MISSING-not_logged_in": "Belum Log in Kedalam AMQ"
+			"reward_claimed": "Hadiah Diklaim!",
+			"error_claiming_rewards": "Kesalahan saat Mengklaim Hadiah",
+			"unexpected_error": "Kesalahan tak terduga, Silahkan Tutup Jendela Ini dan Coba Lagi",
+			"already_claimed": "Hadiah telah diklaim",
+			"platform_already_claimed": "Hadiah telah diklaim oleh akun _NAME_",
+			"discord_not_linked": "Belum berada di server Discord. Untuk mengklaim hadiah, pastikan anda bergabung dengan _LINK_ Discord Anime Music Quiz _LINK_ lalu coba lagi",
+			"patreon_not_linked": "Bukan anggota Patreon, Untuk mengklaim hadiah, pastikan anda bergabung dengan _LINK_ Patreon Anime Music Quiz _LINK_ lalu coba lagi",
+			"claim_aborted": "Klaim Dibatalkan",
+			"not_logged_in": "Belum Log in Kedalam AMQ"
 		},
 		"payment": {
-			"MISSING-cancelled": "Pembayaran Dibatalkan",
-			"MISSING-successful": "Pembayaran Sukses",
-			"MISSING-success_message": "Terima Kasih atas dukungannya! Anda bisa menutup jendela ini"
+			"cancelled": "Pembayaran Dibatalkan",
+			"successful": "Pembayaran Sukses",
+			"success_message": "Terima Kasih atas dukungannya! Anda bisa menutup jendela ini"
 		}
+	},
+	"avatar_options": {
+		"bandana": "Bandana",
+		"bow": "Pita Simpul",
+		"bows": "Pita Simpul",
+		"cardigan": "Kardigan",
+		"chain": "Rantai",
+		"crown": "Mahkota",
+		"drums": "Drum",
+		"earmuffs": "Penutup Telinga",
+		"earpiece": "Earpiece",
+		"flower": "Bunga",
+		"glasses": "Kacamata",
+		"goggles": "Kacamata Pelindung",
+		"hair_chain": "Rantai Rambut",
+		"hair_clips": "Jepit Rambut",
+		"hair_pins": "Pin Rambut",
+		"hairband": "Bando",
+		"hairclip": "Jepit Rambut",
+		"hairpin": "Pin Rambut",
+		"hairpins": "Pin Rambut",
+		"hat": "Topi",
+		"headband": "Ikat Kepala",
+		"headphones": "Headphone",
+		"headpiece": "Hiasan Kepala",
+		"headset": "Headset",
+		"helm": "Helm",
+		"helmet": "Helm",
+		"hood": "Tudung",
+		"jacket": "Jaket",
+		"mask": "Topeng",
+		"none": "Tidak Ada",
+		"pins": "Pin",
+		"revealed": "Terbuka",
+		"ribbon": "Pita",
+		"ribbons": "Pita",
+		"scarf": "Syal",
+		"tiara": "Tiara",
+		"veil": "Kerudung",
+		"whistle": "Peluit",
+		"yan": "Yan"
 	}
 }
