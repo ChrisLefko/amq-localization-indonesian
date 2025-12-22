@@ -488,20 +488,20 @@
 				"ranked": {
 					"offline": "Ranked - Offline",
 					"lobby": "Ranked - Lobi Tersedia",
-					"playing": "Ranked - Sedang Berlangsung",
+					"playing": "Ranked - Berlangsung",
 					"completed": "Ranked - Selesai",
 					"rest_day": "Ranked - Hari Istirahat"
 				},
 				"themed": {
 					"offline": "Themed - Offline",
-					"playing": "Themed - Sedang Berlangsung",
+					"playing": "Themed - Berlangsung",
 					"completed": "Themed - Selesai",
 					"lobby": "Themed - Lobi Tersedia",
 					"DELETED-lobby_up": "Themed - Lobby Tersedia"
 				},
 				"championship": {
 					"offline": "Championship - Offline",
-					"playing": "Championship - Sedang Berlangsung",
+					"playing": "Championship - Berlangsung",
 					"completed": "Championship - Selesai",
 					"lobby": "Championship - Lobi Tersedia",
 					"DELETED-lobby_up": "Championship - Lobi Tersedia"
@@ -1951,7 +1951,7 @@
 			"reset_to_default": "Reset ke Bawahan"
 		},
 		"room_name": "Nama Ruangan",
-		"private_room": "Ruangan Pribadi",
+		"private_room": "Ruang Pribadi",
 		"game_modes": {
 			"ranked": "Ranked",
 			"event": "Event",
@@ -2833,7 +2833,7 @@
 				"ending_categories": "Kategori Ending",
 				"insert_categories": "Kategori Insert",
 				"room_name": "Nama Ruangan",
-				"room_private": "Ruangan Pribadi",
+				"room_private": "Ruangaa Pribadi",
 				"password": "Kata Sandi",
 				"playback_speed": "Kecepatan Putar",
 				"game_mode": "Mode Game",
@@ -3949,7 +3949,7 @@
 				"message_five": "Itu saja untuk tutorialnya! Selamat menikmati Nexus!"
 			},
 			"workshop": {
-				"message_one": "Selamat datang di workshop! Saat anda menaikkan level avatarmu, mereka akan membuka slot rune, yang bisa anda pasangi rune kuat di dalamnya.",
+				"message_one": "Selamat datang di workshop! Saat menaikkan level avatar, mereka akan membuka slot rune, yang bisa anda pasangi rune kuat di dalamnya.",
 				"message_two": "Rune ditemukan di seluruh dungeon Nexus, dan memberikan peningkatan stat serta efek unik saat dipasangkan ke avatar.",
 				"message_three": "Jika salah satu avatar Anda memiliki slot rune yang kosong, jumlahnya akan ditampilkan pada ubin mereka.",
 				"message_four": "Akhirnya, Anda juga dapat menggunakan rune reformatter untuk mengubah atau meningkatkan rune Anda.",
