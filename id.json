@@ -46,7 +46,7 @@
 			"not_applicable": "Tidak Berlaku",
 			"claimed_button": "Diklaim",
 			"search_placeholder": "Cari",
-			"MISSING-server_restart": "Server Restart"
+			"server_restart": "Restart Server"
 		},
 		"popout_messages": {
 			"unexpected_error": "Kesalahan tak Terduga",
@@ -1346,15 +1346,15 @@
 	"avatar_lore": {
 		"hibiki": {
 			"thief": "Hibiki adalah seorang petualang ceria yang terkenal, dengan bakat masuk ke tempat yang seharusnya ia tak boleh masuk dan keluar dengan lebih banyak dari yang dibawanya masuk. Keahlian ini sering ia banggakan di kedai-kedai lokal",
-			"monster_trainer": "Hibiki yang tak pernah betah menetap lama, tidak mengejutkan siapa pun ketika ia memutuskan menjelajahi dunia setelah bertemu pasangannya, Hineko. Bersama-sama, mereka menjadi tim yang tangguh dan cepat membuat nama mereka dikenal.",
-			"fast_food_employee": "Saat berada di kota baru, Hibiki harus segera mencari pekerjaan baru. Untungnya, ia berhasil mendapatkan pekerjaan yang bagus di sebuah restoran cepat saji lokal, di mana ia kini menghabiskan hari-harinya bekerja bersama rekan kerja yang hebat sambil bersiap untuk petualangan berikutnya."
+			"monster_trainer": "Hibiki yang tak pernah betah menetap lama, tak mengejutkan siapa pun ketika ia memutuskan menjelajahi dunia setelah bertemu pasangannya, Hineko. Bersama mereka menjadi tim yang tangguh dan cepat membuat nama mereka dikenal.",
+			"fast_food_employee": "Di kota baru, Hibiki berhasil mendapatkan pekerjaan di sebuah restoran cepat saji, di mana ia kini menghabiskan hari-harinya bekerja bersama rekan kerja yang hebat sambil bersiap untuk petualangan berikutnya."
 		},
 		"honoka": {
-			"standard": "Karena kesehatannya lemah, Honoka menghabiskan sebagian besar hidupnya di kediaman keluarganya, hanya ditemani buku-buku dan pelayan pribadinya, Kyouko, sampai baru-baru ini ia secara kebetulan bertemu Ritsu dan mereka pun menjadi teman.",
-			"druid": "Honoka berasal dari sebuah bangsa druid, namun kini ia menjelajahi dunia untuk mencari pengetahuan baru, ujian terakhir bagi para pelajar pemula bangsanya. Perjalanannya saat ini ditemani Kyouko, seorang kesatria lokal yang ditugaskan menjadi pemandunya di kerajaan ini."
+			"standard": "Karena tubuh lemah, Honoka menghabiskan hidupnya di kediaman keluarganya, hanya ditemani buku-buku dan pelayan pribadinya, Kyouko, sampai baru-baru ini ia secara kebetulan bertemu Ritsu dan mereka pun menjadi teman.",
+			"druid": "Honoka berasal dari bangsa druid, namun kini menjelajahi dunia untuk mencari pengetahuan, ujian akhir bagi pelajar pemula bangsanya. Perjalanannya ini ditemani Kyouko, seorang kesatria lokal yang ditugaskan jadi pemandunya di kerajaan ini."
 		},
 		"kyouko": {
-			"standard": "Kyouko telah bekerja sebagai pelayan pribadi Honoka selama beberapa tahun. Sifatnya yang energik dan kecerobohannya sering menimbulkan kecelakaan yang seharusnya bisa membuatnya dipecat, jika bukan karena persahabatannya dengan Honoka.",
+			"standard": "Kyouko bekerja sebagai pelayan pribadi Honoka selama beberapa tahun. Sifat yang energik dan cerobohnya sering menimbulkan kecelakaan yang membuatnya bisa dipecat, jika bukan karena persahabatannya dengan Honoka.",
 			"knight": "Sebagai anggota terbaru dari pengawal kerajaan, Kyouko ditugaskan untuk membantu Honoka, seorang pelajar dari suku druid sekutu, dalam perjalanannya mengelilingi negeri. Hari-harinya pun dihabiskan di jalan, bertugas sebagai pengawal dan pemandu Honoka.",
 			"bodyguard": "Kyouko diberhentikan sebagai pelayan Honoka karena perubahan keamanan. Masih ingin membantu Honoka, Kyouko belajar menjadi pengawal, meski kecerobohannya sering menimbulkan masalah, Honoka membiarkannya karena ia senang menghabiskan waktu bersama Kyouko."
 		},
@@ -3810,7 +3810,7 @@
 				"heal_this_avatar": "Sembuhkan avatar ini",
 				"lock_artifact_description": "Kunci artefak untuk membawanya ke lantai berikutnya. Setiap avatar hanya dapat mengunci satu artefak."
 			},
-			"abandon_run_vote": { "MISSING-title": "Abandon Run?", "MISSING-yes_button": "Yes", "MISSING-no_button": "No" }
+			"abandon_run_vote": { "title": "Abaikan Run?", "yes_button": "Ya", "no_button": "Tidak" }
 		},
 		"avatar": {
 			"genre": "Genre",
@@ -4946,10 +4946,10 @@
 				"description": "Membatalkan semua kerusakan dari serangan jika pertunjukan saat ini tidak memiliki genre _NAME_"
 			},
 			"data_feedback": {
-				"MISSING-name": "Data Feedback",
-				"MISSING-description": "Data shield damage reduction offline"
+				"name": "Data Feedback",
+				"description": "Pengurangan Kerusakan oleh Data Shield sedang nonaktif"
 			},
-			"data_shield": { "MISSING-name": "Data Shield", "MISSING-description": "Greatly reduce all damage taken" }
+			"data_shield": { "name": "Data Shield", "description": "Greatly reduce all damage taken , Secara Signifikan mengurangi semua kerusakan yang diterima" }
 		},
 		"enemies": {
 			"assassin": "Assassin",
@@ -5245,138 +5245,138 @@
 		"yan": "Yan"
 	},
 	"daily_quests": {
-		"MISSING-title": "Daily Quests",
+		"title": "Misi Harian",
 		"description": {
-			"MISSING-title": "Daily Quests",
-			"MISSING-description": "Complete daily quests to earn bonus notes, and earn an avatar token for every 7 quest completed! A new quest becomes available every day at 12:00 CET, and you’ll have 7 days to complete it."
+			"title": "Misi Harian",
+			"description": "Selesaikan misi harian untuk mendapatkan bonus notes, dan dapatkan 1 token avatar untuk setiap 7 misi yang diselesaikan! Misi baru tersedia setiap hari pukul 12.00 CET, dan anda punya waktu 7 hari untuk menyelesaikannya."
 		},
-		"MISSING-event_quest": "Event Quest",
-		"MISSING-weekly_quest": "Weekly Quest",
+		"event_quest": "Misi Event",
+		"weekly_quest": "Misi Mingguan",
 		"category": {
-			"MISSING-monday": "Mon",
-			"MISSING-tuesday": "Tue",
-			"MISSING-wednesday": "Wed",
-			"MISSING-thursday": "Thu",
-			"MISSING-friday": "Fri",
-			"MISSING-saturday": "Sat",
-			"MISSING-sunday": "Sun",
-			"MISSING-event": "Eve"
+			"monday": "Sen",
+			"tuesday": "Sel",
+			"wednesday": "Rab",
+			"thursday": "Kam",
+			"friday": "Jum",
+			"saturday": "Sab",
+			"sunday": "Min",
+			"event": "Eve"
 		},
-		"MISSING-quest_description": "_DESCRIPTION_ _BREAK_ Reward: _NUMBER_ notes _BREAK_ Resets _DATE_",
+		"quest_description": "_DESCRIPTION_ _BREAK_ Hadiah: _NUMBER_ note _BREAK_ Reset _DATE_",
 		"quests": {
 			"br_flex": {
-				"MISSING-title": "BR Flex",
-				"MISSING-description": "Guess 20 songs you didn't loot, in non-team games with looting enabled"
+				"title": "Flex Pengumpulan",
+				"description": "Tebak 20 lagu yang bukan anda kumpul, di game non tim dengan pengumpulan dinyalakan"
 			},
 			"master_rigger": {
-				"MISSING-title": "Master Rigger",
-				"MISSING-description": "Guess 20 songs from your anime list, in non-team games"
+				"title": "Master Rigger",
+				"description": "Tebak 20 lagu dari list anime anda, di game non tim"
 			},
 			"survivor": {
-				"MISSING-title": "Survivor",
-				"MISSING-description": "Survive 10 rounds when playing with lives, in non-team games"
+				"title": "Yang Bertahan",
+				"description": "Bertahan 10 ronde ketika bermain mode nyawa, di game non tim"
 			},
 			"master_sniper": {
-				"MISSING-title": "Master Sniper",
-				"MISSING-description": "Guess 20 songs not from your anime list, in non-team games"
+				"title": "Master Sniper",
+				"description": "Tebak 20 lagu yang bukan dari list anime anda, di game non tim"
 			},
 			"lightning_fast": {
-				"MISSING-title": "Lightning Fast",
-				"MISSING-description": "Guess 20 songs within the first 7 seconds of it, in non-team games"
+				"title": "Kecepatan Kilat",
+				"description": "Tebak 20 lagu dalam waktu 7 detik pertama per lagu, di game non tim"
 			},
 			"i_love_that_show": {
-				"MISSING-title": "I Love That Show",
-				"MISSING-description": "Guess 20 songs from shows you've scored 8+ in your anime list, in non-team games"
+				"title": "Saya Cinta Acara Itu",
+				"description": "Tebak 20 lagu dari acara yang anda beri skor 8+ di anime list anda. di game non tim"
 			},
 			"keeping_up_to_date": {
-				"MISSING-title": "Keeping Up To Date",
-				"MISSING-description": "Guess 20 songs from shows released in the 4 latest anime seasons, in non-team games"
+				"title": "Tetap Terbarui",
+				"description": "Tebak 20 lagu dari acara yang rilis di 4 musim terakhir, di game non tim "
 			},
 			"dont_skip_openings": {
-				"MISSING-title": "Don't Skip Openings",
-				"MISSING-description": "Guess 20 opening songs, in non-team games"
+				"title": "Jangan Lewati Opening",
+				"description": "Tebak 20 Lagu Opening, di game non tim"
 			},
 			"dont_skip_endings": {
-				"MISSING-title": "Don't Skip Endings",
-				"MISSING-description": "Guess 20 ending songs, in non-team games"
+				"title": "Jangan Lewati Ending",
+				"description": "Tebak 20 Lagu Ending, di game non tim"
 			},
 			"dont_skip_inserts": {
-				"MISSING-title": "Don't Skip Inserts",
-				"MISSING-description": "Guess 20 insert songs, in non-team games"
+				"title": "Jangan Lewati Insert",
+				"description": "Tebak 20 Lagu Insert, di game non tim"
 			},
 			"action_fan": {
-				"MISSING-title": "Action Fan",
-				"MISSING-description": "Guess 20 songs from action shows, in non-team games"
+				"title": "Fans Aksi",
+				"description": "Tebak 20 Lagu dari anime genre aksi, di game non tim"
 			},
 			"adventure_fan": {
-				"MISSING-title": "Adventure Fan",
-				"MISSING-description": "Guess 20 songs from adventure shows, in non-team games"
+				"title": "Fans Petualangan",
+				"description": "Tebak 20 Lagu dari anime genre petualangan, di game non tim"
 			},
 			"comedy_fan": {
-				"MISSING-title": "Comedy Fan",
-				"MISSING-description": "Guess 20 songs from comedy shows, in non-team games"
+				"title": "Fans Komedi",
+				"description": "Tebak 20 Lagu dari anime genre komedi, di game non tim"
 			},
 			"drama_fan": {
-				"MISSING-title": "Drama Fan",
-				"MISSING-description": "Guess 20 songs from drama shows, in non-team games"
+				"title": "Fans Drama",
+				"description": "Tebak 20 Lagu dari anime genre drama, di game non tim"
 			},
 			"ecchi_fan": {
-				"MISSING-title": "Ecchi Fan",
-				"MISSING-description": "Guess 20 songs from ecchi shows, in non-team games"
+				"title": "Fans Ecchi",
+				"description": "Tebak 20 Lagu dari anime genre ecchi, di game non tim"
 			},
 			"fantasy_fan": {
-				"MISSING-title": "Fantasy Fan",
-				"MISSING-description": "Guess 20 songs from fantasy shows, in non-team games"
+				"title": "Fans Fantasi",
+				"description": "Tebak 20 Lagu dari anime genre fantasi, di game non tim"
 			},
 			"horror_fan": {
-				"MISSING-title": "Horror Fan",
-				"MISSING-description": "Guess 20 songs from horror shows, in non-team games"
+				"title": "Fans Horor",
+				"description": "Tebak 20 Lagu dari anime genre horor, di game non tim"
 			},
 			"mahou_shoujo_fan": {
-				"MISSING-title": "Mahou Shoujo Fan",
-				"MISSING-description": "Guess 20 songs from mahou shoujo shows, in non-team games"
+				"title": "Fans Gadis Penyihir",
+				"description": "Tebak 20 Lagu dari anime genre gadis penyihir, di game non tim"
 			},
 			"mecha_fan": {
-				"MISSING-title": "Mecha Fan",
-				"MISSING-description": "Guess 20 songs from mecha shows, in non-team games"
+				"title": "Fans Mecha",
+				"description": "Tebak 20 Lagu dari anime genre mecha, di game non tim"
 			},
 			"music_fan": {
-				"MISSING-title": "Music Fan",
-				"MISSING-description": "Guess 20 songs from music shows, in non-team games"
+				"title": "Fans Musik",
+				"description": "Tebak 20 Lagu dari anime genre musik, di game non tim"
 			},
 			"mystery_fan": {
-				"MISSING-title": "Mystery Fan",
-				"MISSING-description": "Guess 20 songs from mystery shows, in non-team games"
+				"title": "Fans Misteri",
+				"description": "Tebak 20 Lagu dari anime genre misteri, di game non tim"
 			},
 			"psychological_fan": {
-				"MISSING-title": "Psychological Fan",
-				"MISSING-description": "Guess 20 songs from psychological shows, in non-team games"
+				"title": "Fans Psikologi",
+				"description": "Tebak 20 Lagu dari anime genre psikologi, di game non tim"
 			},
 			"romance_fan": {
-				"MISSING-title": "Romance Fan",
-				"MISSING-description": "Guess 20 songs from romance shows, in non-team games"
+				"title": "Fans Romansa",
+				"description": "Tebak 20 Lagu dari anime genre romansa, di game non tim"
 			},
 			"sci-fi_fan": {
-				"MISSING-title": "Sci-Fi Fan",
-				"MISSING-description": "Guess 20 songs from sci-fi shows, in non-team games"
+				"title": "Fans Sains Fiksi",
+				"description": "Tebak 20 Lagu dari anime genre sains fiksi, di game non tim"
 			},
 			"slice_of_life_fan": {
-				"MISSING-title": "Slice of Life Fan",
-				"MISSING-description": "Guess 20 songs from slice of fife shows, in non-team games"
+				"title": "Fans Potongan Kehidupan",
+				"description": "Tebak 20 Lagu dari anime genre potongan kehidupan, di game non tim"
 			},
 			"sports_fan": {
-				"MISSING-title": "Sports Fan",
-				"MISSING-description": "Guess 20 songs from sports shows, in non-team games"
+				"title": "Fans Olahraga",
+				"description": "Tebak 20 Lagu dari anime genre olahraga, di game non tim"
 			},
 			"supernatural_fan": {
-				"MISSING-title": "Supernatural Fan",
-				"MISSING-description": "Guess 20 songs from supernatural shows, in non-team games"
+				"title": "Fans Supernatural",
+				"description": "Tebak 20 Lagu dari anime genre supernatural, di game non tim"
 			},
 			"thriller_fan": {
-				"MISSING-title": "Thriller Fan",
-				"MISSING-description": "Guess 20 songs from thriller shows, in non-team games"
+				"title": "Fans Thriller",
+				"description": "Tebak 20 Lagu dari anime genre thriller, di game non tim"
 			},
-			"just_jamming": { "MISSING-title": "Just Jamming", "MISSING-description": "Guess 20 songs in the Jam Quiz" }
+			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" }
 		}
 	}
 }
