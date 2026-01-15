@@ -1646,10 +1646,10 @@
 			"song": "Lagu",
 			"artist": "Artis",
 			"composer": "Komposer",
-			"arranger": "Penata Musik"
+			"arranger": "Penata Lagu"
 		},
 		"strict": "Ketat",
-		"strict_description": "Jangan sertakan grup yang diikuti artis saat mencari artis/komposer/penata musik.",
+		"strict_description": "Jangan sertakan grup yang diikuti artis saat mencari artis/komposer/penata lagu.",
 		"search": "Cari",
 		"anime_entry": {
 			"song_counts": { "op": "OP _NUMBER_", "ed": "ED _NUMBER_", "insert": "IN _NUMBER_" },
@@ -1670,7 +1670,7 @@
 			"dub": "Dub",
 			"rebroadcast": "Siar Ulang",
 			"composer": "Komposer",
-			"arranger": "Penata Musik",
+			"arranger": "Penata Lagu",
 			"song_category": "Kategori Lagu",
 			"guess_percent": {
 				"title": "Persentase Tebakan",
@@ -2425,7 +2425,7 @@
 			"anime_romaji": "Romaji Anime",
 			"columns": {
 				"composer": "Komposer",
-				"arranger": "Penata Musik",
+				"arranger": "Penata Lagu",
 				"all_working_titles": "Semua Judul Berfungsi",
 				"sample_point": "Titik Sampel",
 				"anime_type": "Tipe Anime",
