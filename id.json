@@ -61,6 +61,18 @@
 				"text": "Anda tidak akan melihat pesan atau menerima undangan pertemanan/game dari pemain yang diblokir.",
 				"confirm": "Blokir",
 				"cancel": "Batal"
+			},
+			"detected_afk": {
+				"title": "Anda Telah Terdeteksi AFK",
+				"text": "Anda akan terputus dalam _SPAN_ 60 _SPAN_ detik",
+				"text_host": "Anda akan kehilangan status host (dan akan diubah menjadi penonton, jika anda belum menjadi penonton) dalam _SPAN_ 10 _SPAN_ detik",
+				"stay_online": "Tetap Online",
+				"stay_host": "Tetap Jadi Host"
+			},
+			"disconnected_for_inactivity": {
+				"title": "Terputus karena tidak aktif",
+				"text": "Muat ulang game untuk terhubung kembali",
+				"reload": "Muat Ulang"
 			}
 		},
 		"registration": {
@@ -540,7 +552,7 @@
 		},
 		"ranked_description": {
 			"title": "Mode Ranked",
-			"description": "Tantang dirimu melawan teman-temanmu dan komunitas AMQ dengan bergabung dalam ranked. Setiap game ranked akan memberimu poin ranked, membuka hadiah eksklusif baru dan membuatmu semakin dekat untuk bergabung dengan yang terbaik di Championship regional yang diadakan setiap akhir bulan.",
+			"description": "Tantang diri anda melawan teman-temanmu dan komunitas AMQ dengan bergabung dalam ranked. Setiap game ranked akan memberimu poin ranked, membuka hadiah eksklusif baru dan membuatmu semakin dekat untuk bergabung dengan yang terbaik di Championship regional yang diadakan setiap akhir bulan.",
 			"how_it_works": "Cara Kerja",
 			"regions": "Wilayah",
 			"region_description": "Setiap sesi Ranked dibagi menjadi tiga Wilayah yang berbeda (West, Central, East), masing-masing dengan papan peringkat, waktu mulai dan Championship yang terpisah. Anda dapat berpartisipasi dalam Ranked disetiap Wilayah. Namun, Anda hanya akan mendapatkan Poin Ranked dari Wilayah dimana poin tersebut didapatkan.",
@@ -617,7 +629,7 @@
 			"title": "Mode Game",
 			"solo": {
 				"title": "Solo",
-				"description": "Tantang dirimu dengan jumlah kuis unik yang dipersonalisasi tanpa batas."
+				"description": "Tantang diri anda dengan jumlah kuis unik yang dipersonalisasi tanpa batas."
 			},
 			"multiplayer": {
 				"title": "Multi-Pemain",
@@ -625,11 +637,11 @@
 			},
 			"community": {
 				"title": "Komunitas",
-				"description": "Mainkan kuis kustom buatan komunitas atau buat kuismu sendiri."
+				"description": "Mainkan kuis kustom buatan komunitas atau buat kuis anda sendiri."
 			},
 			"jam": {
 				"title": "Kuis Jam",
-				"description": "Kuis yang tak berkesudahan dimana Player dapat bergabung dan keluar kapan saja"
+				"description": "Kuis yang tak berkesudahan dimana Pemain dapat bergabung dan keluar kapan saja"
 			},
 			"nexus": {
 				"title": "Nexus",
@@ -681,7 +693,7 @@
 			"statuses": {
 				"online": "Online",
 				"offline": "Offline",
-				"away": "Away",
+				"away": "Sedang Pergi",
 				"do_not_disturb": "Jangan Ganggu",
 				"invisible": "Tidak Terlihat",
 				"playing_nexus": "Bermain Nexus _NAME_ ",
@@ -1325,7 +1337,8 @@
 				"insufficient_rhythm": "Rhythm Tidak Cukup",
 				"insufficient_rhythm_message": "Anda tidak punya cukup rhythm untuk membuka item ini.",
 				"error_unlocking": "Kesalahan Ketika Membuka"
-			}
+			},
+			"transaction_complete": "Transaksi Selesai"
 		},
 		"toggle_favorite": "Tandai Favorit",
 		"avatar_states": {
@@ -2699,7 +2712,8 @@
 			"team_code": "Kode Tim",
 			"create": "Buat",
 			"join": "Gabung",
-			"leave": "Keluar"
+			"leave": "Keluar",
+			"create_team": "Buat Tim"
 		},
 		"rule_window": {
 			"title": "Ringkasan Mode Game",
@@ -2806,13 +2820,7 @@
 			"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda", "mix": "Campur" },
 			"watched_distribution": { "random": "Acak", "weighted": "Berbobot", "equal": "Setara" },
 			"sample_point": { "start": "Mulai", "middle": "Pertengahan", "end": "Akhir", "random": "Acak" },
-			"score_type": {
-				"count": "Hitung",
-				"speed": "Cepat",
-				"hint": "Petunjuk",
-				"lives": "Nyawa",
-				"boss": "Bos"
-			},
+			"score_type": { "count": "Hitung", "speed": "Cepat", "hint": "Petunjuk", "lives": "Nyawa", "boss": "Bos" },
 			"song_type": { "openings": "Opening", "endings": "Ending", "inserts": "Insert", "random": "Acak" },
 			"vintage_seasons": { "winter": "Winter", "spring": "Spring", "summer": "Summer", "fall": "Fall" },
 			"titles": {
@@ -4949,7 +4957,10 @@
 				"name": "Data Feedback",
 				"description": "Pengurangan Kerusakan oleh Data Shield sedang nonaktif"
 			},
-			"data_shield": { "name": "Data Shield", "description": "Greatly reduce all damage taken , Secara Signifikan mengurangi semua kerusakan yang diterima" }
+			"data_shield": {
+				"name": "Data Shield",
+				"description": "Secara Signifikan mengurangi semua kerusakan yang diterima"
+			}
 		},
 		"enemies": {
 			"assassin": "Assassin",
@@ -4967,6 +4978,21 @@
 			"title": "Gabung Kembali Ke Game Nexus",
 			"description": "Anda terputus dari game Nexus terakhir, ingin bergabung kembali?",
 			"rejoin_button": "Gabung Kembali"
+		},
+		"floor_descriptions": {
+			"enemy_hp": "Musuh punya lebih banyak hp",
+			"enemy_damage": "Musuh memberi kerusakan lebih besar",
+			"avatar_debuffs_longer": "Debuff pada avatar bertahan lebih lama",
+			"reduced_guessing_time": "Mengurangi waktu menebak",
+			"crafting_fewer_artifacts": "Stasiun crafting memiliki lebih sedikit artefak , ",
+			"start_damaged": "Tim memulai dengan terluka",
+			"avatar_buffs_expire_quicker": "Buff pada avatar lebih cepat habis",
+			"enemy_random_buff": "Musuh memulai dengan buff acak",
+			"enemy_debuffs_shorter": "Debuff pada musuh lebih cepat habis.",
+			"avatar_max_three_artifacts": "Avatar hanya bisa memakai maks 3 artefak",
+			"enemies_quicker": "Musuh menyerang lebih cepat",
+			"fewer_combat_reward_artifacts": "Hadiah pertempuran memiliki lebih sedikit artefak",
+			"more_enemies": "Pertempuran dengan musuh akan bisa memiliki lebih banyak musuh"
 		}
 	},
 	"tutorial": {
@@ -5296,54 +5322,27 @@
 				"title": "Jangan Lewati Opening",
 				"description": "Tebak 20 Lagu Opening, di game non tim"
 			},
-			"dont_skip_endings": {
-				"title": "Jangan Lewati Ending",
-				"description": "Tebak 20 Lagu Ending, di game non tim"
-			},
-			"dont_skip_inserts": {
-				"title": "Jangan Lewati Insert",
-				"description": "Tebak 20 Lagu Insert, di game non tim"
-			},
-			"action_fan": {
-				"title": "Fans Aksi",
-				"description": "Tebak 20 Lagu dari anime genre aksi, di game non tim"
-			},
+			"dont_skip_endings": { "title": "Jangan Lewati Ending", "description": "Tebak 20 Lagu Ending, di game non tim" },
+			"dont_skip_inserts": { "title": "Jangan Lewati Insert", "description": "Tebak 20 Lagu Insert, di game non tim" },
+			"action_fan": { "title": "Fans Aksi", "description": "Tebak 20 Lagu dari anime genre aksi, di game non tim" },
 			"adventure_fan": {
 				"title": "Fans Petualangan",
 				"description": "Tebak 20 Lagu dari anime genre petualangan, di game non tim"
 			},
-			"comedy_fan": {
-				"title": "Fans Komedi",
-				"description": "Tebak 20 Lagu dari anime genre komedi, di game non tim"
-			},
-			"drama_fan": {
-				"title": "Fans Drama",
-				"description": "Tebak 20 Lagu dari anime genre drama, di game non tim"
-			},
-			"ecchi_fan": {
-				"title": "Fans Ecchi",
-				"description": "Tebak 20 Lagu dari anime genre ecchi, di game non tim"
-			},
+			"comedy_fan": { "title": "Fans Komedi", "description": "Tebak 20 Lagu dari anime genre komedi, di game non tim" },
+			"drama_fan": { "title": "Fans Drama", "description": "Tebak 20 Lagu dari anime genre drama, di game non tim" },
+			"ecchi_fan": { "title": "Fans Ecchi", "description": "Tebak 20 Lagu dari anime genre ecchi, di game non tim" },
 			"fantasy_fan": {
 				"title": "Fans Fantasi",
 				"description": "Tebak 20 Lagu dari anime genre fantasi, di game non tim"
 			},
-			"horror_fan": {
-				"title": "Fans Horor",
-				"description": "Tebak 20 Lagu dari anime genre horor, di game non tim"
-			},
+			"horror_fan": { "title": "Fans Horor", "description": "Tebak 20 Lagu dari anime genre horor, di game non tim" },
 			"mahou_shoujo_fan": {
 				"title": "Fans Gadis Penyihir",
 				"description": "Tebak 20 Lagu dari anime genre gadis penyihir, di game non tim"
 			},
-			"mecha_fan": {
-				"title": "Fans Mecha",
-				"description": "Tebak 20 Lagu dari anime genre mecha, di game non tim"
-			},
-			"music_fan": {
-				"title": "Fans Musik",
-				"description": "Tebak 20 Lagu dari anime genre musik, di game non tim"
-			},
+			"mecha_fan": { "title": "Fans Mecha", "description": "Tebak 20 Lagu dari anime genre mecha, di game non tim" },
+			"music_fan": { "title": "Fans Musik", "description": "Tebak 20 Lagu dari anime genre musik, di game non tim" },
 			"mystery_fan": {
 				"title": "Fans Misteri",
 				"description": "Tebak 20 Lagu dari anime genre misteri, di game non tim"
@@ -5378,6 +5377,26 @@
 			},
 			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" }
 		}
+	},
+	"quiz_of_the_day": {
+		"starting_messages": {
+			"championship_starting_in": "Pertandingan Championship _NAME_ Akan Dimulai dalam _NUMBER_ menit" ,
+			"themed_starting_in": "Kuis Themed Akan dimulai dalam _NUMBER_ menit ",
+			"ranked_starting_in": "Pertandingan Ranked Akan Dimulai dalam _NUMBER_ menit",
+			"amq_awards_starting_in": "Penghargaan AMQ Akan Dimulai dalam _NUMBER_ menit",
+			"join_lobby_instruction": "Lobi bisa dimasuki melalui menu utama"
+		},
+		"championship_winner_message": {
+			"solo": {
+				"title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!",
+				"message": "_NAME_ adalah juara yang baru!"
+			},
+			"multiple": {
+				"title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!",
+				"message": "_NAMELIST_ adalah juara-juara yang baru!"
+			}
+		},
+		"region_names": { "east": "East", "west": "West", "central": "Central" }
 	}
 }
 
