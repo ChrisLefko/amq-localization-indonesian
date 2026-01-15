@@ -4959,7 +4959,7 @@
 			},
 			"data_shield": {
 				"name": "Data Shield",
-				"description": "Greatly reduce all damage taken , Secara Signifikan mengurangi semua kerusakan yang diterima"
+				"description": "Secara Signifikan mengurangi semua kerusakan yang diterima"
 			}
 		},
 		"enemies": {
