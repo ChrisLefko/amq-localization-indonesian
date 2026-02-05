@@ -552,7 +552,7 @@
 		},
 		"ranked_description": {
 			"title": "Mode Ranked",
-			"description": "Tantang diri anda melawan teman-temanmu dan komunitas AMQ dengan bergabung dalam ranked. Setiap game ranked akan memberimu poin ranked, membuka hadiah eksklusif baru dan membuatmu semakin dekat untuk bergabung dengan yang terbaik di Championship regional yang diadakan setiap akhir bulan.",
+			"description": "Tantang diri anda melawan teman-teman anda dan komunitas AMQ dengan bergabung dalam ranked. Setiap game ranked akan memberi anda poin ranked, membuka hadiah eksklusif baru dan membuat anda semakin dekat untuk bergabung dengan yang terbaik di Championship regional yang diadakan setiap akhir bulan.",
 			"how_it_works": "Cara Kerja",
 			"regions": "Wilayah",
 			"region_description": "Setiap sesi Ranked dibagi menjadi tiga Wilayah yang berbeda (West, Central, East), masing-masing dengan papan peringkat, waktu mulai dan Championship yang terpisah. Anda dapat berpartisipasi dalam Ranked disetiap Wilayah. Namun, Anda hanya akan mendapatkan Poin Ranked dari Wilayah dimana poin tersebut didapatkan.",
@@ -1044,18 +1044,18 @@
 			"no_list": "Tidak Ada List",
 			"custom_lists": "List Kustom",
 			"custom_list_mode": {
-				"disable": { "MISSING-title": "Disable", "MISSING-description": "Don't use custom list for song selection" },
+				"disable": { "title": "Nonaktif", "description": "Jangan gunakan list kustom untuk pemilihan lagu" },
 				"list": {
-					"MISSING-title": "Custom List",
-					"MISSING-description": "Use the custom list as your anime list for song selection"
+					"title": "List Kustom",
+					"description": "Gunakan list kustom sebagai list anime milik anda untuk pemilihan lagu"
 				},
 				"include": {
-					"MISSING-title": "Include",
-					"MISSING-description": "Include shows from the custom list alongside your anime list for song selection"
+					"title": "Sertakan",
+					"description": "Sertakan acara dari list kustom bersama dengan list milik anda untuk pemilihan lagu"
 				},
 				"exclude": {
-					"MISSING-title": "Exclude",
-					"MISSING-description": "Exclude shows from the custom list from song selection"
+					"title": "Kecualikan",
+					"description": "Kecualikan acara dari list kustom untuk pemilihan lagu"
 				}
 			}
 		},
@@ -1763,73 +1763,73 @@
 			}
 		},
 		"custom_list": {
-			"MISSING-title": "Custom Lists",
-			"MISSING-no_lists": "No Lists",
-			"MISSING-no_lists_description": "Custom lists can be used as your anime list (instead of MAL/AniList/Kitsu) or as custom song pools for quizzes.",
-			"MISSING-new_list_button": "New List",
-			"MISSING-create_list_button": "Create List",
-			"MISSING-back_button": "Back",
-			"MISSING-list_name_placeholder": "List Name",
-			"MISSING-list_type": "List Type",
-			"MISSING-anime_only": "Anime Only",
-			"MISSING-anime_only_short": "Anime",
-			"MISSING-anime_and_songs": "Anime and Songs",
-			"MISSING-anime_and_songs_short": "Anime & Songs",
-			"MISSING-anime_list": "Anime List",
-			"MISSING-song_pool": "Song Pool",
-			"MISSING-no_entries": "No Entries",
-			"MISSING-no_entries_description": "Add entries from the library or doing quizzes",
-			"MISSING-entries": "Entries: _NUMBER_",
-			"MISSING-add_to_list": "Add to List",
-			"MISSING-remove_from_list": "Remove from List",
+			"title": "List Kustom",
+			"no_lists": "Tidak Ada List",
+			"no_lists_description": "List kustom dapat digunakan sebagai list anime milik anda (sebagai pengganti MAL/AniList/Kitsu) atau sebagai pool lagu kustom untuk kuis.",
+			"new_list_button": "List Baru",
+			"create_list_button": "Buat List",
+			"back_button": "Kembali",
+			"list_name_placeholder": "Nama List",
+			"list_type": "Tipe List",
+			"anime_only": "Hanya Anime",
+			"anime_only_short": "Anime",
+			"anime_and_songs": "Anime dan Lagu",
+			"anime_and_songs_short": "Anime & Lagu",
+			"anime_list": "List Anime",
+			"song_pool": "Pool Lagu",
+			"no_entries": "Tidak Ada Entri",
+			"no_entries_description": "Tambahkan entri dari pustaka atau saat melakukan kuis",
+			"entries": "Entri: _NUMBER_",
+			"add_to_list": "Tambahkan ke List",
+			"remove_from_list": "Keluarkan dari List",
 			"anime_only_description": {
-				"MISSING-title": "Anime Only",
-				"MISSING-description": "This list can only contain anime entries, and can be used as both an anime list and a song pool."
+				"title": "Hanya Anime",
+				"description": "List ini hanya dapat berisi entri anime, dan dapat digunakan sebagai list anime sekaligus pool lagu."
 			},
 			"anime_song_description": {
-				"MISSING-title": "Anime and Songs",
-				"MISSING-description": "This list can contain both anime and song entries, and can only be used as a song pool."
+				"title": "Anime dan Lagu",
+				"description": "List ini dapat berisi entri anime dan lagu, dan hanya dapat digunakan sebagai pool lagu."
 			},
 			"create_custom_list": {
-				"MISSING-title": "Create Custom List",
-				"MISSING-input_placeholder": "Enter list name",
-				"MISSING-create_button": "Create"
+				"title": "Buat List Kustom",
+				"input_placeholder": "Masukan nama list",
+				"create_button": "Buat"
 			},
 			"delete_custom_list": {
-				"MISSING-title": "Delete Custom List",
-				"MISSING-description": "Are you sure you want to delete the custom list: _NAME_?",
-				"MISSING-delete_button": "Delete"
+				"title": "Hapus List Kustom",
+				"description": "Apakah anda yakin ingin menghapus list kustom: _NAME_?",
+				"delete_button": "Hapus"
 			},
 			"delete_anime_from_list": {
-				"MISSING-title": "Delete Anime from List",
-				"MISSING-description": "Are you sure you want to delete _NAME_ from the list",
-				"MISSING-delete_button": "Delete"
+				"title": "Hapus Anime dari List",
+				"description": "Apakah anda yakin ingin menghapus _NAME_ dari list",
+				"delete_button": "Hapus"
 			},
 			"delete_song_from_list": {
-				"MISSING-title": "Delete Song from List",
-				"MISSING-description": "Are you sure you want to delete _NAME_ from the list",
-				"MISSING-delete_button": "Delete"
+				"title": "Hapus Lagu dari List",
+				"description": "Apakah anda yakin ingin menghapus _NAME_ dari list",
+				"delete_button": "Hapus"
 			},
-			"MISSING-anime_list_description": "List can be used as an anime list",
-			"MISSING-song_pool_description": "List can be used as a custom song pool in quizzes",
-			"MISSING-anime_already_in_list": "Anime already in list",
-			"MISSING-song_already_in_list": "Song already in list",
-			"MISSING-add_to_custom_list": "Add to Custom List",
+			"anime_list_description": "List dapat digunakan sebagai list anime",
+			"song_pool_description": "List dapat digunakan sebagai pool lagu kustom di kuis",
+			"anime_already_in_list": "Anime sudah di dalam list",
+			"song_already_in_list": "Lagu sudah di dalam list",
+			"add_to_custom_list": "Tambahkan ke List Kustom",
 			"anime_only_custom_list": {
-				"MISSING-title": "Anime Only Custom List",
-				"MISSING-description": "This list is set to anime only, and cannot have songs added to it."
+				"title": "Kustom List Hanya Anime",
+				"description": "List ini diatur ke hanya anime, dan tidak dapat ditambahkan lagu kedalamnya"
 			},
 			"song_entry_anime_description": {
-				"MISSING-format": "_TYPE_ - _NAME_",
-				"type": { "MISSING-op": "OP_NUMBER_", "MISSING-ed": "ED_NUMBER_", "MISSING-in": "IN" }
+				"format": "_TYPE_ - _NAME_",
+				"type": { "op": "OP_NUMBER_", "ed": "ED_NUMBER_", "in": "IN" }
 			},
 			"max_list_count": {
-				"MISSING-title": "Max Custom List Count Reached",
-				"MISSING-description": "You can have a maximum of _NUMBER_ Custom Lists."
+				"title": "Jumlah Maks Kustom List Tercapai",
+				"description": "Anda hanya bisa memiliki maksimum _NUMBER_ jumlah list kustom"
 			},
 			"songs_in_only_anime_switch": {
-				"MISSING-title": "Songs in List",
-				"MISSING-description": "To swap to anime only, all songs must be removed from the list first."
+				"title": "Lagu dalam List",
+				"description": "Untuk dapat mengubah ke hanya anime, semua lagu dalam list harus dihapus terlebih dahulu."
 			}
 		}
 	},
@@ -2368,12 +2368,12 @@
 		"get_code": { "title": "Dapatkan Kode untuk Pengaturan", "setting_code": "Kode Pengaturan" },
 		"loading_disabled": "Memuat Dinonaktifkan",
 		"song_pool": {
-			"MISSING-title": "Song Pool",
-			"MISSING-description": "The base pool of songs used for the quiz, before any other filters are applied.",
-			"all": { "MISSING-title": "All", "MISSING-description": "All songs in the AMQ database" },
-			"player": { "MISSING-title": "Player", "MISSING-description": "All songs from a single player's list" },
-			"custom": { "MISSING-title": "Custom", "MISSING-description": "All songs from a Custom List" },
-			"community": { "MISSING-title": "Community", "MISSING-description": "All songs from a Community Quiz" }
+			"title": "Pool Lagu",
+			"description": "Pool lagu dasar yang digunakan untuk kuis, sebelum filter lain diterapkan.”",
+			"all": { "title": "Semua", "description": "Semua lagu dalam database AMQ" },
+			"player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
+			"custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" },
+			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" }
 		}
 	},
 	"room_browser": {
@@ -2895,8 +2895,8 @@
 				"description": "Anda harus memilih sebuah kuis komunitas untuk memulai game"
 			},
 			"no_song_pool": {
-				"MISSING-title": "No Song Pool Selected",
-				"MISSING-description": "You must select a song pool to start the game"
+				"title": "Tidak Ada Pool Lagu Dipilih",
+				"description": "Anda harus memilih pool lagu untuk memulai game"
 			}
 		},
 		"all_players_not_ready_warning": {
@@ -2983,13 +2983,13 @@
 				"character": "Karakter",
 				"chanting": "Chanting",
 				"instrumental": "Instrumental",
-				"MISSING-song_pool": "Song Pool"
+				"song_pool": "Pool Lagu"
 			},
 			"song_pool": {
-				"MISSING-custom_list": "Custom List",
-				"MISSING-player_list": "Player's List",
-				"MISSING-community_quiz": "Community Quiz",
-				"MISSING-all_songs": "All Songs"
+				"custom_list": "List Kustom",
+				"player_list": "List Pemain",
+				"community_quiz": "Kuis Komunitas",
+				"all_songs": "Semua Lagu"
 			}
 		},
 		"ranked_rules": {
@@ -3018,25 +3018,25 @@
 				"description": "Tidak memungkinkan untuk memoderasi semua bahasa, jadi gunakan bahasa Inggris dan emote saja di obrolan mode ranked."
 			}
 		},
-		"MISSING-ping_ready_up": "Ping unready players to ready up",
+		"ping_ready_up": "Ping pemain yang belum siap untuk bersiap",
 		"song_pool": {
-			"MISSING-title": "Song Pool",
-			"MISSING-change": "Change",
+			"title": "Pool Lagu",
+			"change": "Ganti",
 			"custom_list": {
-				"MISSING-title": "Custom List",
-				"MISSING-entries": "_NUMBER_ Entries",
-				"MISSING-select": "Select Custom List",
-				"MISSING-waiting": "Waiting for Host to Select a Custom List"
+				"title": "List Kustom",
+				"entries": "_NUMBER_ Entri",
+				"select": "Pilih List Kustom",
+				"waiting": "Menunggu Host untuk Memilih List Kustom"
 			},
 			"player_list": {
-				"MISSING-title": "Player List",
-				"MISSING-select": "Select Player's List",
-				"MISSING-waiting": "Waiting for Host to Select a Player's List"
+				"title": "List Pemain",
+				"select": "Pilih List Pemain",
+				"waiting": "Menunggu Host untuk Memilih List Pemain"
 			},
 			"community_quiz": {
-				"MISSING-title": "Community Quiz",
-				"MISSING-select": "Select Community Quiz",
-				"MISSING-waiting": "Waiting for Host to Select a Community Quiz"
+				"title": "Kuis Komunitas",
+				"select": "Pilih Kuis Komunitas",
+				"waiting": "Menunggu Host untuk Memilih List Pemain Kuis Komunitas"
 			}
 		}
 	},
@@ -3129,9 +3129,9 @@
 				"type_text": "_NAME_ _DESCRIPTION_"
 			},
 			"custom_list": {
-				"MISSING-title": "Add to Custom List",
-				"MISSING-add_anime": "Add anime",
-				"MISSING-add_song": "Add song"
+				"title": "Tambahkan ke List Kustom",
+				"add_anime": "Tambah anime",
+				"add_song": "Tambah lagu"
 			}
 		},
 		"standings": {
