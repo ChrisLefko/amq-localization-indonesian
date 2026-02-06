@@ -552,7 +552,7 @@
 		},
 		"ranked_description": {
 			"title": "Mode Ranked",
-			"description": "Tantang diri anda melawan teman-temanmu dan komunitas AMQ dengan bergabung dalam ranked. Setiap game ranked akan memberimu poin ranked, membuka hadiah eksklusif baru dan membuatmu semakin dekat untuk bergabung dengan yang terbaik di Championship regional yang diadakan setiap akhir bulan.",
+			"description": "Tantang diri anda melawan teman-teman anda dan komunitas AMQ dengan bergabung dalam ranked. Setiap game ranked akan memberi anda poin ranked, membuka hadiah eksklusif baru dan membuat anda semakin dekat untuk bergabung dengan yang terbaik di Championship regional yang diadakan setiap akhir bulan.",
 			"how_it_works": "Cara Kerja",
 			"regions": "Wilayah",
 			"region_description": "Setiap sesi Ranked dibagi menjadi tiga Wilayah yang berbeda (West, Central, East), masing-masing dengan papan peringkat, waktu mulai dan Championship yang terpisah. Anda dapat berpartisipasi dalam Ranked disetiap Wilayah. Namun, Anda hanya akan mendapatkan Poin Ranked dari Wilayah dimana poin tersebut didapatkan.",
@@ -1037,6 +1037,25 @@
 					"on_hold": "On Hold",
 					"dropped": "Dropped",
 					"planning": "Plan to Watch"
+				}
+			},
+			"amq_custom_list": "AMQ List Kustom",
+			"amq_custom_list_description": "Buat list kustom di Pustaka Lagu yang bisa digunakan sebagai, atau berdampingan dengan, list anime milik anda.",
+			"no_list": "Tidak Ada List",
+			"custom_lists": "List Kustom",
+			"custom_list_mode": {
+				"disable": { "title": "Nonaktif", "description": "Jangan gunakan list kustom untuk pemilihan lagu" },
+				"list": {
+					"title": "List Kustom",
+					"description": "Gunakan list kustom sebagai list anime milik anda untuk pemilihan lagu"
+				},
+				"include": {
+					"title": "Sertakan",
+					"description": "Sertakan acara dari list kustom bersama dengan list milik anda untuk pemilihan lagu"
+				},
+				"exclude": {
+					"title": "Kecualikan",
+					"description": "Kecualikan acara dari list kustom untuk pemilihan lagu"
 				}
 			}
 		},
@@ -1742,6 +1761,76 @@
 				"title": "Saya tidak yakin harus melakukan apa agar unggahan saya disetujui?",
 				"text": "Jika unggahan anda ditolak, atau anda tidak yakin bagaimana cara agar unggahan anda disetujui, disarankan untuk bertanya di server Discord game tersebut, di sana orang-orang akan bisa membantu anda."
 			}
+		},
+		"custom_list": {
+			"title": "List Kustom",
+			"no_lists": "Tidak Ada List",
+			"no_lists_description": "List kustom dapat digunakan sebagai list anime milik anda (sebagai pengganti MAL/AniList/Kitsu) atau sebagai pool lagu kustom untuk kuis.",
+			"new_list_button": "List Baru",
+			"create_list_button": "Buat List",
+			"back_button": "Kembali",
+			"list_name_placeholder": "Nama List",
+			"list_type": "Tipe List",
+			"anime_only": "Hanya Anime",
+			"anime_only_short": "Anime",
+			"anime_and_songs": "Anime dan Lagu",
+			"anime_and_songs_short": "Anime & Lagu",
+			"anime_list": "List Anime",
+			"song_pool": "Pool Lagu",
+			"no_entries": "Tidak Ada Entri",
+			"no_entries_description": "Tambahkan entri dari pustaka atau saat melakukan kuis",
+			"entries": "Entri: _NUMBER_",
+			"add_to_list": "Tambahkan ke List",
+			"remove_from_list": "Keluarkan dari List",
+			"anime_only_description": {
+				"title": "Hanya Anime",
+				"description": "List ini hanya dapat berisi entri anime, dan dapat digunakan sebagai list anime sekaligus pool lagu."
+			},
+			"anime_song_description": {
+				"title": "Anime dan Lagu",
+				"description": "List ini dapat berisi entri anime dan lagu, dan hanya dapat digunakan sebagai pool lagu."
+			},
+			"create_custom_list": {
+				"title": "Buat List Kustom",
+				"input_placeholder": "Masukan nama list",
+				"create_button": "Buat"
+			},
+			"delete_custom_list": {
+				"title": "Hapus List Kustom",
+				"description": "Apakah anda yakin ingin menghapus list kustom: _NAME_?",
+				"delete_button": "Hapus"
+			},
+			"delete_anime_from_list": {
+				"title": "Hapus Anime dari List",
+				"description": "Apakah anda yakin ingin menghapus _NAME_ dari list",
+				"delete_button": "Hapus"
+			},
+			"delete_song_from_list": {
+				"title": "Hapus Lagu dari List",
+				"description": "Apakah anda yakin ingin menghapus _NAME_ dari list",
+				"delete_button": "Hapus"
+			},
+			"anime_list_description": "List dapat digunakan sebagai list anime",
+			"song_pool_description": "List dapat digunakan sebagai pool lagu kustom di kuis",
+			"anime_already_in_list": "Anime sudah di dalam list",
+			"song_already_in_list": "Lagu sudah di dalam list",
+			"add_to_custom_list": "Tambahkan ke List Kustom",
+			"anime_only_custom_list": {
+				"title": "Kustom List Hanya Anime",
+				"description": "List ini diatur ke hanya anime, dan tidak dapat ditambahkan lagu kedalamnya"
+			},
+			"song_entry_anime_description": {
+				"format": "_TYPE_ - _NAME_",
+				"type": { "op": "OP_NUMBER_", "ed": "ED_NUMBER_", "in": "IN" }
+			},
+			"max_list_count": {
+				"title": "Jumlah Maks Kustom List Tercapai",
+				"description": "Anda hanya bisa memiliki maksimum _NUMBER_ jumlah list kustom"
+			},
+			"songs_in_only_anime_switch": {
+				"title": "Lagu dalam List",
+				"description": "Untuk dapat mengubah ke hanya anime, semua lagu dalam list harus dihapus terlebih dahulu."
+			}
 		}
 	},
 	"anime_types": {
@@ -2277,7 +2366,15 @@
 		},
 		"delete_saved_setting": { "title": "Hapus Pengaturan Tersimpan", "confirm_button": "Hapus" },
 		"get_code": { "title": "Dapatkan Kode untuk Pengaturan", "setting_code": "Kode Pengaturan" },
-		"loading_disabled": "Memuat Dinonaktifkan"
+		"loading_disabled": "Memuat Dinonaktifkan",
+		"song_pool": {
+			"title": "Pool Lagu",
+			"description": "Pool lagu dasar yang digunakan untuk kuis, sebelum filter lain diterapkan.”",
+			"all": { "title": "Semua", "description": "Semua lagu dalam database AMQ" },
+			"player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
+			"custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" },
+			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" }
+		}
 	},
 	"room_browser": {
 		"filters": {
@@ -2796,6 +2893,10 @@
 			"no_community_quiz": {
 				"title": "Tidak Ada Kuis Komunitas Dipilih",
 				"description": "Anda harus memilih sebuah kuis komunitas untuk memulai game"
+			},
+			"no_song_pool": {
+				"title": "Tidak Ada Pool Lagu Dipilih",
+				"description": "Anda harus memilih pool lagu untuk memulai game"
 			}
 		},
 		"all_players_not_ready_warning": {
@@ -2881,7 +2982,14 @@
 				"standard": "Standar",
 				"character": "Karakter",
 				"chanting": "Chanting",
-				"instrumental": "Instrumental"
+				"instrumental": "Instrumental",
+				"song_pool": "Pool Lagu"
+			},
+			"song_pool": {
+				"custom_list": "List Kustom",
+				"player_list": "List Pemain",
+				"community_quiz": "Kuis Komunitas",
+				"all_songs": "Semua Lagu"
 			}
 		},
 		"ranked_rules": {
@@ -2908,6 +3016,27 @@
 			"english_chat": {
 				"title": "Gunakan Bahasa Inggris di Obrolan",
 				"description": "Tidak memungkinkan untuk memoderasi semua bahasa, jadi gunakan bahasa Inggris dan emote saja di obrolan mode ranked."
+			}
+		},
+		"ping_ready_up": "Ping pemain yang belum siap untuk bersiap",
+		"song_pool": {
+			"title": "Pool Lagu",
+			"change": "Ganti",
+			"custom_list": {
+				"title": "List Kustom",
+				"entries": "_NUMBER_ Entri",
+				"select": "Pilih List Kustom",
+				"waiting": "Menunggu Host untuk Memilih List Kustom"
+			},
+			"player_list": {
+				"title": "List Pemain",
+				"select": "Pilih List Pemain",
+				"waiting": "Menunggu Host untuk Memilih List Pemain"
+			},
+			"community_quiz": {
+				"title": "Kuis Komunitas",
+				"select": "Pilih Kuis Komunitas",
+				"waiting": "Menunggu Host untuk Memilih List Pemain Kuis Komunitas"
 			}
 		}
 	},
@@ -2998,6 +3127,11 @@
 				"rebroadcast": "(Siaran Ulang)",
 				"dub": "(Dub)",
 				"type_text": "_NAME_ _DESCRIPTION_"
+			},
+			"custom_list": {
+				"title": "Tambahkan ke List Kustom",
+				"add_anime": "Tambah anime",
+				"add_song": "Tambah lagu"
 			}
 		},
 		"standings": {
@@ -5380,17 +5514,14 @@
 	},
 	"quiz_of_the_day": {
 		"starting_messages": {
-			"championship_starting_in": "Pertandingan Championship _NAME_ Akan Dimulai dalam _NUMBER_ menit" ,
+			"championship_starting_in": "Pertandingan Championship _NAME_ Akan Dimulai dalam _NUMBER_ menit",
 			"themed_starting_in": "Kuis Themed Akan dimulai dalam _NUMBER_ menit ",
 			"ranked_starting_in": "Pertandingan Ranked Akan Dimulai dalam _NUMBER_ menit",
 			"amq_awards_starting_in": "Penghargaan AMQ Akan Dimulai dalam _NUMBER_ menit",
 			"join_lobby_instruction": "Lobi bisa dimasuki melalui menu utama"
 		},
 		"championship_winner_message": {
-			"solo": {
-				"title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!",
-				"message": "_NAME_ adalah juara yang baru!"
-			},
+			"solo": { "title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!", "message": "_NAME_ adalah juara yang baru!" },
 			"multiple": {
 				"title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!",
 				"message": "_NAMELIST_ adalah juara-juara yang baru!"
