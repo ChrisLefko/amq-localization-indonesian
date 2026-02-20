@@ -73,6 +73,15 @@
 				"title": "Terputus karena tidak aktif",
 				"text": "Muat ulang game untuk terhubung kembali",
 				"reload": "Muat Ulang"
+			},
+			"kicked_by_server": {
+				"title": "Dikeluarkan oleh server",
+				"banned": "Akun anda telah di banned",
+				"server_kicked": "Server telah mengeluarkan anda dari game",
+				"maintenance": "Server sedang tidak aktif karena pemeliharaan",
+				"mod_ban": "Akun anda telah dibanned oleh moderator untuk: _MESSAGE_",
+				"server_restart": "Server sedang memulai ulang, anda telah terputus",
+				"logged_in_elsewhere": "Akun anda telah masuk dari lokasi lain, anda telah terputus."
 			}
 		},
 		"registration": {
@@ -666,6 +675,19 @@
 			},
 			"yearly": "Hasil Tahunan",
 			"description": "Hasil pendanaan dari bulan lalu dan total sepanjang tahun. AMQ sepenuhnya didanai oleh komunitas untuk membiayai server dan biaya pengembangan. Semua dana yang terkumpul digunakan untuk terus meningkatkan dan mengembangkan permainan. Terima kasih atas semua dukungannya!"
+		},
+		"amq_awards": {
+			"button": "Penghargaan AMQ",
+			"description": {
+				"title": "Penghargaan AMQ",
+				"text": "Kuis event penghargaan tahunan yang merayakan acara dan lagu terbaik tahun lalu menurut komunitas AMQ! Semua ini hadir sebagai kuis event unik, dipandu oleh rubah favorit semua orang, Komugi! _BREAK_ Setelah event, kuis ini juga akan tersedia sebagai Kuis Komunitas, di mana anda juga bisa memainkan event penghargaan tahun-tahun sebelumnya."
+			},
+			"timer_states": {
+				"playing": "Bermain",
+				"finished": "Selesai",
+				"in_lobby": "_NUMBER_ - Dalam Lobi",
+				"click_to_host": "Klik untuk Host"
+			}
 		}
 	},
 	"menu_bar": {
@@ -1053,10 +1075,7 @@
 					"title": "Sertakan",
 					"description": "Sertakan acara dari list kustom bersama dengan list milik anda untuk pemilihan lagu"
 				},
-				"exclude": {
-					"title": "Kecualikan",
-					"description": "Kecualikan acara dari list kustom untuk pemilihan lagu"
-				}
+				"exclude": { "title": "Kecualikan", "description": "Kecualikan acara dari list kustom untuk pemilihan lagu" }
 			}
 		},
 		"graphics": {
@@ -1071,7 +1090,14 @@
 			},
 			"name_effects_friend_list": "Efek Nama pada Daftar Teman"
 		},
-		"audio": { "nexus": "Nexus", "master": "Utama", "music": "Music", "effects": "Efek" }
+		"audio": {
+			"nexus": "Nexus",
+			"master": "Utama",
+			"music": "Music",
+			"effects": "Efek",
+			"general": "General",
+			"notifications": "Notifikasi"
+		}
 	},
 	"blocked_player_window": { "title": "Daftar Blokir", "remove_button": "Hapus" },
 	"change_password_window": {
@@ -3128,11 +3154,7 @@
 				"dub": "(Dub)",
 				"type_text": "_NAME_ _DESCRIPTION_"
 			},
-			"custom_list": {
-				"title": "Tambahkan ke List Kustom",
-				"add_anime": "Tambah anime",
-				"add_song": "Tambah lagu"
-			}
+			"custom_list": { "title": "Tambahkan ke List Kustom", "add_anime": "Tambah anime", "add_song": "Tambah lagu" }
 		},
 		"standings": {
 			"title": "Klasemen",
@@ -3250,7 +3272,8 @@
 			"title": "Gabung Kembali Game",
 			"description": "Anda terputus dari game terakhir, Ingin bergabung kembali?",
 			"rejoin_button": "Gabung Kembali"
-		}
+		},
+		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu"
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -5325,7 +5348,8 @@
 			"return_button": "Kembali",
 			"stay_button": "Tinggal"
 		},
-		"exit_tutorial_warning": { "title": "Keluar Tutorial?", "exit_button": "Keluar" }
+		"exit_tutorial_warning": { "title": "Keluar Tutorial?", "exit_button": "Keluar" },
+		"username_input_placeholder": "Nama Pengguna"
 	},
 	"popout_windows": {
 		"close_window_button": "Tutup Jendela",
