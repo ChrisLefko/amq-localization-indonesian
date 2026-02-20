@@ -1093,9 +1093,9 @@
 		"audio": {
 			"nexus": "Nexus",
 			"master": "Utama",
-			"music": "Music",
+			"music": "Musik",
 			"effects": "Efek",
-			"general": "General",
+			"general": "Umum",
 			"notifications": "Notifikasi"
 		}
 	},
