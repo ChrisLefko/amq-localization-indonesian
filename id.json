@@ -1093,7 +1093,7 @@
 		"audio": {
 			"nexus": "Nexus",
 			"master": "Utama",
-			"music": "Music",
+			"music": "Musik",
 			"effects": "Efek",
 			"general": "General",
 			"notifications": "Notifikasi"
@@ -1612,6 +1612,9 @@
 		},
 		"DELETED-kiki": {
 			"standard": "Keluarga Kiku tidak setuju dengan keinginannya menekuni pendidikan musik, namun Kiku tetap mendaftar di program musik di sebuah universitas besar. Keputusan yang tidak pernah ia sesali, karena hari-harinya dihabiskan untuk belajar dan memainkan musik yang dicintainya."
+		},
+		"hinase": {
+			"standard": "Hinase selalu mencintai petualangan dan eksplorasi, jadi dia mengambil kesempatan pertama yang didapatnya untuk menjelajah ke luar angkasa. Sekarang dia bekerja sebagai pilot mech lepas, mengerjakan berbagai pekerjaan serabutan, pengawalan, dan misi pengintaian di perbatasan eksplorasi luar angkasa."
 		}
 	},
 	"song_library": {
@@ -2308,7 +2311,9 @@
 			"hard": "Sulit",
 			"percent_guessed_correct": "% Menebak Benar",
 			"percent_range_display": "_NUMBER_%-_NUMBER2_% Tebakan Benar",
-			"one_difficulty_must_be_selected": "Setidaknya Harus Ada Satu Tingkat Kesulitan Yang Dipilih"
+			"one_difficulty_must_be_selected": "Setidaknya Harus Ada Satu Tingkat Kesulitan Yang Dipilih",
+			"beginner": "Pemula",
+			"expert": "Ahli"
 		},
 		"song_popularity": {
 			"title": "Popularitas Lagu",
@@ -2400,6 +2405,12 @@
 			"player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
 			"custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" },
 			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" }
+		},
+		"anime_popularity": {
+			"title": "Popularitas Anime",
+			"description": "Batasi lagu ke batas popularitas yang dipilih berdasarkan AniList.",
+			"top_shows": "X Acara Teratas",
+			"all": "Semua"
 		}
 	},
 	"room_browser": {
@@ -2559,7 +2570,8 @@
 				"tags": "Tag",
 				"video": "Video",
 				"list_sites": "List Situs",
-				"player_lists": "List Pemain"
+				"player_lists": "List Pemain",
+				"anime_popularity_rank": "Peringkat Popularitas Anime"
 			},
 			"list_status": {
 				"watching": "Watching",
@@ -3009,7 +3021,12 @@
 				"character": "Karakter",
 				"chanting": "Chanting",
 				"instrumental": "Instrumental",
-				"song_pool": "Pool Lagu"
+				"song_pool": "Pool Lagu",
+				"anime_popularity": "Popularitas Anime",
+				"beginner": "Pemula",
+				"expert": "Ahli",
+				"top_x": "_NUMBER_ Teratas",
+				"all": "Semua"
 			},
 			"song_pool": {
 				"custom_list": "List Kustom",
@@ -3144,7 +3161,8 @@
 				"anime_rating": "Rating Anime",
 				"difficulty": "Kesulitan",
 				"genre": "Genre",
-				"tags": "Tag"
+				"tags": "Tag",
+				"anime_popularity_rank": "Peringkat Popularitas Anime"
 			},
 			"song_type": {
 				"opening": "Opening _NUMBER_",
@@ -3727,7 +3745,14 @@
 							"description": "Tingkat kesulitan lagu yang dipilih di dungeon.",
 							"easy": "Mudah",
 							"medium": "Sedang",
-							"hard": "Sulit"
+							"hard": "Sulit",
+							"beginner": "Pemula",
+							"beginner_short": "P",
+							"easy_short": "M",
+							"medium_short": "Sed",
+							"hard_short": "Sul",
+							"expert": "Ahli",
+							"expert_short": "A"
 						},
 						"song_selection": {
 							"title": "Pemilihan Lagu",
@@ -3753,6 +3778,13 @@
 						"mode": {
 							"title": "Mode",
 							"description": "Jenis dungeon, Standar menjelajahi satu lantai, sedangkan Endless berlanjut ke lantai berikutnya hingga tim dikalahkan."
+						},
+						"popularity": {
+							"title": "Popularitas Anime",
+							"description": "Popularitas acara yang dipilih dalam dungeon",
+							"top_500": "500 Teratas",
+							"top_2000": "2000 Teratas",
+							"all": "Semua"
 						}
 					},
 					"no_badge_unlocked_alert": {
@@ -5426,7 +5458,8 @@
 		"tiara": "Tiara",
 		"veil": "Kerudung",
 		"whistle": "Peluit",
-		"yan": "Yan"
+		"yan": "Yan",
+		"visor": "Kaca Pelindung"
 	},
 	"daily_quests": {
 		"title": "Misi Harian",
