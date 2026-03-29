@@ -1479,7 +1479,7 @@
 		},
 		"katsu": {
 			"standard": "Sebagai pemain terkemuka dalam game kartu Zetto, Katsu berusaha mengumpulkan kartu-kartu purba dari para pendahulu, yang konon memiliki kekuatan untuk mengubah dunia. Usahanya ini sering membawanya dalam pertarungan melawan organisasi bayangan yang juga memburu kartu-kartu tersebut.",
-			"MISSING-cat_cafe": "Even with the fate of the world on the line, Zetto cards aren’t cheap. So to help afford new cards, Katsu picked up a part-time job at a locale cat café, which also give him a nice relaxing break away from the intense Zetto matches."
+			"cat_cafe": "Meskipun nasib dunia ada ditangan, Kartu Zetto tidaklah murah. Untuk mendapatkannya, Katsu bekerja paruh waktu di Kafe Kucing lokal, yang memberinya istirahat dari pertandingan Zetto yang intens."
 		},
 		"riku": {
 			"standard": "Riku dikenal banyak orang sebagai Rika, seorang live streamer dan vlogger terkenal yang sering mendapatkan akses ke tempat-tempat yang seharusnya tidak boleh ia masuki. Riku sendiri menikmati sensasi menjelajah dan membagikan tingkah lakunya."
@@ -1861,21 +1861,21 @@
 				"title": "Lagu dalam List",
 				"description": "Untuk dapat mengubah ke hanya anime, semua lagu dalam list harus dihapus terlebih dahulu."
 			},
-			"MISSING-delete_list": "Delete List",
-			"MISSING-share_list": "Share List",
-			"share_code_message": { "MISSING-title": "Share Code" },
+			"delete_list": "Hapus List",
+			"share_list": "Bagikan List",
+			"share_code_message": { "title": "Bagikan Kode" },
 			"max_list_message": {
-				"MISSING-title": "Max Custom List Count Reached",
-				"MISSING-description": "You can have a maximum of _NUMBER_ Custom Lists."
+				"title": "Jumlah List Kustom Maksimal Dicapai",
+				"description": "Anda hanya boleh memiliki maksimal _NUMBER_ List Kustom."
 			},
 			"import_list": {
-				"MISSING-title": "Import List",
-				"MISSING-placeholder": "Share Code",
-				"MISSING-load_button": "Load",
-				"MISSING-no_code_message": "No Share Code Provided",
+				"title": "Impor List",
+				"placeholder": "Kode Bagi",
+				"load_button": "Muat",
+				"no_code_message": "Tiada Kode Bagi Tersedia",
 				"unknown_code": {
-					"MISSING-title": "Unknown Share Code",
-					"MISSING-description": "The provided share code is invalid or does not exist."
+					"title": "Kode Bagi Tidak Diketahui",
+					"description": "Kode bagi Invalid atau tidak ada."
 				}
 			}
 		}
@@ -2422,8 +2422,8 @@
 			"all": { "title": "Semua", "description": "Semua lagu dalam database AMQ" },
 			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" },
 			"lists": {
-				"MISSING-title": "Lists",
-				"MISSING-description": "Select one or more players lists and custom lists to include or execlude songs from."
+				"title": "List",
+				"description": "Pilih satu atau lebih list pemain dan list kustom untuk ditambahkan atau dikecualikan."
 			},
 			"DELETED-player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
 			"DELETED-custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" }
@@ -2538,8 +2538,8 @@
 					"easy": "Mudah",
 					"medium": "Sedang",
 					"hard": "Sulit",
-					"MISSING-beginner": "Beginner",
-					"MISSING-expert": "Expert"
+					"beginner": "Pemula",
+					"expert": "Ahli"
 				},
 				"song_selection": { "watched": "Ditonton", "random": "Acak" },
 				"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
@@ -3109,15 +3109,15 @@
 				"select": "Pilih Kuis Komunitas",
 				"waiting": "Menunggu Host untuk Memilih List Pemain Kuis Komunitas"
 			},
-			"MISSING-suggest": "Suggest",
-			"MISSING-suggest_description": "Suggest your Custom List for the song pool, allowing the host to select it for the quiz.",
-			"MISSING-no_lists_selected": "No Lists Selected",
-			"MISSING-no_lists": "No Lists",
-			"MISSING-player_lists": "Player Lists",
-			"MISSING-custom_lists": "Custom Lists",
-			"MISSING-entries": "_NUMBER_ Entries",
-			"MISSING-include": "Include",
-			"MISSING-exclude": "Exclude"
+			"suggest": "Saran",
+			"suggest_description": "Sarankan List Kustom Anda kedalam Pool Lagu, supaya dapat dipilih oleh host dalam kuis.",
+			"no_lists_selected": "Tidak Ada List Dipilih",
+			"no_lists": "Tidak Ada List",
+			"player_lists": "List Pemain",
+			"custom_lists": "List Kustom",
+			"entries": "_NUMBER_ Entri",
+			"include": "Masukkan",
+			"exclude": "Kecualikan"
 		}
 	},
 	"quiz": {
@@ -3687,11 +3687,11 @@
 		"DELETED-shoujo_ai": "Shoujo Ai",
 		"DELETED-shounen_ai": "Shounen Ai",
 		"DELETED-tada_banri": "Tada Banri",
-		"MISSING-gekiga": "Gekiga",
-		"MISSING-brainwashing": "Brainwashing",
-		"MISSING-graduation_project": "Graduation Project",
-		"MISSING-human_experimentation": "Human Experimentation",
-		"MISSING-single-page_chapter": "Single-Page Chapter"
+		"gekiga": "Gekiga",
+		"brainwashing": "Cuci Otak",
+		"graduation_project": "Proyek Kelulusan",
+		"human_experimentation": "Percobaan pada Manusia",
+		"single-page_chapter": "Bab Satu Halaman"
 	},
 	"genre_tags": {
 		"action": "Aksi",
