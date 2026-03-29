@@ -1095,7 +1095,7 @@
 			"master": "Utama",
 			"music": "Musik",
 			"effects": "Efek",
-			"general": "Umum",
+			"general": "General",
 			"notifications": "Notifikasi"
 		}
 	},
@@ -1478,7 +1478,8 @@
 			"standard": "Yumemi biasanya tertidur setiap kali ada kesempatan. Karena itu, kebanyakan orang terkejut saat mengetahui bahwa dia adalah wakil ketua klub sains, meskipun sebenarnya dia bergabung hanya untuk membantu sahabat masa kecilnya, Chika, agar klub tersebut punya cukup anggota"
 		},
 		"katsu": {
-			"standard": "Sebagai pemain terkemuka dalam game kartu Zetto, Katsu berusaha mengumpulkan kartu-kartu purba dari para pendahulu, yang konon memiliki kekuatan untuk mengubah dunia. Usahanya ini sering membawanya dalam pertarungan melawan organisasi bayangan yang juga memburu kartu-kartu tersebut."
+			"standard": "Sebagai pemain terkemuka dalam game kartu Zetto, Katsu berusaha mengumpulkan kartu-kartu purba dari para pendahulu, yang konon memiliki kekuatan untuk mengubah dunia. Usahanya ini sering membawanya dalam pertarungan melawan organisasi bayangan yang juga memburu kartu-kartu tersebut.",
+			"cat_cafe": "Meskipun nasib dunia ada ditangan, Kartu Zetto tidaklah murah. Untuk mendapatkannya, Katsu bekerja paruh waktu di Kafe Kucing lokal, yang memberinya istirahat dari pertandingan Zetto yang intens."
 		},
 		"riku": {
 			"standard": "Riku dikenal banyak orang sebagai Rika, seorang live streamer dan vlogger terkenal yang sering mendapatkan akses ke tempat-tempat yang seharusnya tidak boleh ia masuki. Riku sendiri menikmati sensasi menjelajah dan membagikan tingkah lakunya."
@@ -1859,6 +1860,23 @@
 			"songs_in_only_anime_switch": {
 				"title": "Lagu dalam List",
 				"description": "Untuk dapat mengubah ke hanya anime, semua lagu dalam list harus dihapus terlebih dahulu."
+			},
+			"delete_list": "Hapus List",
+			"share_list": "Bagikan List",
+			"share_code_message": { "title": "Bagikan Kode" },
+			"max_list_message": {
+				"title": "Jumlah List Kustom Maksimal Dicapai",
+				"description": "Anda hanya boleh memiliki maksimal _NUMBER_ List Kustom."
+			},
+			"import_list": {
+				"title": "Impor List",
+				"placeholder": "Kode Bagi",
+				"load_button": "Muat",
+				"no_code_message": "Tiada Kode Bagi Tersedia",
+				"unknown_code": {
+					"title": "Kode Bagi Tidak Diketahui",
+					"description": "Kode bagi Invalid atau tidak ada."
+				}
 			}
 		}
 	},
@@ -2402,9 +2420,13 @@
 			"title": "Pool Lagu",
 			"description": "Pool lagu dasar yang digunakan untuk kuis, sebelum filter lain diterapkan.”",
 			"all": { "title": "Semua", "description": "Semua lagu dalam database AMQ" },
-			"player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
-			"custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" },
-			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" }
+			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" },
+			"lists": {
+				"title": "List",
+				"description": "Pilih satu atau lebih list pemain dan list kustom untuk ditambahkan atau dikecualikan."
+			},
+			"DELETED-player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
+			"DELETED-custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" }
 		},
 		"anime_popularity": {
 			"title": "Popularitas Anime",
@@ -2512,7 +2534,13 @@
 			"room_settings": {
 				"type": { "endless": "Tanpa Batas", "standard": "Standar" },
 				"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
-				"difficulty": { "easy": "Mudah", "medium": "Sedang", "hard": "Sulit" },
+				"difficulty": {
+					"easy": "Mudah",
+					"medium": "Sedang",
+					"hard": "Sulit",
+					"beginner": "Pemula",
+					"expert": "Ahli"
+				},
 				"song_selection": { "watched": "Ditonton", "random": "Acak" },
 				"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
 				"floor": "Lantai _NUMBER_"
@@ -3080,7 +3108,16 @@
 				"title": "Kuis Komunitas",
 				"select": "Pilih Kuis Komunitas",
 				"waiting": "Menunggu Host untuk Memilih List Pemain Kuis Komunitas"
-			}
+			},
+			"suggest": "Saran",
+			"suggest_description": "Sarankan List Kustom Anda kedalam Pool Lagu, supaya dapat dipilih oleh host dalam kuis.",
+			"no_lists_selected": "Tidak Ada List Dipilih",
+			"no_lists": "Tidak Ada List",
+			"player_lists": "List Pemain",
+			"custom_lists": "List Kustom",
+			"entries": "_NUMBER_ Entri",
+			"include": "Masukkan",
+			"exclude": "Kecualikan"
 		}
 	},
 	"quiz": {
@@ -3649,7 +3686,12 @@
 		"DELETED-none": "Tidak Ada",
 		"DELETED-shoujo_ai": "Shoujo Ai",
 		"DELETED-shounen_ai": "Shounen Ai",
-		"DELETED-tada_banri": "Tada Banri"
+		"DELETED-tada_banri": "Tada Banri",
+		"gekiga": "Gekiga",
+		"brainwashing": "Cuci Otak",
+		"graduation_project": "Proyek Kelulusan",
+		"human_experimentation": "Percobaan pada Manusia",
+		"single-page_chapter": "Bab Satu Halaman"
 	},
 	"genre_tags": {
 		"action": "Aksi",
@@ -5587,4 +5629,3 @@
 		"region_names": { "east": "East", "west": "West", "central": "Central" }
 	}
 }
-
