@@ -33,6 +33,7 @@ Untuk memudahkan proses kolaborasi, silakan ikuti langkah berikut:<br>
 
 1. Ikuti langkah 1-9 dari tutorial diatas
 2. Download Template terbaru dari Egerod. Biasanya dikirim oleh Egerod sendiri ke [Thread Official AMQ Lokalisasi Bahasa Indonesia](https://discord.com/channels/386089398975856641/1431027276648153098) seperti contoh dibawah
+   <img width="622" height="303" alt="image" src="https://github.com/user-attachments/assets/2957d530-5401-478f-812d-adb3008d3a47" />
 3. Download file id.json dari Egerod, lalu paste ke folder/direktori amq-localization-indonesian di mesin lokal Anda
 4. Paste dan Replace id.json sebelumnya
 5. Buka VSCode
