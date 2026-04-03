@@ -3335,7 +3335,7 @@
 			"rejoin_button": "Gabung Kembali"
 		},
 		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu",
-		"fixed": "Tetap"
+		"fixed": "Rill"
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -5622,7 +5622,7 @@
 				"description": "Masa depan sudah didepan mata! Tebak 20 Kuis dari Video Kecil dan/atau Video Blur! <br/> Selesaikan untuk membuka Skin baru dengan nilai tinggi!",
 				"unlock_message": {
 					"title": "Solid Gold Miyu Terbuka!",
-					"description": "_HTML1_ Kamu telah menemukan masa depan dari anime yaitu, video! Untuk merayakan, kamu telah mendapatkan Solid gold Miyu versi alt. yang tak ternilai!. _HTML2_"
+					"description": "_HTML1_ Anda telah menemukan masa depan dari anime yaitu, video! Untuk merayakan, Anda telah mendapatkan Solid gold Miyu versi alt. yang tak ternilai!. _HTML2_"
 				}
 			}
 		}
