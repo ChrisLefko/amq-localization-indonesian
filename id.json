@@ -1873,10 +1873,7 @@
 				"placeholder": "Kode Bagi",
 				"load_button": "Muat",
 				"no_code_message": "Tiada Kode Bagi Tersedia",
-				"unknown_code": {
-					"title": "Kode Bagi Tidak Diketahui",
-					"description": "Kode bagi Invalid atau tidak ada."
-				}
+				"unknown_code": { "title": "Kode Bagi Tidak Diketahui", "description": "Kode bagi Invalid atau tidak ada." }
 			}
 		}
 	},
@@ -2433,6 +2430,19 @@
 			"description": "Batasi lagu ke batas popularitas yang dipilih berdasarkan AniList.",
 			"top_shows": "X Acara Teratas",
 			"all": "Semua"
+		},
+		"guess_mode": {
+			"MISSING-title": "Guess Mode",
+			"MISSING-description": "The type of song or video played during the guessing phase.",
+			"music": { "MISSING-title": "Song", "MISSING-description": "Play the song during the guessing phase" },
+			"tiny_video": {
+				"MISSING-title": "Tiny Video",
+				"MISSING-description": "Play a tiny section of the video during the guessing phase."
+			},
+			"blur_video": {
+				"MISSING-title": "Blur Video",
+				"MISSING-description": "Play the video with a heavy blur effect during the guessing phase."
+			}
 		}
 	},
 	"room_browser": {
@@ -2534,13 +2544,7 @@
 			"room_settings": {
 				"type": { "endless": "Tanpa Batas", "standard": "Standar" },
 				"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
-				"difficulty": {
-					"easy": "Mudah",
-					"medium": "Sedang",
-					"hard": "Sulit",
-					"beginner": "Pemula",
-					"expert": "Ahli"
-				},
+				"difficulty": { "easy": "Mudah", "medium": "Sedang", "hard": "Sulit", "beginner": "Pemula", "expert": "Ahli" },
 				"song_selection": { "watched": "Ditonton", "random": "Acak" },
 				"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
 				"floor": "Lantai _NUMBER_"
@@ -3054,14 +3058,16 @@
 				"beginner": "Pemula",
 				"expert": "Ahli",
 				"top_x": "_NUMBER_ Teratas",
-				"all": "Semua"
+				"all": "Semua",
+				"MISSING-guess_mode": "Guess Mode"
 			},
 			"song_pool": {
 				"custom_list": "List Kustom",
 				"player_list": "List Pemain",
 				"community_quiz": "Kuis Komunitas",
 				"all_songs": "Semua Lagu"
-			}
+			},
+			"guess_mode": { "MISSING-music": "Music", "MISSING-tiny_video": "Tiny Video", "MISSING-blur_video": "Blur Video" }
 		},
 		"ranked_rules": {
 			"title": "Aturan Ranked",
@@ -3328,7 +3334,8 @@
 			"description": "Anda terputus dari game terakhir, Ingin bergabung kembali?",
 			"rejoin_button": "Gabung Kembali"
 		},
-		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu"
+		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu",
+		"MISSING-fixed": "Fixed"
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -3691,7 +3698,8 @@
 		"brainwashing": "Cuci Otak",
 		"graduation_project": "Proyek Kelulusan",
 		"human_experimentation": "Percobaan pada Manusia",
-		"single-page_chapter": "Bab Satu Halaman"
+		"single-page_chapter": "Bab Satu Halaman",
+		"MISSING-interspecies": "Interspecies"
 	},
 	"genre_tags": {
 		"action": "Aksi",
@@ -5608,7 +5616,15 @@
 				"title": "Fans Thriller",
 				"description": "Tebak 20 Lagu dari anime genre thriller, di game non tim"
 			},
-			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" }
+			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" },
+			"april_fools_2026": {
+				"MISSING-title": "Video Quiz",
+				"MISSING-description": "The future is now! Guess 20 of the new Tiny Video and/or Blur Video questions! <br/> Complete to unlock a new high value skin!",
+				"unlock_message": {
+					"MISSING-title": "Solid Gold Miyu Unlocked!",
+					"MISSING-description": "_HTML1_ You have discovered the future of anime, video! To celebrate you’ve earned the extremely valuable Solid Gold Miyu alt. version! _HTML2_"
+				}
+			}
 		}
 	},
 	"quiz_of_the_day": {
