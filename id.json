@@ -2432,16 +2432,16 @@
 			"all": "Semua"
 		},
 		"guess_mode": {
-			"MISSING-title": "Guess Mode",
-			"MISSING-description": "The type of song or video played during the guessing phase.",
-			"music": { "MISSING-title": "Song", "MISSING-description": "Play the song during the guessing phase" },
+			"title": "Mode Tebak",
+			"description": "Tipe dari Lagu atau Video yang akan dimainkan selama fase menebak.",
+			"music": { "title": "Lagu", "description": "Putar lagu selama fase menebak" },
 			"tiny_video": {
-				"MISSING-title": "Tiny Video",
-				"MISSING-description": "Play a tiny section of the video during the guessing phase."
+				"title": "Video Kecil",
+				"description": "Putar bagian kecil dari video selama fase menebak."
 			},
 			"blur_video": {
-				"MISSING-title": "Blur Video",
-				"MISSING-description": "Play the video with a heavy blur effect during the guessing phase."
+				"title": "Blur Video",
+				"description": "Putar video dengan efek blur yang intens selama fase menebak."
 			}
 		}
 	},
@@ -3059,7 +3059,7 @@
 				"expert": "Ahli",
 				"top_x": "_NUMBER_ Teratas",
 				"all": "Semua",
-				"MISSING-guess_mode": "Guess Mode"
+				"guess_mode": "Mode Tebak"
 			},
 			"song_pool": {
 				"custom_list": "List Kustom",
@@ -3067,7 +3067,7 @@
 				"community_quiz": "Kuis Komunitas",
 				"all_songs": "Semua Lagu"
 			},
-			"guess_mode": { "MISSING-music": "Music", "MISSING-tiny_video": "Tiny Video", "MISSING-blur_video": "Blur Video" }
+			"guess_mode": { "music": "Musik", "tiny_video": "Video Mini", "blur_video": "Blur Video" }
 		},
 		"ranked_rules": {
 			"title": "Aturan Ranked",
@@ -3335,7 +3335,7 @@
 			"rejoin_button": "Gabung Kembali"
 		},
 		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu",
-		"MISSING-fixed": "Fixed"
+		"fixed": "Tetap"
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -3699,7 +3699,7 @@
 		"graduation_project": "Proyek Kelulusan",
 		"human_experimentation": "Percobaan pada Manusia",
 		"single-page_chapter": "Bab Satu Halaman",
-		"MISSING-interspecies": "Interspecies"
+		"interspecies": "Antar-spesies"
 	},
 	"genre_tags": {
 		"action": "Aksi",
@@ -5618,11 +5618,11 @@
 			},
 			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" },
 			"april_fools_2026": {
-				"MISSING-title": "Video Quiz",
-				"MISSING-description": "The future is now! Guess 20 of the new Tiny Video and/or Blur Video questions! <br/> Complete to unlock a new high value skin!",
+				"title": "Kuis Video",
+				"description": "Masa depan sudah didepan mata! Tebak 20 Kuis dari Video Kecil dan/atau Video Blur! <br/> Selesaikan untuk membuka Skin baru dengan nilai tinggi!",
 				"unlock_message": {
-					"MISSING-title": "Solid Gold Miyu Unlocked!",
-					"MISSING-description": "_HTML1_ You have discovered the future of anime, video! To celebrate you’ve earned the extremely valuable Solid Gold Miyu alt. version! _HTML2_"
+					"title": "Solid Gold Miyu Terbuka!",
+					"description": "_HTML1_ Kamu telah menemukan masa depan dari anime yaitu, video! Untuk merayakan, kamu telah mendapatkan Solid gold Miyu versi alt. yang tak ternilai!. _HTML2_"
 				}
 			}
 		}
