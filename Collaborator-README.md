@@ -23,7 +23,9 @@ Untuk memudahkan proses kolaborasi, silakan ikuti langkah berikut:<br>
 16. Lalu, gunakan command ```git commit -m "Revised the most recent translation file from Chris"``` dan ceritakan perubahan apa yang telah Anda lakukan didalam tanda kutip seperti contoh
 17. Kita bisa menggunakan command ```git push origin review``` untuk meng-push update yang kita lakukan ke Github untuk di-review oleh kawan-kawan tim translasi yang lain
 18. Setelahnya, kunjungi laman [Pull Request](https://github.com/ChrisLefko/amq-localization-indonesian/pulls)
-19. Klik tombol hijau "Create Pull Request"
+19. Klik tombol hijau "Create Pull Request"<br/>
+<img width="1122" height="639" alt="image" src="https://github.com/user-attachments/assets/7f271706-7659-47a2-8db6-84b97314ad6c" />
+
 20. Klik branch review
 21. Buat Pull Request
 22. Ketika Pull Request sudah dibuat, Anda dapat mengabari kolaborator lain di [Thread Official AMQ Lokalisasi Bahasa Indonesia](https://discord.com/channels/386089398975856641/1431027276648153098) untuk di-review bersama
@@ -32,7 +34,7 @@ Untuk memudahkan proses kolaborasi, silakan ikuti langkah berikut:<br>
 ## Panduan Menerjemahkan Variabel TL Baru dari Egerod
 
 1. Ikuti langkah 1-9 dari tutorial diatas
-2. Download Template terbaru dari Egerod. Biasanya dikirim oleh Egerod sendiri ke [Thread Official AMQ Lokalisasi Bahasa Indonesia](https://discord.com/channels/386089398975856641/1431027276648153098) seperti contoh dibawah
+2. Download Template terbaru dari Egerod. Biasanya dikirim oleh Egerod sendiri ke [Thread Official AMQ Lokalisasi Bahasa Indonesia](https://discord.com/channels/386089398975856641/1431027276648153098) seperti contoh dibawah<br/>
    <img width="622" height="303" alt="image" src="https://github.com/user-attachments/assets/2957d530-5401-478f-812d-adb3008d3a47" />
 3. Download file id.json dari Egerod, lalu paste ke folder/direktori amq-localization-indonesian di mesin lokal Anda
 4. Paste dan Replace id.json sebelumnya
