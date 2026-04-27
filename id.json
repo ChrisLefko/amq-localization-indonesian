@@ -3210,24 +3210,24 @@
 			"join": "Gabung",
 			"leave": "Keluar",
 			"create_team": "Buat Tim",
-			"MISSING-team_members": "Team Members",
-			"MISSING-join_public": "Join Public Team",
-			"MISSING-join_public_description": "Join a random public team, if no public teams exist you will be added to a new team",
+			"team_members": "Anggota Tim",
+			"join_public": "Gabung Tim Publik",
+			"join_public_description": "Gabung ke tim publik acak, jika tidak ada tim publik yang tersedia anda akan ditambahkan ke tim baru",
 			"team_kick": {
-				"MISSING-title": "Kick _NAME_ from Team?",
-				"MISSING-description": "A kicked player won't be able to rejoin the team.",
-				"MISSING-kick_button": "Kick"
+				"title": "Keluarkan _NAME_ dari Tim?",
+				"description": "Pemain yang dikeluarkan tidak akan bisa bergabung kembali ke tim",
+				"kick_button": "Keluarkan"
 			},
 			"team_alerts": {
-				"MISSING-unknown_code": "Unknown Team Code",
-				"MISSING-team_full": "Team is Full",
-				"MISSING-kicked_from_team": "You have been kicked from the team"
+				"unknown_code": "Kode Tim Tidak Dikenal",
+				"team_full": "Tim Penuh",
+				"kicked_from_team": "Anda telah dikeluarkan dari tim"
 			},
 			"state": {
-				"MISSING-public": "Public",
-				"MISSING-public_description": "Anyone can join this team. Click to make team private.",
-				"MISSING-private": "Private",
-				"MISSING-private_description": "Only players with the code can join. Click to make team public."
+				"public": "Publik",
+				"public_description": "Semua bisa bergabung dengan tim ini. Klik untuk membuat tim menjadi privat.",
+				"private": "Privat",
+				"private_description": "Hanya pemain dengan kode yang bisa bergabung. Klik untuk membuat tim menjadi publik."
 			}
 		},
 		"rule_window": {
@@ -3766,10 +3766,10 @@
 		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu",
 		"fixed": "Rill",
 		"ranked_team": {
-			"MISSING-private_short": "P",
-			"MISSING-private_description": "Private: Only players with the code can join this team, host can click to change to public",
-			"MISSING-public_short": "P",
-			"MISSING-public_description": "Public: Anyone can join this team, host can click to change to private"
+			"private_short": "P",
+			"private_description": "Privat: Hanya pemain dengan kode yang bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke publik",
+			"public_short": "P",
+			"public_description": "Publik: Siapa saja bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke privat"
 		}
 	},
 	"anime_tags": {
