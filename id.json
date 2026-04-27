@@ -382,7 +382,10 @@
 			},
 			"select_country": "Silahkan pilih Negara Domisili Anda",
 			"country_error": "Error dalam mendaftarkan negara",
-			"already_online": { "title": "Akun sudah Online", "text": "Lanjutkan masuk dan keluarkan sesi lainnya?" },
+			"already_online": {
+				"title": "Akun sudah Online",
+				"text": "Lanjutkan masuk dan keluarkan sesi lainnya?"
+			},
 			"guest_timeout": "Sesi akun Tamu telah berakhir. Silakan buat akun Tamu yang baru"
 		},
 		"text": {
@@ -543,7 +546,9 @@
 					"title": "Jadwal Ranked Mingguan",
 					"text": "Intip Jadwal Ranked Mingguan dan info lebih lanjut"
 				},
-				"region_time": { "text": "Wilayah dan waktu hingga kuis berikutnya." }
+				"region_time": {
+					"text": "Wilayah dan waktu hingga kuis berikutnya."
+				}
 			},
 			"alerts": {
 				"ranked_rules": {
@@ -607,14 +612,22 @@
 			"free_donation": "Gunakan Donasi Gratis",
 			"free_donation_amount": "Nilai: _NUMBER_€",
 			"checkout": "Bayar",
-			"popover": { "no_free_donation": "Donasi Gratis bulan ini sudah terpakai" },
+			"popover": {
+				"no_free_donation": "Donasi Gratis bulan ini sudah terpakai"
+			},
 			"alerts": {
 				"invalid_amount": {
 					"title": "Nilai Donasi Tidak Valid",
-					"text": { "illegal": "Anda harus memasukkan jumlah donasi", "minimum": "Jumlah minimum donasi adalah 1€" }
+					"text": {
+						"illegal": "Anda harus memasukkan jumlah donasi",
+						"minimum": "Jumlah minimum donasi adalah 1€"
+					}
 				},
 				"donation_error": { "title": "Kesalahan Donasi" },
-				"donation_received": { "title": "Donasi Diterima", "text": "Terima Kasih telah mendukung Anime Music Quiz!" },
+				"donation_received": {
+					"title": "Donasi Diterima",
+					"text": "Terima Kasih telah mendukung Anime Music Quiz!"
+				},
 				"use_free_donation": {
 					"title": "Gunakan Donasi Gratis",
 					"text": "Anda hanya mendapatkan 1 Donasi Gratis setiap bulannya"
@@ -626,7 +639,10 @@
 			"DELETED-none": "Non-Nominasi",
 			"title": "Avatar Drive",
 			"approx_dollars_2": "Kira-kira. $_SPAN_ _NUMBER_ _SPAN_",
-			"donation_choice_text": { "nomination": "Nominasi", "secondary_choice": "Pilihan Kedua" },
+			"donation_choice_text": {
+				"nomination": "Nominasi",
+				"secondary_choice": "Pilihan Kedua"
+			},
 			"DELETED-approx_dollars": "Kira-kira $"
 		},
 		"social_rewards": {
@@ -732,7 +748,11 @@
 					"quiz_of_the_day": "Harian"
 				}
 			},
-			"options": { "report": "Lapor", "remove_friend": "Hapus Teman", "join_game": "Gabung ke Game" },
+			"options": {
+				"report": "Lapor",
+				"remove_friend": "Hapus Teman",
+				"join_game": "Gabung ke Game"
+			},
 			"popout_messages": {
 				"not_in_game": "Anda sedang tidak berada dalam sebuah lobi",
 				"solo_game_invite": "Anda tidak bisa mengundang pemain ke lobi Solo"
@@ -756,7 +776,12 @@
 			"description": "Status koneksi ke berbagai server video",
 			"click_to_retest": "Klik untuk tes ulang koneksi",
 			"speed": "Kecepatan: _SPANC_ _NUMBER_  _SPANC_",
-			"connection_status": { "good": "Bagus", "okay": "Baik", "poor": "Kurang", "bad": "Buruk" }
+			"connection_status": {
+				"good": "Bagus",
+				"okay": "Baik",
+				"poor": "Kurang",
+				"bad": "Buruk"
+			}
 		}
 	},
 	"player_profile": {
@@ -814,7 +839,10 @@
 				"name": "Patreon",
 				"description": "Terbuka untuk Pendukung Patreon Level 3 atau lebih tinggi"
 			},
-			"patreon_glow": { "name": "Patreon", "description": "Terbuka untuk Pendukung Patreon Level 4 atau lebih tinggi" },
+			"patreon_glow": {
+				"name": "Patreon",
+				"description": "Terbuka untuk Pendukung Patreon Level 4 atau lebih tinggi"
+			},
 			"month_patreon_current": "Terbuka untuk Pendukung Patreon Level 5 yang mendukung bulan ini, dan Pendukung Level 6",
 			"month_patreon_previous": "Terbuka untuk Pendukung Patreon Level 5 yang mendukung waktu rilis, dan Pendukung Level 6",
 			"month_patreon_previous_unlocked": "Terbuka untuk Pendukung Patreon Level 5 yang mendukung waktu rilis, dan Pendukung Level 6. Anda telah mendukung AMQ pada waktu Style ini dirilis."
@@ -826,7 +854,13 @@
 			"name_result": "_TIER_ Ranked  _YEAR_",
 			"description": "Mendapat tier _TIER_ pada ranked tahun _YEAR_ Musim _NUMBER_",
 			"description_result": "Mendapat tier _TIER_ pada keseluruhan Musim ranked tahun _YEAR_",
-			"tiers": { "bronze": "Perunggu", "silver": "Perak", "gold": "Emas", "platinum": "Platinum", "diamond": "Berlian" }
+			"tiers": {
+				"bronze": "Perunggu",
+				"silver": "Perak",
+				"gold": "Emas",
+				"platinum": "Platinum",
+				"diamond": "Berlian"
+			}
 		},
 		"champion": {
 			"name": {
@@ -860,10 +894,19 @@
 			},
 			"description": "Pendukung Patreon AMQ"
 		},
-		"avatar": { "name": "Lencana _NAME_", "description": "Buka 10 skin/recolor avatar _NAME_" },
+		"avatar": {
+			"name": "Lencana _NAME_",
+			"description": "Buka 10 skin/recolor avatar _NAME_"
+		},
 		"mod": {
-			"name": { "game": "Moderator AMQ", "jam": "Moderator Mode Kuis Jam AMQ" },
-			"description": { "game": "Bagian dari Tim Moderator AMQ", "jam": "Bagian dari Tim Moderator Mode Kuis Jam AMQ" }
+			"name": {
+				"game": "Moderator AMQ",
+				"jam": "Moderator Mode Kuis Jam AMQ"
+			},
+			"description": {
+				"game": "Bagian dari Tim Moderator AMQ",
+				"jam": "Bagian dari Tim Moderator Mode Kuis Jam AMQ"
+			}
 		},
 		"aragaimu": {
 			"name": {
@@ -895,7 +938,10 @@
 		"backer_level": {
 			"title": " Level Pendukung",
 			"tier": "Level _NUMBER_",
-			"rewards": { "emotes": "_NUMBER_ Emote", "tickets": "_NUMBER_ Tiket" }
+			"rewards": {
+				"emotes": "_NUMBER_ Emote",
+				"tickets": "_NUMBER_ Tiket"
+			}
 		},
 		"badge_level": "Level Lencana",
 		"badge_level_info": "Level Lencana anda setara dengan berapa bulan berturut-turut Anda telah menjadi Pendukung Patreon Level 2 atau lebih tinggi",
@@ -911,7 +957,10 @@
 			"manage": "Atur",
 			"empty": "Kosong",
 			"states": {
-				"waiting_approval": { "name": "Menunggu Persetujuan", "shorthand": "M" },
+				"waiting_approval": {
+					"name": "Menunggu Persetujuan",
+					"shorthand": "M"
+				},
 				"active": { "name": "Aktif", "shorthand": "A" },
 				"disabled": { "name": "Nonaktif", "shorthand": "N" }
 			},
@@ -962,7 +1011,12 @@
 	},
 	"setting_window": {
 		"title": "Pengaturan",
-		"tabs": { "game": "Game", "anime_list": "List Anime", "graphics": "Grafik", "audio": "Audio" },
+		"tabs": {
+			"game": "Game",
+			"anime_list": "List Anime",
+			"graphics": "Grafik",
+			"audio": "Audio"
+		},
 		"language": "Bahasa",
 		"auto_submit": {
 			"title": "Auto Kirim",
@@ -972,7 +1026,10 @@
 			"title": "Pelacak List",
 			"description": "Tampilkan jumlah lagu yang diputar dari list anime masing-masing pemain pada papan skor"
 		},
-		"disable_emotes": { "title": "Nonaktifkan Emote", "description": "Nonaktifkan emote pada obrolan" },
+		"disable_emotes": {
+			"title": "Nonaktifkan Emote",
+			"description": "Nonaktifkan emote pada obrolan"
+		},
 		"answer_time": {
 			"title": "Waktu Jawab",
 			"description": "Tampilkan seberapa cepat pemain menjawab pada avatar mereka"
@@ -1023,7 +1080,10 @@
 			"openings": "Opening",
 			"endings": "Ending",
 			"inserts": "Insert",
-			"unwatched": { "title": "Belum Ditonton", "description": "Video dari anime yang belum Anda tonton" },
+			"unwatched": {
+				"title": "Belum Ditonton",
+				"description": "Video dari anime yang belum Anda tonton"
+			},
 			"high_risk": {
 				"title": "Beresiko Tinggi",
 				"description": "Video yang mungkin mengandung spoiler atau adegan NSFW berdasarkan statistik pemain"
@@ -1035,7 +1095,10 @@
 				"title": "Bagikan Entri",
 				"description": "Tampilkan ketika lagu yang sedang diputar berasal dari list Anda"
 			},
-			"show_scores": { "title": "Tampilkan Skor", "description": "Tampilkan Skor Anime yang tertera pada list Anda" },
+			"show_scores": {
+				"title": "Tampilkan Skor",
+				"description": "Tampilkan Skor Anime yang tertera pada list Anda"
+			},
 			"anilist_username": "Nama Pengguna AniList",
 			"mal_username": "Nama Pengguna MyAnimeList",
 			"mal_username_short": "Nama Pengguna MAL",
@@ -1066,7 +1129,10 @@
 			"no_list": "Tidak Ada List",
 			"custom_lists": "List Kustom",
 			"custom_list_mode": {
-				"disable": { "title": "Nonaktif", "description": "Jangan gunakan list kustom untuk pemilihan lagu" },
+				"disable": {
+					"title": "Nonaktif",
+					"description": "Jangan gunakan list kustom untuk pemilihan lagu"
+				},
 				"list": {
 					"title": "List Kustom",
 					"description": "Gunakan list kustom sebagai list anime milik anda untuk pemilihan lagu"
@@ -1075,14 +1141,21 @@
 					"title": "Sertakan",
 					"description": "Sertakan acara dari list kustom bersama dengan list milik anda untuk pemilihan lagu"
 				},
-				"exclude": { "title": "Kecualikan", "description": "Kecualikan acara dari list kustom untuk pemilihan lagu" }
+				"exclude": {
+					"title": "Kecualikan",
+					"description": "Kecualikan acara dari list kustom untuk pemilihan lagu"
+				}
 			}
 		},
 		"graphics": {
 			"particle_effects": {
 				"title": "Efek Partikel",
 				"description": "Atur jumlah partikel yang dipakai di efek, seperti animasi XP bertambah.",
-				"levels": { "off": "Nonaktif", "low": "Rendah", "high": "tinggi" }
+				"levels": {
+					"off": "Nonaktif",
+					"low": "Rendah",
+					"high": "tinggi"
+				}
 			},
 			"disable_floating_text": {
 				"title": "Nonaktifkan Teks Mengambang",
@@ -1099,7 +1172,10 @@
 			"notifications": "Notifikasi"
 		}
 	},
-	"blocked_player_window": { "title": "Daftar Blokir", "remove_button": "Hapus" },
+	"blocked_player_window": {
+		"title": "Daftar Blokir",
+		"remove_button": "Hapus"
+	},
 	"change_password_window": {
 		"title": "Ganti Kata Sandi",
 		"current_password": "Kata Sandi yang Digunakan Saat Ini",
@@ -1118,7 +1194,11 @@
 		"ranked": "Ranked",
 		"all": "Semua",
 		"champs": "Juara",
-		"regions": { "west": "Wilayah West", "central": "Wilayah Central", "east": "Wilayah East" }
+		"regions": {
+			"west": "Wilayah West",
+			"central": "Wilayah Central",
+			"east": "Wilayah East"
+		}
 	},
 	"tutorial_window": {
 		"title": "Tutorial",
@@ -1133,7 +1213,11 @@
 			"workshop": "Workshop",
 			"rune_setup": "Setelan Rune"
 		},
-		"status": { "locked": "Terkunci", "unlocked": "Terbuka", "completed": "Selesai" }
+		"status": {
+			"locked": "Terkunci",
+			"unlocked": "Terbuka",
+			"completed": "Selesai"
+		}
 	},
 	"guidelines_window": {
 		"title": "Pedoman",
@@ -1225,21 +1309,46 @@
 			"auto_switch": {
 				"description": "Beralih otomatis antar avatar favorit di akhir setiap game",
 				"auto_switch": "Beralih Otomatis",
-				"mode": { "random": "Acak", "off": "Nonaktif", "cycle": "Putar" }
+				"mode": {
+					"random": "Acak",
+					"off": "Nonaktif",
+					"cycle": "Putar"
+				}
 			}
 		},
 		"filters": {
-			"locked": { "title": "Terkunci", "description": "Tunjukan konten yang belum anda buka" },
-			"unlocked": { "title": "Terbuka", "description": "Tunjukan konten yang sudah anda buka" },
-			"available": { "title": "Tersedia", "description": "Tunjukan Konten yang tersedia untuk dibuka ditoko" },
+			"locked": {
+				"title": "Terkunci",
+				"description": "Tunjukan konten yang belum anda buka"
+			},
+			"unlocked": {
+				"title": "Terbuka",
+				"description": "Tunjukan konten yang sudah anda buka"
+			},
+			"available": {
+				"title": "Tersedia",
+				"description": "Tunjukan Konten yang tersedia untuk dibuka ditoko"
+			},
 			"unavailable": {
 				"title": "Tidak Tersedia",
 				"description": "Tunjukan Konten yang saat ini tidak tersedia untuk dibuka ditoko"
 			},
-			"limited": { "title": "Terbatas", "description": "Tunjukan Konten yang hanya tersedia untuk waktu terbatas" },
-			"unlimited": { "title": "Tidak Terbatas", "description": "Tunjukan Konten yang selalu tersedia untuk dibuka" },
-			"exclusive": { "title": "Eksklusif", "description": "Tunjukan Konten yang bisa dibuka melalui Sistem Tiket" },
-			"standard": { "title": "Standar", "description": "Tunjukan konten yang bisa dibuka menggunakan notes" },
+			"limited": {
+				"title": "Terbatas",
+				"description": "Tunjukan Konten yang hanya tersedia untuk waktu terbatas"
+			},
+			"unlimited": {
+				"title": "Tidak Terbatas",
+				"description": "Tunjukan Konten yang selalu tersedia untuk dibuka"
+			},
+			"exclusive": {
+				"title": "Eksklusif",
+				"description": "Tunjukan Konten yang bisa dibuka melalui Sistem Tiket"
+			},
+			"standard": {
+				"title": "Standar",
+				"description": "Tunjukan konten yang bisa dibuka menggunakan notes"
+			},
 			"title": "Filter"
 		},
 		"background": "Background",
@@ -1279,9 +1388,18 @@
 			"tickets": "Tiket",
 			"avatar_token": "Token Avatar",
 			"avatar_tokens": "Token Avatar",
-			"menu": { "use": "Gunakan", "history": "Riwayat", "buy": "Beli", "gift": "Hadiah" },
+			"menu": {
+				"use": "Gunakan",
+				"history": "Riwayat",
+				"buy": "Beli",
+				"gift": "Hadiah"
+			},
 			"redeem_code": "Tukarkan Kode Tiket",
-			"ticket_code_input": { "title": "Masukan Kode Tiket", "placeholder": "Kode Tiket", "redeem": "Tukarkan" },
+			"ticket_code_input": {
+				"title": "Masukan Kode Tiket",
+				"placeholder": "Kode Tiket",
+				"redeem": "Tukarkan"
+			},
 			"invalid_ticket_code": "Kode Tiket Tidak Valid",
 			"ticket_code_redeemed_message": {
 				"title": "Kode Tiket Berhasil Ditukarkan!",
@@ -1297,7 +1415,10 @@
 			"gift_target": "Target Hadiah",
 			"gift_no_target_message": "Pilih Teman untuk Dihadiahkan",
 			"gift_clear": "Bersihkan",
-			"gift_message": { "title": "Membeli Hadiah Tiket untuk _NAME_", "placeholder": "Pesan Hadiah: _MESSAGE_" },
+			"gift_message": {
+				"title": "Membeli Hadiah Tiket untuk _NAME_",
+				"placeholder": "Pesan Hadiah: _MESSAGE_"
+			},
 			"no_gift_target_message": {
 				"title": "Tidak ada Target Hadiah yang Dipilih",
 				"description": "Pilih satu dibawah"
@@ -1308,7 +1429,10 @@
 			},
 			"no_past_rolls": "Tidak Ada _BREAK_ Roll Tiket Sebelumnya",
 			"one_roll": "1 Roll",
-			"ten_roll": { "title": "10 Roll", "description": "Item Langka atau Lebih Tinggi Terjamin!" },
+			"ten_roll": {
+				"title": "10 Roll",
+				"description": "Item Langka atau Lebih Tinggi Terjamin!"
+			},
 			"token_description": "Pilih Avatar di atas _BREAK_ setiap roll 50% _BREAK_ dapat avatar tersebut.",
 			"token_description_dropdown": "Pilih sebuah Avatar diatas dan semua roll akan memiliki kemungkinan 50% mendapatkan avatar tersebut",
 			"roll": "Roll",
@@ -1394,7 +1518,12 @@
 			"unique": "Unik"
 		},
 		"decoration_buttons": { "front": "Depan", "back": "Belakang" },
-		"item_types": { "emote": "Emote", "background": "Background", "decoration": "Dekorasi", "skin": "Skin" },
+		"item_types": {
+			"emote": "Emote",
+			"background": "Background",
+			"decoration": "Dekorasi",
+			"skin": "Skin"
+		},
 		"ticket_reward_tier": "Tier Hadiah Tiket _TIER_",
 		"rhythm_price": "Harga Rhythm",
 		"silver_hibike_description": "Recolor unik saat peluncuran, bisa dibuka dengan cara bergabung dalam minggu peluncuran atau membuka semua recolor non-unik untuk semua avatar.",
@@ -1686,7 +1815,11 @@
 				"instrumental": "Instrumental",
 				"character": "Karakter"
 			},
-			"upload_status": { "title": "Status Unggah", "uploaded": "Terunggah", "missing": "Hilang" },
+			"upload_status": {
+				"title": "Status Unggah",
+				"uploaded": "Terunggah",
+				"missing": "Hilang"
+			},
 			"more_filters": "Filter Tambahan"
 		},
 		"search_targets": {
@@ -1701,7 +1834,11 @@
 		"strict_description": "Jangan sertakan grup yang diikuti artis saat mencari artis/komposer/penata lagu.",
 		"search": "Cari",
 		"anime_entry": {
-			"song_counts": { "op": "OP _NUMBER_", "ed": "ED _NUMBER_", "insert": "IN _NUMBER_" },
+			"song_counts": {
+				"op": "OP _NUMBER_",
+				"ed": "ED _NUMBER_",
+				"insert": "IN _NUMBER_"
+			},
 			"vintage": {
 				"winter": "Winter _YEAR_",
 				"spring": "Spring _YEAR_",
@@ -1736,11 +1873,18 @@
 			},
 			"submit": "Kirim",
 			"insert_litterbox_url": "Masukan URL Litterbox",
-			"like_options": { "like": "Suka", "dislike": "Tidak Suka", "unset": "Tidak Diatur" },
+			"like_options": {
+				"like": "Suka",
+				"dislike": "Tidak Suka",
+				"unset": "Tidak Diatur"
+			},
 			"upload_state_messages": {
 				"missing": "Hilang",
 				"pending": "Menunggu Persetujuan",
-				"uploaded": { "title": "Terunggah", "description": "Klik untuk Lihat" }
+				"uploaded": {
+					"title": "Terunggah",
+					"description": "Klik untuk Lihat"
+				}
 			},
 			"anime_header": "Anime:"
 		},
@@ -1873,7 +2017,10 @@
 				"placeholder": "Kode Bagi",
 				"load_button": "Muat",
 				"no_code_message": "Tiada Kode Bagi Tersedia",
-				"unknown_code": { "title": "Kode Bagi Tidak Diketahui", "description": "Kode bagi Invalid atau tidak ada." }
+				"unknown_code": {
+					"title": "Kode Bagi Tidak Diketahui",
+					"description": "Kode bagi Invalid atau tidak ada."
+				}
 			}
 		}
 	},
@@ -1921,7 +2068,11 @@
 		},
 		"search_for_quizzes": "Cari Kuis",
 		"song_types": { "op": "OP", "ed": "ED", "in": "IN" },
-		"difficulties": { "easy": "Mudah", "medium": "Sedang", "hard": "Sulit" },
+		"difficulties": {
+			"easy": "Mudah",
+			"medium": "Sedang",
+			"hard": "Sulit"
+		},
 		"upload_time": {
 			"last_24_hours": "24 Jam Terakhir",
 			"last_week": "Seminggu Terakhir",
@@ -1933,7 +2084,10 @@
 		"buy_slots": "Beli Slot",
 		"buy_quiz_slots": "Beli Slot Kuis",
 		"unlimited_slots": "Tak Terbatas",
-		"one_slot_entry": { "title": "1 Slot", "description": "Buka satu slot kuis secara permanen" },
+		"one_slot_entry": {
+			"title": "1 Slot",
+			"description": "Buka satu slot kuis secara permanen"
+		},
 		"unlimited_slot_entry": {
 			"title": "Tak Terbatas",
 			"description": "Buka Slot Tak Terbatas untuk satu kali pembayaran",
@@ -1980,12 +2134,18 @@
 				"title": "Kesalahan Ketika Duplikasi Kuis",
 				"description": "Terjadi kesalahan saat mencoba mengduplikat kuis. Silakan coba lagi nanti."
 			},
-			"quiz_cloned": { "title": "Kuis Diduplikat", "description": "Kuis telah berhasil diduplikat." },
+			"quiz_cloned": {
+				"title": "Kuis Diduplikat",
+				"description": "Kuis telah berhasil diduplikat."
+			},
 			"quiz_reported": {
 				"title": "Kuis Dilaporkan",
 				"description": "Kuis telah dilaporkan ke moderator untuk ditinjau."
 			},
-			"quiz_deleted": { "title": "Kuis Dihapus", "description": "Kuis Telah Berhasil Dihapus" },
+			"quiz_deleted": {
+				"title": "Kuis Dihapus",
+				"description": "Kuis Telah Berhasil Dihapus"
+			},
 			"slot_unlocked": "Slot Kuis Terbuka",
 			"unlimited_slots_unlocked": "Slot Kuis Tak Terbatas Terbuka",
 			"no_slots_available": {
@@ -1996,7 +2156,11 @@
 				"title": "Hapus Kuis",
 				"description": "Apakah anda yakin ingin menghapus kuis ini secara permanen?"
 			},
-			"clone_quiz": { "title": "Duplikat Kuis", "input_text": "Nama Baru", "confirm_button": "Duplikat" },
+			"clone_quiz": {
+				"title": "Duplikat Kuis",
+				"input_text": "Nama Baru",
+				"confirm_button": "Duplikat"
+			},
 			"publish_quiz_confirmation": {
 				"title": "Publikasi Kuis",
 				"description": "Kuis publik bisa dimainkan oleh siapa saja. Setelah kuis dibuat publik, anda tidak bisa lagi mengedit atau menghapusnya.",
@@ -2027,20 +2191,30 @@
 				"title": "Batas Publikasi Tercapai",
 				"description": "anda telah mencapai jumlah maksimum 10 kuis yang dipublikasikan dalam 24 jam. Silakan coba lagi nanti."
 			},
-			"quiz_published": { "title": "Kuis Terpublikasi", "description": "Kuis telah berhasil dipublikasikan." }
+			"quiz_published": {
+				"title": "Kuis Terpublikasi",
+				"description": "Kuis telah berhasil dipublikasikan."
+			}
 		},
 		"popovers": {
 			"share": "Bagikan kuis ini dengan teman",
 			"unshare": "Batal bagikan kuis ini dengan teman",
 			"creation_date": "Tanggal Pembuatan",
 			"quiz_id": "ID Kuis",
-			"recently_published": { "title": "Baru Dipublikasikan", "description": "Slot terkunci hingga: _DATE_" },
+			"recently_published": {
+				"title": "Baru Dipublikasikan",
+				"description": "Slot terkunci hingga: _DATE_"
+			},
 			"locked_slot": {
 				"title": "Slot Terkunci",
 				"description": "Slot yang terkunci tidak menggunakan slot yang tersedia, tetapi hanya bisa disalin atau dihapus. Untuk membukanya, aktifkan kembali slot tidak terbatas."
 			}
 		},
-		"checkout": { "unlock": "Buka Slot Kuis Komunitas", "one_slot": "1 Slot", "unlimited": "Slot Tidak Terbatas" },
+		"checkout": {
+			"unlock": "Buka Slot Kuis Komunitas",
+			"one_slot": "1 Slot",
+			"unlimited": "Slot Tidak Terbatas"
+		},
 		"host_community_quiz": {
 			"title": "Host Kuis Komunitas",
 			"room_type": "Tipe Ruangan",
@@ -2065,11 +2239,23 @@
 				"title": "Medali Emas",
 				"description": "Berhasil menjawab benar 80% di kuis ini! Target berikutnya medali berlian di 100%"
 			},
-			"diamond": { "title": "Medali Berlian", "description": "Berhasil menjawab benar 100% di kuis ini!" }
+			"diamond": {
+				"title": "Medali Berlian",
+				"description": "Berhasil menjawab benar 100% di kuis ini!"
+			}
 		},
-		"create_new_quiz_tile": { "message": "Buat Kuis Baru", "title": "Kuis Baru" },
-		"unlock_at_tile": { "message": "Terbuka di Level _NUMBER_", "title": "Terkunci" },
-		"shared_states": { "friends": "Kuis Dibagikan pada Teman", "public": "Kuis Publik" }
+		"create_new_quiz_tile": {
+			"message": "Buat Kuis Baru",
+			"title": "Kuis Baru"
+		},
+		"unlock_at_tile": {
+			"message": "Terbuka di Level _NUMBER_",
+			"title": "Terkunci"
+		},
+		"shared_states": {
+			"friends": "Kuis Dibagikan pada Teman",
+			"public": "Kuis Publik"
+		}
 	},
 	"community_quiz_tags": {
 		"training": "Latihan",
@@ -2082,9 +2268,22 @@
 		"setup_game": "Atur Game",
 		"select_settings_to_load": "Pilih Pengaturan",
 		"load_from_code": "Muat dari Kode",
-		"tabs": { "quick": "Langsung", "advanced": "Lanjutan", "save": "Simpan", "load": "Muat" },
-		"categories": { "mode": "Mode", "general": "Umum", "quiz": "Kuis", "anime": "Anime" },
-		"quiz_mode": { "standard_quiz": "Kuis Standar", "community_quiz": "Kuis Komunitas" },
+		"tabs": {
+			"quick": "Langsung",
+			"advanced": "Lanjutan",
+			"save": "Simpan",
+			"load": "Muat"
+		},
+		"categories": {
+			"mode": "Mode",
+			"general": "Umum",
+			"quiz": "Kuis",
+			"anime": "Anime"
+		},
+		"quiz_mode": {
+			"standard_quiz": "Kuis Standar",
+			"community_quiz": "Kuis Komunitas"
+		},
 		"buttons": {
 			"exit": "Keluar",
 			"host": "Host",
@@ -2120,7 +2319,10 @@
 		"swap_button_description": "Beralih antara kuis komunitas dan standar",
 		"game_mode": {
 			"title": "Mode Game",
-			"standard": { "title": "Kuis Standar", "description": "Bersaing menebak lagu terbanyak" },
+			"standard": {
+				"title": "Kuis Standar",
+				"description": "Bersaing menebak lagu terbanyak"
+			},
 			"hint": {
 				"title": "Petunjuk",
 				"description": "Dapatkan petunjuk untuk lagu, tapi peroleh poin lebih sedikit saat petunjuk digunakan"
@@ -2178,7 +2380,10 @@
 			"title": "Tag",
 			"description": "Tag ditentukan menggunakan AniList. Jika opsi digunakan, setidaknya satu tag opsional akan diperlukan oleh anime."
 		},
-		"number_of_players": { "title": "Jumlah Pemain", "unlimited": "Tidak Terbatas" },
+		"number_of_players": {
+			"title": "Jumlah Pemain",
+			"unlimited": "Tidak Terbatas"
+		},
 		"number_of_songs": { "title": "Jumlah Lagu" },
 		"team_size": { "title": "Ukuran Tim", "solo": "Solo" },
 		"song_selection": {
@@ -2206,12 +2411,18 @@
 		"song_categories": {
 			"title": "Kategori Lagu",
 			"description": "Filter kategori lagu yang dipilih untuk setiap tipe lagu. Arahkan kursor ke kategori di bawah untuk melihat deskripsinya",
-			"standard": { "title": "Standar", "description": "Lagu yang tidak termasuk dalam kategori lain" },
+			"standard": {
+				"title": "Standar",
+				"description": "Lagu yang tidak termasuk dalam kategori lain"
+			},
 			"chanting": {
 				"title": "Chanting",
 				"description": "Lagu dengan nyanyian serempak sebagai satu-satunya vokal utama"
 			},
-			"instrumental": { "title": "Instrumental", "description": "Lagu tanpa vokal" },
+			"instrumental": {
+				"title": "Instrumental",
+				"description": "Lagu tanpa vokal"
+			},
 			"character": {
 				"title": "Karakter",
 				"description": "Lagu yang dinyanyikan oleh karakter tanpa menjadi bagian dari pertunjukan musikal"
@@ -2272,8 +2483,14 @@
 				"description": "Pemain mendapatkan 4 jawaban yang mungkin untuk dipilih."
 			}
 		},
-		"lives": { "title": "Nyawa", "description": "Jumlah nyawa yang dimiliki pemain saat memulai." },
-		"boss_lives": { "title": "Nyawa Bos", "description": "Jumlah nyawa yang dimiliki pemain bos saat memulai." },
+		"lives": {
+			"title": "Nyawa",
+			"description": "Jumlah nyawa yang dimiliki pemain saat memulai."
+		},
+		"boss_lives": {
+			"title": "Nyawa Bos",
+			"description": "Jumlah nyawa yang dimiliki pemain bos saat memulai."
+		},
 		"boss_power_ups": {
 			"title": "Power-Up Bos",
 			"description": "Jumlah power-up berbeda yang bisa digunakan oleh pemain bos."
@@ -2317,7 +2534,10 @@
 			"end": "Akhir",
 			"percent_range_display": "_NUMBER_%-_NUMBER2_% Waktu Lagu"
 		},
-		"playback_speed": { "title": "Kecepatan Putar", "description": "Kecepatan pemutaran lagu" },
+		"playback_speed": {
+			"title": "Kecepatan Putar",
+			"description": "Kecepatan pemutaran lagu"
+		},
 		"song_difficulty": {
 			"title": "Kesulitan Lagu",
 			"description": "Tingkat kesulitan lagu yang dipilih",
@@ -2371,7 +2591,11 @@
 				"description": "Perbolehkan lagu diputar hingga akhir, bisa menimbulkan keheningan saat jawaban ditampilkan"
 			}
 		},
-		"filter_types": { "include": "Sertakan", "exclude": "Jangan Sertakan", "optional": "Opsional" },
+		"filter_types": {
+			"include": "Sertakan",
+			"exclude": "Jangan Sertakan",
+			"optional": "Opsional"
+		},
 		"alerts": {
 			"room_name_missing": "Nama Ruangan Diperlukan",
 			"room_name_too_long": {
@@ -2410,20 +2634,38 @@
 			"name_too_long": "Nama maksimal _NUMBER_ karakter",
 			"max_saved_settings": "Jumlah maksimum _NUMBER_ pengaturan tersimpan telah tercapai"
 		},
-		"delete_saved_setting": { "title": "Hapus Pengaturan Tersimpan", "confirm_button": "Hapus" },
-		"get_code": { "title": "Dapatkan Kode untuk Pengaturan", "setting_code": "Kode Pengaturan" },
+		"delete_saved_setting": {
+			"title": "Hapus Pengaturan Tersimpan",
+			"confirm_button": "Hapus"
+		},
+		"get_code": {
+			"title": "Dapatkan Kode untuk Pengaturan",
+			"setting_code": "Kode Pengaturan"
+		},
 		"loading_disabled": "Memuat Dinonaktifkan",
 		"song_pool": {
 			"title": "Pool Lagu",
 			"description": "Pool lagu dasar yang digunakan untuk kuis, sebelum filter lain diterapkan.”",
-			"all": { "title": "Semua", "description": "Semua lagu dalam database AMQ" },
-			"community": { "title": "Komunitas", "description": "Semua Lagu dari Kuis Komunitas" },
+			"all": {
+				"title": "Semua",
+				"description": "Semua lagu dalam database AMQ"
+			},
+			"community": {
+				"title": "Komunitas",
+				"description": "Semua Lagu dari Kuis Komunitas"
+			},
 			"lists": {
 				"title": "List",
 				"description": "Pilih satu atau lebih list pemain dan list kustom untuk ditambahkan atau dikecualikan."
 			},
-			"DELETED-player": { "title": "Pemain", "description": "Semua lagu dari list milik satu pemain" },
-			"DELETED-custom": { "title": "Kustom", "description": "Semua Lagu dari List Kustom" }
+			"DELETED-player": {
+				"title": "Pemain",
+				"description": "Semua lagu dari list milik satu pemain"
+			},
+			"DELETED-custom": {
+				"title": "Kustom",
+				"description": "Semua Lagu dari List Kustom"
+			}
 		},
 		"anime_popularity": {
 			"title": "Popularitas Anime",
@@ -2434,7 +2676,10 @@
 		"guess_mode": {
 			"title": "Mode Tebak",
 			"description": "Tipe dari Lagu atau Video yang akan dimainkan selama fase menebak.",
-			"music": { "title": "Lagu", "description": "Putar lagu selama fase menebak" },
+			"music": {
+				"title": "Lagu",
+				"description": "Putar lagu selama fase menebak"
+			},
 			"tiny_video": {
 				"title": "Video Kecil",
 				"description": "Putar bagian kecil dari video selama fase menebak."
@@ -2447,10 +2692,29 @@
 	},
 	"room_browser": {
 		"filters": {
-			"only": { "title": "Hanya:", "public": "Publik", "in_lobby": "Di Lobi", "open": "Terbuka", "friends": "Teman" },
-			"show_selection": { "title": "Pemilihan Acara", "auto": "Otomatis", "looting": "Pengumpulan" },
-			"answering_mode": { "title": "Mode Menjawab", "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
-			"song_type": { "title": "Tipe Lagu", "openings": "Opening", "endings": "Ending", "inserts": "Insert" },
+			"only": {
+				"title": "Hanya:",
+				"public": "Publik",
+				"in_lobby": "Di Lobi",
+				"open": "Terbuka",
+				"friends": "Teman"
+			},
+			"show_selection": {
+				"title": "Pemilihan Acara",
+				"auto": "Otomatis",
+				"looting": "Pengumpulan"
+			},
+			"answering_mode": {
+				"title": "Mode Menjawab",
+				"typing": "Mengetik",
+				"multiple_choice": "Pilihan Ganda"
+			},
+			"song_type": {
+				"title": "Tipe Lagu",
+				"openings": "Opening",
+				"endings": "Ending",
+				"inserts": "Insert"
+			},
 			"song_selection": {
 				"title": "Pemilihan Lagu",
 				"watched": "Ditonton",
@@ -2506,7 +2770,11 @@
 				"song_types": "Tipe Lagu",
 				"friends": "Teman"
 			},
-			"song_types": { "opening": "Opening", "ending": "Ending", "insert": "Insert" },
+			"song_types": {
+				"opening": "Opening",
+				"ending": "Ending",
+				"insert": "Insert"
+			},
 			"join": "Gabung",
 			"spectate": "Tonton",
 			"game_mode": {
@@ -2519,7 +2787,12 @@
 				"amq_awards": "Penghargaan AMQ",
 				"standard": "Standar"
 			},
-			"song_selection": { "random": "Acak", "mix": "Campur", "watched": "Ditonton", "custom": "Kustom" },
+			"song_selection": {
+				"random": "Acak",
+				"mix": "Campur",
+				"watched": "Ditonton",
+				"custom": "Kustom"
+			},
 			"room_closed": "Ruangan Ditutup",
 			"password": {
 				"title": "Kata Sandi Dibutuhkan",
@@ -2543,10 +2816,23 @@
 			},
 			"room_settings": {
 				"type": { "endless": "Tanpa Batas", "standard": "Standar" },
-				"song_type": { "opening": "OP", "ending": "ED", "insert": "IN" },
-				"difficulty": { "easy": "Mudah", "medium": "Sedang", "hard": "Sulit", "beginner": "Pemula", "expert": "Ahli" },
+				"song_type": {
+					"opening": "OP",
+					"ending": "ED",
+					"insert": "IN"
+				},
+				"difficulty": {
+					"easy": "Mudah",
+					"medium": "Sedang",
+					"hard": "Sulit",
+					"beginner": "Pemula",
+					"expert": "Ahli"
+				},
 				"song_selection": { "watched": "Ditonton", "random": "Acak" },
-				"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda" },
+				"answering_mode": {
+					"typing": "Mengetik",
+					"multiple_choice": "Pilihan Ganda"
+				},
 				"floor": "Lantai _NUMBER_"
 			}
 		}
@@ -2578,11 +2864,21 @@
 			"info": "Info",
 			"show_names": {
 				"title": "Tunjukan Nama",
-				"ticks": { "english": "Inggris", "default": "Bawahan", "romaji": "Romaji" }
+				"ticks": {
+					"english": "Inggris",
+					"default": "Bawahan",
+					"romaji": "Romaji"
+				}
 			},
 			"anime_link": {
 				"title": "Tautan Anime",
-				"ticks": { "anilist": "Anilist", "kitsu": "Kitsu", "default": "Bawahan", "mal": "MAL", "ann": "ANN" }
+				"ticks": {
+					"anilist": "Anilist",
+					"kitsu": "Kitsu",
+					"default": "Bawahan",
+					"mal": "MAL",
+					"ann": "ANN"
+				}
 			}
 		},
 		"song_window": {
@@ -2613,7 +2909,13 @@
 				"planning": "Planning",
 				"looted": "Dikumpulkan"
 			},
-			"DELETED-anime_type": { "tv": "TV", "movie": "Movie", "ova": "OVA", "ona": "ONA", "special": "Spesial" }
+			"DELETED-anime_type": {
+				"tv": "TV",
+				"movie": "Movie",
+				"ova": "OVA",
+				"ona": "ONA",
+				"special": "Spesial"
+			}
 		},
 		"popovers": {
 			"download_json": "Unduh sebagai JSON",
@@ -2657,11 +2959,17 @@
 			"title": "Blok Pesan",
 			"description": "Blok pesan menambahkan pesan yang ditampilkan kepada pemain di antara lagu-lagu dalam kuis"
 		},
-		"title_button": { "title": "Blok Judul", "description": "Blok judul mengatur judul yang ditampilkan selama kuis." },
+		"title_button": {
+			"title": "Blok Judul",
+			"description": "Blok judul mengatur judul yang ditampilkan selama kuis."
+		},
 		"sample_selector": { "start": "Mulai", "end": "Akhir" },
 		"save_window": {
 			"title": "Simpan Kuis",
-			"description": { "title": "Deskripsi", "placeholder": "Berikan deskripsi untuk kuis anda" },
+			"description": {
+				"title": "Deskripsi",
+				"placeholder": "Berikan deskripsi untuk kuis anda"
+			},
 			"tags": "Tag",
 			"tags_max_warning": "Maks 2 Tag Diperbolehkan",
 			"save_button": "Simpan",
@@ -2682,10 +2990,19 @@
 				"tag_count": "Jumlah tag dipilih",
 				"song_types": "Tipe Lagu"
 			},
-			"song_selection": { "watched": "Ditonton", "unwatched": "Belum Ditonton", "random": "Acak", "mixed": "Campuran" }
+			"song_selection": {
+				"watched": "Ditonton",
+				"unwatched": "Belum Ditonton",
+				"random": "Acak",
+				"mixed": "Campuran"
+			}
 		},
 		"anime_block": {
-			"song_type": { "opening": "OP _NUMBER_", "ending": "ED _NUMBER_", "insert": "IN _NUMBER_" },
+			"song_type": {
+				"opening": "OP _NUMBER_",
+				"ending": "ED _NUMBER_",
+				"insert": "IN _NUMBER_"
+			},
 			"number_of_songs_selected": {
 				"description": "Jumlah Lagu yang Dipilih dari Blok Anime Ini",
 				"label": "Jumlah Lagu"
@@ -2716,11 +3033,18 @@
 				"random": "Acak",
 				"sequential": "Berurutan"
 			},
-			"song_count": { "description": "Jumlah lagu yang akan dipilih dari blok ini", "label": "Jumlah Lagu" }
+			"song_count": {
+				"description": "Jumlah lagu yang akan dipilih dari blok ini",
+				"label": "Jumlah Lagu"
+			}
 		},
 		"song_block": {
 			"song_by_artist": "_SPANC_ _NAME_ _SPANC_ oleh _SPANC2_ _NAME2_ _SPANC2_",
-			"song_types": { "opening": "OP_NUMBER_", "ending": "ED_NUMBER_", "insert": "IN" }
+			"song_types": {
+				"opening": "OP_NUMBER_",
+				"ending": "ED_NUMBER_",
+				"insert": "IN"
+			}
 		},
 		"no_songs_warning": {
 			"title": "Tidak Ada Lagu di Blok",
@@ -2853,8 +3177,11 @@
 		"team": "Tim",
 		"host": "Host",
 		"team_unset": "Tidak Diatur",
-		"team_members": "Anggota Tim",
-		"join_themed_team": { "title": "Gabung Tim", "placeholder": "Masukan kode Tim", "join_button": "Gabung" },
+		"join_themed_team": {
+			"title": "Gabung Tim",
+			"placeholder": "Masukan kode Tim",
+			"join_button": "Gabung"
+		},
 		"main_button": {
 			"start": "Mulai",
 			"join": "Gabung",
@@ -2865,7 +3192,9 @@
 			"starts_in": "Mulai Dalam",
 			"starting_soon": "Mulai Sebentar lagi"
 		},
-		"blocked_join_messages": { "ranked_championship": "Hanya 150 Teratas di Wilayah bisa bergabung" },
+		"blocked_join_messages": {
+			"ranked_championship": "Hanya 150 Teratas di Wilayah bisa bergabung"
+		},
 		"community_quiz": {
 			"click_to_select": "Klik disini untuk memilih kuis",
 			"click_to_change": "Kuis Komunitas Dipilih _BREAK_ Klik untuk Mengganti",
@@ -2880,7 +3209,26 @@
 			"create": "Buat",
 			"join": "Gabung",
 			"leave": "Keluar",
-			"create_team": "Buat Tim"
+			"create_team": "Buat Tim",
+			"MISSING-team_members": "Team Members",
+			"MISSING-join_public": "Join Public Team",
+			"MISSING-join_public_description": "Join a random public team, if no public teams exist you will be added to a new team",
+			"team_kick": {
+				"MISSING-title": "Kick _NAME_ from Team?",
+				"MISSING-description": "A kicked player won't be able to rejoin the team.",
+				"MISSING-kick_button": "Kick"
+			},
+			"team_alerts": {
+				"MISSING-unknown_code": "Unknown Team Code",
+				"MISSING-team_full": "Team is Full",
+				"MISSING-kicked_from_team": "You have been kicked from the team"
+			},
+			"state": {
+				"MISSING-public": "Public",
+				"MISSING-public_description": "Anyone can join this team. Click to make team private.",
+				"MISSING-private": "Private",
+				"MISSING-private_description": "Only players with the code can join. Click to make team public."
+			}
 		},
 		"rule_window": {
 			"title": "Ringkasan Mode Game",
@@ -2934,7 +3282,11 @@
 			"host_afk": "Host AFK",
 			"no_players": "Tidak Ada Pemain"
 		},
-		"mode_ids": { "ranked": "#Ranked", "themed": "#Themed", "event": "#Event" },
+		"mode_ids": {
+			"ranked": "#Ranked",
+			"themed": "#Themed",
+			"event": "#Event"
+		},
 		"too_many_custom_settings": {
 			"title": "Terlalu Banyak Pengaturan Kustom",
 			"description": "Terlalu banyak pengaturan kustom, coba hapus beberapa tag dan/atau vintage kustom."
@@ -2988,12 +3340,41 @@
 				"only_watched": "Hanya Ditonton"
 			},
 			"show_selection": { "auto": "Otomatis", "looting": "Pengumpulan" },
-			"answering_mode": { "typing": "Mengetik", "multiple_choice": "Pilihan Ganda", "mix": "Campur" },
-			"watched_distribution": { "random": "Acak", "weighted": "Berbobot", "equal": "Setara" },
-			"sample_point": { "start": "Mulai", "middle": "Pertengahan", "end": "Akhir", "random": "Acak" },
-			"score_type": { "count": "Hitung", "speed": "Cepat", "hint": "Petunjuk", "lives": "Nyawa", "boss": "Bos" },
-			"song_type": { "openings": "Opening", "endings": "Ending", "inserts": "Insert", "random": "Acak" },
-			"vintage_seasons": { "winter": "Winter", "spring": "Spring", "summer": "Summer", "fall": "Fall" },
+			"answering_mode": {
+				"typing": "Mengetik",
+				"multiple_choice": "Pilihan Ganda",
+				"mix": "Campur"
+			},
+			"watched_distribution": {
+				"random": "Acak",
+				"weighted": "Berbobot",
+				"equal": "Setara"
+			},
+			"sample_point": {
+				"start": "Mulai",
+				"middle": "Pertengahan",
+				"end": "Akhir",
+				"random": "Acak"
+			},
+			"score_type": {
+				"count": "Hitung",
+				"speed": "Cepat",
+				"hint": "Petunjuk",
+				"lives": "Nyawa",
+				"boss": "Bos"
+			},
+			"song_type": {
+				"openings": "Opening",
+				"endings": "Ending",
+				"inserts": "Insert",
+				"random": "Acak"
+			},
+			"vintage_seasons": {
+				"winter": "Winter",
+				"spring": "Spring",
+				"summer": "Summer",
+				"fall": "Fall"
+			},
 			"titles": {
 				"vintage": "Vintage",
 				"anime_score": "Skor Anime",
@@ -3067,7 +3448,11 @@
 				"community_quiz": "Kuis Komunitas",
 				"all_songs": "Semua Lagu"
 			},
-			"guess_mode": { "music": "Musik", "tiny_video": "Video Mini", "blur_video": "Blur Video" }
+			"guess_mode": {
+				"music": "Musik",
+				"tiny_video": "Video Mini",
+				"blur_video": "Blur Video"
+			}
 		},
 		"ranked_rules": {
 			"title": "Aturan Ranked",
@@ -3124,7 +3509,8 @@
 			"entries": "_NUMBER_ Entri",
 			"include": "Masukkan",
 			"exclude": "Kecualikan"
-		}
+		},
+		"DELETED-team_members": "Anggota Tim"
 	},
 	"quiz": {
 		"leave_button": "Keluar",
@@ -3163,7 +3549,10 @@
 			"pause": "Jeda game setelah akhir lagu ini. Semua Pemain bisa akhiri jeda.",
 			"unpause": "Akhiri jeda game"
 		},
-		"anime_names": { "alternative_names": "Nama Alternatif", "alternative_answers": "Jawaban Alternatif" },
+		"anime_names": {
+			"alternative_names": "Nama Alternatif",
+			"alternative_answers": "Jawaban Alternatif"
+		},
 		"avatar": {
 			"loot": "Kumpul",
 			"host": "Host",
@@ -3173,7 +3562,13 @@
 			"answer_time_number": "_NUMBER_s",
 			"answering_mode": "Mode Menjawab",
 			"multiple_choice": "Pilihan Ganda",
-			"answer_status": { "watching": "W", "completed": "C", "on_hold": "H", "dropped": "D", "plan_to_watch": "P" },
+			"answer_status": {
+				"watching": "W",
+				"completed": "C",
+				"on_hold": "H",
+				"dropped": "D",
+				"plan_to_watch": "P"
+			},
 			"hint_used": {
 				"name": "Petunjuk Nama Digunakan",
 				"info": "Petunjuk Info Digunakan",
@@ -3215,7 +3610,11 @@
 				"dub": "(Dub)",
 				"type_text": "_NAME_ _DESCRIPTION_"
 			},
-			"custom_list": { "title": "Tambahkan ke List Kustom", "add_anime": "Tambah anime", "add_song": "Tambah lagu" }
+			"custom_list": {
+				"title": "Tambahkan ke List Kustom",
+				"add_anime": "Tambah anime",
+				"add_song": "Tambah lagu"
+			}
 		},
 		"standings": {
 			"title": "Klasemen",
@@ -3232,7 +3631,10 @@
 		},
 		"video_player": {
 			"sound_only": "Hanya Suara",
-			"video_hidden": { "title": "Video Disembunyikan", "click_to_reveal": "Klik Untuk Perlihat" },
+			"video_hidden": {
+				"title": "Video Disembunyikan",
+				"click_to_reveal": "Klik Untuk Perlihat"
+			},
 			"click_to_hide_video": "Klik Untuk Menyembunyikan",
 			"loading": "Memuat",
 			"answers": "Jawaban",
@@ -3243,9 +3645,18 @@
 			"hints": {
 				"title": "Petunjuk",
 				"point_value": "Nilai poin dari lagu saat ini",
-				"name": { "title": "Nama", "description": "Menampilkan panjang jawaban dan 4 karakter dari jawaban tersebut" },
-				"info": { "title": "Info", "description": "Menampilkan sebagian informasi lagu untuk lagu ini" },
-				"multiple_choice": { "title": "Pilgan", "description": "Dapatkan opsi pilihan ganda untuk lagu ini" },
+				"name": {
+					"title": "Nama",
+					"description": "Menampilkan panjang jawaban dan 4 karakter dari jawaban tersebut"
+				},
+				"info": {
+					"title": "Info",
+					"description": "Menampilkan sebagian informasi lagu untuk lagu ini"
+				},
+				"multiple_choice": {
+					"title": "Pilgan",
+					"description": "Dapatkan opsi pilihan ganda untuk lagu ini"
+				},
 				"hint_popover": "_DESCRIPTION_ - Harga poin: _NUMBER_"
 			},
 			"skip_messages": {
@@ -3298,15 +3709,33 @@
 					"title": "Petunjuk Nama",
 					"description": "Menampilkan panjang jawaban dan 4 karakter dari jawaban tersebut"
 				},
-				"song_hint": { "title": "Petunjuk Lagu", "description": "Menampilkan sebagian informasi lagu untuk lagu ini" },
-				"peek_answers": { "title": "Intip Jawaban", "description": "Tunjukan jawaban yang sudah dikirim pemain lain" },
-				"more_time": { "title": "Waktu Lebih", "description": "Tambah waktu menebak sebanyak 10 detik" },
-				"end_guessing": { "title": "Akhiri Menebak", "description": "Langsung akhiri sesi menebak" },
-				"multiple_choice": { "title": "Pilihan Ganda", "description": "Dapatkan jawaban pilihan ganda untuk lagu ini" }
+				"song_hint": {
+					"title": "Petunjuk Lagu",
+					"description": "Menampilkan sebagian informasi lagu untuk lagu ini"
+				},
+				"peek_answers": {
+					"title": "Intip Jawaban",
+					"description": "Tunjukan jawaban yang sudah dikirim pemain lain"
+				},
+				"more_time": {
+					"title": "Waktu Lebih",
+					"description": "Tambah waktu menebak sebanyak 10 detik"
+				},
+				"end_guessing": {
+					"title": "Akhiri Menebak",
+					"description": "Langsung akhiri sesi menebak"
+				},
+				"multiple_choice": {
+					"title": "Pilihan Ganda",
+					"description": "Dapatkan jawaban pilihan ganda untuk lagu ini"
+				}
 			}
 		},
 		"alerts": {
-			"fatal_error": { "title": "Kesalahan Fatal Server Ketika Sedang Kuis", "description": "Sedang Kembali ke Lobi" },
+			"fatal_error": {
+				"title": "Kesalahan Fatal Server Ketika Sedang Kuis",
+				"description": "Sedang Kembali ke Lobi"
+			},
 			"joining_game": {
 				"title": "Sedang Bergabung ke Game",
 				"description": "Anda akan ditambahkan ke game setelah fase hasil selanjutnya"
@@ -3335,7 +3764,13 @@
 			"rejoin_button": "Gabung Kembali"
 		},
 		"no_active_list_message": "Tidak ada list anime yang aktif untuk pemain, menggunakan 'Acak' untuk pemilihan lagu",
-		"fixed": "Rill"
+		"fixed": "Rill",
+		"ranked_team": {
+			"MISSING-private_short": "P",
+			"MISSING-private_description": "Private: Only players with the code can join this team, host can click to change to public",
+			"MISSING-public_short": "P",
+			"MISSING-public_description": "Public: Anyone can join this team, host can click to change to private"
+		}
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -3740,7 +4175,12 @@
 			"dungeon": {
 				"title": "Dungeon",
 				"co_op_save_created": "Dibuat",
-				"tabs": { "mode": "Mode", "co_op_saves": "Simpanan Co-Op", "lobby": "Lobi", "avatars": "Avatar" },
+				"tabs": {
+					"mode": "Mode",
+					"co_op_saves": "Simpanan Co-Op",
+					"lobby": "Lobi",
+					"avatars": "Avatar"
+				},
 				"mode": {
 					"standard": "Standar",
 					"standard_description": "Bersihkan satu lantai dungeon, perkuat tim anda seiring progres sebelum menantang bos di akhir.",
@@ -3841,7 +4281,10 @@
 						"title": "Tidak Ada Lencana Avatar Terbuka",
 						"description": "Buka lencana avatar dengan menaikkan level avatar, lalu gunakan lencana tersebut untuk memperkuat avatar lain"
 					},
-					"leave_lobby_alert": { "title": "Keluar Lobi Dungeon?", "leave_button": "Keluar" },
+					"leave_lobby_alert": {
+						"title": "Keluar Lobi Dungeon?",
+						"leave_button": "Keluar"
+					},
 					"start_alerts": {
 						"at_least_one_song_type": "Setidaknya Harus Ada Satu Tipe Lagu Yang Dipilih",
 						"at_least_one_difficulty": "Setidaknya Harus Ada Satu Tingkat Kesulitan Yang Dipilih",
@@ -3904,7 +4347,11 @@
 				"title": "Workshop",
 				"empty_slots_filter": "Slot Kosong",
 				"avatar": "Avatar",
-				"tabs": { "select_avatar": "Pilih Avatar", "rune_setup": "Pengaturan Rune", "reformat_rune": "Reformat Rune" },
+				"tabs": {
+					"select_avatar": "Pilih Avatar",
+					"rune_setup": "Pengaturan Rune",
+					"reformat_rune": "Reformat Rune"
+				},
 				"rune_selector": {
 					"filter": {
 						"title": "Filter",
@@ -3940,7 +4387,10 @@
 						"description": "Halaman rune memiliki perubahan yang belum disimpan, abaikan perubahan?",
 						"discard_button": "Keluar"
 					},
-					"destroy_rune": { "title": "Hancurkan Rune?", "destroy_button": "Hancurkan" },
+					"destroy_rune": {
+						"title": "Hancurkan Rune?",
+						"destroy_button": "Hancurkan"
+					},
 					"tooltips": {
 						"all_slots_in_use": "Semua slot rune sedang digunakan, naikkan level avatar untuk membuka lebih banyak.",
 						"no_rune_selected": "Belum ada rune yang dipilih. Pilih rune yang ingin anda pasang di atas.",
@@ -3978,7 +4428,12 @@
 				"character_already_in_party": "Karakter sudah ada di tim",
 				"clear": "Bersihkan"
 			},
-			"building_names": { "dungeon": "Dungeon", "inn": "Penginapan", "workshop": "Workshop", "locked": "Terkunci" }
+			"building_names": {
+				"dungeon": "Dungeon",
+				"inn": "Penginapan",
+				"workshop": "Workshop",
+				"locked": "Terkunci"
+			}
 		},
 		"dungeon": {
 			"exit_button": "Keluar",
@@ -4015,7 +4470,10 @@
 				"runes": "Rune",
 				"no_drops": "Tidak Ada Barang",
 				"select_avatar": "Pilih Avatar",
-				"skip_artifact": { "text": "Lewati Artefak?", "skip_button": "Lewati" }
+				"skip_artifact": {
+					"text": "Lewati Artefak?",
+					"skip_button": "Lewati"
+				}
 			},
 			"event_window": { "title": "Event", "volume": "Volume" },
 			"store_window": {
@@ -4037,7 +4495,10 @@
 				"level_number": "Level _SPANC_ _NUMBER_ _SPANC_",
 				"party_wipe": "Tim Kalah",
 				"floor_cleared": "Lantai Selesai",
-				"xp_reward_types": { "combat": "Pertempuran", "clear": "Lantai Selesai" },
+				"xp_reward_types": {
+					"combat": "Pertempuran",
+					"clear": "Lantai Selesai"
+				},
 				"unlocks": {
 					"ability_level": "Kemampuan Naik",
 					"badge": "Lencana",
@@ -4053,11 +4514,18 @@
 				"heal_option": "Sembuhkan 20%",
 				"lock_artifact_option": "Kunci Artefak",
 				"no_artifacts": "Tidak Ada Artefak",
-				"no_locking_warning": { "title": "Lanjutkan Tanpa Mengunci Artefak?", "continue_button": "Lanjutkan" },
+				"no_locking_warning": {
+					"title": "Lanjutkan Tanpa Mengunci Artefak?",
+					"continue_button": "Lanjutkan"
+				},
 				"heal_this_avatar": "Sembuhkan avatar ini",
 				"lock_artifact_description": "Kunci artefak untuk membawanya ke lantai berikutnya. Setiap avatar hanya dapat mengunci satu artefak."
 			},
-			"abandon_run_vote": { "title": "Abaikan Run?", "yes_button": "Ya", "no_button": "Tidak" }
+			"abandon_run_vote": {
+				"title": "Abaikan Run?",
+				"yes_button": "Ya",
+				"no_button": "Tidak"
+			}
 		},
 		"avatar": {
 			"genre": "Genre",
@@ -4065,13 +4533,22 @@
 			"weak": "Lemah",
 			"rune_buffs": "Buff Rune",
 			"stats": {
-				"constitution": { "title": "Konstitusi", "description": "Tingkatkan kesehatan maksimum" },
-				"defence": { "title": "Pertahanan", "description": "Kurangi kerusakan yang diterima dari serangan" },
+				"constitution": {
+					"title": "Konstitusi",
+					"description": "Tingkatkan kesehatan maksimum"
+				},
+				"defence": {
+					"title": "Pertahanan",
+					"description": "Kurangi kerusakan yang diterima dari serangan"
+				},
 				"dodge": {
 					"title": "Menghindar",
 					"description": "Meningkatkan peluang untuk menghindari serangan, mengurangi setengah kerusakan yang diterima, dan mendapatkan buff acak"
 				},
-				"attack": { "title": "Serangan", "description": "Tingkatkan kerusakan serangan" },
+				"attack": {
+					"title": "Serangan",
+					"description": "Tingkatkan kerusakan serangan"
+				},
 				"accuracy": {
 					"title": "Akurasi",
 					"description": "Meningkatkan peluang crit, memberikan 50% kerusakan tambahan, dan memberikan debuff acak"
@@ -4080,7 +4557,11 @@
 		},
 		"rune": {
 			"type": { "standard": "Standar", "advanced": "Lanjutan" },
-			"category": { "offensive": "Ofensif", "defensive": "Defensif", "any": "Apa Saja" }
+			"category": {
+				"offensive": "Ofensif",
+				"defensive": "Defensif",
+				"any": "Apa Saja"
+			}
 		},
 		"hover_display_commons": {
 			"cooldown": "Cooldown",
@@ -4110,7 +4591,10 @@
 			"profile": "Profil",
 			"promote_to_host": "Promosikan menjadi Host",
 			"kick": "Keluarkan",
-			"promote_host": { "title": "Promosikan _NAME_ menjadi Host?", "promote_button": "Promosikan" },
+			"promote_host": {
+				"title": "Promosikan _NAME_ menjadi Host?",
+				"promote_button": "Promosikan"
+			},
 			"kick_player": {
 				"title": "Keluarkan _NAME_ dari lobi?",
 				"description": "Mereka tidak akan dapat bergabung lagi",
@@ -4253,7 +4737,10 @@
 				"title": "Corruption Seal",
 				"description": "Mengurangi kerusakan yang diterima dari musuh yang terkena Debuff sebesar 30%"
 			},
-			"cross_shield": { "title": "Cross Shield", "description": "Mendapatkan perisai kecil setelah bergerak" },
+			"cross_shield": {
+				"title": "Cross Shield",
+				"description": "Mendapatkan perisai kecil setelah bergerak"
+			},
 			"dark_nights_imitation": {
 				"title": "Dark Night's Imitation",
 				"description": "Mendapatkan perisai di awal pertarungan"
@@ -4282,12 +4769,18 @@
 				"title": "Mystery Food",
 				"description": "Saat memberikan Debuff, berikan satu Debuff acak tambahan ke target"
 			},
-			"noble_favour": { "title": "Noble Favour", "description": "Dapatkan 150 Fragmen saat item ini diambil" },
+			"noble_favour": {
+				"title": "Noble Favour",
+				"description": "Dapatkan 150 Fragmen saat item ini diambil"
+			},
 			"pipe_of_the_golden_fairy": {
 				"title": "Pipe of the Golden Fairy",
 				"description": "Memberikan 50% kerusakan lebih besar saat menyerang musuh yang terkena Debuff"
 			},
-			"ruler_piece": { "title": "Ruler Piece", "description": "Mendapatkan Buff acak saat kemampuan digunakan" },
+			"ruler_piece": {
+				"title": "Ruler Piece",
+				"description": "Mendapatkan Buff acak saat kemampuan digunakan"
+			},
 			"sealed_watch": {
 				"title": "Sealed Watch",
 				"description": "Kurangi Cooldown kemampuan Avatar sebanyak 2 giliran"
@@ -4320,7 +4813,10 @@
 				"title": "Swords of Truth and Light",
 				"description": "Menyerang 3 kali berturut-turut akan membuat serangan ketiga menghasilkan kerusakan ganda"
 			},
-			"time_disk": { "title": "Time Disk", "description": "Dapatkan tambahan 5 detik selama fase menebak" },
+			"time_disk": {
+				"title": "Time Disk",
+				"description": "Dapatkan tambahan 5 detik selama fase menebak"
+			},
 			"unexpected_supporter": {
 				"title": "Unexpected Supporter",
 				"description": "Hadiah pertarungan memiliki satu pilihan Artefak tambahan"
@@ -4339,7 +4835,10 @@
 				"title": "Wilayah Musuh",
 				"base": {
 					"text": "Seorang pria mencurigakan dengan jas ungu dan rambut hijau yang disisir ke atas menyambut tim saat mereka memasuki ruangan. _BREAK_ “Hei, kalian tidak bisa begitu saja lewat di sini, ini wilayahku. Aku bisa membuat pengecualian jika kalian meninggalkan semua _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, kalau tidak kalian _HIGHLIGHT_ harus menyelesaikannya dengan anak-anak itu _HIGHLIGHT_”. _BREAK_ Pria itu menandai _HIGHLIGHT_ 4 inti musuh _HIGHLIGHT_ yang melayang di sampingnya.",
-					"options": { "pay": "Bayar _NUMBER_ fragmen", "ignore": "Abaikan Peringatan" }
+					"options": {
+						"pay": "Bayar _NUMBER_ fragmen",
+						"ignore": "Abaikan Peringatan"
+					}
 				},
 				"pay": {
 					"text": "Pria itu mengambil fragmen saat anda melemparkannya padanya. _BREAK_ “Senang berbisnis dengan kalian”"
@@ -4353,13 +4852,18 @@
 					"title": "Game Hadiah - Genre",
 					"base": {
 						"text": "Saat tim memasuki ruangan, mereka disambut oleh seorang gadis kelinci berambut biru. _BREAK_ “Salam, para pemain, kalian telah diundang untuk _HIGHLIGHT_ mengikuti kuis genre sederhana _HIGHLIGHT_ oleh tuan rumah kami yang dermawan. _BREAK_ “Kalian akan mendapatkan _HIGHLIGHT2_ fragmen _HIGHLIGHT2_ untuk setiap _HIGHLIGHT_ tebakan yang benar _HIGHLIGHT_, tetapi jika kalian _HIGHLIGHT_ salah satu saja _HIGHLIGHT_, kalian harus _HIGHLIGHT_ pergi tanpa hadiah apapun _HIGHLIGHT_. _HIGHLIGHT_ Menebak semua 5 _HIGHLIGHT_ pertanyaan dengan benar juga akan membuat kalian _HIGHLIGHT_ memenangkan hadiah utama _HIGHLIGHT_ berupa _ARTIFACT_.”",
-						"options": { "accept": "Terima Undangan", "decline": "Tolak Undangan" }
+						"options": {
+							"accept": "Terima Undangan",
+							"decline": "Tolak Undangan"
+						}
 					},
 					"accept": {
 						"text": "Gadis kelinci itu mengeluarkan setumpuk kartu. _BREAK_ “Setiap kartu ini berisi nama _HIGHLIGHT_ anime dan 4 genre _HIGHLIGHT_. Setelah aku membalik kartu, _HIGHLIGHT_ kalian akan memiliki 10 detik _HIGHLIGHT_ untuk menebak genre _HIGHLIGHT_ mana yang termasuk pada anime tersebut _HIGHLIGHT_.”",
 						"options": { "first_question": "First question" }
 					},
-					"question": { "text": "Genre mana yang dimiliki anime berikut. _BREAK_ _NAME_ _BREAK_ _NAME2_" },
+					"question": {
+						"text": "Genre mana yang dimiliki anime berikut. _BREAK_ _NAME_ _BREAK_ _NAME2_"
+					},
 					"wrong_guess": {
 						"text": "“Aku minta maaf, tapi “_NAME_” _HIGHLIGHT_ bukanlah genre _HIGHLIGHT_ untuk _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_. Jawaban yang _HIGHLIGHT_ benar _HIGHLIGHT_ adalah _HIGHLIGHT2_ _NAME3_ _HIGHLIGHT2_. _BREAK_ “Aku berharap kalian beruntung di Game berikutnya, dan semoga kalian ikut lagi di masa depan.” _BREAK_ Gadis kelinci itu membungkuk pada tim, dan memberi isyarat agar mereka melanjutkan perjalanan melalui ruangan."
 					},
@@ -4371,7 +4875,10 @@
 					"title": "Game Hadiah - Tipe Lagu",
 					"base": {
 						"text": "Saat tim memasuki ruangan, mereka disambut oleh seorang gadis kelinci berambut biru. _BREAK_ “Salam, para pemain, kalian telah diundang untuk _HIGHLIGHT_ mengikuti kuis tipe lagu sederhana _HIGHLIGHT_ oleh tuan rumah kami yang dermawan. _BREAK_ “Kalian akan mendapatkan _HIGHLIGHT2_ fragmen _HIGHLIGHT2_ untuk setiap _HIGHLIGHT_ tebakan yang benar _HIGHLIGHT_, tetapi jika kalian salah satu saja, kalian harus _HIGHLIGHT_ pergi tanpa hadiah apapun _HIGHLIGHT_. _HIGHLIGHT_ Menebak semua 5 _HIGHLIGHT_ pertanyaan dengan benar juga akan membuat kalian _HIGHLIGHT_ memenangkan hadiah utama _HIGHLIGHT_ berupa _ARTIFACT_.”",
-						"options": { "accept": "Terima Undangan", "decline": "Tolak Undangan" }
+						"options": {
+							"accept": "Terima Undangan",
+							"decline": "Tolak Undangan"
+						}
 					},
 					"accept": {
 						"text": "Gadis kelinci itu mengeluarkan sebuah buzzer kecil. _BREAK_ “Saat aku menekan buzzer _HIGHLIGHT_ sebuah lagu akan mulai diputar _HIGHLIGHT_, dan kalian akan memiliki _HIGHLIGHT_ 15 detik untuk menebak _HIGHLIGHT_ apakah itu _HIGHLIGHT_ lagu opening, ending, atau insert _HIGHLIGHT_. _BREAK_ “Tunggu sebentar, aku akan menyiapkan semuanya.”",
@@ -4379,11 +4886,18 @@
 					},
 					"question": {
 						"text": "Tipe Lagu apakah ini?",
-						"options": { "opening": "Opening", "ending": "Ending", "insert_song": "Lagu Insert" }
+						"options": {
+							"opening": "Opening",
+							"ending": "Ending",
+							"insert_song": "Lagu Insert"
+						}
 					},
 					"correct": {
 						"text": "“Kalian _HIGHLIGHT_ benar! _HIGHLIGHT_ Lagu itu adalah _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ dari _HIGHLIGHT_ _NAME2_ _HIGHLIGHT_. Dan dengan itu, _HIGHLIGHT_ kemenangan kalian saat ini adalah _NUMBER_ _HIGHLIGHT2_ fragmen _HIGHLIGHT2_ _HIGHLIGHT_. _BREAK_ Apakah kalian ingin melanjutkan ke pertanyaan berikutnya, atau mengambil hadiah?”",
-						"options": { "next_question": "Pertanyaan Selanjutnya", "cash_out": "Ambil Hadiah" }
+						"options": {
+							"next_question": "Pertanyaan Selanjutnya",
+							"cash_out": "Ambil Hadiah"
+						}
 					},
 					"all_correct": {
 						"text": "“Luar biasa, kalian berhasil _HIGHLIGHT_ menebak semua 5 lagu dengan benar _HIGHLIGHT_! Lagu terakhir adalah _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_ dari _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_. Aku senang memberi kalian bukan hanya _NUMBER_ _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, tapi juga _ARTIFACT_”, kata gadis kelinci itu sebelum dengan riang menyerahkan hadiahnya. _BREAK_ “Selamat atas kemenangan kalian di kuis ini, semoga kalian ikut lagi di masa depan.” _BREAK_ Gadis kelinci itu membungkuk pada tim, dan memberi isyarat agar mereka melanjutkan perjalanan melalui ruangan."
@@ -4399,13 +4913,20 @@
 						"ending": "Ending _NUMBEREXTRA_",
 						"insert_song": "Lagu Insert"
 					},
-					"type": { "opening": "Opening", "ending": "Ending", "insert_song": "Lagu Insert" }
+					"type": {
+						"opening": "Opening",
+						"ending": "Ending",
+						"insert_song": "Lagu Insert"
+					}
 				},
 				"tiny_opening": {
 					"title": "Game Hadiah - Opening Kecil",
 					"base": {
 						"text": "Saat tim memasuki ruangan, mereka disambut oleh seorang gadis kelinci berambut biru. _BREAK_ “Salam, para pemain, kalian telah diundang untuk _HIGHLIGHT_ mengikuti kuis video sederhana _HIGHLIGHT_ oleh tuan rumah kami yang dermawan. Kalian akan mendapatkan _HIGHLIGHT2_ fragmen _HIGHLIGHT2_ untuk setiap _HIGHLIGHT_ tebakan yang benar _HIGHLIGHT_, tetapi jika kalian _HIGHLIGHT_ salah satu saja _HIGHLIGHT_, kalian harus _HIGHLIGHT_ pergi tanpa hadiah apapun _HIGHLIGHT_. _HIGHLIGHT_ Menebak semua 5 pertanyaan _HIGHLIGHT_ juga akan membuat kalian _HIGHLIGHT_ memenangkan hadiah utama _HIGHLIGHT_ berupa _ARTIFACT_.”",
-						"options": { "accept": "Terima Undangan", "decline": "Tolak Undangan" }
+						"options": {
+							"accept": "Terima Undangan",
+							"decline": "Tolak Undangan"
+						}
 					},
 					"accept": {
 						"text": "Gadis kelinci itu mengeluarkan sebuah buzzer kecil. _BREAK_ “Saat aku menekan buzzer, _HIGHLIGHT_ sebuah cuplikan kecil dari opening anime akan diputar _HIGHLIGHT_, and you’ll have _HIGHLIGHT_ dan kalian akan memiliki HIGHLIGHT 10 detik untuk memilih acara yang benar _HIGHLIGHT_ dari pilihan yang tersedia. _BREAK_ “Tunggu sebentar, aku akan menyiapkan semuanya”",
@@ -4414,7 +4935,10 @@
 					"question": { "text": "Acara Apakah ini?" },
 					"correct": {
 						"text": "“_HIGHLIGHT_ Kalian benar! _HIGHLIGHT_ Video itu adalah Opening _NUMBER_ dari _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_. Dengan itu, kemenangan kalian saat ini adalah _NUMBER2_ _HIGHLIGHT2_ fragmen _HIGHLIGHT2_. _BREAK_ Apakah kalian ingin _HIGHLIGHT_ melanjutkan ke pertanyaan berikutnya, atau mengambil hadiah? _HIGHLIGHT_”",
-						"options": { "next_question": "Pertanyaan Selanjutnya", "cash_out": "Ambil Hadiah" }
+						"options": {
+							"next_question": "Pertanyaan Selanjutnya",
+							"cash_out": "Ambil Hadiah"
+						}
 					},
 					"all_correct": {
 						"text": "“Luar biasa, kalian berhasil _HIGHLIGHT_ menebak semua 5 acara dengan benar _HIGHLIGHT_! Video terakhir adalah _HIGHLIGHT2_ Opening _NUMBER_ _HIGHLIGHT2_ dari _HIGHLIGHT2_ _NAME_ _HIGHLIGHT2_. Aku senang memberi kalian bukan hanya _NUMBER2_ _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, tapi juga _ARTIFACT_”, kata gadis kelinci itu sebelum dengan riang menyerahkan hadiahnya. _BREAK_ “Selamat atas kemenangan kalian di kuis ini, semoga kalian ikut lagi di masa depan.” _BREAK_ Gadis kelinci itu membungkuk pada tim, dan memberi isyarat agar mereka melanjutkan perjalanan melalui ruangan."
@@ -4434,7 +4958,10 @@
 				},
 				"correct_guess": {
 					"text": "“Kalian _HIGHLIGHT_ benar! _HIGHLIGHT_ Dengan itu, _HIGHLIGHT_ kemenangan kalian saat ini adalah _NUMBER_ _HIGHLIGHT_ _HIGHLIGHT2_ fragmen. _HIGHLIGHT2_ _BREAK_ Apakah kalian ingin melanjutkan ke pertanyaan berikutnya, atau mengambil hadiah?”",
-					"options": { "next_question": "Pertanyaan Selanjutnya", "cash_out": "Ambil Hadiah" }
+					"options": {
+						"next_question": "Pertanyaan Selanjutnya",
+						"cash_out": "Ambil Hadiah"
+					}
 				},
 				"win": {
 					"text": "“Luar biasa, kalian _HIGHLIGHT_ berhasil menebak semua 5 pertanyaan _HIGHLIGHT_ dengan benar! Aku senang memberi kalian bukan hanya _NUMBER_ _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, tapi juga _ARTIFACT_ ”, kata gadis kelinci itu sebelum dengan riang menyerahkan hadiahnya. _BREAK_ “Selamat atas kemenangan kalian di kuis ini, semoga kalian ikut lagi di masa depan.” _BREAK_ dan memberi isyarat agar mereka melanjutkan perjalanan melalui ruangan."
@@ -4451,18 +4978,29 @@
 				"title": "Item Glitch",
 				"base": {
 					"text": "Sebuah bentuk aneh melayang di tengah ruangan. Semakin lama tim menatapnya, semakin sulit bentuknya untuk dikenali. _BREAK_ Saat tim mendekat, benda itu berkedip dan berubah menjadi segenggam _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, lalu berkedip lagi dan berubah menjadi sebuah _HIGHLIGHT2_ artefak _HIGHLIGHT2_. Tanpa sempat mengidentifikasi artefak tersebut, ia kembali berkedip dan kini sebuah _HIGHLIGHT2_ rune _HIGHLIGHT2_ melayang di tempatnya. _BREAK_ Objek itu terus berubah-ubah, namun dengan timing yang tepat seharusnya mungkin untuk _HIGHLIGHT_ mengambil salah satu itemnya _HIGHLIGHT_.",
-					"option": { "grab_fragments": "Ambil Fragmen", "grab_artifact": "Ambil Artefak", "grab_rune": "Ambil Rune" }
+					"option": {
+						"grab_fragments": "Ambil Fragmen",
+						"grab_artifact": "Ambil Artefak",
+						"grab_rune": "Ambil Rune"
+					}
 				},
 				"result": {
 					"text": "Dengan gerakan yang tegas, _NAME_ berhasil meraih _HIGHLIGHT2_ _NAME2_ _HIGHLIGHT2_, tepat saat benda itu hendak berubah lagi. Untungnya, benda tersebut tampaknya tidak berubah lagi setelah itu",
-					"target_type": { "fragments": "fragmen", "artifact": "artiefak", "rune": "rune" }
+					"target_type": {
+						"fragments": "fragmen",
+						"artifact": "artiefak",
+						"rune": "rune"
+					}
 				}
 			},
 			"mystery_container": {
 				"title": "Kontainer Misterius",
 				"base": {
 					"text": "Sebuah kontainer aneh berada di tengah ruangan. Saat tim mendekat, mereka melihat kontainer itu _HIGHLIGHT_ dipenuhi oleh item-item yang glitch _HIGHLIGHT_, berubah secara acak mulai dari _HIGHLIGHT2_ pisau _HIGHLIGHT2_ dan _HIGHLIGHT2_ bara api _HIGHLIGHT2_ hingga _HIGHLIGHT2_ bunga _HIGHLIGHT2_ dan _HIGHLIGHT2_ boneka plush _HIGHLIGHT2_. _BREAK_ Di balik kekacauan glitch tersebut, sesekali muncul sebuah _HIGHLIGHT2_ artefak _HIGHLIGHT2_ Dengan timing yang tepat dan sedikit keberuntungan _HIGHLIGHT_ seharusnya mungkin untuk meraihnya _HIGHLIGHT_.",
-					"option": { "reach_in": "Biarkan _NAME_ meraih ke dalamnya", "ignore": "Abaikan Kontainer" }
+					"option": {
+						"reach_in": "Biarkan _NAME_ meraih ke dalamnya",
+						"ignore": "Abaikan Kontainer"
+					}
 				},
 				"artifact_result": {
 					"text": "_NAME_ berhasil mencengkeram sesuatu dengan kuat dan menarik keluar sebuah _HIGHLIGHT2_ artefak _HIGHLIGHT2_. Setelah artefak itu diambil, item-item yang glitch terlihat menjadi jauh lebih agresif, sehingga _HIGHLIGHT_ tak seorang pun di dalam tim ingin mencoba meraih lagi _HIGHLIGHT_."
@@ -4484,7 +5022,10 @@
 				"title": "Kotak Persembahan",
 				"base": {
 					"text": "Sebuah _HIGHLIGHT_ kotak persembahan kuil kayu _HIGHLIGHT_ terletak aneh di tengah ruangan.",
-					"option": { "fragments": "Lempar kedalam _NUMBER_ fragmen", "ignore": "Abaikan Kotak" }
+					"option": {
+						"fragments": "Lempar kedalam _NUMBER_ fragmen",
+						"ignore": "Abaikan Kotak"
+					}
 				},
 				"option_one": {
 					"text": "Setelah melemparkan _HIGHLIGHT2_ fragmen _HIGHLIGHT2_ kotak itu bersinar sejenak, lalu _HIGHLIGHT_ menghilang dalam kilatan cahaya _HIGHLIGHT_."
@@ -4528,7 +5069,9 @@
 				"title": "Sang Dewi",
 				"base": {
 					"text": "Saat tim memasuki ruangan, mereka _HIGHLIGHT_ disambut oleh seorang gadis berambut biru panjang _HIGHLIGHT_ yang duduk di sebuah kursi putih besar. _BREAK_ “Salam, para petualang. Anggap diri kalian diberkati karena perjalanan kalian telah membawa kalian ke tempat yang penuh kedamaian. Melangkahlah ke depan, dan _HIGHLIGHT_ aku akan membagikan kekuatan ilahiku untuk memulihkan kalian _HIGHLIGHT_”",
-					"options": { "step_forward": "Biarkan _NAME_ melangkah kedepan" }
+					"options": {
+						"step_forward": "Biarkan _NAME_ melangkah kedepan"
+					}
 				},
 				"result": {
 					"text": "Sebuah _HIGHLIGHT_ cahaya ilahi menyelimuti _NAME_ memulihkan kekuatannya _HIGHLIGHT_. _BREAK_ Saat tim menoleh kembali ke arah gadis itu, mereka terkejut melihatnya santai makan keripik kentang dari sebuah kantong. _BREAK_ “Kalian masih di sini? _HIGHLIGHT_ Aku sudah menyembuhkan salah satu dari kalian _HIGHLIGHT_, bisa serakus apa kalian… Aku sudah melakukan bagianku, jadi _HIGHLIGHT_ pergi dan lanjutkan misi kalian _HIGHLIGHT_ atau apa pun itu yang sedang kalian lakukan”."
@@ -4538,7 +5081,10 @@
 				"title": "Pedestal",
 				"base": {
 					"text": "Sebuah _HIGHLIGHT_ pedestal tunggal _HIGHLIGHT_ berdiri di tengah ruangan. Saat tim mendekat beberapa _HIGHLIGHT2_ artefak mereka _HIGHLIGHT2_ _HIGHLIGHT_ mulai bersinar _HIGHLIGHT_, seolah-olah tertarik ke arah pedestal itu.",
-					"options": { "place_artifact": "Letakan _NAME_ di pedestal", "ignore": "Abaikan Pedestal" }
+					"options": {
+						"place_artifact": "Letakan _NAME_ di pedestal",
+						"ignore": "Abaikan Pedestal"
+					}
 				},
 				"ignore": {
 					"text": "Hadiah yang mungkin didapat tidak sepadan dengan artefaknya, jadi tim memutuskan untuk melanjutkan perjalanan."
@@ -4551,7 +5097,10 @@
 				"title": "Ring",
 				"base": {
 					"text": "Saat rombongan memasuki ruangan, seorang pria _HIGHLIGHT_ berpenampilan licik mengenakan topi dan penutup mata _HIGHLIGHT_ menghampiri mereka. _BREAK_ “Pas sekali waktunya, baru saja ada satu slot kosong. Ada di antara kalian yang _HIGHLIGHT_ tertarik mencoba satu ronde di ring _HIGHLIGHT_?” katanya sambil menunjuk ke sebuah ring tinju dengan sebuah _HIGHLIGHT2_ inti musuh _HIGHLIGHT2_ yang melayang di tengahnya.",
-					"options": { "enter_ring": "Biarkan _NAME_ memasuki ring", "decline": "Tolak Penawaran" }
+					"options": {
+						"enter_ring": "Biarkan _NAME_ memasuki ring",
+						"decline": "Tolak Penawaran"
+					}
 				},
 				"ignore": {
 					"text": "“Dengan sikap seperti itu, jangan harap bisa menang besar,” gerutu pria itu sambil kembali berjalan ke arah ring."
@@ -4586,7 +5135,10 @@
 				"title": "Penemu Liar",
 				"base": {
 					"text": "Seorang gadis _HIGHLIGHT_ berambut merah muda _HIGHLIGHT_ dengan sepasang kacamata besar berwarna merah duduk di sebuah meja kerja yang berdiri sendiri. Matanya sempat berbinar sesaat ketika menyadari kehadiran tim, lalu ia segera bergegas menghampiri. _BREAK_ “Aku baru saja kehabisan data _HIGHLIGHT2_ fragmen _HIGHLIGHT2_, tapi biarkan aku _HIGHLIGHT_ menguraikan _HIGHLIGHT_ beberapa _HIGHLIGHT2_ artefak _HIGHLIGHT2_ milikmu, dan aku akan membuatkan kalian beberapa _HIGHLIGHT2_ rune _HIGHLIGHT2_!”",
-					"options": { "artifact": "Berikan dia _NAME_", "decline": "Abaikan penawarannya" }
+					"options": {
+						"artifact": "Berikan dia _NAME_",
+						"decline": "Abaikan penawarannya"
+					}
 				},
 				"base_decline": {
 					"text": "“Kerugian kalian sendiri, kalau begitu. Aku akan menyimpan bayi-bayi luar biasaku ini untuk tim berikutnya.”"
@@ -4960,7 +5512,9 @@
 				"crit_damage": "Kerusakan Crit",
 				"crit": "Crit"
 			},
-			"boost_rune": { "description": "Memberikan _TIER_ peningkatan kepada _NAME_" },
+			"boost_rune": {
+				"description": "Memberikan _TIER_ peningkatan kepada _NAME_"
+			},
 			"genre_rune": {
 				"offense_description": "Meningkatkan kerusakan serangan selama acara _NAME_",
 				"defense_description": "Mengurangi kerusakan serangan yang diterima selama acara _NAME_",
@@ -4980,12 +5534,18 @@
 					"name": "Tortoise",
 					"description": "Menerima Kerusakan Berkurang, Tapi Kerusakan Yang Diberi Berkurang Juga"
 				},
-				"mobile_defence": { "name": "Mobile Defence", "description": "Mendapatkan Perisaia ketika Bertukar Posisi" },
+				"mobile_defence": {
+					"name": "Mobile Defence",
+					"description": "Mendapatkan Perisaia ketika Bertukar Posisi"
+				},
 				"emergency_shield": {
 					"name": "Emergency Shield",
 					"description": "Dapatkan Perisai Sekali Per Pertarungan Ketika Terkena Serangan"
 				},
-				"defender": { "name": "Defender", "description": "Memberikan Perisai ke Target Selama Bertukar Posisi" },
+				"defender": {
+					"name": "Defender",
+					"description": "Memberikan Perisai ke Target Selama Bertukar Posisi"
+				},
 				"threat_aura": {
 					"name": "Threat Aura",
 					"description": "Meningkatkan Peluang untuk Di Target oleh Serangan Musuh"
@@ -4998,32 +5558,53 @@
 					"name": "Rampage",
 					"description": "Menerima Kerusakan Meningkat, Tapi Kerusakan Yang Diberi Meningkat Juga"
 				},
-				"time_booster": { "name": "Time Booster", "description": "Mendapatkan Waktu Tambahan Hening dalam Lagu" },
+				"time_booster": {
+					"name": "Time Booster",
+					"description": "Mendapatkan Waktu Tambahan Hening dalam Lagu"
+				},
 				"defensive_counter": {
 					"name": "Defensive Counter",
 					"description": "Menigkatkan Pertahanan untuk Tiap Debuff Aktif"
 				},
-				"defensive_rush": { "name": "Defensive Rush", "description": "Menigkatkan Pertahanan untuk Tiap Buff Aktif" },
+				"defensive_rush": {
+					"name": "Defensive Rush",
+					"description": "Menigkatkan Pertahanan untuk Tiap Buff Aktif"
+				},
 				"offensive_counter": {
 					"name": "Offensive Counter",
 					"description": "Menigkatkan Kerusakan untuk Tiap Debuff Aktif"
 				},
-				"offensive_rush": { "name": "Offensive Rush", "description": "Menigkatkan Kerusakan untuk Tiap Buff Aktif" }
+				"offensive_rush": {
+					"name": "Offensive Rush",
+					"description": "Menigkatkan Kerusakan untuk Tiap Buff Aktif"
+				}
 			}
 		},
 		"buffs": {
-			"crisis_management_form": { "name": "Crisis Management Form", "description": "Meningkatkan semua stats dasar" },
+			"crisis_management_form": {
+				"name": "Crisis Management Form",
+				"description": "Meningkatkan semua stats dasar"
+			},
 			"berserker_star": {
 				"name": "Berserker Star",
 				"description": "Meningkatkan kerusakan sebesar 20% sampai tidak mengenai serangan"
 			},
-			"charge_staff": { "name": "Charge Staff", "description": "Mengenai Serangan berikutnya akan memberikan perisai" },
-			"comfy_scarf": { "name": "Comfy Scarf", "description": "Counter debuff standar berikutnya" },
+			"charge_staff": {
+				"name": "Charge Staff",
+				"description": "Mengenai Serangan berikutnya akan memberikan perisai"
+			},
+			"comfy_scarf": {
+				"name": "Comfy Scarf",
+				"description": "Counter debuff standar berikutnya"
+			},
 			"computation_orb": {
 				"name": "Computation Orb",
 				"description": "Meningkatkan kerusakan sebanyak 20% ketika HP Berada di bawah 50%"
 			},
-			"hornet_stringer": { "name": "Hornet Stringer", "description": "Serangan Selanjutnya dijamin critical hit" },
+			"hornet_stringer": {
+				"name": "Hornet Stringer",
+				"description": "Serangan Selanjutnya dijamin critical hit"
+			},
 			"legends_shield": {
 				"name": "Legends Shield",
 				"description": "Dapatkan perisai ketika terkena serangan oleh serangan musuh selanjutnya"
@@ -5033,9 +5614,18 @@
 				"description_one": "Dua serangan selanjutnya memberikan kerusakan ganda",
 				"description_two": "Serangan selanjutnya memberikan kerusakan ganda"
 			},
-			"adventurers_sword": { "name": "Adventurer's Sword", "description": "Kerusakan serangan bertambah" },
-			"adventurers_shield": { "name": "Adventurer's Shield", "description": "Mengurangi Kerusakan Diterima" },
-			"angels_grace": { "name": "Angel's Grace", "description": "Memberikan perisai dari serangan" },
+			"adventurers_sword": {
+				"name": "Adventurer's Sword",
+				"description": "Kerusakan serangan bertambah"
+			},
+			"adventurers_shield": {
+				"name": "Adventurer's Shield",
+				"description": "Mengurangi Kerusakan Diterima"
+			},
+			"angels_grace": {
+				"name": "Angel's Grace",
+				"description": "Memberikan perisai dari serangan"
+			},
 			"buster": {
 				"name": "Buster",
 				"description": "Mengisi charge untuk meningkatkan kerusakan serangan berikutnya setiap giliran sekutu. Efek hilang jika bergerak atau menerima serangan"
@@ -5044,7 +5634,10 @@
 				"name": "Cat's Luck",
 				"description": "Serangan berikutnya yang diterima memberikan 0 kerusakan, tetapi memberikan debuff acak sebagai gantinya"
 			},
-			"cheered": { "name": "Cheered", "description": "Jika terkena cheered semua stats mendapatkan buff besar" },
+			"cheered": {
+				"name": "Cheered",
+				"description": "Jika terkena cheered semua stats mendapatkan buff besar"
+			},
 			"cheering": {
 				"name": "Cheering",
 				"description": "Memperkuat avatar lain setiap tebakan benar, alih-alih menyerang"
@@ -5063,12 +5656,18 @@
 				"description": "Saat terkena serangan, kerusakan meningkat sebesar 50%",
 				"description_active": "Karakter menjadi marah, meningkatkan kerusakan sebesar 50%"
 			},
-			"encore_buff": { "name": "Encore Buff", "description": "Serangan berikutnya memberikan encore debuff" },
+			"encore_buff": {
+				"name": "Encore Buff",
+				"description": "Serangan berikutnya memberikan encore debuff"
+			},
 			"fiery_onslaught": {
 				"name": "Fiery Onslaught",
 				"description": "Meningkatkan akurasi dan memberikan debuff Virus pada semua serangan, tetapi serangan gagal akan memberikan debuff Virus pada penyerang"
 			},
-			"fox_fire": { "name": "Fox Fire", "description": "Semua serangan memberikan debuff acak" },
+			"fox_fire": {
+				"name": "Fox Fire",
+				"description": "Semua serangan memberikan debuff acak"
+			},
 			"full_charge": {
 				"name": "Full Charge",
 				"description": "Serangan berikutnya memberikan kerusakan ganda, tetapi menerima debuff Crash di akhir giliran."
@@ -5077,7 +5676,10 @@
 				"name": "In the Rhythm",
 				"description": "Meningkatkan kerusakan dan menghindar, bertahan hingga gagal menghindar atau menyerang"
 			},
-			"knights_challenge": { "name": "Knight's Challenge", "description": "Menjadi target semua serangan musuh baru" },
+			"knights_challenge": {
+				"name": "Knight's Challenge",
+				"description": "Menjadi target semua serangan musuh baru"
+			},
 			"magical_bombardment": {
 				"name": "Magical Bombardment",
 				"description": "Serangan berikutnya memberikan kerusakan berkurang, tetapi mengenai semua musuh"
@@ -5090,7 +5692,10 @@
 				"name": "Martial Strikes",
 				"description": "Mendapatkan charge untuk setiap serangan yang berhasil, setiap charge meningkatkan kerusakan pada serangan berikutnya. Bertahan hingga gagal menyerang."
 			},
-			"natural_sprinter": { "name": "Natural Sprinter", "description": "Meningkatkan kerusakan dan akurasi" },
+			"natural_sprinter": {
+				"name": "Natural Sprinter",
+				"description": "Meningkatkan kerusakan dan akurasi"
+			},
 			"natures_frenzy": {
 				"name": "Nature Frenzy",
 				"description": "Meningkatkan kerusakan secara signifikan, tetapi membagi dua pertahanan dan menghindar"
@@ -5111,7 +5716,10 @@
 				"name": "Recon in Force",
 				"description": "Meningkatkan menghindar dan membuat semua serangan memberikan debuff Bypass"
 			},
-			"snake_charm": { "name": "Snake Charm", "description": "Serangan memberikan debuff Charmed" },
+			"snake_charm": {
+				"name": "Snake Charm",
+				"description": "Serangan memberikan debuff Charmed"
+			},
 			"spectral_tricks_buff": {
 				"name": "Spectral Tricks Buff",
 				"description": "Serangan yang diterima pada giliran ini memberikan 0 kerusakan, tetapi kerusakan akan diterima pada giliran berikutnya jika tebakan pada giliran itu salah"
@@ -5132,13 +5740,22 @@
 				"name": "Vampire's Kiss",
 				"description": "Menyembuhkan diri jika serangan berikutnya membunuh musuh"
 			},
-			"weapon_master": { "name": "Weapon Master", "description": "Memperkuat efek artefak ofensif" },
+			"weapon_master": {
+				"name": "Weapon Master",
+				"description": "Memperkuat efek artefak ofensif"
+			},
 			"witches_trickery": {
 				"name": "Witches Trickery",
 				"description": "Serangan berikutnya memberikan debuff Bewitched"
 			},
-			"force_of_yan": { "name": "Force of Yan", "description": "Meningkatkan pertahanan dan menurunkan kerusakan" },
-			"force_of_yin": { "name": "Force of Yin", "description": "Meningkatkan kerusakan dan menurunkan pertahanan" },
+			"force_of_yan": {
+				"name": "Force of Yan",
+				"description": "Meningkatkan pertahanan dan menurunkan kerusakan"
+			},
+			"force_of_yin": {
+				"name": "Force of Yin",
+				"description": "Meningkatkan kerusakan dan menurunkan pertahanan"
+			},
 			"bewitched": {
 				"name": "Bewitched",
 				"description": "Di awal setiap giliran, memberikan debuff Crash, Virus, atau Bypass, masing-masing bertahan 1 giliran"
@@ -5152,31 +5769,70 @@
 				"name": "Ice Prison",
 				"description": "Melewatkan semua aksi, tetapi menerima kerusakan serangan yang sangat berkurang"
 			},
-			"energized": { "name": "Energized", "description": "Meningkatkan kerusakan saat Energizer masih hidup" },
-			"enhanced": { "name": "Enhanced", "description": "Meningkatkan kerusakan sebesar _NUMBER_% untuk tumpukan" },
-			"protected": { "name": "Protected", "description": "Peningkatan pertahanan berdasarkan pertahanan Protector" },
+			"energized": {
+				"name": "Energized",
+				"description": "Meningkatkan kerusakan saat Energizer masih hidup"
+			},
+			"enhanced": {
+				"name": "Enhanced",
+				"description": "Meningkatkan kerusakan sebesar _NUMBER_% untuk tumpukan"
+			},
+			"protected": {
+				"name": "Protected",
+				"description": "Peningkatan pertahanan berdasarkan pertahanan Protector"
+			},
 			"protector": {
 				"name": "Protector",
 				"description": "Karakter di belakang karakter yang mendapat buff menjadi terlindungi"
 			},
-			"trojan_protocol": { "name": "Trojan Protocol", "description": "Serangan memberikan debuff acak" },
-			"untargetable": { "name": "Untargetable", "description": "Tidak bisa menjadi target serangan atau kemampuan" },
+			"trojan_protocol": {
+				"name": "Trojan Protocol",
+				"description": "Serangan memberikan debuff acak"
+			},
+			"untargetable": {
+				"name": "Untargetable",
+				"description": "Tidak bisa menjadi target serangan atau kemampuan"
+			},
 			"charmed": {
 				"name": "Charmed",
 				"description": "Terpaksa menargetkan serangan pada _NAME_, tetapi memberikan kerusakan 30% lebih sedikit"
 			},
-			"accuracy_buff": { "name": "Accuracy Buff", "description": "Meningkatkan Akurasi saat Menyerang" },
-			"attack_buff": { "name": "Attack Buff", "description": "Meningkatkan Kekuatan Serangan" },
-			"defence_buff": { "name": "Defence Buff", "description": "Meningkatkan Pertahanan" },
-			"dodge_buff": { "name": "Dodge Buff", "description": "Meningkatkan Peluang Menghindar" },
-			"attack_debuff": { "name": "Attack Debuff", "description": "Menurunkan Kekuatan Serangan" },
+			"accuracy_buff": {
+				"name": "Accuracy Buff",
+				"description": "Meningkatkan Akurasi saat Menyerang"
+			},
+			"attack_buff": {
+				"name": "Attack Buff",
+				"description": "Meningkatkan Kekuatan Serangan"
+			},
+			"defence_buff": {
+				"name": "Defence Buff",
+				"description": "Meningkatkan Pertahanan"
+			},
+			"dodge_buff": {
+				"name": "Dodge Buff",
+				"description": "Meningkatkan Peluang Menghindar"
+			},
+			"attack_debuff": {
+				"name": "Attack Debuff",
+				"description": "Menurunkan Kekuatan Serangan"
+			},
 			"bypass": {
 				"name": "Bypass",
 				"description": "Meningkatkan kerusakan yang diterima dari serangan berikutnya sebesar 50%"
 			},
-			"crash": { "name": "Crash", "description": "Aksi Selanjutnya dilewati" },
-			"defence_debuff": { "name": "Defence Debuff", "description": "Menurunkan Pertahanan" },
-			"virus": { "name": "Virus", "description": "Menerima kerusakan di awal setiap giliran" },
+			"crash": {
+				"name": "Crash",
+				"description": "Aksi Selanjutnya dilewati"
+			},
+			"defence_debuff": {
+				"name": "Defence Debuff",
+				"description": "Menurunkan Pertahanan"
+			},
+			"virus": {
+				"name": "Virus",
+				"description": "Menerima kerusakan di awal setiap giliran"
+			},
 			"genre_boost": {
 				"name": "_NAME_ Boost",
 				"description": "Meningkatkan kerusakan saat anime saat ini memiliki genre _NAME_ "
@@ -5185,9 +5841,18 @@
 				"name": "Hidden",
 				"description": "Menjadi tidak bisa ditarget oleh musuh dan meningkatkan kerusakan pada serangan berikutnya. Berakhir setelah menyerang atau bergerak"
 			},
-			"exposed": { "name": "Exposed", "description": "Mendapatkan debuff acak dari semua serangan" },
-			"focused": { "name": "Focused", "description": "Meningkatkan peluang untuk menjadi target serangan musuh" },
-			"snared": { "name": "Snared", "description": "Tidak Bisa Bertukar Posisi" },
+			"exposed": {
+				"name": "Exposed",
+				"description": "Mendapatkan debuff acak dari semua serangan"
+			},
+			"focused": {
+				"name": "Focused",
+				"description": "Meningkatkan peluang untuk menjadi target serangan musuh"
+			},
+			"snared": {
+				"name": "Snared",
+				"description": "Tidak Bisa Bertukar Posisi"
+			},
 			"genre_protection": {
 				"name": "Protection _NAME_",
 				"description": "Membatalkan semua kerusakan dari serangan jika pertunjukan saat ini tidak memiliki genre _NAME_"
@@ -5241,10 +5906,15 @@
 			"title": "Selamat Datang di AMQ",
 			"step_one": {
 				"text": "Hai dan selamat datang di Anime Music Quiz! _BREAK_Saya sarankan untuk mengikuti tutorial singkatku agar mempelajari dasar-dasar game. _BREAK_ Bahkan mungkin ada hadiah di akhir tutorial!",
-				"options": { "play_tutorial": "Mainkan Tutorial", "skip_tutorial": "Lewati Tutorial" }
+				"options": {
+					"play_tutorial": "Mainkan Tutorial",
+					"skip_tutorial": "Lewati Tutorial"
+				}
 			},
 			"step_two": { "text": "Keren, ayo kita mulai!" },
-			"step_dismiss": { "text": "Anda selalu bisa menemukan tutorial di menu kanan bawah." }
+			"step_dismiss": {
+				"text": "Anda selalu bisa menemukan tutorial di menu kanan bawah."
+			}
 		},
 		"welcome_no_list": {
 			"title": "Menambahkan List Anime",
@@ -5258,20 +5928,32 @@
 			},
 			"step_two": {
 				"text": "Anda bisa membuat akun secara gratis di salah satu situs ini: _LINK_ AniList _LINK_, _LINK2_ MyAnimeList _LINK2_ or _LINK3_ Kitsu _LINK3_. _BREAK_ Saya tunggu kalau anda mau membuatnya sekarang.",
-				"options": { "created_one": "Baiklah, Saya Telah Membuatnya", "skip": "Mungkin Lain Kali" }
+				"options": {
+					"created_one": "Baiklah, Saya Telah Membuatnya",
+					"skip": "Mungkin Lain Kali"
+				}
 			},
 			"step_three": {
 				"text": "Sempurna, mari hubungkan ke akun AMQ anda! _BREAK_ Situs mana yang anda punya list anime-nya?",
-				"options": { "anilist": "AniList", "myanimelist": "MyAnimeList", "kitsu": "Kitsu", "cancel": "Batal" }
+				"options": {
+					"anilist": "AniList",
+					"myanimelist": "MyAnimeList",
+					"kitsu": "Kitsu",
+					"cancel": "Batal"
+				}
 			},
 			"step_anilist": {
 				"text": "Silakan ketik nama pengguna AniList anda atau biarkan kosong jika anda berubah pikiran."
 			},
-			"step_kitsu": { "text": "Silakan ketik nama pengguna Kitsu anda atau biarkan kosong jika anda berubah pikiran." },
+			"step_kitsu": {
+				"text": "Silakan ketik nama pengguna Kitsu anda atau biarkan kosong jika anda berubah pikiran."
+			},
 			"step_myanimelist": {
 				"text": "Silakan ketik nama pengguna MyAnimeList anda atau biarkan kosong jika anda berubah pikiran."
 			},
-			"step_four": { "text": "Sekarang game akan bisa memilih lagu dari anime yang sudah anda tonton!" },
+			"step_four": {
+				"text": "Sekarang game akan bisa memilih lagu dari anime yang sudah anda tonton!"
+			},
 			"step_dismiss": {
 				"text": "Tidak masalah, anda tetap bisa bermain tanpa akun! _BREAK_ Anda bisa menambahkan list anime di menu kanan bawah, di \"Pengaturan\"."
 			}
@@ -5281,7 +5963,9 @@
 			"step_one": {
 				"text": "Ayo masuk ke game supaya anda bisa menebak beberapa anime! _BREAK_ Pilih \"Main\" ntuk memulai."
 			},
-			"step_two": { "text": "Pilih “Multi-Pemain”. Tenang, saya tidak akan menempatkan anda melawan pemain lain." },
+			"step_two": {
+				"text": "Pilih “Multi-Pemain”. Tenang, saya tidak akan menempatkan anda melawan pemain lain."
+			},
 			"step_three": {
 				"text": "Ini adalah browser ruangan, tempat anda bisa melihat game yang sedang di-host dan membuat game sendiri. _BREAK_ Di bagian atas ada beberapa filter yang bisa anda gunakan untuk meng filter ruangan."
 			},
@@ -5312,13 +5996,18 @@
 			"step_twelve": {
 				"text": "Sekarang anda siap bermain AMQ! Mari kembali ke menu utama dengan mengklik \"Keluar\" di kiri atas."
 			},
-			"step_thirteen": { "text": "Itu saja untuk tutorial cara bermain!" },
+			"step_thirteen": {
+				"text": "Itu saja untuk tutorial cara bermain!"
+			},
 			"step_thirteen_first_time": {
 				"text": "Itu saja untuk tutorial gameplay, berikut hadiah satu kali sebesar 3000 notes untuk membantu anda mulai membuka beberapa avatar!"
 			},
 			"step_fourteen": {
 				"text": "Selanjutnya adalah tutorial avatar, yang akan menjelaskan cara membuka dan menggunakan berbagai avatar dalam game. Siap untuk memulainya?",
-				"options": { "yes": "Baik, Ayo!", "no": "Tidak, Cukup Dulu Saat Ini" }
+				"options": {
+					"yes": "Baik, Ayo!",
+					"no": "Tidak, Cukup Dulu Saat Ini"
+				}
 			}
 		},
 		"avatar": {
@@ -5326,7 +6015,9 @@
 			"step_one": {
 				"text": "Mari kita mulai Avatar 101! _BREAK_ Game ini memiliki berbagai avatar dan skin yang bisa anda buka dan gunakan untuk mewakili diri anda dalam game."
 			},
-			"step_two": { "text": "Anda bisa melihat semua avatar dengan mengklik tombol avatar di kanan bawah." },
+			"step_two": {
+				"text": "Anda bisa melihat semua avatar dengan mengklik tombol avatar di kanan bawah."
+			},
 			"step_three": {
 				"text": "Di sini kita punya jendela toko, di bagian atas anda bisa menemukan bar yang menampilkan semua avatar yang tersedia."
 			},
@@ -5348,7 +6039,9 @@
 			"step_nine": {
 				"text": "Skin Terbatas bekerja seperti Eksklusif, tetapi hanya tersedia pada waktu-waktu tertentu dalam setahun, seperti hari libur atau musim tertentu. Di luar waktu tersebut, skin tidak tersedia dan tidak bisa dibuka."
 			},
-			"step_ten": { "text": "Setelah mengetahui jenis-jenisnya, coba pilih skin Standar Komugi." },
+			"step_ten": {
+				"text": "Setelah mengetahui jenis-jenisnya, coba pilih skin Standar Komugi."
+			},
 			"step_eleven": {
 				"text": "Di sini kita punya versi yang sebenarnya akan anda buka. _BREAK_ Setiap skin memiliki beberapa recolor yang bisa dibuka, dan bahkan beberapa versi alternatif yang lebih tingkat lanjut dari skin tersebut. Silakan lihat-lihat dulu sebelum kita melanjutkan."
 			},
@@ -5366,11 +6059,17 @@
 			},
 			"step_sixteen": {
 				"text": "Bicara soal profil, itu dibahas di tutorial terakhir. Beri tahu saya kalau anda mau mempelajarinya sekarang!",
-				"options": { "yes": "Baik, Ayo!", "no": "Tidak, Cukup Dulu Saat Ini" }
+				"options": {
+					"yes": "Baik, Ayo!",
+					"no": "Tidak, Cukup Dulu Saat Ini"
+				}
 			},
 			"step_sixteen_first_time": {
 				"text": "Bicara soal profil, itu dibahas di tutorial terakhir. Beri tahu saya kalau anda mau mempelajarinya sekarang! _BREAK_ Selain itu, karena ini pertama kalinya anda menyelesaikan tutorial avatar, berikut beberapa notes untuk membantu anda membuka skin berikutnya!",
-				"options": { "yes": "Baik, Ayo!", "no": "Tidak, Cukup Dulu Saat Ini" }
+				"options": {
+					"yes": "Baik, Ayo!",
+					"no": "Tidak, Cukup Dulu Saat Ini"
+				}
 			}
 		},
 		"social": {
@@ -5430,7 +6129,10 @@
 			"return_button": "Kembali",
 			"stay_button": "Tinggal"
 		},
-		"exit_tutorial_warning": { "title": "Keluar Tutorial?", "exit_button": "Keluar" },
+		"exit_tutorial_warning": {
+			"title": "Keluar Tutorial?",
+			"exit_button": "Keluar"
+		},
 		"username_input_placeholder": "Nama Pengguna"
 	},
 	"popout_windows": {
@@ -5563,27 +6265,54 @@
 				"title": "Jangan Lewati Opening",
 				"description": "Tebak 20 Lagu Opening, di game non tim"
 			},
-			"dont_skip_endings": { "title": "Jangan Lewati Ending", "description": "Tebak 20 Lagu Ending, di game non tim" },
-			"dont_skip_inserts": { "title": "Jangan Lewati Insert", "description": "Tebak 20 Lagu Insert, di game non tim" },
-			"action_fan": { "title": "Fans Aksi", "description": "Tebak 20 Lagu dari anime genre aksi, di game non tim" },
+			"dont_skip_endings": {
+				"title": "Jangan Lewati Ending",
+				"description": "Tebak 20 Lagu Ending, di game non tim"
+			},
+			"dont_skip_inserts": {
+				"title": "Jangan Lewati Insert",
+				"description": "Tebak 20 Lagu Insert, di game non tim"
+			},
+			"action_fan": {
+				"title": "Fans Aksi",
+				"description": "Tebak 20 Lagu dari anime genre aksi, di game non tim"
+			},
 			"adventure_fan": {
 				"title": "Fans Petualangan",
 				"description": "Tebak 20 Lagu dari anime genre petualangan, di game non tim"
 			},
-			"comedy_fan": { "title": "Fans Komedi", "description": "Tebak 20 Lagu dari anime genre komedi, di game non tim" },
-			"drama_fan": { "title": "Fans Drama", "description": "Tebak 20 Lagu dari anime genre drama, di game non tim" },
-			"ecchi_fan": { "title": "Fans Ecchi", "description": "Tebak 20 Lagu dari anime genre ecchi, di game non tim" },
+			"comedy_fan": {
+				"title": "Fans Komedi",
+				"description": "Tebak 20 Lagu dari anime genre komedi, di game non tim"
+			},
+			"drama_fan": {
+				"title": "Fans Drama",
+				"description": "Tebak 20 Lagu dari anime genre drama, di game non tim"
+			},
+			"ecchi_fan": {
+				"title": "Fans Ecchi",
+				"description": "Tebak 20 Lagu dari anime genre ecchi, di game non tim"
+			},
 			"fantasy_fan": {
 				"title": "Fans Fantasi",
 				"description": "Tebak 20 Lagu dari anime genre fantasi, di game non tim"
 			},
-			"horror_fan": { "title": "Fans Horor", "description": "Tebak 20 Lagu dari anime genre horor, di game non tim" },
+			"horror_fan": {
+				"title": "Fans Horor",
+				"description": "Tebak 20 Lagu dari anime genre horor, di game non tim"
+			},
 			"mahou_shoujo_fan": {
 				"title": "Fans Gadis Penyihir",
 				"description": "Tebak 20 Lagu dari anime genre gadis penyihir, di game non tim"
 			},
-			"mecha_fan": { "title": "Fans Mecha", "description": "Tebak 20 Lagu dari anime genre mecha, di game non tim" },
-			"music_fan": { "title": "Fans Musik", "description": "Tebak 20 Lagu dari anime genre musik, di game non tim" },
+			"mecha_fan": {
+				"title": "Fans Mecha",
+				"description": "Tebak 20 Lagu dari anime genre mecha, di game non tim"
+			},
+			"music_fan": {
+				"title": "Fans Musik",
+				"description": "Tebak 20 Lagu dari anime genre musik, di game non tim"
+			},
 			"mystery_fan": {
 				"title": "Fans Misteri",
 				"description": "Tebak 20 Lagu dari anime genre misteri, di game non tim"
@@ -5616,7 +6345,10 @@
 				"title": "Fans Thriller",
 				"description": "Tebak 20 Lagu dari anime genre thriller, di game non tim"
 			},
-			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" },
+			"just_jamming": {
+				"title": "Melakukan Jam",
+				"description": "Tebak 20 Lagu di Kuis Jam"
+			},
 			"april_fools_2026": {
 				"title": "Kuis Video",
 				"description": "Masa depan sudah didepan mata! Tebak 20 Kuis dari Video Kecil dan/atau Video Blur! <br/> Selesaikan untuk membuka Skin baru dengan nilai tinggi!",
@@ -5636,7 +6368,10 @@
 			"join_lobby_instruction": "Lobi bisa dimasuki melalui menu utama"
 		},
 		"championship_winner_message": {
-			"solo": { "title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!", "message": "_NAME_ adalah juara yang baru!" },
+			"solo": {
+				"title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!",
+				"message": "_NAME_ adalah juara yang baru!"
+			},
 			"multiple": {
 				"title": "Juara Wilayah _NAME_ Baru Telah Ditemukan!",
 				"message": "_NAMELIST_ adalah juara-juara yang baru!"
