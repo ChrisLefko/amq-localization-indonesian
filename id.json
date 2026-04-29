@@ -3225,8 +3225,8 @@
 			},
 			"state": {
 				"public": "Publik",
-				"public_description": "Semua bisa bergabung dengan tim ini. Klik untuk membuat tim menjadi privat.",
-				"private": "Privat",
+				"public_description": "Semua bisa bergabung dengan tim ini. Klik untuk membuat tim menjadi pribadi.",
+				"private": "Pribadi",
 				"private_description": "Hanya pemain dengan kode yang bisa bergabung. Klik untuk membuat tim menjadi publik."
 			}
 		},
@@ -3767,9 +3767,9 @@
 		"fixed": "Rill",
 		"ranked_team": {
 			"private_short": "P",
-			"private_description": "Privat: Hanya pemain dengan kode yang bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke publik",
+			"private_description": "Pribadi: Hanya pemain dengan kode yang bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke publik",
 			"public_short": "P",
-			"public_description": "Publik: Siapa saja bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke privat"
+			"public_description": "Publik: Siapa saja bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke pribadi"
 		}
 	},
 	"anime_tags": {
