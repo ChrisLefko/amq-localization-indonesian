@@ -3164,6 +3164,13 @@
 			"not_a_spectator": "Anda harus menjadi penonton untuk gabung antrian",
 			"already_in_queue": "Anda sudah berada dalam antrian",
 			"disabled": "Mengantri dinonaktifkan di ruangan ini"
+		},
+		"pinned_message": {
+			"MISSING-title": "Pinned Message",
+			"MISSING-button_hover": "Pin Message",
+			"MISSING-confirm_pin_message": "Override Currently Pinned Message?",
+			"MISSING-confirm_pin_button": "Pin",
+			"MISSING-remove_pin": "Remove Pinned Message"
 		}
 	},
 	"lobby": {
@@ -4133,8 +4140,9 @@
 		"brainwashing": "Cuci Otak",
 		"graduation_project": "Proyek Kelulusan",
 		"human_experimentation": "Percobaan pada Manusia",
-		"single-page_chapter": "Bab Satu Halaman",
-		"interspecies": "Antar-spesies"
+		"interspecies": "Antar-spesies",
+		"MISSING-short-form_chapter": "Short-Form Chapter",
+		"DELETED-single-page_chapter": "Bab Satu Halaman"
 	},
 	"genre_tags": {
 		"action": "Aksi",
