@@ -464,7 +464,7 @@
 				"valentine": "Promo Valentine!",
 				"summer_games": "Promo Summer Games!",
 				"anniversary": "Promo Ulang Tahun!",
-				"MISSING-supernatural_spring": "Supernatural Sale!"
+				"supernatural_spring": "Promo Supernatural"
 			},
 			"sale_text": "Dapatkan nilai tiket terbaik!",
 			"skin_header": "Eksklusif",
@@ -478,7 +478,7 @@
 				"lunar": "Skin Imlek",
 				"valentine": "Skin Valentine",
 				"summer_games": "Skin Summer Games",
-				"MISSING-supernatural_spring": "Supernatural Skins"
+				"supernatural_spring": "Skin Supernatural"
 			},
 			"skin_footer": "Tersedia Sekarang Juga",
 			"DELETED-skin_text": "Dapatkan Skin Eksklusif dari mendukung AMQ!"
@@ -636,8 +636,8 @@
 			"approx_dollars_2": "Kira-kira. $_SPAN_ _NUMBER_ _SPAN_",
 			"donation_choice_text": { "nomination": "Nominasi", "secondary_choice": "Pilihan Kedua" },
 			"DELETED-approx_dollars": "Kira-kira $",
-			"MISSING-recent_winner_queue": "Recent Winner Queue",
-			"MISSING-queue_empty": "No recent winners in queue"
+			"recent_winner_queue": "Pemenang Antrean Terkini",
+			"queue_empty": "Tiada pemenang terkini dalam antrean"
 		},
 		"social_rewards": {
 			"title": "Hadiah Sosial",
@@ -891,19 +891,19 @@
 			"name": {
 				"participant": "Partisipan Turnamen Aragaimu tahun _YEAR_",
 				"top32": "32 Besar Turnamen Aragaimu tahun _YEAR_",
-				"MISSING-4th": "Aragaimu _YEAR_ 4th Place",
-				"MISSING-3rd": "Aragaimu _YEAR_ 3rd Place",
-				"MISSING-2nd": "Aragaimu _YEAR_ 2nd Place",
-				"MISSING-1st": "Aragaimu _YEAR_ Champion",
+				"4th": "Juara 4 Aragaimu _YEAR_",
+				"3rd": "Juara 3 Aragaimu _YEAR_",
+				"2nd": "Juara 2 Aragaimu _YEAR_",
+				"1st": "Juara 1 Aragaimu _YEAR_",
 				"DELETED-top4": "4 Besar Turnamen Aragaimu tahun _YEAR_"
 			},
 			"description": {
 				"participant": "Berpartisipasi dalam Turnamen Aragaimu pada tahun _YEAR_",
 				"top32": "Meraih 32 Besar pada Turnamen Aragaimu tahun _YEAR_",
-				"MISSING-4th": "Got 4th Place in the Aragaimu _YEAR_ tournament",
-				"MISSING-3rd": "Got 3rd Place in the Aragaimu _YEAR_ tournament",
-				"MISSING-2nd": "Got 2nd Place in the Aragaimu _YEAR_ tournament",
-				"MISSING-1st": "Won the Aragaimu _YEAR_ tournament",
+				"4th": "Meraih Juara 4 pada Turnamen Aragaimu tahun _YEAR_",
+				"3rd": "Meraih Juara 3 pada Turnamen Aragaimu tahun _YEAR_",
+				"2nd": "Meraih Juara 2 pada Turnamen Aragaimu tahun _YEAR_",
+				"1st": "Meraih Juara 1 pada Turnamen Aragaimu tahun _YEAR_",
 				"DELETED-top4": "Meraih 4 Besar pada Turnamen Aragaimu tahun _YEAR_"
 			}
 		}
@@ -1568,7 +1568,7 @@
 		"lilith": {
 			"standard": "Lilith berasal dari garis keturunan vampir kuno, tetapi kini menikmati kehidupan normal sebagai siswi sekolah menengah. Meskipun ia tidak menyembunyikan asal-usul vampirnya, orang-orang di sekitarnya tidak mempercayainya dan hanya menganggapnya sebagai ciri khas kepribadiannya.",
 			"school_girl": "Menjalani kehidupan SMA sepenuhnya, Lilith tampak seperti gadis SMA energik pada umumnya, terlepas dari fakta bahwa ia adalah seorang vampir. Meskipun ia tidak menyembunyikan hal itu, orang-orang di sekitarnya hanya mengira ia sedang bercanda.",
-			"MISSING-butler": "After nearly revealing the existence of the world, Lilith was punished by having to serve as one of the vampire lords butlers, to help learn the way of vampires. A job she has to take seriously, even though she still gossips with her friends over the internet."
+			"butler": "Setelah hampir mengungkap keberadaan dunia, Lilith dihukum dengan harus bekerja sebagai salah satu pelayan para tuan vampir, untuk membantu mempelajari cara hidup para vampir. Sebuah pekerjaan yang harus ia jalani dengan serius, meskipun ia masih suka bergosip dengan teman-temannya lewat internet."
 		},
 		"mao": {
 			"standard": "Mao terlahir dengan roh raja iblis yang direinkarnasi tersegel di dalam dirinya, memberinya kemampuan untuk mengakses kekuatannya, kekuatan yang konon dapat merusaknya dan membangkitkan sang raja iblis. Atau setidaknya itu yang ia katakan kalau ditanya apa yang sedang ia lakukan.",
@@ -2002,7 +2002,7 @@
 			"difficulty": "Kesulitan:",
 			"selection": "Pemilihan:",
 			"selection_types": { "random": "Acak", "watched": "Ditonton" },
-			"MISSING-guess_mode": "Guess Mode:"
+			"guess_mode": "Mode Tebak:"
 		},
 		"highscores": {
 			"title": "Skor Tertinggi",
@@ -2120,7 +2120,7 @@
 		"create_new_quiz_tile": { "message": "Buat Kuis Baru", "title": "Kuis Baru" },
 		"unlock_at_tile": { "message": "Terbuka di Level _NUMBER_", "title": "Terkunci" },
 		"shared_states": { "friends": "Kuis Dibagikan pada Teman", "public": "Kuis Publik" },
-		"guess_modes": { "MISSING-song": "Song", "MISSING-tiny": "Tiny", "MISSING-blur": "Blur" }
+		"guess_modes": { "song": "Lagu", "tiny": "Kecil", "blur": "Blur" }
 	},
 	"community_quiz_tags": {
 		"training": "Latihan",
@@ -2487,27 +2487,27 @@
 			"description": "Tipe dari Lagu atau Video yang akan dimainkan selama fase menebak.",
 			"music": { "title": "Lagu", "description": "Putar lagu selama fase menebak" },
 			"tiny_video": {
-				"title": "Video Kecil",
+				"title": "Video Mini",
 				"description": "Putar bagian kecil dari video selama fase menebak."
 			},
 			"blur_video": {
-				"title": "Blur Video",
+				"title": "Video Blur",
 				"description": "Putar video dengan efek blur yang intens selama fase menebak."
 			},
-			"MISSING-one_must_be_selected": "At least one guess mode must be selected"
+			"one_must_be_selected": "Setidaknya satu mode tebak harus dipilih"
 		},
 		"hint": {
-			"MISSING-cost": "Cost",
+			"cost": "Harga",
 			"song_points": {
-				"MISSING-title": "Song Points",
-				"MISSING-description": "The amount of points a song is worth without hints"
+				"title": "Poin Lagu",
+				"description": "Jumlah poin yang didapat untuk sebuah lagu tanpa petunjuk"
 			},
-			"MISSING-name_hint": "Name Hint",
-			"MISSING-info_hint": "Info Hint",
-			"MISSING-multiple_choice_hint": "Multiple Choice Hint",
-			"MISSING-audio_hint": "Audio Hint",
-			"MISSING-tiny_video_hint": "Tiny Video Hint",
-			"MISSING-blur_video_hint": "Blur Video Hint"
+			"name_hint": "Petunjuk Nama",
+			"info_hint": "Petunjuk Info",
+			"multiple_choice_hint": "Petunjuk Pilihan Ganda",
+			"audio_hint": "Petunjuk Audio",
+			"tiny_video_hint": "Petunjuk Video Mini",
+			"blur_video_hint": "Petunjuk Video Blur"
 		}
 	},
 	"room_browser": {
@@ -2786,7 +2786,7 @@
 				"guess_time_description": "Waktu Menebak bawahan untuk lagu di blok ini",
 				"sample_point_description": "Titik sampel bawahan untuk lagu di blok ini",
 				"playback_speed_description": "Kecepatan pemutaran bawahan untuk lagu di blok ini",
-				"MISSING-guess_mode_description": "The default guess modes for songs in this block"
+				"guess_mode_description": "Mode Tebak bawahan untuk lagu di blok ini"
 			},
 			"delete_message": {
 				"title": "Hapus Blok Aturan",
@@ -2805,12 +2805,12 @@
 			"song_count": { "description": "Jumlah lagu yang akan dipilih dari blok ini", "label": "Jumlah Lagu" },
 			"guess_mode": {
 				"one_selected_alert": {
-					"MISSING-title": "At Least One Guess Mode Required",
-					"MISSING-description": "Enable another guess mode before disabling this one"
+					"title": "Setidaknya Satu Mode Tebak Diperlukan",
+					"description": "Nyalakan mode tebak lain sebelum menonaktifkan mode ini"
 				},
-				"MISSING-song": "Song",
-				"MISSING-tiny_video": "Tiny Video",
-				"MISSING-blur_video": "Blur Video"
+				"song": "Lagu",
+				"tiny_video": "Video Mini",
+				"blur_video": "Video Blur"
 			}
 		},
 		"song_block": {
@@ -2829,7 +2829,7 @@
 			"override_guess_time": "Paksa ganti waktu menebak bawahan untuk blok ini",
 			"override_sample_point": "Paksa ganti titik sampel bawahan untuk blok ini",
 			"override_playback_speed": "Paksa ganti kecepatan pemutaran bawahan untuk blok ini",
-			"MISSING-override_guess_mode": "Override the default guess modes for this block"
+			"override_guess_mode": "Timpa mode tebak bawahan untuk blok ini"
 		},
 		"alerts": {
 			"max_rule_block_count": {
@@ -3181,7 +3181,7 @@
 				"top_x": "_NUMBER_ Teratas",
 				"all": "Semua",
 				"guess_mode": "Mode Tebak",
-				"MISSING-hints": "Hints"
+				"hints": "Petunjuk"
 			},
 			"song_pool": {
 				"custom_list": "List Kustom",
@@ -3191,13 +3191,13 @@
 			},
 			"guess_mode": { "music": "Musik", "tiny_video": "Video Mini", "blur_video": "Blur Video" },
 			"hints": {
-				"MISSING-song_points": "Hint Song Point Value",
-				"MISSING-name_cost": "Name Hint Cost",
-				"MISSING-info_cost": "Info Hint Cost",
-				"MISSING-multiple_choice_cost": "Multiple Choice Hint Cost",
-				"MISSING-audio_cost": "Audio Hint Cost",
-				"MISSING-tiny_video_cost": "Tiny Video Hint Cost",
-				"MISSING-blur_video_cost": "Blur Video Hint Cost"
+				"song_points": "Nilai Poin Petunjuk Lagu",
+				"name_cost": "Harga Petunjuk Nama",
+				"info_cost": "Harga Petunjuk Info",
+				"multiple_choice_cost": "Harga Petunjuk Pilihan Ganda",
+				"audio_cost": "Harga Petunjuk Audio",
+				"tiny_video_cost": "Harga Petunjuk Video Mini",
+				"blur_video_cost": "Harga Petunjuk Video Blur"
 			}
 		},
 		"ranked_rules": {
@@ -3316,9 +3316,9 @@
 				"name": "Petunjuk Nama Digunakan",
 				"info": "Petunjuk Info Digunakan",
 				"multiple_choice": "Petunjuk Pilihan Ganda Digunakan",
-				"MISSING-tiny_video": "Tiny Video Hint Used",
-				"MISSING-blur_video": "Blur Video Hint Used",
-				"MISSING-audio": "Audio Hint Used"
+				"tiny_video": "Petunjuk Video Mini Digunakan",
+				"blur_video": "Petunjuk Video Blur Digunakan",
+				"audio": "Petunjuk Audio Digunakan"
 			}
 		},
 		"song_info": {
@@ -3396,14 +3396,14 @@
 				"multiple_choice": { "title": "Pilgan", "description": "Dapatkan opsi pilihan ganda untuk lagu ini" },
 				"hint_popover": "_DESCRIPTION_ - Harga poin: _NUMBER_",
 				"tiny_video": {
-					"MISSING-title": "Tiny",
-					"MISSING-description": "Reveal a tiny version of the video for this song"
+					"title": "Mini",
+					"description": "Putar bagian kecil dari video selama fase menebak"
 				},
 				"blur_video": {
-					"MISSING-title": "Blur",
-					"MISSING-description": "Reveal a blurred version of the video for this song"
+					"title": "Blur",
+					"description": "Putar video dengan efek blur yang intens selama fase menebak"
 				},
-				"audio": { "MISSING-title": "Audio", "MISSING-description": "Enable the audio for this song" }
+				"audio": { "title": "Audio", "description": "Nyalakan audio untuk lagu ini" }
 			},
 			"skip_messages": {
 				"answers": "Melewati ke Jawaban",
@@ -5745,7 +5745,7 @@
 		"whistle": "Peluit",
 		"yan": "Yan",
 		"visor": "Kaca Pelindung",
-		"MISSING-accessory": "Accessory"
+		"accessory": "Aksesoris"
 	},
 	"daily_quests": {
 		"title": "Misi Harian",
@@ -5882,7 +5882,7 @@
 			"just_jamming": { "title": "Melakukan Jam", "description": "Tebak 20 Lagu di Kuis Jam" },
 			"april_fools_2026": {
 				"title": "Kuis Video",
-				"description": "Masa depan sudah didepan mata! Tebak 20 Kuis dari Video Kecil dan/atau Video Blur! <br/> Selesaikan untuk membuka Skin baru dengan nilai tinggi!",
+				"description": "Masa depan sudah didepan mata! Tebak 20 Kuis dari Video Mini dan/atau Video Blur! <br/> Selesaikan untuk membuka Skin baru dengan nilai tinggi!",
 				"unlock_message": {
 					"title": "Solid Gold Miyu Terbuka!",
 					"description": "_HTML1_ Anda telah menemukan masa depan dari anime yaitu, video! Untuk merayakan, Anda telah mendapatkan Solid gold Miyu versi alt. yang tak ternilai!. _HTML2_"
