@@ -800,38 +800,38 @@
 				"title": "Nama Pengguna Tersedia",
 				"already_in_use": "Nama pengguna ini sudah dipakai",
 				"banned": "Nama Pengguna ini telah di-ban",
-				"MISSING-inactive": "This nickname belongs to an inactive account and will be available on the 18th of July if the account doesn't log in before then",
-				"MISSING-not_inactive": "This nickname isn't inactive, and therefore can't be reserved",
-				"MISSING-reserved": "This nickname is reserved by another player"
+				"inactive": "Nama pengguna ini milik akun yang tidak aktif dan akan tersedia pada tanggal 18 Juli jika akun tersebut tidak login sebelum tanggal tersebut",
+				"not_inactive": "Nama pengguna ini sedang dipakai oleh pengguna aktif, dan oleh karena itu tidak bisa di-reservasi",
+				"reserved": "Nama pengguna ini telah di-reservasi oleh pemain lain"
 			},
 			"change_nickname_messages": {
 				"banned": "Akun Anda telah di Ban dari Fitur Mengganti Nama Pengguna",
 				"success": "Nama Pengguna Diganti",
 				"no_token": "Tidak Ada Token Ganti Nama Tersedia"
 			},
-			"MISSING-reserve_name": "Reserve",
+			"reserve_name": "Reservasi",
 			"reserve_name_popover": {
-				"MISSING-click_to_reserve": "Click to reserve the selected inactive nickname",
-				"MISSING-require_patreon": "Reserve currently only avaliable for level _NUMBER_+ Patreon backers",
-				"MISSING-already_reserved": "You have already reserved a nickname, clear your current reservation before reserving a new one"
+				"click_to_reserve": "Klik untuk me-reservasi nama pengguna yang sudah tidak aktif",
+				"require_patreon": "Fitur Reservasi saat ini hanya tersedia untuk pendukung Patreon level _NUMBER_ ke atas",
+				"already_reserved": "Anda telah me-reservasi nama pengguna, hapus reservasi anda saat ini sebelum memesan nama pengguna baru"
 			},
 			"reserve_name_message": {
-				"MISSING-title": "Reserve Nickname",
-				"MISSING-text": "You'll automatically get the reserved nickname on the 18th of July, if the account doesn't log in before then. Reserves one name change token"
+				"title": "Reservasi Nama Pengguna",
+				"text": "Anda akan mendapatkan nama pengguna yang telah di-reservasi secara otomatis pada 18 Juli, jika akun tersebut tidak login sebelum tanggal tersebut. 1 Token Ganti Nama juga akan terpakai."
 			},
-			"MISSING-reserve_name_success": "Nickname Reserved",
-			"MISSING-unable_to_reserve": "Unable to Reserve Nickname",
-			"MISSING-current_reserved_name": "Current Reserved Nickname: _SPAN_ name _SPAN_",
-			"MISSING-remove_reserved_name": "Remove Reserved Nickname",
+			"reserve_name_success": "Nama Pengguna Berhasil Di-Reservasi",
+			"unable_to_reserve": "Tidak dapat me-reservasi nama pengguna ini",
+			"current_reserved_name": "Nama Pengguna di-reservasi saat ini: _SPAN_ _NAME_ _SPAN_",
+			"remove_reserved_name": "Hapus Reservasi Nama Pengguna",
 			"remove_reserved_name_message": {
-				"MISSING-title": "Remove Reserved Nickname",
-				"MISSING-text": "You'll lose the reserved nickname and get your name change token back",
-				"MISSING-remove_button": "Remove"
+				"title": "Hapus Reservasi Nama Pengguna",
+				"text": "Anda akan kehilangan nama pengguna yang di-reservasi dan mendapatkan kembali token ganti nama Anda",
+				"remove_button": "Hapus"
 			},
-			"MISSING-reserved_name_removed": "Reserved Nickname Removed",
+			"reserved_name_removed": "Reservasi Nama Pengguna Dihapus",
 			"reserve_removed_alert": {
-				"MISSING-title": "Nickname Reservation Removed",
-				"MISSING-text": "The reserved nickname is no longer inactive, so your reservation has been removed and your name change token has been returned"
+				"title": "Reservasi Nama Pengguna Dihapus",
+				"text": "Nama pengguna yang di-reservasi tidak lagi inaktif, jadi reservasi Anda telah dihapus dan token ganti nama Anda telah dikembalikan"
 			}
 		},
 		"alerts": {
@@ -2449,8 +2449,8 @@
 				"description": "Perbolehkan lagu diputar hingga akhir, bisa menimbulkan keheningan saat jawaban ditampilkan"
 			},
 			"quiz_join": {
-				"MISSING-title": "Quiz Join",
-				"MISSING-description": "Allow players to join after the quiz has started"
+				"title": "Gabung Kuis",
+				"description": "Izinkan pemain untuk bergabung setelah kuis dimulai"
 			}
 		},
 		"filter_types": { "include": "Sertakan", "exclude": "Jangan Sertakan", "optional": "Opsional" },
@@ -3213,7 +3213,7 @@
 				"all": "Semua",
 				"guess_mode": "Mode Tebak",
 				"hints": "Petunjuk",
-				"MISSING-quiz_join": "Quiz Join"
+				"quiz_join": "Gabung Kuis"
 			},
 			"song_pool": {
 				"custom_list": "List Kustom",
@@ -3540,7 +3540,7 @@
 			"public_short": "P",
 			"public_description": "Publik: Siapa saja bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke pribadi"
 		},
-		"late_join_full": { "MISSING-title": "Quiz Full", "MISSING-description": "Not able to join the quiz." }
+		"late_join_full": { "title": "Kuis Penuh", "description": "Tidak dapat bergabung ke kuis." }
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
