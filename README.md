@@ -5,7 +5,7 @@ Recently, on patch 0.26.15, AMQ released support for site localization by loadin
 The custom language translation file is a JSON file consisting of several variables set by Egerod and their values, which would be the content of some texts, buttons and menu inside the game.<br>
 
 What we're doing here is basically editing those values and providing quality translations to the Indonesian-speaking AMQ community.
-Of course, there are some terms that we're not translating such as "Novice Ranked" and "Quiz of the Day" to avoid confusion and disparity between the Indonesian players that rely on the translations and the global AMQ community.<br>
+Of course, there are some terms that we're not translating such as "Rhythm" and "Avatar Drive" to avoid confusion and disparity between the Indonesian players that rely on the translations and the global AMQ community.<br>
 
 Currently, the localization feature itself covers limited aspect of the game and I expect it to cover more in the future. However, you are very welcome to experience the result of our initial work.<br>
 To do so, you may go to Anime Music Quiz → Go to the in-game setting → Language → Custom → and paste this link onto the field ```https://raw.githubusercontent.com/ChrisLefko/amq-localization-indonesian/refs/heads/main/id.json```→ Load.
@@ -17,7 +17,7 @@ Any advices, recommendations, critiques are welcome here. Especially in the area
 Baru-baru ini di patch 0.26.15, AMQ secara resmi mengeluarkan support untuk localization dengan cara load sebuah file translation.
 File translation nya itu sendiri berupa file JSON yang terdiri dari beberapa variable yang sudah di-set sama Egerod dan value dari variabel tersebut. Value dari variabel itu sendiri mewakili beberapa elemen didalam AMQ seperti button, menu, dan teks panjang seperti rules dari ranked misalnya.<br>
 
-Tugas utama kita nantinya mengedit value dari variabel dari File translation template yang sudah disediakan oleh Egerod dan menerjemahkan setiap copy yang berada di template tersebut. Tentunya proses translasi juga harus kita lakukan secara hati-hati, mengingat ada beberapa istilah yang sebaiknya gak diterjemahkan seperti "Novice Ranked", "Quiz of the Day" dan "Avatar Drive" untuk menghindari kebingungan ketika kita berkomunikasi dengan anggota komunitas AMQ Global yang cukup beragam.<br>
+Tugas utama kita nantinya mengedit value dari variabel dari File translation template yang sudah disediakan oleh Egerod dan menerjemahkan setiap copy yang berada di template tersebut. Tentunya proses translasi juga harus kita lakukan secara hati-hati, mengingat ada beberapa istilah yang sebaiknya gak diterjemahkan seperti "Rhythm", "Nexus" dan "Avatar Drive" untuk menghindari kebingungan ketika kita berkomunikasi dengan anggota komunitas AMQ Global yang cukup beragam.<br>
 
 Saat ini, terjemahan yang dicakup fitur localization itu sendiri masih terbatas dan gw yakin akan bertambah kedepannya. Buat kalian yang mau coba experience main AMQ pakai Bahasa Indonesia bisa cobain tutorial dibawah:<br>
 Pertama, tentunya kita ke website Anime Music Quiz itu sendiri, setelah itu kita pergi ke Setting → Language → Custom → dan paste link ini ```https://raw.githubusercontent.com/ChrisLefko/amq-localization-indonesian/refs/heads/main/id.json``` kedalam fieldnya → lalu klik tombol Load.<br>
