@@ -818,7 +818,7 @@
 				"click_to_reserve": "Klik untuk me-reservasi nama pengguna yang sudah tidak aktif",
 				"require_patreon": "Fitur Reservasi saat ini hanya tersedia untuk pendukung Patreon level _NUMBER_ ke atas",
 				"already_reserved": "Anda telah me-reservasi nama pengguna, hapus reservasi anda saat ini sebelum memesan nama pengguna baru",
-				"not_available": "Reservasi nama pengguna saat ini tidak tersedia",
+				"not_available": "Reservasi nama pengguna saat ini tidak tersedia"
 			},
 			"reserve_name_message": {
 				"title": "Reservasi Nama Pengguna",
