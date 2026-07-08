@@ -698,6 +698,10 @@
 				"in_lobby": "_NUMBER_ - Dalam Lobi",
 				"click_to_host": "Klik untuk Host"
 			}
+		},
+		"nickname_lost": {
+			"title": "Nama Pengguna Hilang",
+			"text": "Karena akun Anda sudah tidak aktif selama lebih dari 3 tahun, nama pengguna Anda telah dilepas dan diambil oleh pemain lain. Anda bisa memilih nama pengguna baru setelah menutup pesan ini"
 		}
 	},
 	"menu_bar": {
@@ -799,12 +803,40 @@
 			"nickname_not_available": {
 				"title": "Nama Pengguna Tersedia",
 				"already_in_use": "Nama pengguna ini sudah dipakai",
-				"banned": "Nama Pengguna ini telah di-ban"
+				"banned": "Nama Pengguna ini telah di-ban",
+				"inactive": "Nama pengguna ini milik akun yang tidak aktif dan akan tersedia pada tanggal 18 Juli jika akun tersebut tidak login sebelum tanggal tersebut",
+				"not_inactive": "Nama pengguna ini sedang dipakai oleh pengguna aktif, dan oleh karena itu tidak bisa di-reservasi",
+				"reserved": "Nama pengguna ini telah di-reservasi oleh pemain lain"
 			},
 			"change_nickname_messages": {
 				"banned": "Akun Anda telah di Ban dari Fitur Mengganti Nama Pengguna",
 				"success": "Nama Pengguna Diganti",
 				"no_token": "Tidak Ada Token Ganti Nama Tersedia"
+			},
+			"reserve_name": "Reservasi",
+			"reserve_name_popover": {
+				"click_to_reserve": "Klik untuk me-reservasi nama pengguna yang sudah tidak aktif",
+				"require_patreon": "Fitur Reservasi saat ini hanya tersedia untuk pendukung Patreon level _NUMBER_ ke atas",
+				"already_reserved": "Anda telah me-reservasi nama pengguna, hapus reservasi anda saat ini sebelum memesan nama pengguna baru",
+				"not_available": "Reservasi nama pengguna saat ini tidak tersedia",
+			},
+			"reserve_name_message": {
+				"title": "Reservasi Nama Pengguna",
+				"text": "Anda akan mendapatkan nama pengguna yang telah di-reservasi secara otomatis pada 18 Juli, jika akun tersebut tidak login sebelum tanggal tersebut. 1 Token Ganti Nama juga akan terpakai."
+			},
+			"reserve_name_success": "Nama Pengguna Berhasil Di-Reservasi",
+			"unable_to_reserve": "Tidak dapat me-reservasi nama pengguna ini",
+			"current_reserved_name": "Nama Pengguna di-reservasi saat ini: _SPAN_ _NAME_ _SPAN_",
+			"remove_reserved_name": "Hapus Reservasi Nama Pengguna",
+			"remove_reserved_name_message": {
+				"title": "Hapus Reservasi Nama Pengguna",
+				"text": "Anda akan kehilangan nama pengguna yang di-reservasi dan mendapatkan kembali token ganti nama Anda",
+				"remove_button": "Hapus"
+			},
+			"reserved_name_removed": "Reservasi Nama Pengguna Dihapus",
+			"reserve_removed_alert": {
+				"title": "Reservasi Nama Pengguna Dihapus",
+				"text": "Nama pengguna yang di-reservasi tidak lagi inaktif, jadi reservasi Anda telah dihapus dan token ganti nama Anda telah dikembalikan"
 			}
 		},
 		"alerts": {
@@ -1444,7 +1476,8 @@
 		"rhythm_price": "Harga Rhythm",
 		"silver_hibike_description": "Recolor unik saat peluncuran, bisa dibuka dengan cara bergabung dalam minggu peluncuran atau membuka semua recolor non-unik untuk semua avatar.",
 		"emote_previews": { "chat": "Obrolan", "profile": "Profile" },
-		"emote_category_misc": "Lainnya"
+		"emote_category_misc": "Lainnya",
+		"seasonal_unlock_description": "Skin ini adalah skin musiman, dan hanya tersedia selama musim skin _NAME_ tahunan."
 	},
 	"avatar_lore": {
 		"hibiki": {
@@ -1662,6 +1695,9 @@
 		},
 		"hinase": {
 			"standard": "Hinase selalu mencintai petualangan dan eksplorasi, jadi dia mengambil kesempatan pertama yang didapatnya untuk menjelajah ke luar angkasa. Sekarang dia bekerja sebagai pilot mech lepas, mengerjakan berbagai pekerjaan serabutan, pengawalan, dan misi pengintaian di perbatasan eksplorasi luar angkasa."
+		},
+		"alexandra": {
+			"standard": "Sebagai pewaris takhta, Alexandra dilatih sejak kecil untuk menjadi seorang bangsawan, tetapi bakatnya bersinar terang dalam pertempuran, yang kini menjadi kekuatan yang dengan bangga ia gunakan untuk melindungi warga kerajaannya dan menghukum para pelaku kejahatan."
 		}
 	},
 	"song_library": {
@@ -2420,6 +2456,10 @@
 			"full_song_range": {
 				"title": "Rentang Lagu Penuh",
 				"description": "Perbolehkan lagu diputar hingga akhir, bisa menimbulkan keheningan saat jawaban ditampilkan"
+			},
+			"quiz_join": {
+				"title": "Gabung Kuis",
+				"description": "Izinkan pemain untuk bergabung setelah kuis dimulai"
 			}
 		},
 		"filter_types": { "include": "Sertakan", "exclude": "Jangan Sertakan", "optional": "Opsional" },
@@ -2875,7 +2915,27 @@
 				"description": "Anda telah mencapai jumlah maksimum jumlah _NUMBER_ blok yang diizinkan disebuah kuis"
 			}
 		},
-		"page_close_warning": "Meninggalkan halaman akan menyebabkan anda akan kehilangan kemajuan yang belum disimpan."
+		"page_close_warning": "Meninggalkan halaman akan menyebabkan anda akan kehilangan kemajuan yang belum disimpan.",
+		"title_block": { "title": "Judul", "placeholder": "Judul - Biarkan kosong untuk menghapus judul" },
+		"message_block": {
+			"placeholder": "Pesan - Biarkan kosong untuk hanya menampilkan avatar",
+			"select_avatar": "Pilih Avatar",
+			"change_avatar": "Ganti Avatar",
+			"delay": "Jeda",
+			"delay_description": "Jeda sebelum pesan ditampilkan dalam detik setelah dipicu",
+			"time": "Waktu",
+			"time_description": "Waktu pesan ditampilkan dalam detik sebelum berpindah ke blok berikutnya"
+		},
+		"message_avatar_selector": {
+			"title": "Pilih Avatar",
+			"steps": {
+				"avatar": "Avatar",
+				"skin": "Skin",
+				"version": "Versi",
+				"pose": "Pose"
+			},
+			"buttons": { "clear_selection": "Hapus Pilihan", "select": "Pilih" }
+		}
 	},
 	"game_chat": {
 		"game_chat": "Obrolan Game",
@@ -3181,7 +3241,8 @@
 				"top_x": "_NUMBER_ Teratas",
 				"all": "Semua",
 				"guess_mode": "Mode Tebak",
-				"hints": "Petunjuk"
+				"hints": "Petunjuk",
+				"quiz_join": "Gabung Kuis"
 			},
 			"song_pool": {
 				"custom_list": "List Kustom",
@@ -3395,10 +3456,7 @@
 				"info": { "title": "Info", "description": "Menampilkan sebagian informasi lagu untuk lagu ini" },
 				"multiple_choice": { "title": "Pilgan", "description": "Dapatkan opsi pilihan ganda untuk lagu ini" },
 				"hint_popover": "_DESCRIPTION_ - Harga poin: _NUMBER_",
-				"tiny_video": {
-					"title": "Mini",
-					"description": "Putar bagian kecil dari video selama fase menebak"
-				},
+				"tiny_video": { "title": "Mini", "description": "Putar bagian kecil dari video selama fase menebak" },
 				"blur_video": {
 					"title": "Blur",
 					"description": "Putar video dengan efek blur yang intens selama fase menebak"
@@ -3510,7 +3568,8 @@
 			"private_description": "Pribadi: Hanya pemain dengan kode yang bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke publik",
 			"public_short": "P",
 			"public_description": "Publik: Siapa saja bisa bergabung dengan tim ini, host bisa klik untuk mengubah ke pribadi"
-		}
+		},
+		"late_join_full": { "title": "Kuis Penuh", "description": "Tidak dapat bergabung ke kuis." }
 	},
 	"anime_tags": {
 		"4-koma": "4-koma",
@@ -3875,7 +3934,8 @@
 		"human_experimentation": "Percobaan pada Manusia",
 		"interspecies": "Antar-spesies",
 		"short-form_chapter": "Bab Bentuk Pendek",
-		"DELETED-single-page_chapter": "Bab Satu Halaman"
+		"DELETED-single-page_chapter": "Bab Satu Halaman",
+		"prophecy": "Ramalan"
 	},
 	"genre_tags": {
 		"action": "Aksi",
@@ -5745,7 +5805,8 @@
 		"whistle": "Peluit",
 		"yan": "Yan",
 		"visor": "Kaca Pelindung",
-		"accessory": "Aksesoris"
+		"accessory": "Aksesoris",
+		"flowers": "Bunga"
 	},
 	"daily_quests": {
 		"title": "Misi Harian",
@@ -5909,5 +5970,33 @@
 			}
 		},
 		"region_names": { "east": "East", "west": "West", "central": "Central" }
+	},
+	"skin_seasons": {
+		"full": {
+			"fall": "Musim Gugur",
+			"summer": "Musim Panas",
+			"winter": "Musim Dingin",
+			"spring": "Musim Semi",
+			"halloween": "Halloween",
+			"christmas": "Natal",
+			"lunar": "Tahun Baru Imlek",
+			"valentine": "Valentine",
+			"summer_games": "Laga Musim Panas",
+			"anniversary": "Anniversary",
+			"supernatural_spring": "Musim Semi Supernatural"
+		},
+		"short": {
+			"fall": "Gugur",
+			"summer": "Panas",
+			"winter": "Dingin",
+			"spring": "Semi",
+			"halloween": "Halloween",
+			"christmas": "Natal",
+			"lunar": "Imlek",
+			"valentine": "Valentine",
+			"summer_games": "Laga Musim Panas",
+			"anniversary": "Anniversary",
+			"supernatural_spring": "Supernatural"
+		}
 	}
 }
