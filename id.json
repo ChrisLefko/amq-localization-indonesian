@@ -1144,7 +1144,8 @@
 					"title": "Kecualikan",
 					"description": "Kecualikan acara dari list kustom untuk pemilihan lagu"
 				}
-			}
+			},
+			"animeoshi_username": "Nama Pengguna AnimeOshi"
 		},
 		"graphics": {
 			"particle_effects": {
@@ -1519,7 +1520,8 @@
 		},
 		"kuriko": {
 			"standard": "Bahkan di antara para penyihir, Kuriko dianggap sangat kuat, tetapi sikapnya yang santai sering membuatnya tidak menggunakan kekuatan penuhnya. Ia sering terlihat bersenang-senang di tengah konflik antara teknologi dan sihir yang terjadi di dunianya.",
-			"sorceress": "Berasal dari suku nomaden di negeri jauh di selatan, Kuriko melakukan perjalanan panjang hingga ke kerajaan untuk menyebarkan ajaran kaumnya. Namun, lebih sering ia justru mengelabui orang-orang agar ikut dengannya dalam petualangan gila."
+			"sorceress": "Berasal dari suku nomaden di negeri jauh di selatan, Kuriko melakukan perjalanan panjang hingga ke kerajaan untuk menyebarkan ajaran kaumnya. Namun, lebih sering ia justru mengelabui orang-orang agar ikut dengannya dalam petualangan gila.",
+			"summer_games": "Kuriko selalu menjadi pesepeda yang berjiwa bebas dan menyukai kebebasan bersepeda, tetapi tidak pernah tertarik pada olahraga tersebut. Namun, setelah akhirnya menjadi salah satu pesepeda terbaik di negaranya, ia pun berakhir mengikuti Olimpiade Musim Panas demi mendapatkan perjalanan gratis."
 		},
 		"miyu": {
 			"standard": "Sebagai gadis ceria dan penuh semangat, hidup Miyu awalnya berjalan biasa saja sampai tahun terakhir SMP-nya, ketika ia menemukan sebuah permata berbentuk bintang yang membangkitkan kekuatan sihir terpendamnya.”",
@@ -2058,7 +2060,9 @@
 			"unshare": "Batal Bagikan",
 			"publish": "Publikasi",
 			"play": "Main",
-			"select": "Pilih"
+			"select": "Pilih",
+			"publish_version": "Publikasikan Versi",
+			"create_new_version": "Buat Versi Baru"
 		},
 		"no_quiz_selected": "Tidak Ada Kuis Dipilih",
 		"messages": {
@@ -2113,7 +2117,27 @@
 				"title": "Batas Publikasi Tercapai",
 				"description": "anda telah mencapai jumlah maksimum 10 kuis yang dipublikasikan dalam 24 jam. Silakan coba lagi nanti."
 			},
-			"quiz_published": { "title": "Kuis Terpublikasi", "description": "Kuis telah berhasil dipublikasikan." }
+			"quiz_published": { "title": "Kuis Terpublikasi", "description": "Kuis telah berhasil dipublikasikan." },
+			"error_creating_new_version": {
+				"title": "Kesalahan Saat Membuat Versi Baru",
+				"description": "Terjadi kesalahan saat mencoba membuat versi baru dari kuis. Silakan coba lagi nanti."
+			},
+			"new_version_created": {
+				"title": "Versi Baru Dibuat",
+				"description": "Versi baru untuk kuis telah dibuat."
+			},
+			"publish_quiz_version_confirmation": {
+				"title": "Publikasi Versi Kuis",
+				"description": "Publikasikan versi kuis ini agar dapat dimainkan dari kuis aslinya. Setelah versi dipublikasikan, versi tersebut tidak dapat lagi diedit atau dihapus."
+			},
+			"publish_quiz_version_no_changes": {
+				"title": "Versi Baru Sama dengan Versi Terakhir",
+				"description": "Versi baru kuis ini sama dengan versi terakhir yang dipublikasikan, sehingga tidak dapat dipublikasikan."
+			},
+			"publishing_banned": {
+				"title": "Publikasi Diblokir",
+				"description": "Anda diblokir dari memublikasikan kuiz"
+			}
 		},
 		"popovers": {
 			"share": "Bagikan kuis ini dengan teman",
@@ -2124,6 +2148,10 @@
 			"locked_slot": {
 				"title": "Slot Terkunci",
 				"description": "Slot yang terkunci tidak menggunakan slot yang tersedia, tetapi hanya bisa disalin atau dihapus. Untuk membukanya, aktifkan kembali slot tidak terbatas."
+			},
+			"new_version": {
+				"title": "Versi Baru",
+				"description": "Ini adalah versi baru untuk kuis #_NUMBER_."
 			}
 		},
 		"checkout": { "unlock": "Buka Slot Kuis Komunitas", "one_slot": "1 Slot", "unlimited": "Slot Tidak Terbatas" },
@@ -2156,7 +2184,8 @@
 		"create_new_quiz_tile": { "message": "Buat Kuis Baru", "title": "Kuis Baru" },
 		"unlock_at_tile": { "message": "Terbuka di Level _NUMBER_", "title": "Terkunci" },
 		"shared_states": { "friends": "Kuis Dibagikan pada Teman", "public": "Kuis Publik" },
-		"guess_modes": { "song": "Lagu", "tiny": "Kecil", "blur": "Blur" }
+		"guess_modes": { "song": "Lagu", "tiny": "Kecil", "blur": "Blur" },
+		"versions": "Versi"
 	},
 	"community_quiz_tags": {
 		"training": "Latihan",
@@ -2699,7 +2728,14 @@
 			},
 			"anime_link": {
 				"title": "Tautan Anime",
-				"ticks": { "anilist": "Anilist", "kitsu": "Kitsu", "default": "Bawahan", "mal": "MAL", "ann": "ANN" }
+				"ticks": {
+					"anilist": "Anilist",
+					"kitsu": "Kitsu",
+					"default": "Bawahan",
+					"mal": "MAL",
+					"ann": "ANN",
+					"ao": "AO"
+				}
 			}
 		},
 		"song_window": {
@@ -2869,7 +2905,9 @@
 			"override_guess_time": "Paksa ganti waktu menebak bawahan untuk blok ini",
 			"override_sample_point": "Paksa ganti titik sampel bawahan untuk blok ini",
 			"override_playback_speed": "Paksa ganti kecepatan pemutaran bawahan untuk blok ini",
-			"override_guess_mode": "Timpa mode tebak bawahan untuk blok ini"
+			"override_guess_mode": "Timpa mode tebak bawahan untuk blok ini",
+			"connect_description": "Hubungkan blok-blok ini, agar selalu muncul berdampingan di dalam kuis.",
+			"lock_description": "Kunci posisi blok ini agar selalu muncul di titik ini di dalam blok aturan, meskipun urutan blok aturan diacak"
 		},
 		"alerts": {
 			"max_rule_block_count": {
@@ -2924,17 +2962,18 @@
 			"delay": "Jeda",
 			"delay_description": "Jeda sebelum pesan ditampilkan dalam detik setelah dipicu",
 			"time": "Waktu",
-			"time_description": "Waktu pesan ditampilkan dalam detik sebelum berpindah ke blok berikutnya"
+			"time_description": "Waktu pesan ditampilkan dalam detik sebelum berpindah ke blok berikutnya",
+			"video_display": "Tampilan Tebakan",
+			"video_display_description": "Tunda pesan hingga fase menebak dimulai"
 		},
 		"message_avatar_selector": {
 			"title": "Pilih Avatar",
-			"steps": {
-				"avatar": "Avatar",
-				"skin": "Skin",
-				"version": "Versi",
-				"pose": "Pose"
-			},
+			"steps": { "avatar": "Avatar", "skin": "Skin", "version": "Versi", "pose": "Pose" },
 			"buttons": { "clear_selection": "Hapus Pilihan", "select": "Pilih" }
+		},
+		"rule_block_random_order_button": {
+			"title": "Urutan Acak Blok Aturan",
+			"description": "Saat diaktifkan, semua blok aturan dimainkan dalam urutan acak selama kuis bukan sesuai urutan yang telah diatur."
 		}
 	},
 	"game_chat": {
@@ -3727,7 +3766,6 @@
 		"historical": "Sejarah",
 		"homeless": "Tunawisma",
 		"horticulture": "Hortikultura",
-		"ice_skating": "Seluncur Indah",
 		"idol": "Idol",
 		"indigenous_cultures": "Budaya Adat",
 		"inn": "Penginapan",
@@ -3935,7 +3973,14 @@
 		"interspecies": "Antar-spesies",
 		"short-form_chapter": "Bab Bentuk Pendek",
 		"DELETED-single-page_chapter": "Bab Satu Halaman",
-		"prophecy": "Ramalan"
+		"prophecy": "Ramalan",
+		"cheating": "Selingkuh",
+		"incest": "Inses",
+		"inseki": "Inseki",
+		"exiled": "Dibuang",
+		"middle_east": "Timur Tengah",
+		"ice_sports": "Olahraga Es",
+		"DELETED-ice_skating": "Seluncur Indah"
 	},
 	"genre_tags": {
 		"action": "Aksi",
@@ -5553,7 +5598,13 @@
 			},
 			"step_three": {
 				"text": "Sempurna, mari hubungkan ke akun AMQ anda! _BREAK_ Situs mana yang anda punya list anime-nya?",
-				"options": { "anilist": "AniList", "myanimelist": "MyAnimeList", "kitsu": "Kitsu", "cancel": "Batal" }
+				"options": {
+					"anilist": "AniList",
+					"myanimelist": "MyAnimeList",
+					"kitsu": "Kitsu",
+					"cancel": "Batal",
+					"anime_oshi": "AnimeOshi"
+				}
 			},
 			"step_anilist": {
 				"text": "Silakan ketik nama pengguna AniList anda atau biarkan kosong jika anda berubah pikiran."
@@ -5567,6 +5618,9 @@
 			"step_four": { "text": "Sekarang game akan bisa memilih lagu dari anime yang sudah anda tonton!" },
 			"step_dismiss": {
 				"text": "Tidak masalah, anda tetap bisa bermain tanpa akun! _BREAK_ Anda bisa menambahkan list anime di menu kanan bawah, di \"Pengaturan\"."
+			},
+			"step_anime_oshi": {
+				"text": "Ketik nama pengguna AnimeOshi Anda atau biarkan kosong jika Anda berubah pikiran."
 			}
 		},
 		"first_game": {
