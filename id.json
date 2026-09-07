@@ -1234,8 +1234,8 @@
 			"notifications": "Notifikasi"
 		},
 		"hide_name": {
-			"MISSING-title": "Hide Name",
-			"MISSING-description": "Appear as a guest user in the online player and room tile list."
+			"title": "Sembunyikan Nama",
+			"description": "Tampil sebagai Tamu pada daftar pemain online dalam ruangan."
 		}
 	},
 	"blocked_player_window": {
@@ -2977,8 +2977,8 @@
 				"game_closed": "Game Tidak Tersedia Lagi"
 			},
 			"player_list": {
-				"MISSING-players": "Players",
-				"MISSING-spectators": "Spectators"
+				"players": "Pemain",
+				"spectators": "Penonton"
 			}
 		},
 		"nexus_lobbies": {
