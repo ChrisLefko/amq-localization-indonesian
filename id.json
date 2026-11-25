@@ -723,6 +723,126 @@
 		"nickname_lost": {
 			"title": "Nama Pengguna Hilang",
 			"text": "Karena akun Anda sudah tidak aktif selama lebih dari 3 tahun, nama pengguna Anda telah dilepas dan diambil oleh pemain lain. Anda bisa memilih nama pengguna baru setelah menutup pesan ini"
+		},
+		"amqdle": {
+			"title": "AMQdle",
+			"play": "Main",
+			"quizzes": "Kuis",
+			"create_button": "Buat",
+			"join_button": "Gabung",
+			"leave_button": "Keluar",
+			"join_with_code": {
+				"title": "Gabung AMQdle",
+				"placeholder": "Kode Undangan",
+				"confirm_button": "Gabung",
+				"failed_title": "Gagal Bergabung",
+				"failed_message": "Kode Undangan Tidak Diketahui",
+				"banned_message": "Anda Telah di Ban dari AMQdle ini"
+			},
+			"setup": {
+				"create_title": "Buat AMQdle",
+				"edit_title": "Edit AMQdle",
+				"create_button": "Buat",
+				"save_button": "Simpan",
+				"saved": "Tersimpan!",
+				"pending_changes_show": "AMQdle ini punya perubahan yang akan aktif besok. Klik untuk melihatnya",
+				"pending_changes_hide": "Menampilkan perubahan yang akan aktif besok, Klik untuk melihat pengaturan saat ini",
+				"create_requirements": "Sebuah AMQdle membutuhkan nama, setidaknya satu kategori dan setidaknya satu lagu di tiap kategori",
+				"missing_names_title": "Nama Kosong",
+				"missing_names_message": "Semua kategori dan lagu memerlukan nama",
+				"create_failed_title": "Gagal Membuat",
+				"create_failed_message": "AMQdle tidak bisa dibuat, coba lagi",
+				"update_failed_title": "Gagal Menyimpan",
+				"update_failed_message": "Perubahan AMQdle tidak bisa disimpan, coba lagi",
+				"tabs": {
+					"setup": "Pengaturan",
+					"players": "Pemain"
+				},
+				"players": {
+					"invite_code": "Kode Undangan",
+					"invite_code_description": "Sebuah kode undangan permanen yang setiap orang bisa gunakan untuk bergabung di AMQdle",
+					"free_invite": "Undangan Bebas",
+					"free_invite_description": "Perbolehkan siapa saja untuk mengundang teman mereka untuk bergabung di AMQdle",
+					"invite_friend": "Undang Teman",
+					"invite_alert": "Undang: _NAME_ Ke AMQdle",
+					"invite_sent_alert": "Undangan AMQdle Terkirim",
+					"invite_banned_title": "Pemain Di ban",
+					"invite_banned_message": "_NAME_ Telah di ban dari AMQdle ini",
+					"online_friends": "Teman Online",
+					"no_friends_online": "Tidak Ada Teman Sedang Online",
+					"already_in_amqdle": "Telah didalam AMQdle",
+					"header": "Pemain",
+					"ban": "Ban",
+					"host": "Host",
+					"banned_header": "Pemain Di Ban",
+					"unban": "Lepas Ban",
+					"disable_invite_code": {
+						"title": "Turn Off Invite Code? Matikan Kode Undangan?",
+						"message": "Mematikan kode undangan akan me reset itu. Anda tidak akan mendapatkan kode yang sama persis kembali.",
+						"confirm_button": "Matikan"
+					},
+					"confirm_ban": {
+						"title": "Ban Pemain?",
+						"message": "Mem ban _NAME_ akan menghapus mereka dari AMQdle dan menyembunyikan skor tertinggi mereka.",
+						"confirm_button": "Ban"
+					},
+					"confirm_unban": {
+						"title": "Lepas Ban Pemain?",
+						"message": "_NAME_ akan bisa kembali bergabung di AMQdle",
+						"restore_highscores": "Kembalikan skor tertinggi tersembunyi mereka",
+						"confirm_button": "Lepas ban"
+					},
+					"load_failed": {
+						"title": "Gagal Memuat",
+						"message": "Sesuatu terjadi ketika memuat pemain",
+						"retry_button": "Coba Lagi"
+					},
+					"setting_update_failed": {
+						"title": "Perbarui Gagal",
+						"message": "Terjadi kesalahan ketika menyimpan pengaturan. Coba lagi"
+					}
+				},
+				"name_label": "Nama",
+				"name_placeholder": "Nama AMQdle",
+				"section_header": "Pengaturan AMQdle",
+				"add_category": "Tambah Kategori",
+				"add_song": "Tambah Lagu",
+				"no_songs": "Tidak Ada Lagu",
+				"no_categories": "Tambah Kategori",
+				"default_category_name": "Kategori _NUMBER_",
+				"max_categories_reached": "Maks _NUMBER_ Kategori Tercapai",
+				"max_songs_reached": "Maks _NUMBER_ lagu per kategori reached",
+				"song_name_placeholder": "Nama",
+				"song": {
+					"popularity_label": "Popularitas",
+					"difficulty_label": "Kesulitan",
+					"difficulty_description": "Persentase tebakan dari lagu yang di pilih",
+					"song_types_label": "Tipe Lagu",
+					"song_types": {
+						"opening": "Opening",
+						"ending": "Ending",
+						"insert": "Insert"
+					},
+					"song_selection_label": "Pemilihan Lagu",
+					"song_selection": {
+						"random": "Acak",
+						"any_watched": "Ditonton Siapa Saja",
+						"all_watched": "Ditonton Semua"
+					},
+					"song_selection_description": {
+						"intro": "List lagu dipilih dari",
+						"random": "Tidak menggunakan list apapun",
+						"any_watched": "Setidaknya anime tersebut harus ada di salah satu list pemain ",
+						"all_watched": "Anime Tersebut harus ada di list semua pemain"
+					}
+				}
+			},
+			"date_text": {
+				"today": "Hari Ini",
+				"reset_time": "Kuis baru dirilis tiap hari pada _DATE_",
+				"oldest_version": "Tidak ada versi lama yang tersedia untuk kuis ini",
+				"future_date": "Kuis ini belum di rilis"
+			}
 		}
 	},
 	"menu_bar": {
@@ -973,6 +1093,14 @@
 				"2nd": "Meraih Juara 2 pada Turnamen Aragaimu tahun _YEAR_",
 				"1st": "Meraih Juara 1 pada Turnamen Aragaimu tahun _YEAR_",
 				"DELETED-top4": "Meraih 4 Besar pada Turnamen Aragaimu tahun _YEAR_"
+			}
+		},
+		"world_cup": {
+			"name": {
+				"participant": "Partisipan World Cup _YEAR_ "
+			},
+			"description": {
+				"participant": "Berpartisipasi di Turnamen World Cup _YEAR_ "
 			}
 		}
 	},
@@ -1826,6 +1954,12 @@
 		},
 		"alexandra": {
 			"standard": "Sebagai pewaris takhta, Alexandra dilatih sejak kecil untuk menjadi seorang bangsawan, tetapi bakatnya bersinar terang dalam pertempuran, yang kini menjadi kekuatan yang dengan bangga ia gunakan untuk melindungi warga kerajaannya dan menghukum para pelaku kejahatan."
+		},
+		"oro": {
+			"standard": "Tidak banyak yang mengetahui bahwa Oro merupakan keturunan dari keluarga iblis kuno, karena ia sangat menjaga kerahasiaan dan lebih suka bekerja dari balik bayangan. Meski begitu, rumor tentang asal-usulnya sesekali terdengar. Oro tidak takut memamerkan kekuatannya ketika berhadapan dengan makhluk supernatural lain yang memasuki wilayah kekuasaannya."
+		},
+		"nyaka": {
+			"standard": "Awalnya, Nyaka merupakan unit pendukung otonom. Namun, setelah memperoleh kesadaran diri, ia meninggalkan peran tersebut dan memulai petualangan untuk menjelajahi alam semesta. Kini, ia bekerja bersama Hinase sebagai pendukungnya selama menjalankan berbagai operasi."
 		}
 	},
 	"song_library": {
@@ -4427,7 +4561,9 @@
 		"exiled": "Dibuang",
 		"middle_east": "Timur Tengah",
 		"ice_sports": "Olahraga Es",
-		"DELETED-ice_skating": "Seluncur Indah"
+		"DELETED-ice_skating": "Seluncur Indah",
+		"crafts": "Kerajinan",
+		"poverty": "Kemiskinan"
 	},
 	"genre_tags": {
 		"action": "Aksi",
@@ -6530,7 +6666,8 @@
 		"yan": "Yan",
 		"visor": "Kaca Pelindung",
 		"accessory": "Aksesoris",
-		"flowers": "Bunga"
+		"flowers": "Bunga",
+		"skirt": "Rok"
 	},
 	"daily_quests": {
 		"title": "Misi Harian",
@@ -6728,6 +6865,40 @@
 			"summer_games": "Laga Musim Panas",
 			"anniversary": "Anniversary",
 			"supernatural_spring": "Supernatural"
+		}
+	},
+	"amqdle": {
+		"hint_steps": {
+			"seconds": "_NUMBER_ Detik",
+			"blur": "Blur"
+		},
+		"answer_input_placeholder": "Nama Anime",
+		"guesses": {
+			"header": "Tebakan",
+			"no_guesses": "Tidak Ada Tebakan",
+			"skipped": "Dilewati"
+		},
+		"guess_button": "Tebak",
+		"next_button": "Selanjutnya",
+		"finish_button": "Selesai",
+		"hold_to_skip": "Tahan untuk lewati ke petunjuk ini",
+		"song_info": {
+			"song_name": "Nama Lagu",
+			"type": "Tipe",
+			"artist": "Artis",
+			"arranger": "Penata Lagu",
+			"composer": "Komposer"
+		},
+		"final_result": {
+			"title": "AMQdle",
+			"score": "Skor",
+			"text": "Ini adalah hasil akhir dari kuis",
+			"copy_result": "Salin Hasil",
+			"copied": "Tersalin!",
+			"highscores": "Skor Tertinggi",
+			"player": "Pemain",
+			"not_on_day": "Penyelesaian Terlambat",
+			"no_plays": "Tidak Pernah Dimainkan"
 		}
 	}
 }
